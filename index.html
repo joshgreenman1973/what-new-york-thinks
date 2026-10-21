@@ -38,6 +38,7 @@ h1 .ast:hover{color:var(--fg)}
 .profile .pl b{color:var(--fg)}
 .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px 34px;margin-top:16px}
 .pgrid h4{margin:0;font-size:15px;line-height:1.3}
+.place{font-weight:400;color:var(--fg2)}
 .pgrid .last{font-size:var(--t-small);color:var(--fg2);margin:3px 0 4px}
 .pgrid .last b{color:var(--fg)}
 .pgrid svg{display:block;width:100%;height:auto;overflow:visible}
@@ -552,13 +553,13 @@ function renderProfile(){
   single.sort((a,b)=>a[0].field_end<b[0].field_end?1:-1);
   const polls=new Set(rows.map(r=>r.poll_id)).size, pollsters=[...new Set(rows.map(r=>r.pollster))];
   const first=rows.reduce((m,r)=>r.field_start<m?r.field_start:m,'9'), last=rows.reduce((m,r)=>r.field_end>m?r.field_end:m,'');
-  const title=g=>{const r=g[g.length-1];return (type==='issue'?esc(r.subject)+(r.item?': '+esc(r.item.toLowerCase()):''):(r.item?esc(r.item):esc(r.measure[0].toUpperCase()+r.measure.slice(1))))+(type==='issue'&&!/direction|horse race|primary|other/.test(r.measure)?', '+esc(r.measure):'')};
+  const title=g=>{const r=g[g.length-1];return (type==='issue'?esc(r.subject)+(r.item?': '+esc(r.item.toLowerCase()):''):(r.item?esc(r.item):esc(r.measure[0].toUpperCase()+r.measure.slice(1))))+(type==='issue'&&!/direction|horse race|primary|other/.test(r.measure)?', '+esc(r.measure):'')+'<span class="place">, '+(r.geography==='New York State'?'statewide':(r.city_column?'New York City (city column)':'New York City'))+'</span>'};
   const whoG=g=>{const r=g[g.length-1];const pops=[...new Set(g.map(x=>x.population))];return (r.city_column?'New York City (inside statewide polls)':r.geography)+', '+pops.map(p=>POP_SHORT[p]||p).join(' or ')+(r.asked_of?' ('+r.asked_of+')':'')};
   const lastTxt=g=>{const r=g[g.length-1];const top=r.results.filter(x=>!NEUT.test(x.label)).sort((a,b)=>isRace(r)?b.pct-a.pct:0).slice(0,2);return 'Latest: '+top.map(x=>'<a href="'+esc(r.tables_url||r.url)+'" target="_blank" rel="noopener"><b>'+esc(sh(x))+'%</b> '+esc(x.label)+'</a>').join(', ')+' in <a href="'+esc(r.url)+'" target="_blank" rel="noopener">'+esc(r.pollster)+', '+esc(shortRange(r.field_start,r.field_end))+'</a>. Pollsters: '+esc([...new Set(g.map(x=>x.pollster))].join(', '))+'.'};
   let html='<h3>'+esc(state.pick)+'</h3><p class="pl"><b>'+rows.filter(r=>!r.city_column).length+'</b> results from <b>'+polls+'</b> polls by '+esc(pollsters.join(', '))+', fielded from '+esc(fdate(first))+' to '+esc(fdate(last))+'. Hover over any dot for the poll and the full answers.</p>';
   if(multi.length)html+='<div class="pgrid">'+multi.slice(0,12).map(g=>'<div><h4>'+title(g)+'</h4><div class="last">'+esc(whoG(g))+'. '+g.length+' polls. '+lastTxt(g)+'</div>'+lineChart(g,{w:340,h:150})+'</div>').join('')+'</div>';
   const singles=single.filter(g=>!g[0].city_column);
-  if(singles.length)html+='<div class="once"><h4>Asked once in 2026</h4>'+singles.slice(0,24).map(g=>{const r=g[0];return '<div class="onerow"><div class="w">'+title(g)+'<small>'+esc(pollLabel(r))+', '+esc(shortRange(r.field_start,r.field_end))+', '+esc(who(r))+(r.asked_of?' ('+esc(r.asked_of)+')':'')+'. <a href="'+esc(r.url)+'" target="_blank" rel="noopener">Source</a></small></div><div>'+barHTML(r)+'</div></div>'}).join('')+(singles.length>24?'<p class="aside" style="margin-top:10px">And '+(singles.length-24)+' more in the table.</p>':'')+'</div>';
+  if(singles.length)html+='<div class="once"><h4>Asked by only one poll in 2026, in this place and this form</h4>'+singles.slice(0,24).map(g=>{const r=g[0];return '<div class="onerow"><div class="w">'+title(g)+'<small>'+esc(pollLabel(r))+', '+esc(shortRange(r.field_start,r.field_end))+', '+esc(who(r))+(r.asked_of?' ('+esc(r.asked_of)+')':'')+'. <a href="'+esc(r.url)+'" target="_blank" rel="noopener">Source</a></small></div><div>'+barHTML(r)+'</div></div>'}).join('')+(singles.length>24?'<p class="aside" style="margin-top:10px">And '+(singles.length-24)+' more in the table.</p>':'')+'</div>';
   // markets on the same subject
   let mre=null;
   if(type==='person'){const ln=state.pick.split(' ').pop();mre=new RegExp('\\b'+(ln==='Ocasio-Cortez'?'(Ocasio-Cortez|AOC)':ln)+'\\b','i')}
