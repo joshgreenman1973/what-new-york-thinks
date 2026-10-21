@@ -14,7 +14,7 @@ def as_date(t):
     return t
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-D = json.load(open('/Users/joshgreenman/Experiments/what-new-york-thinks/data/polls.json'))
+D = json.load(open(os.path.join(HERE, '..', '..', 'data', 'polls.json')))
 rows = {r['id']: r for r in D['questions']}
 polls = {p['poll_id']: p for p in D['polls']}
 
@@ -41,12 +41,12 @@ def norm_label(s):
     return re.sub(r'[^a-z0-9]+', ' ', (s or '').lower()).strip()
 
 
-groups = sys.argv[1:] or [os.path.basename(p).replace('out-', '') for p in glob.glob(f'{HERE}/out-*')]
+groups = sys.argv[1:] or [os.path.basename(p)[9:-5] for p in glob.glob(f'{HERE}/readings-*.json')]
 tot = {'match': 0, 'mismatch': 0, 'missing': 0, 'unreadable': 0}
 issues = []
 seen_detail = set()
 for g in groups:
-    f = f'{HERE}/out-{g}/results.json'
+    f = f'{HERE}/readings-{g}.json'
     if not os.path.exists(f):
         print(f'[{g}] no results yet')
         continue
