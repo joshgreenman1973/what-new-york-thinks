@@ -1,0 +1,1627 @@
+{
+ "agent": "emerson-suffolk-honan",
+ "compiled": "2026-10-21",
+ "polls": [
+  {
+   "poll_id": "emerson-20260409",
+   "pollster": "Emerson College Polling",
+   "sponsor": "PIX11",
+   "geography": "New York City",
+   "population": "RV",
+   "n": 850,
+   "moe": 3.4,
+   "field_start": "2026-04-05",
+   "field_end": "2026-04-06",
+   "release_date": "2026-04-09",
+   "mode": "email to voter-file sample (Aristotle), MMS text-to-web probability panel (Consensus Strategies), online panel (PureSpectrum); English only",
+   "url": "https://emersoncollegepolling.com/new-york-city-2026-poll/",
+   "tables_url": "https://docs.google.com/spreadsheets/d/1-LHeXxAYPCZQ3EZX7qyYD1hFkSLfTH2s/edit?gid=913862092",
+   "confidence": "HIGH",
+   "notes": "Results taken from the \"Topline Results\" sheet of Emerson's linked Google Sheet (downloaded as xlsx), which displays percentages to one decimal; the press release rounds to whole numbers (e.g. Mamdani approval 43/27/30, wrong track 59%). Release date is the WordPress post date. Release says \"PIX11\"; the methodology paragraph does not name the sponsor separately. Skipped demographic and 2025 vote-recall questions. Sheet spells item \"Public saftey/policing\" (typo in source). Wording for the three follow-on items of the \"addressing the following problems\" battery (Childcare, Public safety/policing, The City Budget) is the battery stem plus the item label as laid out in the sheet.",
+   "questions": [
+    {
+     "subject": "Direction of New York City",
+     "subject_type": "direction",
+     "measure": "direction",
+     "category": "Direction of state/city",
+     "wording": "Would you say things in New York City today are generally headed in the right direction or on the wrong track?",
+     "results": [
+      {
+       "label": "Right direction",
+       "pct": 41.3
+      },
+      {
+       "label": "Wrong track",
+       "pct": 58.7
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Would you say things in New York City today are generally headed in the right direction or on the wrong track? | Right direction 351 41.3 | Wrong track 499 58.7",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Mayor",
+     "wording": "Do you approve or disapprove of the job Zohran Mamdani is doing as Mayor?",
+     "results": [
+      {
+       "label": "Approve",
+       "pct": 42.9
+      },
+      {
+       "label": "Disapprove",
+       "pct": 27.4
+      },
+      {
+       "label": "Neutral or no opinion",
+       "pct": 29.7
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Do you approve or disapprove of the job Zohran Mamdani is doing as Mayor? | Approve 365 42.9 | Disapprove 233 27.4 | Neutral or no opinion 252 29.7",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Zohran Mamdani: focusing on issues important to you",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Mayor",
+     "wording": "Would you say that Zohran Mamdani has been focusing on issues that are important to you?",
+     "results": [
+      {
+       "label": "Yes",
+       "pct": 59.5
+      },
+      {
+       "label": "No",
+       "pct": 40.5
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Would you say that Zohran Mamdani has been focusing on issues that are important to you? | Yes 506 59.5 | No 344 40.5",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Zohran Mamdani: handling of housing affordability",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Housing and rent",
+     "wording": "Do you approve or disapprove of the way Zohran Mamdani is addressing the following problems: First: Housing affordability",
+     "results": [
+      {
+       "label": "Approve",
+       "pct": 48.6
+      },
+      {
+       "label": "Disapprove",
+       "pct": 24.5
+      },
+      {
+       "label": "Neutral / no opinion",
+       "pct": 26.8
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Do you approve or disapprove of the way Zohran Mamdani is addressing the following problems:\n\nFirst: Housing affordability | Approve 413 48.6 | Disapprove 209 24.5 | Neutral / no opinion 228 26.8",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Zohran Mamdani: handling of childcare",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Schools and child care",
+     "wording": "Do you approve or disapprove of the way Zohran Mamdani is addressing the following problems: Childcare",
+     "results": [
+      {
+       "label": "Approve",
+       "pct": 53.9
+      },
+      {
+       "label": "Disapprove",
+       "pct": 21.3
+      },
+      {
+       "label": "Neutral / no opinion",
+       "pct": 24.8
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Childcare | Approve 458 53.9 | Disapprove 181 21.3 | Neutral / no opinion 211 24.8",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Zohran Mamdani: handling of public safety/policing",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Public safety and policing",
+     "wording": "Do you approve or disapprove of the way Zohran Mamdani is addressing the following problems: Public saftey/policing",
+     "results": [
+      {
+       "label": "Approve",
+       "pct": 45.0
+      },
+      {
+       "label": "Disapprove",
+       "pct": 31.8
+      },
+      {
+       "label": "Neutral / no opinion",
+       "pct": 23.2
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Public saftey/policing | Approve 382 45.0 | Disapprove 270 31.8 | Neutral / no opinion 198 23.2",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Zohran Mamdani: handling of the city budget",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Taxes and budget",
+     "wording": "Do you approve or disapprove of the way Zohran Mamdani is addressing the following problems: The City Budget",
+     "results": [
+      {
+       "label": "Approve",
+       "pct": 39.5
+      },
+      {
+       "label": "Disapprove",
+       "pct": 36.7
+      },
+      {
+       "label": "Neutral / no opinion",
+       "pct": 23.8
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "The City Budget | Approve 336 39.5 | Disapprove 312 36.7 | Neutral / no opinion 203 23.8",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Zohran Mamdani: early verdict on his administration",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Mayor",
+     "wording": "Although Zohran Mamdani has only been in office for a short time, which of the following three positions best sums up your thoughts today:",
+     "results": [
+      {
+       "label": "New York has made a mistake; I wish we hadn't elected him",
+       "pct": 22.9
+      },
+      {
+       "label": "It's too early to tell; the jury is still out on the Mamdani administration",
+       "pct": 31.7
+      },
+      {
+       "label": "So far I like what I see and I am confident Mamdani will move the city in the right direction",
+       "pct": 37.3
+      },
+      {
+       "label": "Don't know/no opinion",
+       "pct": 8.1
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Although Zohran Mamdani has only been in office for a short time, which of the following three positions best sums up your thoughts today: | New York has made a mistake; I wish we hadn't elected him 194 22.9 | It's too early to tell; the jury is still out on the Mamdani administration 269 31.7 | So far I like what I see and I am confident Mamdani will move the city in the right direction 317 37.3 | Don't know/no opinion 69 8.1",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Condition of the New York City economy",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Economy and cost of living",
+     "wording": "How would you rate the condition of the New York City economy these days?",
+     "results": [
+      {
+       "label": "Excellent",
+       "pct": 2.7
+      },
+      {
+       "label": "Good",
+       "pct": 16.2
+      },
+      {
+       "label": "Fair",
+       "pct": 38.2
+      },
+      {
+       "label": "Poor",
+       "pct": 39.5
+      },
+      {
+       "label": "Don't know/no opinion",
+       "pct": 3.4
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "How would you rate the condition of the New York City economy these days? | Excellent 23 2.7 | Good 138 16.2 | Fair 325 38.2 | Poor 336 39.5 | Don't know/no opinion 29 3.4",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "How to close the city budget gap",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Taxes and budget",
+     "wording": "Which of the following do you think New York City should do to close the budget gap?",
+     "results": [
+      {
+       "label": "5% property tax increase",
+       "pct": 4.3
+      },
+      {
+       "label": "NYC better managing its spending",
+       "pct": 41.2
+      },
+      {
+       "label": "NY State raising taxes on the wealthy",
+       "pct": 54.6
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Which of the following do you think New York City should do to close the budget gap? | 5% property tax increase 36 4.3 | NYC better managing its spending 350 41.2 | NY State raising taxes on the wealthy 464 54.6",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Millionaire's tax (2% city income tax increase on earners over $1 million)",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Taxes and budget",
+     "wording": "Do you support or oppose a millionaire's tax or a 2 percent increase in city income tax on individuals earning over a million dollars annually?",
+     "results": [
+      {
+       "label": "Support",
+       "pct": 65.1
+      },
+      {
+       "label": "Oppose",
+       "pct": 20.4
+      },
+      {
+       "label": "Not sure",
+       "pct": 14.5
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Do you support or oppose a millionaire's tax or a 2 percent increase in city income tax on individuals earning over a million dollars annually? | Support 553 65.1 | Oppose 173 20.4 | Not sure 123 14.5",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Corporate tax increase of 1-2% causing companies to leave the city",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Taxes and budget",
+     "wording": "Do you think a corporate tax increase of 1-2 percent would cause companies to leave the city?",
+     "results": [
+      {
+       "label": "Yes",
+       "pct": 29.7
+      },
+      {
+       "label": "No",
+       "pct": 43.5
+      },
+      {
+       "label": "Not sure",
+       "pct": 26.9
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Do you think a corporate tax increase of 1-2 percent would cause companies to leave the city? | Yes 252 29.7 | No 370 43.5 | Not sure 228 26.9",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Zohran Mamdani: winter storm response grade",
+     "subject_type": "person",
+     "measure": "job performance",
+     "category": "Mayor",
+     "wording": "What grade would you give Mayor Mamdani on this season's winter storm response?",
+     "results": [
+      {
+       "label": "A",
+       "pct": 29.3
+      },
+      {
+       "label": "B",
+       "pct": 33.0
+      },
+      {
+       "label": "C",
+       "pct": 18.0
+      },
+      {
+       "label": "D",
+       "pct": 8.8
+      },
+      {
+       "label": "F",
+       "pct": 11.0
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "What grade would you give Mayor Mamdani on this season's winter storm response? | A 249 29.3 | B 280 33.0 | C 153 18.0 | D 75 8.8 | F 94 11.0",
+     "source_kind": "crosstab"
+    }
+   ]
+  },
+  {
+   "poll_id": "emerson-20261008",
+   "pollster": "Emerson College Polling",
+   "sponsor": "PIX11 News",
+   "geography": "New York State",
+   "population": "LV",
+   "n": 900,
+   "moe": 3.3,
+   "field_start": "2026-10-03",
+   "field_end": "2026-10-05",
+   "release_date": "2026-10-08",
+   "mode": "MMS text-to-web to voter-file sample (Aristotle) plus online panel (PureSpectrum); hosted on QuestionPro; English only",
+   "url": "https://emersoncollegepolling.com/new-york-2026-poll-governor-hochul-leads-blakeman-by-12/",
+   "tables_url": "https://docs.google.com/spreadsheets/d/1j4VyoZ-g2NeWjEiadGokZKv9U1AV_u_d/edit?gid=2117277901",
+   "confidence": "HIGH",
+   "notes": "Results from the \"Topline Results\" sheet of Emerson's linked Google Sheet (one decimal); release rounds (Hochul 52, Blakeman 40, undecided 8; Hochul approval 40/46/15; Trump 35/57/7; Schumer 30/50; Gillibrand 33/38; Mamdani 47/41/13; Iran 33 support/50 oppose/17 unsure; data center moratorium 56 support/26 oppose/18 neutral). nyc_results is null throughout: the published crosstabs have no region banner (banners are party, 2024 vote, ethnicity, age, education, gender only). The horse race has no leaner/pushed follow-up shown. All respondents in the topline are coded \"Very likely\" to vote. Release date is the WordPress post date.",
+   "questions": [
+    {
+     "subject": "Donald Trump",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Trump and Washington",
+     "wording": "Do you approve or disapprove of the job Donald Trump is doing as President?",
+     "results": [
+      {
+       "label": "Approve",
+       "pct": 35.3
+      },
+      {
+       "label": "Disapprove",
+       "pct": 57.3
+      },
+      {
+       "label": "Neutral or no opinion",
+       "pct": 7.3
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Do you approve or disapprove of the job Donald Trump is doing as President? | Approve 318 35.3 | Disapprove 516 57.3 | Neutral or no opinion 66 7.3",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Governor",
+     "wording": "Do you approve or disapprove of the job Kathy Hochul is doing as Governor?",
+     "results": [
+      {
+       "label": "Approve",
+       "pct": 39.8
+      },
+      {
+       "label": "Disapprove",
+       "pct": 45.6
+      },
+      {
+       "label": "Neutral or no opinion",
+       "pct": 14.6
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Do you approve or disapprove of the job Kathy Hochul is doing as Governor? | Approve 358 39.8 | Disapprove 410 45.6 | Neutral or no opinion 132 14.6",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Chuck Schumer",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Other officials",
+     "wording": "Do you approve or disapprove of the job Chuck Schumer is doing as U.S. Senator?",
+     "results": [
+      {
+       "label": "Approve",
+       "pct": 30.1
+      },
+      {
+       "label": "Disapprove",
+       "pct": 50.2
+      },
+      {
+       "label": "Neutral or no opinion",
+       "pct": 19.8
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Do you approve or disapprove of the job Chuck Schumer is doing as U.S. Senator? | Approve 271 30.1 | Disapprove 451 50.2 | Neutral or no opinion 178 19.8",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Kirsten Gillibrand",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Other officials",
+     "wording": "Do you approve or disapprove of the job Kirsten Gillibrand is doing as U.S. Senator?",
+     "results": [
+      {
+       "label": "Approve",
+       "pct": 33.1
+      },
+      {
+       "label": "Disapprove",
+       "pct": 37.7
+      },
+      {
+       "label": "Neutral or no opinion",
+       "pct": 29.2
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Do you approve or disapprove of the job Kirsten Gillibrand is doing as U.S. Senator? | Approve 298 33.1 | Disapprove 339 37.7 | Neutral or no opinion 263 29.2",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Mayor",
+     "wording": "Do you approve or disapprove of the job Zohran Mamdani is doing as Mayor of New York City?",
+     "results": [
+      {
+       "label": "Approve",
+       "pct": 46.8
+      },
+      {
+       "label": "Disapprove",
+       "pct": 40.6
+      },
+      {
+       "label": "Neutral or no opinion",
+       "pct": 12.5
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Asked of the statewide sample (all New York likely voters), not only New York City residents",
+     "quote": "Do you approve or disapprove of the job Zohran Mamdani is doing as Mayor of New York City? | Approve 421 46.8 | Disapprove 366 40.6 | Neutral or no opinion 113 12.5",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "2026 governor: Hochul vs. Blakeman",
+     "subject_type": "race",
+     "measure": "horse race",
+     "category": "2026 governor race",
+     "wording": "If the 2026 election for Governor were held today, who would you vote for?",
+     "results": [
+      {
+       "label": "Democrat Kathy Hochul",
+       "pct": 52.4
+      },
+      {
+       "label": "Republican Bruce Blakeman",
+       "pct": 39.7
+      },
+      {
+       "label": "Undecided",
+       "pct": 7.8
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "If the 2026 election for Governor were held today, who would you vote for? | Democrat Kathy Hochul 472 52.4 | Republican Bruce Blakeman 358 39.7 | Undecided 71 7.8",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Excitement about voting in the 2026 midterms",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Other 2026 races",
+     "wording": "How excited are you to vote in the November 2026 Midterm Elections?",
+     "results": [
+      {
+       "label": "Very excited",
+       "pct": 58.5
+      },
+      {
+       "label": "Somewhat excited",
+       "pct": 26.7
+      },
+      {
+       "label": "Not too excited",
+       "pct": 10.7
+      },
+      {
+       "label": "Not at all excited",
+       "pct": 4.0
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "How excited are you to vote in the November 2026 Midterm Elections? | Very excited 527 58.5 | Somewhat excited 240 26.7 | Not too excited 97 10.7 | Not at all excited 36 4.0",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Most important issue facing New York",
+     "subject_type": "issue",
+     "measure": "issue priority",
+     "category": "Other issues",
+     "wording": "What do you think is the most important issue facing New York?",
+     "results": [
+      {
+       "label": "Healthcare",
+       "pct": 8.1
+      },
+      {
+       "label": "Education",
+       "pct": 3.0
+      },
+      {
+       "label": "Economy (jobs, inflation, taxes)",
+       "pct": 33.7
+      },
+      {
+       "label": "Crime",
+       "pct": 11.7
+      },
+      {
+       "label": "Immigration",
+       "pct": 10.1
+      },
+      {
+       "label": "Housing affordability",
+       "pct": 17.1
+      },
+      {
+       "label": "Abortion access",
+       "pct": 1.5
+      },
+      {
+       "label": "Threats to democracy",
+       "pct": 12.8
+      },
+      {
+       "label": "Foreign policy",
+       "pct": 0.4
+      },
+      {
+       "label": "Something else (please specify)",
+       "pct": 1.7
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "What do you think is the most important issue facing New York? | Healthcare 73 8.1 | Education 27 3.0 | Economy (jobs, inflation, taxes) 303 33.7 | Crime 105 11.7 | Immigration 91 10.1 | Housing affordability 154 17.1 | Abortion access 13 1.5 | Threats to democracy 115 12.8 | Foreign policy 3 0.4 | Something else (please specify) 16 1.7",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "U.S. military action against Iran",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Trump and Washington",
+     "wording": "Do you support or oppose the U.S. military action against Iran?",
+     "results": [
+      {
+       "label": "Support",
+       "pct": 33.4
+      },
+      {
+       "label": "Oppose",
+       "pct": 49.6
+      },
+      {
+       "label": "Unsure",
+       "pct": 17.0
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Do you support or oppose the U.S. military action against Iran? | Support 300 33.4 | Oppose 446 49.6 | Unsure 153 17.0",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Hochul one-year moratorium on new state environmental permits for large data centers",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Other issues",
+     "wording": "Do you support or oppose Governor Hochul's one-year statewide moratorium/stop on new discretionary state environmental permits for large-scale data centers?",
+     "results": [
+      {
+       "label": "Strongly support",
+       "pct": 36.1
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 20.1
+      },
+      {
+       "label": "Somewhat oppose",
+       "pct": 9.3
+      },
+      {
+       "label": "Strongly oppose",
+       "pct": 16.3
+      },
+      {
+       "label": "Neutral or no opinion",
+       "pct": 18.2
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Do you support or oppose Governor Hochul's one-year statewide moratorium/stop on new discretionary state environmental permits for large-scale data centers? | Strongly support 325 36.1 | Somewhat support 181 20.1 | Somewhat oppose 84 9.3 | Strongly oppose 146 16.3 | Neutral or no opinion 164 18.2",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Biggest economic concern",
+     "subject_type": "issue",
+     "measure": "issue priority",
+     "category": "Economy and cost of living",
+     "wording": "What would you say your biggest economic concern is?",
+     "results": [
+      {
+       "label": "Cost of everyday goods",
+       "pct": 28.4
+      },
+      {
+       "label": "Cost of healthcare",
+       "pct": 8.3
+      },
+      {
+       "label": "Cost of housing",
+       "pct": 11.8
+      },
+      {
+       "label": "Price gasoline",
+       "pct": 6.9
+      },
+      {
+       "label": "Price of electricity",
+       "pct": 6.7
+      },
+      {
+       "label": "Stock market",
+       "pct": 1.4
+      },
+      {
+       "label": "Jobs",
+       "pct": 5.5
+      },
+      {
+       "label": "Taxes",
+       "pct": 11.9
+      },
+      {
+       "label": "Interest rates",
+       "pct": 1.9
+      },
+      {
+       "label": "Retirement/social security",
+       "pct": 8.7
+      },
+      {
+       "label": "National debt",
+       "pct": 6.4
+      },
+      {
+       "label": "Something else (specify)",
+       "pct": 2.1
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "What would you say your biggest economic concern is? | Cost of everyday goods 255 28.4 | Cost of healthcare 75 8.3 | Cost of housing 106 11.8 | Price gasoline 62 6.9 | Price of electricity 60 6.7 | Stock market 13 1.4 | Jobs 49 5.5 | Taxes 107 11.9 | Interest rates 17 1.9 | Retirement/social security 79 8.7 | National debt 57 6.4 | Something else (specify) 19 2.1",
+     "source_kind": "crosstab"
+    }
+   ]
+  },
+  {
+   "poll_id": "suffolk-20260908",
+   "pollster": "Suffolk University Political Research Center",
+   "sponsor": null,
+   "geography": "New York City",
+   "population": "RV",
+   "n": 500,
+   "moe": 4.4,
+   "field_start": "2026-09-01",
+   "field_end": "2026-09-03",
+   "release_date": "2026-09-08",
+   "mode": "live telephone interviews",
+   "url": "https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/city-view/2026/9_8_2026_new_york_city_press_release.pdf",
+   "tables_url": "https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/city-view/2026/9_8_2026_new_york_city_marginals.pdf",
+   "confidence": "HIGH",
+   "notes": "Results from the marginals PDF (https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/city-view/2026/9_8_2026_new_york_city_marginals.pdf), which reports percentages to two decimals (shown here as numbers, e.g. 28.60 -> 28.6). Labels in quotes keep the marginals' dot leaders and counts. No media partner is named in the release; the CityView page links USA Today, Washington Post and New York Times coverage. The release says field year only as \"September 1-3\"; the marginals header says \"September 1-3, 2026\". Rotation/randomization instructions stripped from wording. Skipped: screening/demographics (Q1-7, Q35-37), personal 9/11 questions (Q22 permanent impact 76.60% yes; Q23 how often think about it; Q24 primary emotion), and U.S. Open / Global Citizen / All Things Go entertainment questions (Q29-34). Q15 and Q16 wording includes framing that names Tisch as a \"billionaire technocrat\" and references the Strategic Response Group; recorded verbatim. Figures read from the marginals PDF; the cross-tabulated tables are at https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/city-view/2026/9_8_2026_new_york_city_tables.pdf",
+   "questions": [
+    {
+     "subject": "New York City as a place to live",
+     "subject_type": "direction",
+     "measure": "other",
+     "category": "Direction of state/city",
+     "wording": "How would you rate New York City as a place to live?",
+     "results": [
+      {
+       "label": "Excellent",
+       "pct": 20.2
+      },
+      {
+       "label": "Good",
+       "pct": 36.6
+      },
+      {
+       "label": "Fair",
+       "pct": 27.0
+      },
+      {
+       "label": "Poor",
+       "pct": 15.2
+      },
+      {
+       "label": "Undecided",
+       "pct": 0.8
+      },
+      {
+       "label": "Refused",
+       "pct": 0.2
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Q8. Excellent ----------------------------------------------------------- 101 20.20 | Good --------------------------------------------------------------- 183 36.60 | Fair------------------------------------------------------------------ 135 27.00 | Poor ----------------------------------------------------------------- 76 15.20 | Undecided ----------------------------------------------------------- 4 0.80 | Refused --------------------------------------------------------------- 1 0.20",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "job performance",
+     "category": "Mayor",
+     "wording": "How would you rate the job performance of Zohran Mamdani as mayor?",
+     "results": [
+      {
+       "label": "Excellent",
+       "pct": 28.6
+      },
+      {
+       "label": "Good",
+       "pct": 28.0
+      },
+      {
+       "label": "Fair",
+       "pct": 17.0
+      },
+      {
+       "label": "Poor",
+       "pct": 17.2
+      },
+      {
+       "label": "Undecided",
+       "pct": 8.4
+      },
+      {
+       "label": "Refused",
+       "pct": 0.8
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Q9. Excellent ----------------------------------------------------------- 143 28.60 | Good --------------------------------------------------------------- 140 28.00 | Fair------------------------------------------------------------------- 85 17.00 | Poor ----------------------------------------------------------------- 86 17.20 | Undecided --------------------------------------------------------- 42 8.40 | Refused --------------------------------------------------------------- 4 0.80",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Zohran Mamdani: reflects the Democratic Party in NYC or nationally",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Mayor",
+     "wording": "Do you think Mayor Mamdani reflects the direction of the Democratic Party in New York City or nationally?",
+     "results": [
+      {
+       "label": "New York City",
+       "pct": 39.6
+      },
+      {
+       "label": "Nationally",
+       "pct": 20.6
+      },
+      {
+       "label": "Both",
+       "pct": 9.4
+      },
+      {
+       "label": "Undecided",
+       "pct": 25.2
+      },
+      {
+       "label": "Refused",
+       "pct": 5.2
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Q10. New York City ---------------------------------------------------- 198 39.60 | Nationally ---------------------------------------------------------- 103 20.60 | Both ------------------------------------------------------------------ 47 9.40 | Undecided -------------------------------------------------------- 126 25.20 | Refused ------------------------------------------------------------- 26 5.20",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Zohran Mamdani: better or worse than expected",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Mayor",
+     "wording": "Whether or not you voted for Mamdani, do you think he has done better or worse as mayor than you expected?",
+     "results": [
+      {
+       "label": "Better than expected",
+       "pct": 61.4
+      },
+      {
+       "label": "Worse than expected",
+       "pct": 19.0
+      },
+      {
+       "label": "As expected",
+       "pct": 3.6
+      },
+      {
+       "label": "Undecided",
+       "pct": 14.8
+      },
+      {
+       "label": "Refused",
+       "pct": 1.2
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Q11. Better than expected ------------------------------------------- 307 61.40 | Worse than expected-------------------------------------------- 95 19.00 | As expected ------------------------------------------------------- 18 3.60 | Undecided --------------------------------------------------------- 74 14.80 | Refused --------------------------------------------------------------- 6 1.20",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Zohran Mamdani: represents core values of average New Yorkers",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Mayor",
+     "wording": "Mayor Mamdani has faced intense scrutiny from critics regarding his political circle and statements. Do you feel his administration represents the core values of the average New Yorker or is his platform out of step with average New Yorkers?",
+     "results": [
+      {
+       "label": "Represents core values of average New Yorkers",
+       "pct": 60.2
+      },
+      {
+       "label": "Platform is too out of step with average New Yorkers",
+       "pct": 28.0
+      },
+      {
+       "label": "Undecided",
+       "pct": 11.2
+      },
+      {
+       "label": "Refused",
+       "pct": 0.6
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Q12. Represents core values of average New Yorkers ------- 301 60.20 | Platform is too out of step with average New Yorkers ----------------------------------------------------------- 140 28.00 | Undecided --------------------------------------------------------- 56 11.20 | Refused --------------------------------------------------------------- 3 0.60",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Most important city issue impacting you",
+     "subject_type": "issue",
+     "measure": "issue priority",
+     "category": "Other issues",
+     "wording": "Thinking about a city issue, what is the MOST important issue impacting you right now? Would you say…?",
+     "results": [
+      {
+       "label": "Crime",
+       "pct": 10.8
+      },
+      {
+       "label": "Economy/jobs",
+       "pct": 12.6
+      },
+      {
+       "label": "Housing",
+       "pct": 11.8
+      },
+      {
+       "label": "Police reform",
+       "pct": 2.0
+      },
+      {
+       "label": "Racism/justice/equality",
+       "pct": 3.2
+      },
+      {
+       "label": "Schools/education",
+       "pct": 4.2
+      },
+      {
+       "label": "Climate change/environment",
+       "pct": 2.6
+      },
+      {
+       "label": "Transportation",
+       "pct": 4.2
+      },
+      {
+       "label": "Immigration",
+       "pct": 4.6
+      },
+      {
+       "label": "Local response to Trump initiatives",
+       "pct": 4.8
+      },
+      {
+       "label": "Affordability",
+       "pct": 34.6
+      },
+      {
+       "label": "Other",
+       "pct": 2.0
+      },
+      {
+       "label": "Undecided",
+       "pct": 2.4
+      },
+      {
+       "label": "Refused",
+       "pct": 0.2
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Q13. Crime ---------------------------------------------------------------- 54 10.80 | Economy/jobs ----------------------------------------------------- 63 12.60 | Housing ------------------------------------------------------------- 59 11.80 | Police reform ------------------------------------------------------ 10 2.00 | Racism/justice/equality ----------------------------------------- 16 3.20 | Schools/education ----------------------------------------------- 21 4.20 | Climate change/environment ---------------------------------- 13 2.60 | Transportation ---------------------------------------------------- 21 4.20 | Immigration -------------------------------------------------------- 23 4.60 | Local response to Trump initiatives -------------------------- 24 4.80 | Affordability ------------------------------------------------------- 173 34.60 | Other ---------------------------------------------------------------- 10 2.00 | Undecided --------------------------------------------------------- 12 2.40 | Refused --------------------------------------------------------------- 1 0.20",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "How affordable life in New York City is",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Economy and cost of living",
+     "wording": "How affordable is your life in New York City today? Would you say…?",
+     "results": [
+      {
+       "label": "Very affordable",
+       "pct": 7.2
+      },
+      {
+       "label": "Somewhat affordable",
+       "pct": 42.0
+      },
+      {
+       "label": "Somewhat unaffordable",
+       "pct": 29.0
+      },
+      {
+       "label": "Very unaffordable",
+       "pct": 21.2
+      },
+      {
+       "label": "Undecided",
+       "pct": 0.6
+      },
+      {
+       "label": "Refused",
+       "pct": 0.0
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Q14. Very affordable --------------------------------------------------- 36 7.20 | Somewhat affordable------------------------------------------- 210 42.00 | Somewhat unaffordable --------------------------------------- 145 29.00 | Very unaffordable ----------------------------------------------- 106 21.20 | Undecided ----------------------------------------------------------- 3 0.60 | Refused --------------------------------------------------------------- 0 0.00",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Mamdani keeping Jessica Tisch as police commissioner",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Public safety and policing",
+     "wording": "Mayor Mamdani campaigned as a democratic socialist advocating for police reform, yet kept billionaire technocrat Jessica Tisch as his Police Commissioner. Which of the following two statements aligns closest with your opinion on this choice?",
+     "results": [
+      {
+       "label": "It shows pragmatic leadership. The mayor is balancing his reform agenda with established, data-driven policing.",
+       "pct": 56.2
+      },
+      {
+       "label": "It is a contradiction. Keeping an old-guard commissioner undermines the progressive reforms the mayor promised.",
+       "pct": 20.8
+      },
+      {
+       "label": "Undecided",
+       "pct": 21.6
+      },
+      {
+       "label": "Refused",
+       "pct": 1.4
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Q15. It shows pragmatic leadership. The mayor is balancing his reform agenda with established, data-driven policing. ------------------------------------------ 281 56.20 | It is a contradiction. Keeping an old-guard commissioner undermines the progressive reforms the mayor promised. ------------------------------ 104 20.80 | Undecided -------------------------------------------------------- 108 21.60 | Refused --------------------------------------------------------------- 7 1.40",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Mamdani asserting final say over NYPD and willingness to overrule Tisch",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Public safety and policing",
+     "wording": "Recently, Mayor Mamdani asserted that he ultimately holds the final decision over the NYPD and is willing to overrule Commissioner Tisch on major policy changes (such as disbanding the Strategic Response Group). How strongly do you approve or disapprove of this approach?",
+     "results": [
+      {
+       "label": "Strongly approve",
+       "pct": 22.6
+      },
+      {
+       "label": "Somewhat approve",
+       "pct": 25.2
+      },
+      {
+       "label": "Somewhat disapprove",
+       "pct": 10.8
+      },
+      {
+       "label": "Strongly disapprove",
+       "pct": 22.2
+      },
+      {
+       "label": "Undecided",
+       "pct": 18.2
+      },
+      {
+       "label": "Refused",
+       "pct": 1.0
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Q16. Strongly approve ------------------------------------------------ 113 22.60 | Somewhat approve --------------------------------------------- 126 25.20 | Somewhat disapprove ------------------------------------------ 54 10.80 | Strongly disapprove -------------------------------------------- 111 22.20 | Undecided --------------------------------------------------------- 91 18.20 | Refused --------------------------------------------------------------- 5 1.00",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Mamdani and Tisch balancing police reform with public safety",
+     "subject_type": "issue",
+     "measure": "job performance",
+     "category": "Public safety and policing",
+     "wording": "How successful do you feel Mayor Mamdani and Commissioner Tisch have been at balancing progressive police reform with effective public safety?",
+     "results": [
+      {
+       "label": "Highly successful",
+       "pct": 11.0
+      },
+      {
+       "label": "Somewhat successful",
+       "pct": 45.8
+      },
+      {
+       "label": "Somewhat unsuccessful",
+       "pct": 14.4
+      },
+      {
+       "label": "Highly unsuccessful",
+       "pct": 11.8
+      },
+      {
+       "label": "Undecided",
+       "pct": 16.6
+      },
+      {
+       "label": "Refused",
+       "pct": 0.4
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Q17. Highly successful ------------------------------------------------- 55 11.00 | Somewhat successful ------------------------------------------ 229 45.80 | Somewhat unsuccessful ---------------------------------------- 72 14.40 | Highly unsuccessful --------------------------------------------- 59 11.80 | Undecided --------------------------------------------------------- 83 16.60 | Refused --------------------------------------------------------------- 2 0.40",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "View of the NYPD (good job vs. racist)",
+     "subject_type": "institution",
+     "measure": "other",
+     "category": "Public safety and policing",
+     "wording": "Which comes closest to your view, even if neither is exactly right?",
+     "results": [
+      {
+       "label": "The NYPD generally do a good job and treat people of different races fairly, even if there are a few bad apples on the force.",
+       "pct": 63.8
+      },
+      {
+       "label": "The NYPD are racist in the way they treat people, even if some of them try to do a good job.",
+       "pct": 28.0
+      },
+      {
+       "label": "Undecided",
+       "pct": 7.0
+      },
+      {
+       "label": "Refused",
+       "pct": 1.2
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Q18. The NYPD generally do a good job and treat people of different races fairly, even if there are a few bad apples on the force. ------------------------------- 319 63.80 | The NYPD are racist in the way they treat people, even if some of them try to do a good job. -------------- 140 28.00 | Undecided --------------------------------------------------------- 35 7.00 | Refused --------------------------------------------------------------- 6 1.20",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Crime in your neighborhood over the past year",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Public safety and policing",
+     "wording": "Over the past year, do you believe the amount of crime in your neighborhood has…?",
+     "results": [
+      {
+       "label": "Increased",
+       "pct": 30.6
+      },
+      {
+       "label": "Decreased",
+       "pct": 34.8
+      },
+      {
+       "label": "Stayed about the same",
+       "pct": 28.8
+      },
+      {
+       "label": "Undecided",
+       "pct": 5.0
+      },
+      {
+       "label": "Refused",
+       "pct": 0.8
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Q19. Increased ---------------------------------------------------------- 153 30.60 | Decreased -------------------------------------------------------- 174 34.80 | Stayed about the same ---------------------------------------- 144 28.80 | Undecided --------------------------------------------------------- 25 5.00 | Refused --------------------------------------------------------------- 4 0.80",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Public safety priority for City Hall",
+     "subject_type": "issue",
+     "measure": "issue priority",
+     "category": "Public safety and policing",
+     "wording": "Which of the following five areas of city public safety should City Hall prioritize the most right now?",
+     "results": [
+      {
+       "label": "Increasing police presence on subways",
+       "pct": 22.4
+      },
+      {
+       "label": "Expanding mental health and outreach services",
+       "pct": 42.6
+      },
+      {
+       "label": "Addressing neighborhood property crime and theft",
+       "pct": 10.0
+      },
+      {
+       "label": "Combating hate crimes and targeted harassment",
+       "pct": 11.8
+      },
+      {
+       "label": "Deploying more cameras and technology to assist police",
+       "pct": 8.2
+      },
+      {
+       "label": "Undecided",
+       "pct": 4.4
+      },
+      {
+       "label": "Refused",
+       "pct": 0.6
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Q20. Increasing police presence on subways ------------------- 112 22.40 | Expanding mental health and outreach services -------- 213 42.60 | Addressing neighborhood property crime and theft ----- 50 10.00 | Combating hate crimes and targeted harassment ------- 59 11.80 | Deploying more cameras and technology to assist police--------------------------------------------------------------- 41 8.20 | Undecided --------------------------------------------------------- 22 4.40 | Refused --------------------------------------------------------------- 3 0.60",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Relationship between the NYPD and communities over the past year",
+     "subject_type": "institution",
+     "measure": "other",
+     "category": "Public safety and policing",
+     "wording": "Do you feel that the overall relationship between the NYPD and local New York communities has improved or worsened over the last year?",
+     "results": [
+      {
+       "label": "Improved",
+       "pct": 46.8
+      },
+      {
+       "label": "Worsened",
+       "pct": 19.4
+      },
+      {
+       "label": "Stayed about the same",
+       "pct": 21.8
+      },
+      {
+       "label": "Undecided",
+       "pct": 11.0
+      },
+      {
+       "label": "Refused",
+       "pct": 1.0
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Q21. Improved ---------------------------------------------------------- 234 46.80 | Worsened ---------------------------------------------------------- 97 19.40 | Stayed about the same ---------------------------------------- 109 21.80 | Undecided --------------------------------------------------------- 55 11.00 | Refused --------------------------------------------------------------- 5 1.00",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Another major attack in New York City in the next ten years",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Public safety and policing",
+     "wording": "Do you think there will be another major attack in New York City in the next ten years – yes or no?",
+     "results": [
+      {
+       "label": "Yes",
+       "pct": 49.6
+      },
+      {
+       "label": "No",
+       "pct": 42.4
+      },
+      {
+       "label": "Undecided",
+       "pct": 7.4
+      },
+      {
+       "label": "Refused",
+       "pct": 0.6
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Q25. Yes------------------------------------------------------------------ 248 49.60 | No ------------------------------------------------------------------- 212 42.40 | Undecided --------------------------------------------------------- 37 7.40 | Refused --------------------------------------------------------------- 3 0.60",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Mamdani attending the 9/11 25th anniversary ceremony",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Mayor",
+     "wording": "Hundreds of victims’ families signed a petition to bar Mayor Mamdani from the Ground Zero ceremony due to his past political associations. Do you believe Mayor Mamdani should attend the 25th anniversary?",
+     "results": [
+      {
+       "label": "Yes, he should attend as the official representative of the city",
+       "pct": 73.8
+      },
+      {
+       "label": "No, the wishes of the grieving families should come first",
+       "pct": 20.0
+      },
+      {
+       "label": "Undecided",
+       "pct": 5.0
+      },
+      {
+       "label": "Refused",
+       "pct": 1.2
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Q26. Yes, he should attend as the official representative of the city --------------------------------------------------------- 369 73.80 | No, the wishes of the grieving families should come first -------------------------------------------------------- 100 20.00 | Undecided --------------------------------------------------------- 25 5.00 | Refused --------------------------------------------------------------- 6 1.20",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Elected officials speaking at the 9/11 ceremony",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Other issues",
+     "wording": "The 9/11 Memorial and Museum states that its policy is to keep the ceremony strictly free of politics, meaning elected officials are invited but do not give speeches. Do you think this tradition should continue or should elected officials be allowed to speak?",
+     "results": [
+      {
+       "label": "Tradition should continue, keep it focused on the victims and survivors",
+       "pct": 73.6
+      },
+      {
+       "label": "Elected officials should be allowed to speak",
+       "pct": 20.0
+      },
+      {
+       "label": "Undecided",
+       "pct": 5.6
+      },
+      {
+       "label": "Refused",
+       "pct": 0.8
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Q27. Tradition should continue, keep it focused on the victims and survivors ------------------------------------------ 368 73.60 | Elected officials should be allowed to speak ------------- 100 20.00 | Undecided --------------------------------------------------------- 28 5.60 | Refused --------------------------------------------------------------- 4 0.80",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Safety in New York City compared to previous years",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Public safety and policing",
+     "wording": "Twenty-five years after the attacks, how safe do you feel living or working in New York City compared to previous years?",
+     "results": [
+      {
+       "label": "City is more safe",
+       "pct": 45.8
+      },
+      {
+       "label": "City is less safe",
+       "pct": 28.4
+      },
+      {
+       "label": "About the same",
+       "pct": 18.4
+      },
+      {
+       "label": "Undecided",
+       "pct": 7.0
+      },
+      {
+       "label": "Refused",
+       "pct": 0.4
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Q28. City is more safe ------------------------------------------------ 229 45.80 | City is less safe -------------------------------------------------- 142 28.40 | About the same --------------------------------------------------- 92 18.40 | Undecided --------------------------------------------------------- 35 7.00 | Refused --------------------------------------------------------------- 2 0.40",
+     "source_kind": "crosstab"
+    }
+   ]
+  },
+  {
+   "poll_id": "honan-20260701",
+   "pollster": "Honan Strategy Group",
+   "sponsor": null,
+   "geography": "New York City",
+   "population": "LV",
+   "n": 614,
+   "moe": 3.96,
+   "field_start": "2026-06-12",
+   "field_end": "2026-06-17",
+   "release_date": "2026-07-01",
+   "mode": "text-to-web, recruited from NYC voter file",
+   "url": "https://image.jewishinsider.com/wp-content/uploads/2026/07/02153117/HSG-5-Boro-Barometer-Mamdani-Jewish-7-1-26-Final.docx-With-Watermark.pdf",
+   "tables_url": null,
+   "confidence": "MEDIUM",
+   "notes": "5 Borough Barometer. The only primary Honan document found for this poll is a July 1, 2026 memo (\"Jewish New Yorkers and Mayor Mamdani\") hosted by Jewish Insider, which reports results ONLY by Jewish (n=99) vs. non-Jewish (n=515) subgroups; no citywide total is published in it. Values not stated in the memo text (Don't Know figures, \"Mainstream\" and \"Heading in the right direction\" figures) were read from the memo's bar-chart images, not from text. Memo says survey \"conducted independently by Honan Strategy Group.\" Release date = memo date. Many other questions from this same poll (taxing the rich, electric bills, NYC \"greatest city,\" pride in America, Democratic Party favorability among 446 Democrats, state budget, data centers, congressional primaries) appear only in news coverage reposted on honanstrategy.com; logged in gaps.",
+   "questions": [
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Mayor",
+     "wording": "Do you approve or disapprove of the job Zohran Mamdani is doing as Mayor of New York City?",
+     "results": [
+      {
+       "label": "Total Approve",
+       "pct": 28
+      },
+      {
+       "label": "Total Disapprove",
+       "pct": 72
+      },
+      {
+       "label": "Don't Know",
+       "pct": 0
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Jewish voters only (n=99 of 614)",
+     "quote": "Jewish voters largely disapprove of Mamdani’s job performance by a 44-point margin (72% disapprove, 28% approve), while non-Jewish voters approve by 39 points (67% approve, 28% disapprove).",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Mayor",
+     "wording": "Do you approve or disapprove of the job Zohran Mamdani is doing as Mayor of New York City?",
+     "results": [
+      {
+       "label": "Total Approve",
+       "pct": 67
+      },
+      {
+       "label": "Total Disapprove",
+       "pct": 28
+      },
+      {
+       "label": "Don't Know",
+       "pct": 6
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Non-Jewish voters only (n=515 of 614)",
+     "quote": "Jewish voters largely disapprove of Mamdani’s job performance by a 44-point margin (72% disapprove, 28% approve), while non-Jewish voters approve by 39 points (67% approve, 28% disapprove).",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Zohran Mamdani: views mainstream or outside the Democratic mainstream",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Mayor",
+     "wording": "Do you think Mamdani's views represent the mainstream of Democratic voters in New York, or are they too far outside the mainstream?",
+     "results": [
+      {
+       "label": "Mainstream",
+       "pct": 13
+      },
+      {
+       "label": "Outside Mainstream",
+       "pct": 74
+      },
+      {
+       "label": "Don't Know",
+       "pct": 13
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Jewish voters only (n=99 of 614)",
+     "quote": "Nearly three in four Jewish voters (74%) say Mamdani’s views are outside the mainstream of Democratic voters in New York, 22 points higher than non-Jewish voters (52%).",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Zohran Mamdani: views mainstream or outside the Democratic mainstream",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Mayor",
+     "wording": "Do you think Mamdani's views represent the mainstream of Democratic voters in New York, or are they too far outside the mainstream?",
+     "results": [
+      {
+       "label": "Mainstream",
+       "pct": 38
+      },
+      {
+       "label": "Outside Mainstream",
+       "pct": 52
+      },
+      {
+       "label": "Don't Know",
+       "pct": 10
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Non-Jewish voters only (n=515 of 614)",
+     "quote": "Nearly three in four Jewish voters (74%) say Mamdani’s views are outside the mainstream of Democratic voters in New York, 22 points higher than non-Jewish voters (52%).",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Direction of the NYC Democratic Party under Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Mayor",
+     "wording": "Do you think the Democratic Party in New York City under Zohran Mamdani is moving too far to the left, heading in the right direction, or not far enough to the left?",
+     "results": [
+      {
+       "label": "Too Far To The Left",
+       "pct": 61
+      },
+      {
+       "label": "Heading In The Right Direction",
+       "pct": 25
+      },
+      {
+       "label": "Not Far Enough To The Left",
+       "pct": 14
+      },
+      {
+       "label": "Don't Know/Not Sure",
+       "pct": 0
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Jewish voters only (n=99 of 614)",
+     "quote": "A clear majority of Jewish voters (61%) say the Democratic Party under Mamdani is moving too far to the left, compared to 36% of non-Jewish voters, while non-Jewish voters are nearly twice as likely to say the party has not moved far enough left (26% vs. 14%).",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Direction of the NYC Democratic Party under Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Mayor",
+     "wording": "Do you think the Democratic Party in New York City under Zohran Mamdani is moving too far to the left, heading in the right direction, or not far enough to the left?",
+     "results": [
+      {
+       "label": "Too Far To The Left",
+       "pct": 36
+      },
+      {
+       "label": "Heading In The Right Direction",
+       "pct": 33
+      },
+      {
+       "label": "Not Far Enough To The Left",
+       "pct": 26
+      },
+      {
+       "label": "Don't Know/Not Sure",
+       "pct": 5
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Non-Jewish voters only (n=515 of 614)",
+     "quote": "A clear majority of Jewish voters (61%) say the Democratic Party under Mamdani is moving too far to the left, compared to 36% of non-Jewish voters, while non-Jewish voters are nearly twice as likely to say the party has not moved far enough left (26% vs. 14%).",
+     "source_kind": "release"
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  {
+   "what": "Emerson College Polling NYC congressional primary polls (NY-07, NY-10, NY-12), fielded May 16-17, 2026, released May 21, 2026",
+   "where_seen": "https://emersoncollegepolling.com/new-york-city-2026-congressional-polling-ny-07-ny-10-ny-12/",
+   "why_excluded": "Single congressional districts (out of scope per task)."
+  },
+  {
+   "what": "Emerson College Polling NY-17 poll (Conley 48%, Lawler 46%), released Oct 1, 2026",
+   "where_seen": "https://emersoncollegepolling.com/ny-17-2026-poll/",
+   "why_excluded": "Single congressional district."
+  },
+  {
+   "what": "Honan Strategy Group NY-12 Democratic primary poll for Grand Penn Community Alliance, April 16-22, 2026, 300 likely Democratic primary voters (Lasher 28, Schlossberg 20, Bores 19, Conway 9)",
+   "where_seen": "https://honanstrategy.com/blog/politico-poll-position/",
+   "why_excluded": "Single congressional district; sponsored; numbers seen only in Politico coverage reposted by Honan."
+  },
+  {
+   "what": "Honan Strategy Group 5 Borough Barometer, June 12-17, 2026 (614 likely NYC voters; 446 Democrats), questions other than the three in the July 1 Jewish/non-Jewish memo: Democratic Party favorability among Democrats (63 fav/35 unfav), congressional primary challenges, wealthy should pay more in taxes (56%), electric bills, NYC as greatest city, pride in being American (68%), concern about late state budget, data center restrictions (sample cited as 617), Mamdani favorability/approval among 416 likely Democratic voters (64 fav/32 unfav; 74% approve)",
+   "where_seen": "https://honanstrategy.com/blog/ny-post-nyc-voters-are-fed-up-with-the-democratic-party-and-want-to-clean-house-stinging-new-poll-says/ ; https://honanstrategy.com/blog/crains-new-york-business-new-york-is-hungry-for-taxing-the-rich-poll/ ; https://honanstrategy.com/blog/ny-post-over-half-of-nyc-residents-say-electric-bills-are-shockingly-high-as-historic-heatwave-scorches-city-poll/ ; https://honanstrategy.com/blog/ny-post-surprising-reasons-why-new-yorkers-no-longer-think-nyc-is-the-greatest-city-in-the-world-poll/ ; https://honanstrategy.com/blog/ny-post-68-of-nyc-residents-are-proud-to-be-american-new-poll-finds/ ; https://honanstrategy.com/blog/city-state-late-budget-blues/ ; https://honanstrategy.com/blog/city-state-heard-around-town-data-on-data-centers/ ; https://honanstrategy.com/blog/city-state-heard-around-town-can-mamdani-pull-it-off/",
+   "why_excluded": "Numbers available only in news coverage (NY Post, Crain's, City & State) reposted on honanstrategy.com; no Honan topline or memo found for these questions. Sample sizes differ across stories (614, 617, 446, 416), so it is unclear whether the Democratic figures come from the same fielding."
+  },
+  {
+   "what": "Honan Strategy Group 5 Borough Barometer, Oct 2-6/7, 2026: (a) 1,167 likely NYC voters incl. oversample of 503 Jewish voters (Oct. 7 aftermath, safety, harassment, Mamdani handling of antisemitism 46 approve/43 disapprove among non-Jews, Democratic support, DSA concern, Tisch); (b) 1,302 NYC voters, Oct 2-7, MOE 2.72 (affordability: 92% cost of living serious problem, 46% likely to leave within five years, household finances, who is responsible for high costs; Latino political power)",
+   "where_seen": "https://www.cityandstateny.com/politics/2026/10/poll-nine-months-mamdanis-tenure-affordability-remains-serious-problem/416638/ ; https://honanstrategy.com/blog/ny-post-more-than-half-of-jewish-nyers-fear-for-their-safety-after-oct-7-attacks-poll/ ; https://honanstrategy.com/blog/the-forward-jewish-new-yorkers-fault-mamdani-on-antisemitism-but-back-his-police-commissioner-poll-finds/ ; https://honanstrategy.com/blog/city-state-heard-around-town-cuanto-poder-politico/",
+   "why_excluded": "Numbers available only in news coverage (City & State, NY Post, Forward, JNS, Knewz); no Honan memo or toplines found (City & State article links none). Sample sizes and end dates differ between stories (1,167 Oct 2-6 vs 1,302 Oct 2-7)."
+  },
+  {
+   "what": "Honan Strategy Group transit-rider poll for the Transport Workers Union on two-person subway crews (1,517 transit riders in NYC, North Jersey and Long Island; 87% support two-person-crew legislation), reported March 2026",
+   "where_seen": "https://honanstrategy.com/blog/fox-5-new-york-over-80-of-subway-riders-prefer-2-person-crews-on-trains-poll-finds/ ; https://honanstrategy.com/blog/daily-news-nyc-transit-union-renews-fight-to-keep-two-person-crews-on-mta-subway-trains/",
+   "why_excluded": "Union-sponsored; population is transit riders across a multi-state region, not NYC/NYS voters; field dates not found; news coverage only."
+  },
+  {
+   "what": "Honan Strategy Group 5 Borough Barometer, Dec 4-12, 2025 (848 likely NYC voters): democratic socialism support, Adams legacy, ICE raids, Jewish voters and Mamdani, AOC vs. Schumer",
+   "where_seen": "https://honanstrategy.com/blog/fox-5-new-york-poll-most-nyc-voters-oppose-ice-raids-in-the-city/ ; https://honanstrategy.com/wp-content/uploads/2026/01/hsg-nyc-ice-polling-data-1-12-26.pdf",
+   "why_excluded": "Fielded December 2025, before the Jan 1, 2026 window (released Dec 30, 2025 - Jan 12, 2026)."
+  },
+  {
+   "what": "Consensus Strategies / Emerson College Polling multistate poll incl. New York (Schumer), Nov 18-21, 2025",
+   "where_seen": "https://www.webull.com/news/13968883130213376",
+   "why_excluded": "Fielded before the window."
+  },
+  {
+   "what": "Suffolk CityView NYC, Sept 1-3, 2026: personal 9/11 items (Q22-24) and entertainment items (Q29-34) not recorded as questions",
+   "where_seen": "https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/city-view/2026/9_8_2026_new_york_city_marginals.pdf",
+   "why_excluded": "Not policy or politics (deliberate omission, not a sourcing gap)."
+  },
+  {
+   "what": "Suffolk CityView NYC full cross-tabulations (155-page tables PDF) were downloaded but not mined for subgroup results",
+   "where_seen": "https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/city-view/2026/9_8_2026_new_york_city_tables.pdf",
+   "why_excluded": "City-only poll; nyc_results field applies only to statewide polls."
+  }
+ ],
+ "searches": [
+  "Emerson WordPress API: category 40 (state-poll/new-york) posts after 2025-12-01; post search for Hochul, Mamdani, Schumer, Blakeman, Stefanik, \"new york\" since late 2025",
+  "emersoncollegepolling.com/category/state-polls/new-york/",
+  "WebSearch: Emerson College poll New York 2026",
+  "Emerson Google Sheets toplines downloaded as xlsx for April NYC and October NYS polls",
+  "WebSearch: Suffolk University CityView NYC poll September 2026 Mamdani; suffolk.edu city-view 2026 marginals",
+  "suffolk.edu PRC pages: /polls/cityview-polls (lists only one 2026 NYC release: Sept 8), /polls/other-states (no New York 2026), /polls/national",
+  "WebSearch: Honan Strategy Group 5 Borough Barometer poll 2026; \"Honan Strategy Group\" poll New York 2026 Mamdani approval; \"5 Borough Barometer\" Honan October 2026; Honan memo Jewish voters October pdf",
+  "honanstrategy.com WordPress API: all posts since 2025-12-01 (48) and PDF media uploads (only Jan 2026 ICE data PDF from Dec 2025 poll)",
+  "Jewish Insider-hosted Honan memo PDF (July 1, 2026)",
+  "City & State Oct 2026 Honan affordability article (WebFetch)",
+  "Webull repost of Consensus Strategies/Emerson poll (date check)"
+ ]
+}

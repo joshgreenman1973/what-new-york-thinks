@@ -1,0 +1,714 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What New York Thinks</title>
+<meta name="description" content="Every question in independent polls of New York City and New York State in 2026, searchable and sortable, with live prediction-market prices on New York politics.">
+<meta property="og:title" content="What New York Thinks">
+<meta property="og:description" content="Every question in independent polls of New York City and New York State in 2026, searchable and sortable, with live prediction-market prices.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="house.css">
+<style>
+:root{--accent:var(--sun);--pos:var(--mint);--neg:var(--vermilion);--mid:#6d736c}
+.g-paper{--mid:#a9aea7}
+h1 .ast{color:var(--sun);text-decoration:none;margin-left:.04em}
+h1 .ast:hover{color:var(--fg)}
+.finding a,.lede a{color:inherit}
+.caution a{color:var(--fg)}
+
+
+/* quick picks */
+.picks{padding-top:26px;padding-bottom:10px}
+.pickrow{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 0}
+.pickrow+.pickrow{margin-top:10px}
+.pick{font-family:var(--display);font-variation-settings:'wdth' 88;font-weight:650;font-size:1.02rem;line-height:1.1;
+  padding:12px 15px 11px;min-height:46px;border:1.5px solid var(--line);background:var(--bg2);color:var(--fg);cursor:pointer;border-radius:0;text-align:left}
+.pick small{display:block;font-family:var(--sans);font-size:12px;font-weight:600;color:var(--fg2);margin-top:3px}
+.pick:hover{border-color:var(--fg)}
+.pick[aria-pressed=true]{background:var(--sun);border-color:var(--sun);color:#111311}
+.pick[aria-pressed=true] small{color:#3d3a2c}
+.pickrow.issues .pick{border-color:var(--line2)}
+.profile{margin-top:22px;border-top:3px solid var(--sun);padding-top:16px}
+.profile h3{margin:0}
+.profile .pl{color:var(--fg2);margin:6px 0 0;max-width:72ch}
+.profile .pl b{color:var(--fg)}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px 34px;margin-top:16px}
+.pgrid h4{margin:0;font-size:15px;line-height:1.3}
+.pgrid .last{font-size:var(--t-small);color:var(--fg2);margin:3px 0 4px}
+.pgrid .last b{color:var(--fg)}
+.pgrid svg{display:block;width:100%;height:auto;overflow:visible}
+.pgrid svg text{font-family:var(--sans);font-size:11px;fill:var(--fg2)}
+.once{margin-top:22px}
+.once h4{font-size:15px;margin:0 0 6px}
+.onerow{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:6px 24px;padding:9px 0;border-top:1px solid var(--line2);font-size:15px}
+.onerow .w{line-height:1.35}
+.onerow .w small{display:block;font-size:var(--t-small);color:var(--fg2);margin-top:2px}
+.onerow .w small a{color:var(--fg2)}
+@media(max-width:640px){.onerow{grid-template-columns:1fr}}
+.pmk{margin-top:22px}
+.pmk h4{font-size:15px;margin:0 0 4px}
+.pmk .mrow{padding-left:0;padding-right:0}
+.pact{margin-top:16px;display:flex;gap:10px;flex-wrap:wrap}
+
+/* small multiples */
+.mults{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:26px 34px;margin-top:6px}
+.mult h4{margin:0;font-size:15px;line-height:1.3}
+.mult h4 button{all:unset;cursor:pointer;font-weight:700;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
+.mult h4 button:hover{text-decoration-color:var(--fg)}
+.mult .last{font-size:var(--t-small);color:var(--fg2);margin:3px 0 4px;min-height:2.6em}
+.mult .last b{color:var(--fg)}
+.mult svg{display:block;width:100%;height:auto;overflow:visible}
+.mult svg text{font-family:var(--sans);font-size:11px;fill:var(--fg2)}
+.mkey{display:flex;gap:4px 12px;flex-wrap:wrap;font-size:var(--t-micro);color:var(--fg2)}
+.mkey i{display:inline-block;width:9px;height:9px;margin-right:5px;vertical-align:-1px}
+
+/* finder */
+.finder{border-top:1px solid var(--line)}
+.controls select{max-width:100%}
+.controls label.tog{display:inline-flex;gap:7px;align-items:center;font-size:var(--t-small);font-weight:600;color:var(--fg2);cursor:pointer}
+.controls label.tog input{accent-color:var(--sun);width:16px;height:16px}
+.controls .dates{display:inline-flex;gap:6px;align-items:center;font-size:var(--t-small);color:var(--fg2)}
+.controls input[type=date]{font-family:var(--sans);font-size:14px;padding:8px 7px;border:1px solid var(--line);background:var(--bg2);color:var(--fg);border-radius:0;color-scheme:dark}
+.status{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px 18px;padding:12px clamp(16px,4vw,48px);font-size:15px;color:var(--fg2)}
+.status b{color:var(--fg)}
+.status button{background:none;border:0;padding:0;color:var(--fg);font:inherit;font-weight:600;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px;cursor:pointer}
+.status button:hover{text-decoration-color:var(--fg)}
+
+.tbl{width:100%;border-collapse:collapse}
+.tbl th{font-size:var(--t-small);font-weight:700;color:var(--fg2);text-align:left;padding:9px 12px 8px 0;border-bottom:1.5px solid var(--fg);white-space:nowrap;position:sticky;top:0;background:var(--bg);z-index:3}
+.tbl th:first-child,.tbl td:first-child{padding-left:clamp(16px,4vw,48px)}
+.tbl th:last-child,.tbl td:last-child{padding-right:clamp(16px,4vw,48px)}
+.tbl th button{all:unset;cursor:pointer}
+.tbl th button:hover{color:var(--fg)}
+.tbl th button[aria-sort]::after{content:"";display:inline-block;margin-left:5px;border:4px solid transparent}
+.tbl th button[aria-sort=descending]::after{border-top-color:var(--sun);transform:translateY(2px)}
+.tbl th button[aria-sort=ascending]::after{border-bottom-color:var(--sun);transform:translateY(-2px)}
+.tbl td{padding:11px 12px 11px 0;border-bottom:1px solid var(--line2);vertical-align:top;font-size:15px}
+.tbl tr.r{cursor:pointer}
+.tbl tr.r:hover td{background:var(--bg2)}
+.tbl tr.r.open td{background:var(--bg2)}
+.tbl tr.sub td{color:var(--fg2)}
+.tbl .dt{white-space:nowrap;font-variant-numeric:tabular-nums}
+.tbl .who{font-size:var(--t-small);color:var(--fg2);display:block;margin-top:2px}
+.tbl .subj{font-family:var(--display);font-variation-settings:'wdth' 88;font-weight:650;font-size:1.05rem;line-height:1.22;color:var(--fg)}
+.tbl .it{display:block;font-size:15px;color:var(--fg);margin-top:2px}
+.tbl .ms{display:block;font-size:var(--t-small);color:var(--fg2);margin-top:2px}
+.tbl .res{min-width:230px;width:32%}
+.tag{display:inline-block;font-size:12px;font-weight:700;padding:0 5px;margin-left:6px;border:1px solid var(--line);color:var(--fg2);vertical-align:1px}
+.bar{display:flex;height:14px;width:100%;background:var(--line2)}
+.bar i{display:block;height:100%;position:relative}
+.bar i+i{box-shadow:inset 1px 0 0 var(--bg)}
+.nums{font-size:var(--t-small);color:var(--fg2);margin-top:5px;font-variant-numeric:tabular-nums;line-height:1.45}
+.nums b{color:var(--fg);font-weight:700}
+.detail td{background:var(--bg2);padding-top:4px;padding-bottom:22px;cursor:default}
+.dgrid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:18px 40px}
+@media(max-width:900px){.dgrid{grid-template-columns:1fr}}
+.detail h5{font-size:var(--t-small);color:var(--fg2);font-weight:700;margin:12px 0 5px}
+.detail p{margin:0 0 8px;font-size:15px;line-height:1.55}
+.detail q{quotes:"\201C" "\201D"}
+.detail .rlist{display:grid;grid-template-columns:minmax(0,1fr) 54px;gap:3px 12px;font-size:15px;max-width:460px}
+.detail .rlist span:nth-child(2n){text-align:right;font-variant-numeric:tabular-nums;font-weight:700}
+.detail .links a{margin-right:16px;font-size:15px;font-weight:600}
+.detail svg{display:block;width:100%;height:auto;max-width:520px;overflow:visible}
+.detail svg text{font-family:var(--sans);font-size:11px;fill:var(--fg2)}
+.more{padding:16px clamp(16px,4vw,48px)}
+.more button,.dl{font-size:var(--t-small);font-weight:700;border:1px solid var(--fg);padding:9px 13px;background:none;color:var(--fg);cursor:pointer;text-decoration:none;display:inline-block}
+.more button:hover,.dl:hover{background:var(--fg);color:var(--bg)}
+
+@media(max-width:760px){
+  .tbl thead{display:none}
+  .tbl,.tbl tbody,.tbl tr,.tbl td{display:block;width:100%}
+  .tbl tr.r{padding:12px 16px;border-bottom:1px solid var(--line2)}
+  .tbl tr.r td{border:0;padding:0 !important;background:none !important}
+  .tbl tr.r td.c-dt{font-size:var(--t-small);color:var(--fg2);margin-bottom:3px}
+  .tbl tr.r td.c-dt .who{display:inline;margin-left:6px}
+  .tbl tr.r td.c-res{margin-top:9px}
+  .tbl tr.r td.c-cat{display:none}
+  .tbl .res{width:100%;min-width:0}
+  .tbl tr.r.open{background:var(--bg2)}
+  .detail td{padding:6px 16px 20px !important}
+}
+
+/* markets */
+.mk{border-top:1px solid var(--line)}
+.mrow{display:grid;grid-template-columns:minmax(0,1fr) 190px 92px;gap:6px 22px;align-items:center;padding:11px clamp(16px,4vw,48px);border-bottom:1px solid var(--line2)}
+.mrow .q{font-size:15px;line-height:1.35}
+.mrow .q a{color:var(--fg);text-decoration:none}
+.mrow .q a:hover{text-decoration:underline}
+.mrow .q small{display:block;font-size:var(--t-small);color:var(--fg2);margin-top:2px}
+.mrow .p{display:flex;align-items:center;gap:10px;font-variant-numeric:tabular-nums}
+.mrow .p .bar{flex:1}
+.mrow .p b{width:48px;text-align:right;font-family:var(--display);font-weight:650}
+.mrow .ch{font-size:var(--t-small);color:var(--fg2);text-align:right;font-variant-numeric:tabular-nums}
+@media(max-width:760px){.mrow{grid-template-columns:minmax(0,1fr) 120px}.mrow .ch{grid-column:1/-1;text-align:left}}
+
+.tip{position:fixed;z-index:999;pointer-events:none;background:var(--fg);color:var(--bg);font-size:13px;line-height:1.4;padding:7px 9px;max-width:300px;display:none}
+.tip b{font-weight:700}
+.method h3{margin-top:26px}
+.method p,.method li{max-width:72ch;color:var(--fg2);line-height:1.6}
+.method p b,.method li b{color:var(--fg)}
+.method ul{padding-left:20px}
+#ast{scroll-margin-top:20px}
+.star{font-family:var(--display);font-variation-settings:'wdth' 88;font-size:1.25rem;line-height:1.4;max-width:58ch;margin:0 0 10px;color:var(--fg)}
+.star .s{color:var(--sun)}
+</style>
+</head>
+<body>
+<div class="sheet">
+
+<div class="strip">
+  <span>Independent polls of New York City and New York State, plus prediction markets</span>
+  <span id="stripDates">2026</span>
+</div>
+
+<header class="head">
+  <h1>What New York Thinks<a class="ast" href="#ast" aria-label="Read the caveats">*</a></h1>
+  <p class="finding" id="finding">Loading the polls&hellip;</p>
+  <p class="lede" id="lede"></p>
+  <p class="caution" id="caution"><b>*</b> Polls have become harder to trust as fewer people answer calls from numbers they don't know, and nobody really knows how well prediction markets predict. <a href="#ast">More on both</a>.</p>
+</header>
+
+<section class="sec picks" aria-labelledby="picksH">
+  <h2 id="picksH">Pick a person or an issue</h2>
+  <p class="aside">Each button gathers every poll reading about one person or one issue, charted over 2026, with the betting markets on the same subject.</p>
+  <div class="pickrow" id="pickPeople" role="group" aria-label="People"></div>
+  <div class="pickrow" id="pickIssues" role="group" aria-label="Issues"></div>
+  <div id="profile" class="profile" hidden></div>
+</section>
+
+<section class="fig" aria-labelledby="multsH">
+  <div class="figcap"><span id="multsH"><b>The most-asked questions of 2026.</b> Each dot is one poll, placed at the end of its field dates. Click a title to see every reading in the table.</span>
+    <span class="mkey" id="multsKey"></span></div>
+  <div class="mults" id="mults"></div>
+</section>
+
+<section class="finder sec" style="padding:0" aria-labelledby="finderH">
+  <div class="sec" style="padding-bottom:4px">
+    <h2 id="finderH">Every question</h2>
+    <p class="aside">Search a name, an issue or any word in a question's wording. Click a column heading to sort, and click a row to see the exact wording, the full results, the pollster's own text and every other reading of the same question.</p>
+  </div>
+  <div class="controls" role="search">
+    <input type="search" id="q" placeholder="Search: Hochul, rent, congestion pricing, Siena&hellip;" aria-label="Search polls and markets">
+    <select id="fCat" aria-label="Topic"></select>
+    <select id="fSubj" aria-label="Who or what"></select>
+    <select id="fMeasure" aria-label="Kind of question"></select>
+    <select id="fPollster" aria-label="Pollster"></select>
+    <select id="fGeo" aria-label="Place">
+      <option value="">City and state</option>
+      <option value="New York State">New York State</option>
+      <option value="New York City">New York City, all</option>
+      <option value="citywide">New York City, citywide polls only</option>
+    </select>
+    <select id="fPop" aria-label="Who was asked"></select>
+    <span class="dates"><label for="fFrom">From</label><input type="date" id="fFrom" min="2026-01-01"><label for="fTo">to</label><input type="date" id="fTo" min="2026-01-01"></span>
+    <label class="tog"><input type="checkbox" id="fLatest"> Latest reading of each question only</label>
+    <label class="tog"><input type="checkbox" id="fAdv"> Include polls paid for by advocacy groups</label>
+  </div>
+  <div class="status"><span id="count"></span><span><button id="reset" type="button">Clear filters</button> &nbsp; <button id="csv" type="button">Download these rows (CSV)</button> &nbsp; <button id="share" type="button">Copy a link to this view</button></span></div>
+  <table class="tbl" id="tbl">
+    <thead><tr>
+      <th><button data-k="date">Fielded</button></th>
+      <th class="c-subj"><button data-k="subject">Question</button></th>
+      <th class="c-cat"><button data-k="category">Topic</button></th>
+      <th class="res"><button data-k="top">Result</button></th>
+    </tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <div class="more" id="moreWrap" hidden><button id="more" type="button">Show more</button></div>
+</section>
+
+<section class="mk sec" style="padding:0" aria-labelledby="mkH">
+  <div class="sec" style="padding-bottom:4px">
+    <h2 id="mkH">What the betting markets say</h2>
+    <p class="aside" id="mkLede">These are prices, not polls: the share of money riding on yes in markets about New York politics and policy, from the <a href="https://joshgreenman1973.github.io/experiments/nyc-prediction-markets/">New York prediction markets tracker</a>. A price of 70 cents on the dollar is often read as a 70 percent chance, but how well these prices predict is not settled. The search box above filters this list too.</p>
+  </div>
+  <div class="controls">
+    <select id="mCat" aria-label="Market topic"></select>
+    <select id="mSrc" aria-label="Market venue">
+      <option value="money">Kalshi and Polymarket (real money)</option>
+      <option value="all">All three, including Manifold (play money)</option>
+      <option value="kalshi">Kalshi only</option>
+      <option value="polymarket">Polymarket only</option>
+      <option value="manifold">Manifold only (play money)</option>
+    </select>
+    <select id="mSort" aria-label="Sort markets">
+      <option value="vol24">Most traded in the last day</option>
+      <option value="vol">Most money traded overall</option>
+      <option value="move">Biggest move in the last day</option>
+      <option value="hi">Highest price</option>
+      <option value="close">Closing soonest</option>
+    </select>
+  </div>
+  <div class="status"><span id="mCount">Loading market prices&hellip;</span></div>
+  <div id="mRows"></div>
+  <div class="more" id="mMoreWrap" hidden><button id="mMore" type="button">Show more markets</button></div>
+</section>
+
+<section class="sec method" id="ast" aria-labelledby="astH">
+  <h2 id="astH">* The caveats</h2>
+  <p class="star"><span class="s">*</span> Polls are less reliable than they used to be, and nobody really knows how predictive prediction markets are.</p>
+  <p><b>Polls.</b> Most people no longer answer calls from numbers they don't recognize, so pollsters now reach far fewer of the people they try, and they lean on text messages, online panels and statistical weighting to make the people they do reach look like the electorate. That works when the people who answer resemble the people who don't, and it can fail when they differ in ways the weighting misses. Every poll here also has a margin of error, and the New York City columns of statewide polls rest on smaller samples whose size the pollsters usually don't publish. Read one poll as one estimate, and read a gap of a few points as noise.</p>
+  <p><b>Prediction markets.</b> A market price says what traders are willing to pay, not what the public thinks. Many New York markets trade little money, so a single trader can move the price. Manifold uses play money. There's no long record showing how well markets on state and city questions forecast outcomes, so treat a price as one more read, not a probability anyone has verified.</p>
+</section>
+
+<section class="sec method" id="method" aria-labelledby="mH">
+  <h2 id="mH">How this page works</h2>
+  <div id="methodBody"></div>
+  <h3>What's in and what's out</h3>
+  <p>Included: polls of all New York City or all New York State adults or voters, fielded in 2026, by pollsters that publish field dates, sample size and their questions. Every figure was read from the pollster's own release, toplines or crosstabs, and each row links to that document along with a passage copied from it.</p>
+  <p>Left out: polls of a single congressional or legislative district, campaign polls released without full questions and results, and any poll whose numbers could be found only in news coverage. Each one is listed with the reason in the <a href="data/gaps.json">list of polls left out</a>, and the <a href="https://github.com/joshgreenman1973/what-new-york-thinks/blob/main/METHODOLOGY.md">methodology</a> explains the rules.</p>
+  <h3>Reading the rows</h3>
+  <ul>
+    <li><b>New York City columns of statewide polls.</b> Siena and others publish results for New York City respondents inside their statewide polls. These rows are marked "city column." The city sample is smaller than the statewide one and its size is usually not published, so the uncertainty is larger and unknown.</li>
+    <li><b>Who was asked.</b> All adults, registered voters or likely voters, as the pollster describes the sample. Some questions were put to only part of the sample, such as Democrats in a primary question; the row says so.</li>
+    <li><b>Kinds of question.</b> Job approval, favorability and an excellent-to-poor grade are different questions and are never combined. A favorable opinion of a person is not approval of the job they're doing.</li>
+    <li><b>Figures</b> are shown exactly as the pollster published them. The page calculates nothing except where dots sit on the charts. Results may not add to 100 because of rounding or answers the pollster didn't report.</li>
+  </ul>
+  <h3>Downloads</h3>
+  <p><a class="dl" href="data/questions.csv" download>All questions (CSV)</a> &nbsp; <a class="dl" href="data/polls.json">All polls with sources (JSON)</a> &nbsp; <a class="dl" href="https://github.com/joshgreenman1973/what-new-york-thinks/blob/main/METHODOLOGY.md">Full methodology</a></p>
+</section>
+
+<footer class="foot">
+  Built by Josh Greenman. Polls compiled from each pollster's own release. Market prices from the <a href="https://joshgreenman1973.github.io/experiments/nyc-prediction-markets/">New York prediction markets tracker</a>, which reads the public data of Kalshi, Polymarket and Manifold. Related: the <a href="https://vitalcity-nyc.github.io/mamdani-poll-tracker/">Mamdani poll tracker</a>. <span id="builtLine"></span>
+</footer>
+</div>
+<div class="tip" id="tip" role="tooltip"></div>
+
+<script>
+(function(){
+"use strict";
+const $=s=>document.querySelector(s);
+const css=n=>getComputedStyle(document.documentElement).getPropertyValue('--'+n).trim();
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const MARKETS_LIVE='https://joshgreenman1973.github.io/experiments/nyc-prediction-markets/data/markets.json';
+const MON=['Jan.','Feb.','March','April','May','June','July','Aug.','Sept.','Oct.','Nov.','Dec.'];
+const pd=s=>{const [y,m,d]=s.split('-').map(Number);return {y,m,d}};
+function fdate(s){if(!s)return'';const a=pd(s);return MON[a.m-1]+' '+a.d+', '+a.y}
+function frange(a,b){
+  if(!b)return fdate(a);if(!a||a===b)return fdate(b);
+  const x=pd(a),y=pd(b);
+  if(x.y!==y.y)return fdate(a)+' to '+fdate(b);
+  if(x.m===y.m)return MON[x.m-1]+' '+x.d+'-'+y.d+', '+y.y;
+  return MON[x.m-1]+' '+x.d+' to '+MON[y.m-1]+' '+y.d+', '+y.y;
+}
+const shortRange=(a,b)=>frange(a,b).replace(/, 2026$/,'');
+const POP_SHORT={'registered voters':'registered voters','likely voters':'likely voters','adults':'all adults'};
+const fmtPct=v=>(Math.round(v*10)/10)+'%';
+const sh=x=>x.shown||x.pct;
+
+// ---------- colours for answers ----------
+const POS=/^(approve|strongly approve|somewhat approve|favou?rable|very favou?rable|somewhat favou?rable|support|strongly support|somewhat support|yes|right track|excellent|good|excellent\/good|excellent or good|re-?elect|better|agree|strongly agree|somewhat agree|more likely|should\b|mostly agree|does\b|describes|improved|good for|helped|right decision|confident|very confident|somewhat confident|ahead|good thing)/i;
+const NEG=/^(disapprove|strongly disapprove|somewhat disapprove|unfavou?rable|very unfavou?rable|somewhat unfavou?rable|oppose|strongly oppose|somewhat oppose|no\b|wrong (track|direction)|poor|fair|fair\/poor|fair or poor|prefer someone else|someone else|worse|disagree|strongly disagree|somewhat disagree|less likely|should not|shouldn'?t|mostly disagree|does not|doesn'?t|does not describe|worsened|bad for|hurt|wrong decision|not (very |at all )?confident|behind|bad thing)/i;
+const NEUT=/(don'?t know|no opinion|not sure|unsure|undecided|refused|neither|neutral|never heard|haven'?t heard|dk|no answer|other|wouldn'?t vote|won'?t vote|depends|same|no difference|mixed)/i;
+const CAND=['cobalt','rose','cyan','orange','lilac','sun','mint','vermilion'];
+function colourFor(label,i,isRace){
+  if(NEUT.test(label))return css('mid');
+  if(!isRace){ if(NEG.test(label))return css('vermilion'); if(POS.test(label))return css('mint'); }
+  return css(CAND[i%CAND.length]);
+}
+const isRace=r=>/horse race|primary/.test(r.measure||'')||r.subject_type==='race';
+
+// ---------- tooltip ----------
+const tip=$('#tip');
+function showTip(e,html){tip.innerHTML=html;tip.style.display='block';moveTip(e)}
+function moveTip(e){const w=tip.offsetWidth,h=tip.offsetHeight;let x=e.clientX+14,y=e.clientY+14;if(x+w>innerWidth-8)x=e.clientX-w-14;if(y+h>innerHeight-8)y=e.clientY-h-14;tip.style.left=x+'px';tip.style.top=y+'px'}
+function hideTip(){tip.style.display='none'}
+document.addEventListener('mouseover',e=>{const t=e.target.closest('[data-tip]');if(t)showTip(e,t.getAttribute('data-tip'))});
+document.addEventListener('mousemove',e=>{if(tip.style.display==='block'){if(e.target.closest('[data-tip]'))moveTip(e);else hideTip()}});
+document.addEventListener('scroll',hideTip,{passive:true});
+
+let DATA=null,ALL=[],ROWS=[],MARKETS=[],MK_UPDATED=null;
+const state={pick:'',filterPick:'',adv:false,q:'',cat:'',subj:'',measure:'',pollster:'',geo:'',pop:'',from:'',to:'',latest:false,sort:'date',dir:-1,shown:60,open:null};
+
+function who(r){
+  let s=(r.geography==='New York State'?'New York State':'New York City')+', '+(POP_SHORT[r.population]||r.population||'sample not stated');
+  return s;
+}
+function pollLabel(r){return r.pollster+(r.sponsor?' for '+r.sponsor:'')}
+function topResult(r){return r.results.length?Math.max(...r.results.map(x=>x.pct)):0}
+// Same subject and kind can still be different questions (right track vs. satisfied), so the key
+// also carries the root of the first answer, except in races where candidate labels vary by pollster.
+function answerRoot(r){if(isRace(r))return'';const x=r.results.find(y=>!NEUT.test(y.label));return x?norm(x.label).replace(/^(total|very|strongly|somewhat|just|mostly)\s+/,'').split(/[\s\/,(]/)[0]:''}
+const keyOf=r=>r._k||(r._k=[r.subject,r.item||'',r.measure,r.geography,r.city_column?1:0,r.asked_of||'',answerRoot(r)].join('|'));
+
+// ---------- bars ----------
+function barHTML(r){
+  const race=isRace(r);
+  const tot=Math.max(100,r.results.reduce((a,b)=>a+b.pct,0));
+  let ci=0;
+  const segs=r.results.map(x=>{
+    const c=colourFor(x.label,NEUT.test(x.label)?0:ci++,race);
+    const t='<b>'+esc(x.label)+': '+esc(sh(x))+'%</b><br>'+esc(r.subject)+', '+esc(r.measure)+'<br>'+esc(pollLabel(r))+', '+esc(shortRange(r.field_start,r.field_end))+'<br>'+esc(who(r))+(r.city_column?' (city column of a statewide poll)':'');
+    return '<i style="width:'+(x.pct/tot*100)+'%;background:'+c+'" data-tip="'+esc(t)+'"></i>';
+  }).join('');
+  const nums=r.results.slice(0,6).map(x=>'<b>'+esc(sh(x))+'</b> '+esc(x.label)).join(' &middot; ')+(r.results.length>6?' &middot; and more':'');
+  return '<div class="bar" role="img" aria-label="'+esc(r.results.map(x=>x.label+' '+x.pct+' percent').join(', '))+'">'+segs+'</div><div class="nums">'+nums+'</div>';
+}
+
+// ---------- filters ----------
+function norm(s){return String(s||'').toLowerCase()}
+function rowText(r){return norm([r.subject,r.measure,r.category,r.wording,r.pollster,r.pollster_full,r.sponsor,r.geography,r.population,r.item,r.asked_of,r.results.map(x=>x.label).join(' ')].join(' '))}
+function terms(){return norm(state.q).split(/\s+/).filter(Boolean)}
+function filtered(){
+  const t=terms();
+  const pf=state.filterPick?pickRows({type:PEOPLE.some(p=>p[0]===state.filterPick)?'person':'issue',name:state.filterPick}):null;
+  const pfs=pf&&new Set(pf);
+  let out=ROWS.filter(r=>{
+    if(pfs&&!pfs.has(r))return false;
+    if(state.cat&&r.category!==state.cat)return false;
+    if(state.subj&&r.subject!==state.subj)return false;
+    if(state.measure&&r.measure!==state.measure)return false;
+    if(state.pollster&&r.pollster!==state.pollster)return false;
+    if(state.geo==='citywide'){if(r.geography!=='New York City'||r.city_column)return false}
+    else if(state.geo&&r.geography!==state.geo)return false;
+    if(state.pop&&r.population!==state.pop)return false;
+    if(state.from&&r.field_end<state.from)return false;
+    if(state.to&&r.field_end>state.to)return false;
+    if(t.length){const s=r._t;for(const w of t)if(!s.includes(w))return false}
+    return true;
+  });
+  if(state.latest){
+    const best={};
+    for(const r of out){const k=keyOf(r);if(!best[k]||r.field_end>best[k].field_end)best[k]=r}
+    out=Object.values(best);
+  }
+  const d=state.dir,k=state.sort;
+  const val={date:r=>r.field_end+(r.city_column?'0':'1'),subject:r=>norm(r.subject)+norm(r.measure),category:r=>norm(r.category)+norm(r.subject),top:topResult,pollster:r=>norm(r.pollster)};
+  const f=val[k]||val.date;
+  out.sort((a,b)=>{const x=f(a),y=f(b);if(x<y)return -d;if(x>y)return d;return a.field_end<b.field_end?1:-1});
+  return out;
+}
+
+function fillSelect(el,first,vals,cur){
+  el.innerHTML='<option value="">'+esc(first)+'</option>'+vals.map(v=>{const [val,lab]=Array.isArray(v)?v:[v,v];return '<option value="'+esc(val)+'"'+(val===cur?' selected':'')+'>'+esc(lab)+'</option>'}).join('');
+}
+function counted(field){const c={};for(const r of ROWS){const v=r[field];if(v)c[v]=(c[v]||0)+1}return c}
+function setupSelects(){
+  const cats=DATA.categories.filter(c=>ROWS.some(r=>r.category===c));
+  fillSelect($('#fCat'),'All topics',cats,state.cat);
+  const sc=counted('subject');
+  fillSelect($('#fSubj'),'Everyone and everything',Object.keys(sc).sort((a,b)=>sc[b]-sc[a]||a.localeCompare(b)).map(s=>[s,s+' ('+sc[s]+')']),state.subj);
+  const mc=counted('measure');
+  fillSelect($('#fMeasure'),'All kinds of question',Object.keys(mc).sort((a,b)=>mc[b]-mc[a]).map(s=>[s,s[0].toUpperCase()+s.slice(1)+' ('+mc[s]+')']),state.measure);
+  const pc=counted('pollster');
+  fillSelect($('#fPollster'),'All pollsters',Object.keys(pc).sort((a,b)=>pc[b]-pc[a]).map(s=>[s,s+' ('+pc[s]+')']),state.pollster);
+  const oc=counted('population');
+  fillSelect($('#fPop'),'All samples',Object.keys(oc).sort((a,b)=>oc[b]-oc[a]).map(s=>[s,(POP_SHORT[s]||s).replace(/^./,c=>c.toUpperCase())]),state.pop);
+}
+
+// ---------- table ----------
+function renderTable(){
+  const list=filtered();
+  const n=list.length, polls=new Set(list.map(r=>r.poll_id)).size;
+  $('#count').innerHTML=n?'<b>'+n.toLocaleString()+'</b> '+(n===1?'result':'results')+' from <b>'+polls+'</b> '+(polls===1?'poll':'polls')+(state.filterPick?' about '+esc(state.filterPick)+' (<button type="button" id="unpick">show everything</button>)':''):'No poll questions match. Try fewer words or clear the filters.';
+  document.querySelectorAll('.tbl th button').forEach(b=>{if(b.dataset.k===state.sort)b.setAttribute('aria-sort',state.dir<0?'descending':'ascending');else b.removeAttribute('aria-sort')});
+  const html=[];
+  for(const r of list.slice(0,state.shown)){
+    const open=state.open===r.id;
+    html.push('<tr class="r'+(open?' open':'')+(r.city_column?' sub':'')+'" data-id="'+esc(r.id)+'" tabindex="0" aria-expanded="'+open+'">'+
+      '<td class="c-dt"><span class="dt">'+esc(shortRange(r.field_start,r.field_end))+'</span><span class="who">'+esc(pollLabel(r))+'</span></td>'+
+      '<td class="c-subj"><span class="subj">'+esc(r.subject)+'</span>'+(r.item?'<span class="it">'+esc(r.item)+'</span>':(r.measure==='other'&&r.wording?'<span class="it">'+esc(r.wording.length>110?r.wording.slice(0,105).replace(/\s+\S*$/,'')+'…':r.wording)+'</span>':''))+'<span class="ms">'+esc(r.measure[0].toUpperCase()+r.measure.slice(1))+', '+esc(who(r))+(r.asked_of?' ('+esc(r.asked_of)+')':'')+(r.city_column?'<span class="tag">city column</span>':'')+(r.sponsor_type&&r.sponsor_type!=='independent'?'<span class="tag">'+esc(r.sponsor_type)+'</span>':'')+'</span></td>'+
+      '<td class="c-cat">'+esc(r.category)+'</td>'+
+      '<td class="c-res res">'+barHTML(r)+'</td></tr>');
+    if(open)html.push(detailHTML(r));
+  }
+  $('#rows').innerHTML=html.join('');
+  $('#moreWrap').hidden=list.length<=state.shown;
+  $('#more').textContent='Show '+Math.min(200,list.length-state.shown)+' more of '+(list.length-state.shown).toLocaleString();
+  writeHash();
+}
+
+function sameQuestion(r){return ROWS.filter(x=>keyOf(x)===keyOf(r)).sort((a,b)=>a.field_end<b.field_end?-1:1)}
+
+function detailHTML(r){
+  const others=sameQuestion(r);
+  const res='<div class="rlist">'+(r.breakdown||r.results).map(x=>'<span>'+esc(x.label)+'</span><span>'+esc(sh(x))+'%</span>').join('')+'</div>';
+  const facts=[];
+  facts.push('Fielded '+esc(frange(r.field_start,r.field_end))+(r.release_date?', released '+esc(fdate(r.release_date)):''));
+  facts.push(esc(r.pollster_full||r.pollster)+(r.sponsor?' for '+esc(r.sponsor):''));
+  if(r.city_column)facts.push('New York City respondents within a statewide poll of '+esc(r.population||'')+'. The city sample size is not published here.');
+  else facts.push(esc(who(r))+(r.n?', '+Number(r.n).toLocaleString()+' interviews':'')+(r.moe?', margin of error plus or minus '+esc(r.moe)+' points':''));
+  if(r.mode)facts.push('Method: '+esc(r.mode));
+  if(r.asked_of)facts.push('Asked of: '+esc(r.asked_of));
+  if(r.note)facts.push('Note: '+esc(r.note));
+  if(r.sponsor_type&&r.sponsor_type!=='independent')facts.push('This poll was paid for or released by a '+(r.sponsor_type==='partisan'?'campaign, party or partisan firm':'group with a policy agenda')+'.');
+  const links='<p class="links"><a href="'+esc(r.url)+'" target="_blank" rel="noopener">The pollster\'s release</a>'+(r.tables_url?'<a href="'+esc(r.tables_url)+'" target="_blank" rel="noopener">Full tables</a>':'')+'</p>';
+  return '<tr class="detail"><td colspan="4"><div class="dgrid"><div>'+
+    '<h5>The question</h5><p>'+(r.wording?'<q>'+esc(r.wording)+'</q>':'The pollster did not publish the exact wording.')+'</p>'+
+    '<h5>The answers</h5>'+res+
+    '<h5>The poll</h5>'+facts.map(f=>'<p>'+f+'</p>').join('')+
+    '<h5>From the '+(r.source_kind==='crosstab'?'tables':'release')+'</h5><p><q>'+esc(r.quote)+'</q></p>'+(r.quote_tables?'<h5>From the tables</h5><p>'+esc(r.quote_tables)+'</p>':'')+links+
+    '</div><div>'+
+    '<h5>'+(others.length>1?'Every reading of this question ('+others.length+')':'This question has been asked once in 2026')+'</h5>'+
+    (others.length>1?lineChart(others,{w:520,h:190,mark:r.id}):'<p>Only one poll in 2026 has asked it this way of this group.</p>')+
+    '</div></div></td></tr>';
+}
+
+// ---------- charts ----------
+const T0=Date.UTC(2026,0,1);
+function tday(s){const a=pd(s);return Date.UTC(a.y,a.m-1,a.d)}
+function seriesLabels(rows){
+  // the two answers to plot, taken from the latest reading; matched by first word in older ones
+  const last=rows[rows.length-1];
+  const race=isRace(last);
+  const ans=last.results.filter(x=>!NEUT.test(x.label));
+  const pick=(race?ans.slice().sort((a,b)=>b.pct-a.pct):ans).slice(0,2).map(x=>x.label);
+  return {labels:pick,race};
+}
+function findPct(r,label){
+  const L=norm(label);
+  let x=r.results.find(y=>norm(y.label)===L);
+  if(!x){const w=L.split(/[\s(,]/)[0];x=r.results.find(y=>norm(y.label).split(/[\s(,]/)[0]===w)}
+  if(!x){const ws=L.replace(/\(.*?\)/g,'').trim().split(/\s+/);const last=ws[ws.length-1];if(last&&last.length>2)x=r.results.find(y=>norm(y.label).replace(/\(.*?\)/g,'').split(/\s+/).includes(last))}
+  return x?x.pct:null;
+}
+function lineChart(rows,o){
+  const W=o.w,H=o.h,ml=30,mr=8,mt=8,mb=22;
+  const T1=Math.max(Date.now(),tday(rows[rows.length-1].field_end));
+  const X=t=>ml+(t-T0)/(T1-T0)*(W-ml-mr), Y=v=>mt+(1-v/100)*(H-mt-mb);
+  const {labels,race}=seriesLabels(rows);
+  let s='<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+esc(rows[0].subject+', '+rows[0].measure+', '+rows.length+' readings')+'">';
+  for(const v of [0,25,50,75,100]){s+='<line x1="'+ml+'" x2="'+(W-mr)+'" y1="'+Y(v)+'" y2="'+Y(v)+'" stroke="'+(v===0?css('fg2'):css('line2'))+'" stroke-width="1"/><text x="'+(ml-6)+'" y="'+(Y(v)+4)+'" text-anchor="end">'+v+(v===100?'%':'')+'</text>'}
+  for(const m of [0,3,6,9]){const t=Date.UTC(2026,m,1);if(t<T1)s+='<text x="'+X(t)+'" y="'+(H-6)+'" text-anchor="'+(m?'middle':'start')+'">'+['Jan.','April','July','Oct.'][m/3]+'</text>'}
+  labels.forEach((lab,i)=>{
+    const col=colourFor(lab,i,race);
+    const pts=rows.map(r=>({r,v:findPct(r,lab)})).filter(p=>p.v!=null);
+    if(pts.length>1)s+='<polyline fill="none" stroke="'+col+'" stroke-opacity=".55" stroke-width="1.5" points="'+pts.map(p=>X(tday(p.r.field_end)).toFixed(1)+','+Y(p.v).toFixed(1)).join(' ')+'"/>';
+    for(const p of pts){
+      const t='<b>'+esc(lab)+': '+fmtPct(p.v)+'</b><br>'+esc(pollLabel(p.r))+', '+esc(shortRange(p.r.field_start,p.r.field_end))+'<br>'+esc(who(p.r))+(p.r.city_column?' (city column of a statewide poll)':'')+'<br>'+esc(p.r.results.map(x=>x.label+' '+sh(x)).join(', '));
+      const big=o.mark===p.r.id;
+      s+='<circle cx="'+X(tday(p.r.field_end)).toFixed(1)+'" cy="'+Y(p.v).toFixed(1)+'" r="'+(big?6:4.2)+'" fill="'+col+'" stroke="'+(big?css('fg'):css('bg'))+'" stroke-width="'+(big?2:1)+'" data-tip="'+esc(t)+'" style="cursor:default"/>';
+    }
+  });
+  s+='</svg><div class="mkey">'+labels.map((l,i)=>'<span><i style="background:'+colourFor(l,i,race)+'"></i>'+esc(l)+'</span>').join('')+'</div>';
+  return s;
+}
+
+function renderMults(){
+  const groups={};
+  for(const r of ROWS){if(r.city_column)continue;const k=keyOf(r);(groups[k]=groups[k]||[]).push(r)}
+  let keys=Object.keys(groups).filter(k=>groups[k].length>=3);
+  keys.sort((a,b)=>groups[b].length-groups[a].length||(groups[b][0].field_end>groups[a][0].field_end?1:-1));
+  // one panel per subject+measure: if a question was asked of RV and LV, keep the one asked more
+  const seen=new Set(),pick=[];
+  for(const k of keys){const r=groups[k][0];const s=r.subject+'|'+r.measure+'|'+r.geography;if(seen.has(s))continue;seen.add(s);pick.push(k);if(pick.length>=9)break}
+  if(!pick.length){$('#mults').innerHTML='<p class="aside">Not enough repeated questions yet to chart.</p>';return}
+  $('#mults').innerHTML=pick.map(k=>{
+    const rows=groups[k].slice().sort((a,b)=>a.field_end<b.field_end?-1:1);
+    const last=rows[rows.length-1];
+    const top=last.results.filter(x=>!NEUT.test(x.label)).sort((a,b)=>isRace(last)?b.pct-a.pct:0).slice(0,2);
+    const pops=[...new Set(rows.map(r=>r.population))];
+    const whoTxt=(last.geography)+', '+(pops.length>1?pops.map(p=>POP_SHORT[p]||p).join(' or '):(POP_SHORT[last.population]||last.population));
+    const lastTxt='Latest: '+top.map(x=>'<a href="'+esc(last.tables_url||last.url)+'" target="_blank" rel="noopener"><b>'+esc(sh(x))+'%</b> '+esc(x.label)+'</a>').join(', ')+' in <a href="'+esc(last.url)+'" target="_blank" rel="noopener">'+esc(last.pollster)+', '+esc(shortRange(last.field_start,last.field_end))+'</a>';
+    return '<div class="mult"><h4><button type="button" data-subj="'+esc(last.subject)+'" data-measure="'+esc(last.measure)+'" data-geo="'+esc(last.geography)+'" data-item="'+esc(last.item||'')+'">'+esc(last.subject)+(last.item?': '+esc(last.item.toLowerCase()):'')+(/direction|horse race|primary/.test(last.measure)?'':', '+esc(last.measure))+'</button></h4>'+
+      '<div class="last">'+esc(whoTxt)+'. '+rows.length+' polls. '+lastTxt+'</div>'+lineChart(rows,{w:340,h:150})+'</div>';
+  }).join('');
+}
+
+
+// ---------- quick picks ----------
+const PEOPLE=[['Zohran Mamdani','Mayor'],['Kathy Hochul','Governor'],['Bruce Blakeman','Republican for governor'],['Donald Trump','President'],['Chuck Schumer','Senator'],['Kirsten Gillibrand','Senator'],['Letitia James','Attorney general'],['Tom DiNapoli','Comptroller'],['Alexandria Ocasio-Cortez','Representative'],['Hakeem Jeffries','House Democratic leader'],['Antonio Delgado','Lieutenant governor']];
+const ISSUES=[
+  {name:'The race for governor',test:r=>/^2026 (governor|democratic primary)/i.test(r.subject),mk:/governor/i},
+  {name:'Other 2026 races',test:r=>r.category==='Other 2026 races',mk:/attorney general|comptroller|house seat|NY-\d/i},
+  {name:'Direction of the state',test:r=>/^New York State direction|best (days|years)|quality of life in New York/i.test(r.subject)},
+  {name:'Taxes on the rich',test:r=>/millionaire|over \$1 million|pied|corporate tax|income tax/i.test(r.subject+' '+(r.item||'')),mk:/tax/i},
+  {name:'ICE and immigration',test:r=>r.category==='Immigration'||/ice|deport|immigra/i.test(r.item||''),mk:/ice|deport|immigra/i},
+  {name:'Public safety and the NYPD',test:r=>r.category==='Public safety and policing',mk:/crime|nypd|police|tisch/i},
+  {name:'Cost of living',test:r=>r.category==='Economy and cost of living'||/cost of living|afford|prices/i.test(r.item||''),mk:/rent|wage|afford|price/i},
+  {name:'Housing and rent',test:r=>r.category==='Housing and rent'||/housing|rent/i.test(r.item||''),mk:/rent|housing/i},
+  {name:'Schools and child care',test:r=>r.category==='Schools and child care'||/child ?care|school|education/i.test(r.item||''),mk:/school|child ?care/i},
+  {name:'Data centers and AI',test:r=>/data cent|artificial intelligence|\bAI\b/i.test(r.subject+' '+(r.item||'')),mk:/data cent|\bAI\b/i},
+  {name:'Trump and Washington',test:r=>r.category==='Trump and Washington',mk:/trump/i},
+];
+function pickRows(p){
+  if(p.type==='person')return ROWS.filter(r=>r.subject===p.name);
+  const iss=ISSUES.find(x=>x.name===p.name);return iss?ROWS.filter(iss.test):[];
+}
+function renderPickButtons(){
+  const cur=state.pick;
+  const btn=(type,name,sub)=>{const n=pickRows({type,name}).filter(r=>!r.city_column).length;if(!n)return'';
+    return '<button type="button" class="pick" data-type="'+type+'" data-name="'+esc(name)+'" aria-pressed="'+(cur===name)+'">'+esc(name)+'<small>'+(sub?esc(sub)+', ':'')+n+' '+(n===1?'result':'results')+'</small></button>'};
+  $('#pickPeople').innerHTML=PEOPLE.map(([n,s])=>btn('person',n,s)).join('');
+  $('#pickIssues').innerHTML=ISSUES.map(x=>btn('issue',x.name,'')).join('');
+  $('#pickIssues').classList.add('issues');
+}
+function renderProfile(){
+  const el=$('#profile');
+  if(!state.pick){el.hidden=true;el.innerHTML='';return}
+  const type=PEOPLE.some(p=>p[0]===state.pick)?'person':'issue';
+  const rows=pickRows({type,name:state.pick});
+  if(!rows.length){el.hidden=true;return}
+  const groups={};
+  for(const r of rows){const k=keyOf(r);(groups[k]=groups[k]||[]).push(r)}
+  const multi=[],single=[];
+  for(const k in groups){const g=groups[k].sort((a,b)=>a.field_end<b.field_end?-1:1);(g.length>1?multi:single).push(g)}
+  const rank=g=>(g[0].city_column?1:0)*1000-g.length*10+(/approval|favorab/.test(g[0].measure)?-500:0)+(g[0].item?300:0);
+  multi.sort((a,b)=>rank(a)-rank(b));
+  single.sort((a,b)=>a[0].field_end<b[0].field_end?1:-1);
+  const polls=new Set(rows.map(r=>r.poll_id)).size, pollsters=[...new Set(rows.map(r=>r.pollster))];
+  const first=rows.reduce((m,r)=>r.field_start<m?r.field_start:m,'9'), last=rows.reduce((m,r)=>r.field_end>m?r.field_end:m,'');
+  const title=g=>{const r=g[g.length-1];return (type==='issue'?esc(r.subject)+(r.item?': '+esc(r.item.toLowerCase()):''):(r.item?esc(r.item):esc(r.measure[0].toUpperCase()+r.measure.slice(1))))+(type==='issue'&&!/direction|horse race|primary|other/.test(r.measure)?', '+esc(r.measure):'')};
+  const whoG=g=>{const r=g[g.length-1];const pops=[...new Set(g.map(x=>x.population))];return (r.city_column?'New York City (inside statewide polls)':r.geography)+', '+pops.map(p=>POP_SHORT[p]||p).join(' or ')+(r.asked_of?' ('+r.asked_of+')':'')};
+  const lastTxt=g=>{const r=g[g.length-1];const top=r.results.filter(x=>!NEUT.test(x.label)).sort((a,b)=>isRace(r)?b.pct-a.pct:0).slice(0,2);return 'Latest: '+top.map(x=>'<a href="'+esc(r.tables_url||r.url)+'" target="_blank" rel="noopener"><b>'+esc(sh(x))+'%</b> '+esc(x.label)+'</a>').join(', ')+' in <a href="'+esc(r.url)+'" target="_blank" rel="noopener">'+esc(r.pollster)+', '+esc(shortRange(r.field_start,r.field_end))+'</a>. Pollsters: '+esc([...new Set(g.map(x=>x.pollster))].join(', '))+'.'};
+  let html='<h3>'+esc(state.pick)+'</h3><p class="pl"><b>'+rows.filter(r=>!r.city_column).length+'</b> results from <b>'+polls+'</b> polls by '+esc(pollsters.join(', '))+', fielded from '+esc(fdate(first))+' to '+esc(fdate(last))+'. Hover over any dot for the poll and the full answers.</p>';
+  if(multi.length)html+='<div class="pgrid">'+multi.slice(0,12).map(g=>'<div><h4>'+title(g)+'</h4><div class="last">'+esc(whoG(g))+'. '+g.length+' polls. '+lastTxt(g)+'</div>'+lineChart(g,{w:340,h:150})+'</div>').join('')+'</div>';
+  const singles=single.filter(g=>!g[0].city_column);
+  if(singles.length)html+='<div class="once"><h4>Asked once in 2026</h4>'+singles.slice(0,24).map(g=>{const r=g[0];return '<div class="onerow"><div class="w">'+title(g)+'<small>'+esc(pollLabel(r))+', '+esc(shortRange(r.field_start,r.field_end))+', '+esc(who(r))+(r.asked_of?' ('+esc(r.asked_of)+')':'')+'. <a href="'+esc(r.url)+'" target="_blank" rel="noopener">Source</a></small></div><div>'+barHTML(r)+'</div></div>'}).join('')+(singles.length>24?'<p class="aside" style="margin-top:10px">And '+(singles.length-24)+' more in the table.</p>':'')+'</div>';
+  // markets on the same subject
+  let mre=null;
+  if(type==='person'){const ln=state.pick.split(' ').pop();mre=new RegExp('\\b'+(ln==='Ocasio-Cortez'?'(Ocasio-Cortez|AOC)':ln)+'\\b','i')}
+  else{const iss=ISSUES.find(x=>x.name===state.pick);mre=iss&&iss.mk}
+  if(mre&&MARKETS.length){
+    const ms=MARKETS.filter(m=>m.source!=='manifold'&&mre.test(m.question)&&(type==='person'||/new york|nyc|ny-|ny |albany|hochul|mamdani|blakeman/i.test(m.question))).sort((a,b)=>(b.volume_24h_usd||0)-(a.volume_24h_usd||0)||(b.volume_usd||0)-(a.volume_usd||0));
+    if(ms.length)html+='<div class="pmk"><h4>Betting markets on '+esc(state.pick)+' ('+ms.length+')</h4>'+ms.slice(0,6).map(marketRow).join('')+'</div>';
+  }
+  html+='<div class="pact"><button type="button" class="dl" id="pickTable">See these '+rows.length+' rows in the table, with city columns</button><button type="button" class="dl" id="pickClose">Close</button></div>';
+  el.innerHTML=html;el.hidden=false;
+  $('#pickTable').onclick=()=>{Object.assign(state,{q:'',cat:'',subj:'',measure:'',pollster:'',geo:'',pop:'',from:'',to:'',latest:false,sort:'date',dir:-1,shown:60,open:null,filterPick:state.pick});syncControls();renderTable();$('#finderH').scrollIntoView({behavior:'smooth'})};
+  $('#pickClose').onclick=()=>{state.pick='';renderPickButtons();renderProfile();writeHash()};
+}
+
+// ---------- opening sentences ----------
+function opening(){
+  const M=DATA.meta;
+  const race=ROWS.filter(r=>r.category==='2026 governor race'&&/horse race/.test(r.measure)&&r.geography==='New York State'&&!r.asked_of&&!r.item).sort((a,b)=>a.field_end<b.field_end?1:-1)[0];
+  let f='';
+  if(race){
+    const c=race.results.filter(x=>!NEUT.test(x.label)).sort((a,b)=>b.pct-a.pct);
+    if(c.length>=2)f='In the latest poll of the race for governor, <a href="'+esc(race.url)+'" target="_blank" rel="noopener">'+esc(race.pollster)+'\'s poll of '+esc(frange(race.field_start,race.field_end))+'</a>, <a href="'+esc(race.tables_url||race.url)+'" target="_blank" rel="noopener">'+esc(c[0].label)+' had '+c[0].pct+'%</a> of '+esc(race.population)+' and <a href="'+esc(race.tables_url||race.url)+'" target="_blank" rel="noopener">'+esc(c[1].label)+' had '+c[1].pct+'%</a>.';
+  }
+  if(!f){const r=ROWS.find(x=>!x.city_column);if(r)f='The latest poll here is '+esc(pollLabel(r))+', fielded '+esc(frange(r.field_start,r.field_end))+'.'}
+  $('#finding').innerHTML=f;
+  const np=M.pollsters.length;
+  $('#lede').innerHTML='The page holds <a href="#finderH"><b>'+M.questions.toLocaleString()+'</b> poll results</a> from <b>'+M.polls+'</b> surveys by <b>'+np+'</b> '+(np===1?'pollster':'pollsters')+', fielded from '+esc(fdate(M.first_field))+' to '+esc(fdate(M.last_field))+', each linked to the pollster\'s own release. Another <b>'+M.city_columns.toLocaleString()+'</b> are the New York City results inside statewide polls. Results from <b>'+M.advocacy_polls+'</b> polls paid for by advocacy groups are hidden unless you switch them on in the table\'s filters. Below the polls sit the latest prices in <span id="mkCountLede">New York prediction markets</span>.';
+  $('#stripDates').textContent='Polls fielded '+shortRange(M.first_field,M.last_field)+', 2026';
+  $('#builtLine').textContent='Polls last compiled '+fdate(DATA.built)+'.';
+  const pc={};for(const r of ROWS)if(!r.city_column)pc[r.pollster]=(pc[r.pollster]||0)+1;
+  $('#methodBody').innerHTML='<p>The pollsters, with the number of results from each: '+Object.keys(pc).sort((a,b)=>pc[b]-pc[a]).map(p=>esc(p)+' ('+pc[p]+')').join(', ')+'.</p><p>The polls are rechecked and new ones added by hand from each pollster\'s site. Market prices load live from the prediction-markets tracker, which refreshes them every six hours.</p>';
+  const mk=$('#multsKey');mk.innerHTML='<span><i style="background:'+css('mint')+'"></i>Approve, favorable, support</span><span><i style="background:'+css('vermilion')+'"></i>Disapprove, unfavorable, oppose</span><span><i style="background:'+css('cobalt')+'"></i><i style="background:'+css('rose')+'"></i>Candidates</span>';
+}
+
+// ---------- markets ----------
+const VENUE={kalshi:'Kalshi',polymarket:'Polymarket',manifold:'Manifold'};
+const mstate={cat:'',src:'money',sort:'vol24',shown:30};
+async function loadMarkets(){
+  let d=null,live=true;
+  try{const r=await fetch(MARKETS_LIVE+'?cb='+Date.now());if(!r.ok)throw 0;d=await r.json()}
+  catch(e){live=false;try{d=await (await fetch('data/markets-snapshot.json')).json()}catch(e2){}}
+  if(!d||!d.markets){$('#mCount').textContent='Market prices could not be loaded right now.';return}
+  MK_UPDATED=d.updated_at;
+  MARKETS=d.markets.filter(m=>m.yes_price!=null).map(m=>Object.assign({},m,{_t:norm(m.question+' '+m.category+' '+(m.topic_label||'')+' '+(m.matched_keywords||[]).join(' ')+' '+m.source)}));
+  const cc={};for(const m of MARKETS)cc[m.category]=(cc[m.category]||0)+1;
+  fillSelect($('#mCat'),'All market topics',Object.keys(cc).sort((a,b)=>cc[b]-cc[a]).map(c=>[c,c+' ('+cc[c]+')']),mstate.cat);
+  const lede=$('#mkCountLede');if(lede)lede.innerHTML='<a href="#mkH"><b>'+MARKETS.length.toLocaleString()+'</b> prediction markets</a> on New York, as of '+esc(fdateTime(d.updated_at));
+  renderProfile();
+  if(!live)$('#mkLede').insertAdjacentHTML('beforeend',' The live prices could not be reached, so this list shows a saved copy.');
+  renderMarkets();
+}
+function fdateTime(iso){const d=new Date(iso);return d.toLocaleString('en-US',{timeZone:'America/New_York',month:'long',day:'numeric',hour:'numeric',minute:'2-digit'}).replace(' at ',', ')+' Eastern time'}
+function renderMarkets(){
+  if(!MARKETS.length)return;
+  const t=terms();
+  let list=MARKETS.filter(m=>{
+    if(mstate.cat&&m.category!==mstate.cat)return false;
+    if(mstate.src==='money'&&m.source==='manifold')return false;
+    if(['kalshi','polymarket','manifold'].includes(mstate.src)&&m.source!==mstate.src)return false;
+    for(const w of t)if(!m._t.includes(w))return false;
+    return true;
+  });
+  const v=m=>m.source==='manifold'?(m.volume_usd||0)/100:(m.volume_usd||0);
+  const S={vol:(a,b)=>v(b)-v(a),vol24:(a,b)=>(b.volume_24h_usd||0)-(a.volume_24h_usd||0),move:(a,b)=>Math.abs(b.price_change_24h||0)-Math.abs(a.price_change_24h||0),hi:(a,b)=>b.yes_price-a.yes_price,close:(a,b)=>(a.close_date||'9')<(b.close_date||'9')?-1:1};
+  list.sort(S[mstate.sort]);
+  $('#mCount').innerHTML=list.length?'<b>'+list.length.toLocaleString()+'</b> markets'+(t.length?' match the search above':'')+'. Prices as of '+esc(fdateTime(MK_UPDATED))+'.':'No markets match'+(t.length?' the search above':'')+'.';
+  $('#mRows').innerHTML=list.slice(0,mstate.shown).map(marketRow).join('');
+  $('#mMoreWrap').hidden=list.length<=mstate.shown;
+}
+const money=n=>n==null?'':(n>=1e6?(n/1e6).toFixed(1)+' million':n>=1e3?Math.round(n/1e3)+' thousand':Math.round(n));
+function marketRow(m){
+    const p=Math.round(m.yes_price*1000)/10;
+    const ch=m.price_change_24h;
+    const vol=m.source==='manifold'?money(m.volume_usd)+' play-money mana traded':'$'+money(m.volume_usd)+' traded';
+    const chTxt=ch==null||Math.abs(ch)<0.005?'No change in a day':(ch>0?'Up ':'Down ')+Math.round(Math.abs(ch)*100)+' cents in a day';
+    const tipT='<b>Yes: '+p+' cents on the dollar</b><br>'+esc(VENUE[m.source])+', '+esc(vol)+'<br>'+esc(chTxt)+(m.close_date?'<br>Closes '+esc(new Date(m.close_date).toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})):'');
+    return '<div class="mrow"><div class="q"><a href="'+esc(m.url)+'" target="_blank" rel="noopener">'+esc(m.question)+'</a><small>'+esc(VENUE[m.source])+', '+esc(m.category)+', '+esc(vol)+'</small></div>'+
+      '<div class="p"><div class="bar" data-tip="'+esc(tipT)+'"><i style="width:'+p+'%;background:'+css('sun')+'"></i></div><b>'+(p<1&&p>0?'<1':Math.round(p))+'¢</b></div>'+
+      '<div class="ch">'+esc(chTxt)+'</div></div>';
+}
+
+// ---------- url state ----------
+let lastHash='';
+const HK={pick:'pick',filterPick:'about',q:'q',cat:'topic',subj:'who',measure:'kind',pollster:'pollster',geo:'place',pop:'sample',from:'from',to:'to',sort:'sort'};
+function writeHash(){
+  const p=new URLSearchParams();
+  for(const [k,h] of Object.entries(HK))if(state[k]&&!(k==='sort'&&state[k]==='date'))p.set(h,state[k]);
+  if(state.dir===1)p.set('dir','up');if(state.latest)p.set('latest','1');if(state.adv)p.set('advocacy','1');
+  if(mstate.cat)p.set('mtopic',mstate.cat);
+  const s=p.toString();lastHash=s;history.replaceState(null,'',s?'#'+s:location.pathname+location.search);
+}
+function readHash(){
+  const p=new URLSearchParams(location.hash.slice(1));
+  for(const [k,h] of Object.entries(HK))if(p.get(h))state[k]=p.get(h);
+  if(p.get('dir')==='up')state.dir=1;if(p.get('latest'))state.latest=true;if(p.get('advocacy'))state.adv=true;
+  if(p.get('mtopic'))mstate.cat=p.get('mtopic');
+}
+function syncControls(){
+  $('#q').value=state.q;$('#fGeo').value=state.geo;$('#fFrom').value=state.from;$('#fTo').value=state.to;$('#fLatest').checked=state.latest;$('#fAdv').checked=state.adv;
+  setupSelects();
+}
+
+// ---------- csv ----------
+function csv(){
+  const L=filtered();
+  const q=v=>'"'+String(v==null?'':v).replace(/"/g,'""')+'"';
+  const lines=[['field_start','field_end','pollster','sponsor','place','city_column_of_statewide_poll','sample','n','moe','topic','subject','kind','wording','results','source'].join(',')];
+  for(const r of L)lines.push([r.field_start,r.field_end,r.pollster,r.sponsor,r.geography,r.city_column?'yes':'no',r.population,r.n,r.moe,r.category,r.subject,r.measure,r.wording,(r.breakdown||r.results).map(x=>x.label+' '+sh(x)).join('; '),r.url].map(q).join(','));
+  const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([lines.join('\n')],{type:'text/csv'}));a.download='what-new-york-thinks.csv';a.click();
+}
+
+// ---------- events ----------
+function bind(){
+  let tm;
+  $('#q').addEventListener('input',e=>{clearTimeout(tm);tm=setTimeout(()=>{state.q=e.target.value.trim();state.shown=60;renderTable();renderMarkets()},140)});
+  const sel=[['#fCat','cat'],['#fSubj','subj'],['#fMeasure','measure'],['#fPollster','pollster'],['#fGeo','geo'],['#fPop','pop'],['#fFrom','from'],['#fTo','to']];
+  for(const [id,k] of sel)$(id).addEventListener('change',e=>{state[k]=e.target.value;state.shown=60;renderTable()});
+  $('#fLatest').addEventListener('change',e=>{state.latest=e.target.checked;renderTable()});
+  document.querySelectorAll('.tbl th button').forEach(b=>b.addEventListener('click',()=>{const k=b.dataset.k;if(state.sort===k)state.dir*=-1;else{state.sort=k;state.dir=(k==='date'||k==='top')?-1:1}renderTable()}));
+  const toggle=tr=>{const id=tr.dataset.id;state.open=state.open===id?null:id;renderTable()};
+  $('#rows').addEventListener('click',e=>{if(e.target.closest('a'))return;const tr=e.target.closest('tr.r');if(tr)toggle(tr)});
+  $('#rows').addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){const tr=e.target.closest('tr.r');if(tr){e.preventDefault();toggle(tr)}}});
+  $('#more').addEventListener('click',()=>{state.shown+=200;renderTable()});
+  $('#reset').addEventListener('click',()=>{Object.assign(state,{q:'',filterPick:'',cat:'',subj:'',measure:'',pollster:'',geo:'',pop:'',from:'',to:'',latest:false,sort:'date',dir:-1,shown:60,open:null});syncControls();renderTable();renderMarkets()});
+  $('#csv').addEventListener('click',csv);
+  $('#share').addEventListener('click',async e=>{try{await navigator.clipboard.writeText(location.href);e.target.textContent='Link copied'}catch(x){e.target.textContent='Copy the address bar'}setTimeout(()=>e.target.textContent='Copy a link to this view',1800)});
+  $('#mults').addEventListener('click',e=>{const b=e.target.closest('button[data-subj]');if(!b)return;Object.assign(state,{q:'',filterPick:'',cat:'',subj:b.dataset.subj,measure:b.dataset.measure,geo:'',pollster:'',pop:'',latest:false,sort:'date',dir:-1,shown:60,open:null});syncControls();renderTable();$('#finderH').scrollIntoView({behavior:'smooth'})});
+  $('#fAdv').addEventListener('change',e=>{state.adv=e.target.checked;applyAdv();refreshAll()});
+  document.addEventListener('click',e=>{if(e.target.id==='unpick'){state.filterPick='';renderTable()}});
+  const pickClick=e=>{const b=e.target.closest('button.pick');if(!b)return;state.pick=state.pick===b.dataset.name?'':b.dataset.name;renderPickButtons();renderProfile();writeHash();if(state.pick)$('#profile').scrollIntoView({behavior:'smooth',block:'start'})};
+  $('#pickPeople').addEventListener('click',pickClick);$('#pickIssues').addEventListener('click',pickClick);
+  window.addEventListener('hashchange',()=>{if(location.hash.slice(1)===lastHash)return;Object.assign(state,{pick:'',filterPick:'',q:'',cat:'',subj:'',measure:'',pollster:'',geo:'',pop:'',from:'',to:'',latest:false,sort:'date',dir:-1,adv:false});readHash();applyAdv();syncControls();refreshAll()});
+  $('#mCat').addEventListener('change',e=>{mstate.cat=e.target.value;mstate.shown=30;renderMarkets();writeHash()});
+  $('#mSrc').addEventListener('change',e=>{mstate.src=e.target.value;mstate.shown=30;renderMarkets()});
+  $('#mSort').addEventListener('change',e=>{mstate.sort=e.target.value;renderMarkets()});
+  $('#mMore').addEventListener('click',()=>{mstate.shown+=50;renderMarkets()});
+}
+
+async function init(){
+  readHash();
+  const [p,m]=await Promise.all([fetch('data/polls.json').then(r=>r.json()),fetch('data/meta.json').then(r=>r.json())]);
+  DATA=p;DATA.meta=m;
+  ALL=p.questions.map(r=>Object.assign(r,{_t:rowText(r)}));
+  applyAdv();syncControls();bind();refreshAll();loadMarkets();
+}
+function applyAdv(){ROWS=state.adv?ALL:ALL.filter(r=>r.sponsor_type==='independent')}
+function refreshAll(){opening();renderPickButtons();renderProfile();renderMults();setupSelects();renderTable()
+}
+init().catch(e=>{$('#finding').textContent='The poll data could not be loaded.';console.error(e)});
+})();
+</script>
+</body>
+</html>

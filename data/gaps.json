@@ -1,0 +1,248 @@
+[
+ {
+  "what": "Emerson College Polling NYC congressional primary polls (NY-07, NY-10, NY-12), fielded May 16-17, 2026, released May 21, 2026",
+  "where_seen": "https://emersoncollegepolling.com/new-york-city-2026-congressional-polling-ny-07-ny-10-ny-12/",
+  "why_excluded": "Single congressional districts (out of scope per task).",
+  "file": "emerson-suffolk-honan.json"
+ },
+ {
+  "what": "Emerson College Polling NY-17 poll (Conley 48%, Lawler 46%), released Oct 1, 2026",
+  "where_seen": "https://emersoncollegepolling.com/ny-17-2026-poll/",
+  "why_excluded": "Single congressional district.",
+  "file": "emerson-suffolk-honan.json"
+ },
+ {
+  "what": "Honan Strategy Group NY-12 Democratic primary poll for Grand Penn Community Alliance, April 16-22, 2026, 300 likely Democratic primary voters (Lasher 28, Schlossberg 20, Bores 19, Conway 9)",
+  "where_seen": "https://honanstrategy.com/blog/politico-poll-position/",
+  "why_excluded": "Single congressional district; sponsored; numbers seen only in Politico coverage reposted by Honan.",
+  "file": "emerson-suffolk-honan.json"
+ },
+ {
+  "what": "Honan Strategy Group 5 Borough Barometer, June 12-17, 2026 (614 likely NYC voters; 446 Democrats), questions other than the three in the July 1 Jewish/non-Jewish memo: Democratic Party favorability among Democrats (63 fav/35 unfav), congressional primary challenges, wealthy should pay more in taxes (56%), electric bills, NYC as greatest city, pride in being American (68%), concern about late state budget, data center restrictions (sample cited as 617), Mamdani favorability/approval among 416 likely Democratic voters (64 fav/32 unfav; 74% approve)",
+  "where_seen": "https://honanstrategy.com/blog/ny-post-nyc-voters-are-fed-up-with-the-democratic-party-and-want-to-clean-house-stinging-new-poll-says/ ; https://honanstrategy.com/blog/crains-new-york-business-new-york-is-hungry-for-taxing-the-rich-poll/ ; https://honanstrategy.com/blog/ny-post-over-half-of-nyc-residents-say-electric-bills-are-shockingly-high-as-historic-heatwave-scorches-city-poll/ ; https://honanstrategy.com/blog/ny-post-surprising-reasons-why-new-yorkers-no-longer-think-nyc-is-the-greatest-city-in-the-world-poll/ ; https://honanstrategy.com/blog/ny-post-68-of-nyc-residents-are-proud-to-be-american-new-poll-finds/ ; https://honanstrategy.com/blog/city-state-late-budget-blues/ ; https://honanstrategy.com/blog/city-state-heard-around-town-data-on-data-centers/ ; https://honanstrategy.com/blog/city-state-heard-around-town-can-mamdani-pull-it-off/",
+  "why_excluded": "Numbers available only in news coverage (NY Post, Crain's, City & State) reposted on honanstrategy.com; no Honan topline or memo found for these questions. Sample sizes differ across stories (614, 617, 446, 416), so it is unclear whether the Democratic figures come from the same fielding.",
+  "file": "emerson-suffolk-honan.json"
+ },
+ {
+  "what": "Honan Strategy Group 5 Borough Barometer, Oct 2-6/7, 2026: (a) 1,167 likely NYC voters incl. oversample of 503 Jewish voters (Oct. 7 aftermath, safety, harassment, Mamdani handling of antisemitism 46 approve/43 disapprove among non-Jews, Democratic support, DSA concern, Tisch); (b) 1,302 NYC voters, Oct 2-7, MOE 2.72 (affordability: 92% cost of living serious problem, 46% likely to leave within five years, household finances, who is responsible for high costs; Latino political power)",
+  "where_seen": "https://www.cityandstateny.com/politics/2026/10/poll-nine-months-mamdanis-tenure-affordability-remains-serious-problem/416638/ ; https://honanstrategy.com/blog/ny-post-more-than-half-of-jewish-nyers-fear-for-their-safety-after-oct-7-attacks-poll/ ; https://honanstrategy.com/blog/the-forward-jewish-new-yorkers-fault-mamdani-on-antisemitism-but-back-his-police-commissioner-poll-finds/ ; https://honanstrategy.com/blog/city-state-heard-around-town-cuanto-poder-politico/",
+  "why_excluded": "Numbers available only in news coverage (City & State, NY Post, Forward, JNS, Knewz); no Honan memo or toplines found (City & State article links none). Sample sizes and end dates differ between stories (1,167 Oct 2-6 vs 1,302 Oct 2-7).",
+  "file": "emerson-suffolk-honan.json"
+ },
+ {
+  "what": "Honan Strategy Group transit-rider poll for the Transport Workers Union on two-person subway crews (1,517 transit riders in NYC, North Jersey and Long Island; 87% support two-person-crew legislation), reported March 2026",
+  "where_seen": "https://honanstrategy.com/blog/fox-5-new-york-over-80-of-subway-riders-prefer-2-person-crews-on-trains-poll-finds/ ; https://honanstrategy.com/blog/daily-news-nyc-transit-union-renews-fight-to-keep-two-person-crews-on-mta-subway-trains/",
+  "why_excluded": "Union-sponsored; population is transit riders across a multi-state region, not NYC/NYS voters; field dates not found; news coverage only.",
+  "file": "emerson-suffolk-honan.json"
+ },
+ {
+  "what": "Honan Strategy Group 5 Borough Barometer, Dec 4-12, 2025 (848 likely NYC voters): democratic socialism support, Adams legacy, ICE raids, Jewish voters and Mamdani, AOC vs. Schumer",
+  "where_seen": "https://honanstrategy.com/blog/fox-5-new-york-poll-most-nyc-voters-oppose-ice-raids-in-the-city/ ; https://honanstrategy.com/wp-content/uploads/2026/01/hsg-nyc-ice-polling-data-1-12-26.pdf",
+  "why_excluded": "Fielded December 2025, before the Jan 1, 2026 window (released Dec 30, 2025 - Jan 12, 2026).",
+  "file": "emerson-suffolk-honan.json"
+ },
+ {
+  "what": "Consensus Strategies / Emerson College Polling multistate poll incl. New York (Schumer), Nov 18-21, 2025",
+  "where_seen": "https://www.webull.com/news/13968883130213376",
+  "why_excluded": "Fielded before the window.",
+  "file": "emerson-suffolk-honan.json"
+ },
+ {
+  "what": "Suffolk CityView NYC, Sept 1-3, 2026: personal 9/11 items (Q22-24) and entertainment items (Q29-34) not recorded as questions",
+  "where_seen": "https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/city-view/2026/9_8_2026_new_york_city_marginals.pdf",
+  "why_excluded": "Not policy or politics (deliberate omission, not a sourcing gap).",
+  "file": "emerson-suffolk-honan.json"
+ },
+ {
+  "what": "Suffolk CityView NYC full cross-tabulations (155-page tables PDF) were downloaded but not mined for subgroup results",
+  "where_seen": "https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/city-view/2026/9_8_2026_new_york_city_tables.pdf",
+  "why_excluded": "City-only poll; nyc_results field applies only to statewide polls.",
+  "file": "emerson-suffolk-honan.json"
+ },
+ {
+  "what": "Marist 'New York City Baseball, May 2026' poll",
+  "where_seen": "https://maristpoll.marist.edu/wp-sitemap-posts-polls-1.xml",
+  "why_excluded": "Sports-fandom poll, not policy or politics; not fetched in detail.",
+  "file": "marist-quinnipiac.json"
+ },
+ {
+  "what": "Marist NYC trend tables and Quinnipiac trend tables (prior-period figures, e.g. Eric Adams and Bill de Blasio comparisons, Oct 2025 NYC direction)",
+  "where_seen": "https://maristpoll.marist.edu/wp-content/uploads/2026/04/Marist-Poll_NYC-NOS-and-Tables_202604021433.pdf",
+  "why_excluded": "Earlier fieldings (pre-2026) fall outside the window; only the 2026 rows are recorded.",
+  "file": "marist-quinnipiac.json"
+ },
+ {
+  "what": "Beacon Research (D) statewide poll, Oct 1-6, 2026, 820 RV: Hochul 53%, Blakeman 31% (per Wikipedia/270toWin); release titled 'New York voters overwhelmingly reject political deepfakes, support AI safety action' (sponsor appears to be an AI-safety advocacy group, not confirmed)",
+  "where_seen": "https://en.wikipedia.org/wiki/2026_New_York_gubernatorial_election (cites https://www.politico.com/f/?id=000001a1-3bf3-d058-adf3-3bfb56120000)",
+  "why_excluded": "Politico PDF blocked (Cloudflare) on two tries; no Wayback snapshot exists. Could not verify sponsor, wording or toplines.",
+  "file": "others.json"
+ },
+ {
+  "what": "Concord Public Opinion Partners (D) for Education Reform Now, Aug 19-21, 2026, 505 LV: Hochul 50%, Blakeman 34%; Hochul fav 51/40; right track NYS 41/45/14, NYC 41/45/14, US 25/66/9; 71% support NY opting into the federal scholarship tax credit (FSTC)",
+  "where_seen": "https://www.politico.com/f/?id=000001a0-63f8-d286-a1b8-fffc39b00000 (read via Wayback Machine; saved as pdfs/others_concord_202609.pdf)",
+  "why_excluded": "Partisan pollster / advocacy sponsor; 4-page findings deck publishes no question wording and says 'Crosstabs available upon request', so it fails the full-wording-and-toplines test.",
+  "file": "others.json"
+ },
+ {
+  "what": "Cygnal for the Empire Center for Public Policy, July 6-8, 2026, 600 LV: released in parts (energy Jul 22, education Aug 9, tort reform Sep 2, RGGI Sep 8, income tax Oct 6). E.g. 64% support eliminating the state income tax (47 strongly, 16 somewhat, 27 oppose, 9 unsure); 67% say not getting good value for taxes; 63% oppose home-heating electrification; 60% oppose climate lawsuits vs. oil companies",
+  "where_seen": "https://www.empirecenter.org/publications/poll-64-of-new-yorkers-back-eliminating-the-state-income-tax-67-say-state-taxes-arent-delivering/ ; https://www.empirecenter.org/wp-content/uploads/2026/07/Opinion-poll-2026-Energy.pdf ; https://www.empirecenter.org/wp-content/uploads/2026/08/Opinion-poll-2026-Education.pdf ; https://www.empirecenter.org/wp-content/uploads/2026/09/Opinion-poll-2026-Tort-reform.pdf",
+  "why_excluded": "Advocacy sponsor (free-market think tank); reports show charts and narrative only, with no question wording or full toplines published.",
+  "file": "others.json"
+ },
+ {
+  "what": "MAD Global Strategy for Natural Allies for a Clean Energy Future, Feb 2-4, 2026, 600 LV text-to-web: Hochul 47%, Blakeman 34%; Hochul approval 44/48; energy questions (71% want middle path on renewables and gas, 64% support Long Island gas pipeline, etc.)",
+  "where_seen": "https://yonkerstimes.com/new-poll-shows-new-york-voters-support-hochuls-pragmatic-leadership-on-natural-gas-and-renewables-by-wide-margins/",
+  "why_excluded": "Advocacy sponsor; numbers only in a republished press release. Its 'poll briefing memo' link resolves to an Adobe Acrobat share page (acrobat.adobe.com) that could not be fetched as a document.",
+  "file": "others.json"
+ },
+ {
+  "what": "co/efficient (R) for Coalition to Protect Nassau Taxpayers, Sep 23-25, 2026, 1,046 LV: Hochul 48%, Blakeman 41%; socialism concern questions",
+  "where_seen": "https://nypost.com/2026/10/05/us-news/more-than-half-of-new-york-voters-concerned-about-rise-of-socialism-poll/ (via Wikipedia/270toWin)",
+  "why_excluded": "Partisan; numbers available only via New York Post coverage, no pollster toplines found.",
+  "file": "others.json"
+ },
+ {
+  "what": "co/efficient (R) for Coalition to Protect Nassau Taxpayers, Jun 30-Jul 2, 2026, 1,085 LV: Hochul 47%, Blakeman 41%",
+  "where_seen": "https://nypost.com/2026/07/06/us-news/nyc-ny-state-politics-live-updates-on-governors-race-more/ (via Wikipedia)",
+  "why_excluded": "Partisan; New York Post coverage only.",
+  "file": "others.json"
+ },
+ {
+  "what": "OnMessage Inc. (R) for the Saritha Komatireddy campaign, Oct 1-6, 2026, 1,000 LV: Hochul 50%, Blakeman 46%",
+  "where_seen": "https://nypost.com/2026/10/20/us-news/hochul-leads-blakeman-by-only-4-points-in-ny-governors-race-gop-internal-poll-claims/ (via Wikipedia)",
+  "why_excluded": "Campaign internal; New York Post coverage only.",
+  "file": "others.json"
+ },
+ {
+  "what": "OnMessage Inc. (R) for the Komatireddy campaign, Oct 12-14, 2026, 1,000 LV: attorney general James 51%, Komatireddy 45%",
+  "where_seen": "https://nypost.com/2026/10/18/us-news/ny-ag-hopeful-komatireddy-pulls-within-just-6-points-of-dem-incumbent-tish-james-after-debate-poll/ (via https://en.wikipedia.org/wiki/2026_New_York_Attorney_General_election)",
+  "why_excluded": "Campaign internal; New York Post coverage only.",
+  "file": "others.json"
+ },
+ {
+  "what": "McLaughlin & Associates (R) for the Blakeman campaign, Aug 27-31, 2026, 800 LV: Hochul 50%, Blakeman 46%",
+  "where_seen": "https://nypost.com/2026/09/08/us-news/blakeman-poll-claims-hes-within-4-points-of-toppling-hochul/ (via Wikipedia)",
+  "why_excluded": "Campaign internal; New York Post coverage only.",
+  "file": "others.json"
+ },
+ {
+  "what": "McLaughlin & Associates (R), Mar 4-8, 2026, 800 LV: Hochul 52%, Blakeman 43%",
+  "where_seen": "https://www.politico.com/newsletters/new-york-playbook/2026/03/25/bruce-is-no-lee-00843339 and https://www.cityandstateny.com/politics/2026/03/internal-gop-poll-shows-blakeman-just-9-points-behind-hochul/412372/ (via Wikipedia/search)",
+  "why_excluded": "GOP internal; numbers only in news coverage.",
+  "file": "others.json"
+ },
+ {
+  "what": "Red Oak Strategic (R) for Strong And Safe (pro-Blakeman super PAC), Jul 7-12, 2026, 2,000 RV: Hochul 47%, Blakeman 43%",
+  "where_seen": "https://vinnews.com/2026/07/28/nyp-hochul-leads-blakeman-by-4-points-in-gop-backed-poll-as-new-york-governors-race-tightens/ (via Wikipedia)",
+  "why_excluded": "Partisan; news coverage only.",
+  "file": "others.json"
+ },
+ {
+  "what": "Data for Progress Democratic primary poll (AOC 55% vs. Schumer 36% for 2028 Senate primary)",
+  "where_seen": "https://www.yahoo.com/news/poll-aoc-leads-schumer-head-090000109.html",
+  "why_excluded": "Fielded March 26-31, 2025, outside the 2026 window.",
+  "file": "others.json"
+ },
+ {
+  "what": "Public Policy Polling NY-12 poll (Mar 2026) and Emerson/PIX11 NY-7, NY-10, NY-12 Democratic primary polls (May 2026)",
+  "where_seen": "https://data.ddhq.io/polls/2026/03/10/Public-Policy-Polling-New-York--12 ; https://pix11.com/news/local-news/how-is-mayor-mamdani-doing-we-asked-three-nyc-districts/",
+  "why_excluded": "Congressional-district polls, not statewide or citywide (Emerson is also covered by another agent).",
+  "file": "others.json"
+ },
+ {
+  "what": "Manhattan Institute 2026 polling",
+  "where_seen": "https://media4.manhattan-institute.org/wp-content/uploads/MI-Dems-Harris-Combined-Toplines-03.05-FINAL.pdf (search result)",
+  "why_excluded": "Only 2026 MI survey found is a national poll of Democrats/Harris voters (Feb 6-15, 2026), not a New York poll; MI's New York polls found were October 2025.",
+  "file": "others.json"
+ },
+ {
+  "what": "Siena June 2026 SNY poll (fielded June 17-23, 2026, 1,120 NYS RV, released June 25)",
+  "where_seen": "https://sri.siena.edu/2026/06/25/hochul-favorability-approval-ratings-edge-up-as-does-her-general-election-lead-over-blakeman-now-52-32-from-49-33/",
+  "why_excluded": "Fielded after the May 31 end of this task window; another agent should cover it.",
+  "file": "siena-a.json"
+ },
+ {
+  "what": "No Siena poll was fielded in May 2026. The April poll (fielded April 27-30) was released May 5; the next SNY poll was fielded June 17-23.",
+  "where_seen": "https://sri.siena.edu/2026/05/",
+  "why_excluded": "Not a gap in coverage, just no poll. The May archive lists only the May 5 SNY release and a NYT/Siena national survey.",
+  "file": "siena-a.json"
+ },
+ {
+  "what": "Siena Research Institute AI poll of 810 New York State residents (March 3-14, 2026), released April 14, 2026",
+  "where_seen": "https://sri.siena.edu/2026/04/14/ny-split-on-pros-and-cons-of-ai-by-43-37-nyers-say-disadvantages-are-too-great/",
+  "why_excluded": "Consumer/technology-use survey of residents (familiarity, usage, trust); no policy or political questions. Crosstabs downloaded and read (ICS-Q1-2026-AI-Crosstabs.pdf). Headline item if wanted: advantages outweigh disadvantages 37%, disadvantages too great 43% (NYC 45/36).",
+  "file": "siena-a.json"
+ },
+ {
+  "what": "Siena consumer sentiment releases (Jan 13, Apr 2, 2026) and national sports/March Madness polls (Mar 16, Apr 13, Apr 20)",
+  "where_seen": "https://sri.siena.edu/2026/04/",
+  "why_excluded": "Consumer confidence index or national samples; not New York policy/politics questions.",
+  "file": "siena-a.json"
+ },
+ {
+  "what": "NYT/Siena polls January-May 2026",
+  "where_seen": "https://sri.siena.edu/2026/01/ ; https://sri.siena.edu/2026/05/",
+  "why_excluded": "All NYT/Siena releases in the window were national surveys (Jan 22, Jan 26, May 18); no NYT/Siena New York poll was found fielded Jan-May 2026.",
+  "file": "siena-a.json"
+ },
+ {
+  "what": "Siena New York City-only poll in 2026",
+  "where_seen": "monthly archives https://sri.siena.edu/2026/01/ to /2026/06/",
+  "why_excluded": "None found in the Jan-May 2026 archives.",
+  "file": "siena-a.json"
+ },
+ {
+  "what": "June 2026 Democratic gubernatorial primary polling by Siena",
+  "where_seen": "https://sri.siena.edu/2026/06/",
+  "why_excluded": "No Siena primary poll fielded in June 2026 was found. The June SNY poll (fielded June 17-23) asked only the Hochul-Blakeman general election. Earlier Siena primary numbers (e.g. Hochul 64-11 over Delgado, fielded January 26-28) fall outside this agent's June 1 window.",
+  "file": "siena-b.json"
+ },
+ {
+  "what": "Siena/SNY October 2026 New York State poll",
+  "where_seen": "https://sri.siena.edu/2026/10/",
+  "why_excluded": "None posted as of 2026-10-21; the October archive has only national, Texas, multistate NYT/Siena and NY-21 releases plus consumer sentiment.",
+  "file": "siena-b.json"
+ },
+ {
+  "what": "Special AARP New York/Siena NY-12 poll (June 11, 2026)",
+  "where_seen": "https://sri.siena.edu/2026/06/11/special-aarp-new-york-siena-ny-12-poll/",
+  "why_excluded": "Single congressional district poll (Manhattan), not citywide or statewide; also likely fielded before or around June 1. Not opened.",
+  "file": "siena-b.json"
+ },
+ {
+  "what": "Times Union/WPTZ-NBC5/WAMC/Siena poll of likely NY-21 voters (October 9, 2026)",
+  "where_seen": "https://sri.siena.edu/2026/10/09/times-union-wptz-nbc5-wamc-siena-poll-of-likely-ny-21-voters/",
+  "why_excluded": "Single upstate congressional district poll, not citywide or statewide. Not opened.",
+  "file": "siena-b.json"
+ },
+ {
+  "what": "NYT/Siena multistate likely-voter polls (Sept 24-25 and Oct 3-4, 2026)",
+  "where_seen": "https://sri.siena.edu/2026/10/04/nytimes-siena-poll-of-likely-voters-gubernatorial-races-2/",
+  "why_excluded": "Fetched: cover Maine, Michigan, New Hampshire (Sept 25) and Alaska, Iowa, Kansas, Ohio, Texas (Oct 4). New York not included. No NYT/Siena or Spectrum News/Siena New York poll found in the window.",
+  "file": "siena-b.json"
+ },
+ {
+  "what": "Siena New York State consumer sentiment releases (July 15 and October 7, 2026)",
+  "where_seen": "https://sri.siena.edu/2026/10/07/national-sentiment-continues-decline-while-ny-holds-steady/",
+  "why_excluded": "Economic sentiment index and buying plans only; no political or policy questions.",
+  "file": "siena-b.json"
+ },
+ {
+  "what": "Siena New York City poll in 2026",
+  "where_seen": "web search 'Siena poll New York City voters Mamdani 2026'",
+  "why_excluded": "None found in the June-October 2026 archive; Siena's NYC data here come only from the NYC column of statewide crosstabs.",
+  "file": "siena-b.json"
+ },
+ {
+  "what": "Pollfinity Research, fielded 2026-06-11 to 2026-06-14",
+  "where_seen": "https://pollfinity.com/polls/ny-governor-2026",
+  "why_excluded": "Sample of 229 registered voters, unweighted; the topline and crosstab PDFs disagree by 1-2 points on several items. Does not meet the page's standard for a respected independent poll.",
+  "file": "others.json"
+ },
+ {
+  "what": "John Zogby Strategies, fielded 2026-01-06 to 2026-01-08",
+  "where_seen": "https://johnzogbystrategies.com/new-john-zogby-strategies-poll-hochul-leads-comfortably-today-but-could-lose-support-from-independents-and-upstate/",
+  "why_excluded": "The release gives no question wording or full results, so the figures cannot be checked against the questions asked.",
+  "file": "others.json"
+ }
+]

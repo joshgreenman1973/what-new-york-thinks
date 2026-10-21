@@ -1,0 +1,17 @@
+{
+ "polls": 17,
+ "questions": 370,
+ "city_columns": 302,
+ "pollsters": [
+  "Emerson",
+  "Honan",
+  "Marist",
+  "Quinnipiac",
+  "Siena",
+  "Suffolk"
+ ],
+ "advocacy_polls": 4,
+ "advocacy_questions": 83,
+ "first_field": "2026-01-26",
+ "last_field": "2026-10-19"
+}

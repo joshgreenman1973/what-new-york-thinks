@@ -1,0 +1,4070 @@
+{
+ "agent": "marist-quinnipiac",
+ "compiled": "2026-10-21",
+ "polls": [
+  {
+   "poll_id": "marist-20260408",
+   "pollster": "Marist Poll (Marist Institute for Public Opinion)",
+   "sponsor": null,
+   "geography": "New York City",
+   "population": "adults",
+   "n": 1454,
+   "moe": 3.3,
+   "field_start": "2026-03-26",
+   "field_end": "2026-03-31",
+   "release_date": "2026-04-08",
+   "mode": "multi-mode: live-interviewer phone (402), text (714), online panel (338)",
+   "url": "https://maristpoll.marist.edu/polls/mayor-mamdanis-first-100-days-april-2026/",
+   "tables_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/04/Marist-Poll_NYC-NOS-and-Tables_202604021433.pdf",
+   "confidence": "HIGH",
+   "notes": "Registered voters subsample n=1,247, MOE 3.5. All results are NYC adults unless noted. 'Vol:' = volunteered response. Discrepancy: for 'understands the problems facing New York City' the crosstab (MAMZ106) reads 64% agree, 35% disagree, 1% unsure, but the release text says 61%; the crosstab figure is recorded. The trust question release text says 58%/41%, while the detailed table sums to 22%+35% and 19%+22%; both recorded as published.",
+   "questions": [
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Mayor",
+     "wording": "Do you approve or disapprove of the job Zohran Mamdani is doing as mayor?",
+     "results": [
+      {
+       "label": "Approve",
+       "pct": 48
+      },
+      {
+       "label": "Disapprove",
+       "pct": 30
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 23
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Nearly half of New York City residents (48%) approve of the job Mayor Mamdani is doing in office, and 30% disapprove, resulting in a net positive of 18 percentage points. A notable 23% are unsure about how to rate his job performance.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Mayor",
+     "wording": "Do you approve or disapprove of the job Zohran Mamdani is doing as mayor? [And, would you say you strongly approve/disapprove of the job he is doing or just approve/disapprove?]",
+     "results": [
+      {
+       "label": "Strongly approve",
+       "pct": 25
+      },
+      {
+       "label": "Approve",
+       "pct": 23
+      },
+      {
+       "label": "Disapprove",
+       "pct": 9
+      },
+      {
+       "label": "Strongly disapprove",
+       "pct": 21
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 23
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Intensity version of the approval question (table MAMZ105R)",
+     "quote": "NYC Adults 25% 23% 9% 21% 23%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Mayor",
+     "wording": "In general, do you have a very favorable, somewhat favorable, somewhat unfavorable or very unfavorable impression of Zohran Mamdani?",
+     "results": [
+      {
+       "label": "Very favorable/Somewhat favorable",
+       "pct": 55
+      },
+      {
+       "label": "Somewhat unfavorable/Very unfavorable",
+       "pct": 33
+      },
+      {
+       "label": "Unsure/Never Heard",
+       "pct": 12
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "A majority of residents (55%) have either a very favorable or somewhat favorable view of the mayor, and 33% have either a somewhat unfavorable or very unfavorable opinion of Mayor Mamdani. This is a net positive of 22 percentage points. 12% have either never heard of Mamdani or are unsure how to rate him.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Mayor",
+     "wording": "In general, do you have a very favorable, somewhat favorable, somewhat unfavorable or very unfavorable impression of Zohran Mamdani?",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 29
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 26
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 12
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 22
+      },
+      {
+       "label": "Unsure/Never Heard",
+       "pct": 12
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Detailed version (table MAMZ0204R)",
+     "quote": "NYC Adults 29% 26% 12% 22% 12%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "job performance",
+     "category": "Mayor",
+     "wording": "As mayor, do you think Zohran Mamdani is changing New York City:",
+     "results": [
+      {
+       "label": "For the better",
+       "pct": 52
+      },
+      {
+       "label": "For the worse",
+       "pct": 27
+      },
+      {
+       "label": "Not at all",
+       "pct": 18
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 2
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "52% of New York City residents, including the same proportion of registered voters, think Mamdani is changing New York City for the better. 27% say he is changing it for the worse, and 18% say that he is not changing New York City at all.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Mayor",
+     "wording": "As mayor, do you think Zohran Mamdani is:",
+     "results": [
+      {
+       "label": "Doing more to unite New York City",
+       "pct": 61
+      },
+      {
+       "label": "Doing more to divide New York City",
+       "pct": 36
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 2
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "61% of New York City residents, including the same proportion of registered voters, say Mamdani is doing more to unite New York City than to divide it (36%).",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Mayor",
+     "wording": "How much do you trust Mayor Zohran Mamdani to make decisions that are in the best interest of New York City?",
+     "results": [
+      {
+       "label": "A great deal/A good amount",
+       "pct": 58
+      },
+      {
+       "label": "Not very much/Not at all",
+       "pct": 41
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 1
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "58% of adults, including the same proportion of registered voters, have a great deal or a good amount of trust in Mayor Mamdani to make decisions that are in the best interest of New York City. 41% of city residents have not very much or no trust at all",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Mayor",
+     "wording": "How much do you trust Mayor Zohran Mamdani to make decisions that are in the best interest of New York City?",
+     "results": [
+      {
+       "label": "A great deal",
+       "pct": 22
+      },
+      {
+       "label": "A good amount",
+       "pct": 35
+      },
+      {
+       "label": "Not very much",
+       "pct": 19
+      },
+      {
+       "label": "Not at all",
+       "pct": 22
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 1
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Detailed version (table ZMTRDNYC1)",
+     "quote": "NYC Adults 22% 35% 19% 22% 1%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Mamdani handling of winter snow storms",
+     "subject_type": "issue",
+     "measure": "job performance",
+     "category": "Mayor",
+     "wording": "Do you approve or disapprove of how Mayor Zohran Mamdani and his administration handled the snow storms this winter?",
+     "results": [
+      {
+       "label": "Approve",
+       "pct": 65
+      },
+      {
+       "label": "Disapprove",
+       "pct": 34
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 1
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "65% of city residents approve of how Mayor Mamdani handled the snow storms that hit New York City this winter. 34% disapprove.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "New York City direction",
+     "subject_type": "direction",
+     "measure": "direction",
+     "category": "Direction of state/city",
+     "wording": "In general, thinking about the way things are going in New York City, do you feel things are going in the:",
+     "results": [
+      {
+       "label": "Right direction",
+       "pct": 56
+      },
+      {
+       "label": "Wrong direction",
+       "pct": 43
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 2
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "A majority of adults (56%) say things in New York City are moving in the right direction. 43% say they are moving in the wrong direction.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Mayor",
+     "wording": "Do you agree or disagree with the statement: Mayor Zohran Mamdani is a good leader for New York City?",
+     "results": [
+      {
+       "label": "Agree",
+       "pct": 61
+      },
+      {
+       "label": "Disagree",
+       "pct": 37
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 2
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Trait statement: good leader",
+     "quote": "61% of New York City residents, including 60% of registered voters, think Mamdani is a good leader for New York City. 37% of residents disagree with that opinion.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Mayor",
+     "wording": "Do you agree or disagree with the statement: Mayor Zohran Mamdani cares about people like you?",
+     "results": [
+      {
+       "label": "Agree",
+       "pct": 61
+      },
+      {
+       "label": "Disagree",
+       "pct": 37
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 2
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Trait statement: cares about people like you",
+     "quote": "61% of adults citywide, including 60% of registered voters, think the mayor cares about people like them. 37% of adults disagree.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Mayor",
+     "wording": "Do you agree or disagree with the statement: Mayor Zohran Mamdani understands the problems facing New York City?",
+     "results": [
+      {
+       "label": "Agree",
+       "pct": 64
+      },
+      {
+       "label": "Disagree",
+       "pct": 35
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 1
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Trait statement: understands the problems facing New York City (crosstab MAMZ106 shows 64% agree / 35% disagree; the release text says 61% agree / 35% disagree; crosstab used)",
+     "quote": "NYC Adults 64% 35% 1%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Mayor",
+     "wording": "Do you agree or disagree with the statement: Mayor Zohran Mamdani is working hard as mayor?",
+     "results": [
+      {
+       "label": "Agree",
+       "pct": 74
+      },
+      {
+       "label": "Disagree",
+       "pct": 25
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 2
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Trait statement: working hard as mayor",
+     "quote": "74% of New York City residents, including 73% of registered voters, say Mayor Mamdani is working hard as mayor. 25% of adults, though, do not perceive the mayor to be hard working.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Mayor",
+     "wording": "Do you agree or disagree with the statement: Mayor Zohran Mamdani is fulfilling campaign promises?",
+     "results": [
+      {
+       "label": "Agree",
+       "pct": 60
+      },
+      {
+       "label": "Disagree",
+       "pct": 36
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 4
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Trait statement: fulfilling campaign promises",
+     "quote": "60% of city dwellers, including the same proportion of registered voters, think the mayor is fulfilling campaign promises. 36% of New York City adults say that he has failed to make good on his pledges.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Mayor",
+     "wording": "Do you agree or disagree with the statement: Mayor Zohran Mamdani is working to represent all New York City residents?",
+     "results": [
+      {
+       "label": "Agree",
+       "pct": 61
+      },
+      {
+       "label": "Disagree",
+       "pct": 37
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 1
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Trait statement: working to represent all New York City residents",
+     "quote": "61% of residents, including the same proportion of registered voters. report the mayor is working to represents all New York City residents. 37% of adults disagree.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Mamdani working relationship with Kathy Hochul",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Mayor",
+     "wording": "Do you think Mayor Mamdani is:",
+     "results": [
+      {
+       "label": "Working too closely with Governor Hochul",
+       "pct": 15
+      },
+      {
+       "label": "Not working closely enough with Governor Hochul",
+       "pct": 20
+      },
+      {
+       "label": "Working about the right amount with Governor Hochul",
+       "pct": 60
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 4
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "six in ten residents (60%) think the mayor is collaborating the right amount with the governor. 15% say Mamdani is working too closely with the governor, and 20% report he should be collaborating with her more.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Mamdani working relationship with Donald Trump",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Trump and Washington",
+     "wording": "Do you think Mayor Mamdani is:",
+     "results": [
+      {
+       "label": "Working too closely with President Trump",
+       "pct": 12
+      },
+      {
+       "label": "Not working closely enough with President Trump",
+       "pct": 26
+      },
+      {
+       "label": "Working about the right amount with President Trump",
+       "pct": 59
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 3
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "59% think Mamdani has the right balance. 12%, however, say Mayor Mamdani is working too closely with the president while 26% believe he is not working closely enough with President Trump.",
+     "source_kind": "release"
+    }
+   ]
+  },
+  {
+   "poll_id": "marist-20260226",
+   "pollster": "Marist Poll (Marist Institute for Public Opinion)",
+   "sponsor": null,
+   "geography": "New York State",
+   "population": "adults",
+   "n": 1552,
+   "moe": 3.2,
+   "field_start": "2026-02-16",
+   "field_end": "2026-02-19",
+   "release_date": "2026-02-26",
+   "mode": "multi-mode: live-interviewer phone (327), text (681), online panel (544)",
+   "url": "https://maristpoll.marist.edu/polls/the-state-of-new-york-in-an-election-year-february-2026/",
+   "tables_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/02/Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf",
+   "confidence": "HIGH",
+   "notes": "Registered voters n=1,442 (MOE 3.3); governor horse race asked of RV. Other results are NYS adults (crosstab 'NYS Adults' row); where the release text instead quotes RV figures this is noted in population_note. nyc_results = crosstab row 'Region New York City'. pct values of '<1' are kept as the string '<1'.",
+   "questions": [
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Governor",
+     "wording": "Do you approve or disapprove of the job Kathy Hochul is doing as governor?",
+     "results": [
+      {
+       "label": "Approve",
+       "pct": 46
+      },
+      {
+       "label": "Disapprove",
+       "pct": 40
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 15
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Approve",
+       "pct": 53
+      },
+      {
+       "label": "Disapprove",
+       "pct": 28
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 19
+      }
+     ],
+     "population_note": null,
+     "quote": "46% of New York residents approve of the job Governor Hochul is doing in office, up from 39% in April of 2025. [NYC crosstab row: Region New York City 53% 28% 19%]",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Governor",
+     "wording": "Do you approve or disapprove of the job Kathy Hochul is doing as governor? [And, would you say you strongly approve/disapprove of the job she is doing or just approve/disapprove?]",
+     "results": [
+      {
+       "label": "Strongly approve",
+       "pct": 16
+      },
+      {
+       "label": "Approve",
+       "pct": 29
+      },
+      {
+       "label": "Disapprove",
+       "pct": 11
+      },
+      {
+       "label": "Strongly disapprove",
+       "pct": 29
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 15
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Strongly approve",
+       "pct": 19
+      },
+      {
+       "label": "Approve",
+       "pct": 34
+      },
+      {
+       "label": "Disapprove",
+       "pct": 11
+      },
+      {
+       "label": "Strongly disapprove",
+       "pct": 17
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 19
+      }
+     ],
+     "population_note": "Intensity version (table HOCK105R)",
+     "quote": "NYS Adults 16% 29% 11% 29% 15% | Region New York City 19% 34% 11% 17% 19%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "job performance",
+     "category": "Governor",
+     "wording": "Would you rate the job Governor Kathy Hochul is doing in office as excellent, good, fair, or poor?",
+     "results": [
+      {
+       "label": "Excellent",
+       "pct": 11
+      },
+      {
+       "label": "Good",
+       "pct": 29
+      },
+      {
+       "label": "Fair",
+       "pct": 18
+      },
+      {
+       "label": "Poor",
+       "pct": 33
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 9
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Excellent",
+       "pct": 12
+      },
+      {
+       "label": "Good",
+       "pct": 35
+      },
+      {
+       "label": "Fair",
+       "pct": 20
+      },
+      {
+       "label": "Poor",
+       "pct": 20
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 12
+      }
+     ],
+     "population_note": null,
+     "quote": "NYS Adults 11% 29% 18% 33% 9% | Region New York City 12% 35% 20% 20% 12%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Chuck Schumer",
+     "subject_type": "person",
+     "measure": "job performance",
+     "category": "Other officials",
+     "wording": "Would you rate the job Senator Chuck Schumer is doing in office as excellent, good, fair, or poor?",
+     "results": [
+      {
+       "label": "Excellent",
+       "pct": 9
+      },
+      {
+       "label": "Good",
+       "pct": 20
+      },
+      {
+       "label": "Fair",
+       "pct": 24
+      },
+      {
+       "label": "Poor",
+       "pct": 38
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 10
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Excellent",
+       "pct": 11
+      },
+      {
+       "label": "Good",
+       "pct": 23
+      },
+      {
+       "label": "Fair",
+       "pct": 26
+      },
+      {
+       "label": "Poor",
+       "pct": 29
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 12
+      }
+     ],
+     "population_note": "All adults shown. Release text reports registered voters: 'Slightly more than one in four registered voters statewide (27%) think Schumer is either doing an excellent (8%) or good (19%) job in office. Nearly two-in-three voters (65%) say he is doing either a fair (24%) or poor job (41%).'",
+     "quote": "NYS Adults 9% 20% 24% 38% 10% | Region New York City 11% 23% 26% 29% 12%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Kirsten Gillibrand",
+     "subject_type": "person",
+     "measure": "job performance",
+     "category": "Other officials",
+     "wording": "Would you rate the job Senator Kirsten Gillibrand is doing in office as excellent, good, fair, or poor?",
+     "results": [
+      {
+       "label": "Excellent",
+       "pct": 9
+      },
+      {
+       "label": "Good",
+       "pct": 21
+      },
+      {
+       "label": "Fair",
+       "pct": 25
+      },
+      {
+       "label": "Poor",
+       "pct": 24
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 21
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Excellent",
+       "pct": 11
+      },
+      {
+       "label": "Good",
+       "pct": 22
+      },
+      {
+       "label": "Fair",
+       "pct": 25
+      },
+      {
+       "label": "Poor",
+       "pct": 19
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 23
+      }
+     ],
+     "population_note": "All adults shown. Release text reports registered voters: excellent 9%, good 22%, fair 26%, poor 25%, unsure 18%.",
+     "quote": "NYS Adults 9% 21% 25% 24% 21% | Region New York City 11% 22% 25% 19% 23%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "2026 governor: Hochul vs. Blakeman",
+     "subject_type": "race",
+     "measure": "horse race",
+     "category": "2026 governor race",
+     "wording": "If November's election for governor were held today, whom would you support if the candidates are:",
+     "results": [
+      {
+       "label": "Kathy Hochul, the Democrat",
+       "pct": 50
+      },
+      {
+       "label": "Bruce Blakeman, the Republican",
+       "pct": 33
+      },
+      {
+       "label": "Another party's candidate",
+       "pct": 2
+      },
+      {
+       "label": "Vol: Undecided",
+       "pct": 15
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Kathy Hochul, the Democrat",
+       "pct": 62
+      },
+      {
+       "label": "Bruce Blakeman, the Republican",
+       "pct": 20
+      },
+      {
+       "label": "Another party's candidate",
+       "pct": 1
+      },
+      {
+       "label": "Vol: Undecided",
+       "pct": 17
+      }
+     ],
+     "population_note": "Registered voters (n=1,442, MOE 3.3)",
+     "quote": "Hochul (50%) with a double-digit lead against her Republican challenger Bruce Blakeman (33%) among registered voters statewide. Two percent say they would support another candidate if the election were held today, and 15% are undecided. [NYC crosstab row: Region New York City 62% 20% 1% 17%]",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Governor",
+     "wording": "In general, do you have a favorable or an unfavorable impression of Kathy Hochul?",
+     "results": [
+      {
+       "label": "Favorable",
+       "pct": 48
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 39
+      },
+      {
+       "label": "Unsure-Never Heard",
+       "pct": 13
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Favorable",
+       "pct": 57
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 27
+      },
+      {
+       "label": "Unsure-Never Heard",
+       "pct": 15
+      }
+     ],
+     "population_note": null,
+     "quote": "A plurality of New Yorkers (48%) has a favorable opinion of Governor Hochul ... 39% have an unfavorable impression of the governor ... 13% have either never heard of Hochul or are unsure how to rate her",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Bruce Blakeman",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "2026 governor race",
+     "wording": "In general, do you have a favorable or an unfavorable impression of Bruce Blakeman?",
+     "results": [
+      {
+       "label": "Favorable",
+       "pct": 24
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 24
+      },
+      {
+       "label": "Unsure-Never Heard",
+       "pct": 52
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Favorable",
+       "pct": 18
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 26
+      },
+      {
+       "label": "Unsure-Never Heard",
+       "pct": 56
+      }
+     ],
+     "population_note": null,
+     "quote": "Nearly one in four New Yorkers (24%) have a favorable opinion of Blakeman. The same proportion (24%) have an unfavorable view of him. A majority (52%) have either never heard of Blakeman or are unsure how to rate him.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "New York State direction",
+     "subject_type": "direction",
+     "measure": "direction",
+     "category": "Direction of state/city",
+     "wording": "In general, thinking about the way things are going in New York State, do you feel things are going in the:",
+     "results": [
+      {
+       "label": "Right direction",
+       "pct": 46
+      },
+      {
+       "label": "Wrong direction",
+       "pct": 54
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": "<1"
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Right direction",
+       "pct": 52
+      },
+      {
+       "label": "Wrong direction",
+       "pct": 48
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 0
+      }
+     ],
+     "population_note": "All adults shown. Release text reports registered voters: 44% right direction, 56% wrong direction.",
+     "quote": "NYS Adults 46% 54% <1% | Region New York City 52% 48% 0%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Governor",
+     "wording": "Do you agree or disagree with the statement: Governor Kathy Hochul is a good leader for New York State?",
+     "results": [
+      {
+       "label": "Agree",
+       "pct": 54
+      },
+      {
+       "label": "Disagree",
+       "pct": 45
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 1
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Agree",
+       "pct": 66
+      },
+      {
+       "label": "Disagree",
+       "pct": 33
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 1
+      }
+     ],
+     "population_note": "Trait statement: good leader",
+     "quote": "NYS Adults 54% 45% 1% | Region New York City 66% 33% 1%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Governor",
+     "wording": "Do you agree or disagree with the statement: Governor Kathy Hochul is changing the way things work in Albany for the better?",
+     "results": [
+      {
+       "label": "Agree",
+       "pct": 46
+      },
+      {
+       "label": "Disagree",
+       "pct": 52
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 1
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Agree",
+       "pct": 55
+      },
+      {
+       "label": "Disagree",
+       "pct": 43
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 2
+      }
+     ],
+     "population_note": "Trait statement: changing Albany for the better",
+     "quote": "NYS Adults 46% 52% 1% | Region New York City 55% 43% 2%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Governor",
+     "wording": "Do you agree or disagree with the statement: Governor Kathy Hochul represents all regions of the state?",
+     "results": [
+      {
+       "label": "Agree",
+       "pct": 51
+      },
+      {
+       "label": "Disagree",
+       "pct": 48
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 1
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Agree",
+       "pct": 62
+      },
+      {
+       "label": "Disagree",
+       "pct": 37
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 1
+      }
+     ],
+     "population_note": "Trait statement: represents all regions",
+     "quote": "NYS Adults 51% 48% 1% | Region New York City 62% 37% 1%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Quality of life in New York State",
+     "subject_type": "direction",
+     "measure": "other",
+     "category": "Direction of state/city",
+     "wording": "Thinking about the past year or so, do you feel that the overall quality of life in New York State has:",
+     "results": [
+      {
+       "label": "Gotten better",
+       "pct": 13
+      },
+      {
+       "label": "Gotten worse",
+       "pct": 51
+      },
+      {
+       "label": "Or, remained about the same",
+       "pct": 35
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": "<1"
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Gotten better",
+       "pct": 18
+      },
+      {
+       "label": "Gotten worse",
+       "pct": 48
+      },
+      {
+       "label": "Or, remained about the same",
+       "pct": 33
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 1
+      }
+     ],
+     "population_note": null,
+     "quote": "NYS Adults 13% 51% 35% <1% | Region New York City 18% 48% 33% 1%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Quality of life in New York State",
+     "subject_type": "direction",
+     "measure": "other",
+     "category": "Direction of state/city",
+     "wording": "Thinking about the past year or so, do you feel that the overall quality of life in New York State has gotten better, gotten worse, or remained about the same? [Is that a good thing or a bad thing that things have remained the same?]",
+     "results": [
+      {
+       "label": "Gotten better",
+       "pct": 13
+      },
+      {
+       "label": "Gotten worse",
+       "pct": 51
+      },
+      {
+       "label": "Remained the same - Good thing",
+       "pct": 16
+      },
+      {
+       "label": "Remained the same - Bad thing",
+       "pct": 17
+      },
+      {
+       "label": "Remained the same - unspecified",
+       "pct": 2
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": "<1"
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Gotten better",
+       "pct": 18
+      },
+      {
+       "label": "Gotten worse",
+       "pct": 48
+      },
+      {
+       "label": "Remained the same - Good thing",
+       "pct": 14
+      },
+      {
+       "label": "Remained the same - Bad thing",
+       "pct": 18
+      },
+      {
+       "label": "Remained the same - unspecified",
+       "pct": 1
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 1
+      }
+     ],
+     "population_note": "Follow-up version (table NYS5000R)",
+     "quote": "NYS Adults 13% 51% 16% 17% 2% <1% | Region New York City 18% 48% 14% 18% 1% 1%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "New York State economy",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Economy and cost of living",
+     "wording": "Right now, do you think the New York State economy is:",
+     "results": [
+      {
+       "label": "Getting better",
+       "pct": 13
+      },
+      {
+       "label": "Getting worse",
+       "pct": 56
+      },
+      {
+       "label": "Staying about the same",
+       "pct": 31
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Getting better",
+       "pct": 17
+      },
+      {
+       "label": "Getting worse",
+       "pct": 54
+      },
+      {
+       "label": "Staying about the same",
+       "pct": 29
+      }
+     ],
+     "population_note": "All adults shown. Release text reports registered voters: 12% better, 55% worse, 32% same.",
+     "quote": "NYS Adults 13% 56% 31% | Region New York City 17% 54% 29%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Personal family finances in the coming year",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Economy and cost of living",
+     "wording": "In the coming year, do you expect your personal family finances to:",
+     "results": [
+      {
+       "label": "Get better",
+       "pct": 26
+      },
+      {
+       "label": "Get worse",
+       "pct": 27
+      },
+      {
+       "label": "Stay about the same",
+       "pct": 47
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Get better",
+       "pct": 32
+      },
+      {
+       "label": "Get worse",
+       "pct": 26
+      },
+      {
+       "label": "Stay about the same",
+       "pct": 42
+      }
+     ],
+     "population_note": "All adults shown. Release text reports registered voters: 25% better, 26% worse, 49% same.",
+     "quote": "NYS Adults 26% 27% 47% | Region New York City 32% 26% 42%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Cost of living in New York State",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Economy and cost of living",
+     "wording": "Overall, would you describe the cost of living in New York State for the average family as very affordable, affordable, not very affordable, or not affordable at all?",
+     "results": [
+      {
+       "label": "Very affordable/Affordable",
+       "pct": 14
+      },
+      {
+       "label": "Not very affordable/Not affordable at all",
+       "pct": 86
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very affordable/Affordable",
+       "pct": 14
+      },
+      {
+       "label": "Not very affordable/Not affordable at all",
+       "pct": 86
+      }
+     ],
+     "population_note": null,
+     "quote": "More than eight in ten New Yorkers (86%) say the cost of living for the average family in New York State is not very affordable or not affordable at all. ... 14%, down from 18% previously, think the cost of living in New York is very affordable or affordable. [NYC crosstab row: 14% 86%]",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Cost of living in New York State",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Economy and cost of living",
+     "wording": "Overall, would you describe the cost of living in New York State for the average family as very affordable, affordable, not very affordable, or not affordable at all?",
+     "results": [
+      {
+       "label": "Very affordable",
+       "pct": 2
+      },
+      {
+       "label": "Affordable",
+       "pct": 12
+      },
+      {
+       "label": "Not very affordable",
+       "pct": 57
+      },
+      {
+       "label": "Not affordable at all",
+       "pct": 30
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very affordable",
+       "pct": 2
+      },
+      {
+       "label": "Affordable",
+       "pct": 11
+      },
+      {
+       "label": "Not very affordable",
+       "pct": 54
+      },
+      {
+       "label": "Not affordable at all",
+       "pct": 32
+      }
+     ],
+     "population_note": "Detailed version (table COMCOST1)",
+     "quote": "NYS Adults 2% 12% 57% 30% | Region New York City 2% 11% 54% 32%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Plans to stay in or leave New York State",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Economy and cost of living",
+     "wording": "Thinking about five years from now, do you plan to stay in New York State or do you plan to move someplace else?",
+     "results": [
+      {
+       "label": "Plan to stay",
+       "pct": 66
+      },
+      {
+       "label": "Plan to move",
+       "pct": 33
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 1
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Plan to stay",
+       "pct": 67
+      },
+      {
+       "label": "Plan to move",
+       "pct": 31
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 1
+      }
+     ],
+     "population_note": null,
+     "quote": "While 66% of New York residents say they plan to stay in New York, 33% expect to move out of New York within the next five years. [NYC crosstab row: 67% 31% 1%]",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Plans to stay in or leave New York State",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Economy and cost of living",
+     "wording": "Thinking about five years from now, do you plan to stay in New York State or do you plan to move someplace else? [If move: What is the main reason you plan to move away from New York State?]",
+     "results": [
+      {
+       "label": "Plan to stay",
+       "pct": 66
+      },
+      {
+       "label": "Plan to move - Economic reasons",
+       "pct": 19
+      },
+      {
+       "label": "Plan to move - Non-economic reasons",
+       "pct": 14
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 1
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Plan to stay",
+       "pct": 68
+      },
+      {
+       "label": "Plan to move - Economic reasons",
+       "pct": 17
+      },
+      {
+       "label": "Plan to move - Non-economic reasons",
+       "pct": 14
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 1
+      }
+     ],
+     "population_note": "Combined version (table LIVNY5C)",
+     "quote": "NYS Adults 66% 19% 14% 1% | Region New York City 68% 17% 14% 1%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Main reason for planning to leave New York State",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Economy and cost of living",
+     "wording": "What is the main reason you plan to move away from New York State? Is it:",
+     "results": [
+      {
+       "label": "Cost of living",
+       "pct": 40
+      },
+      {
+       "label": "Quality of life",
+       "pct": 21
+      },
+      {
+       "label": "Taxes",
+       "pct": 15
+      },
+      {
+       "label": "Politics",
+       "pct": 10
+      },
+      {
+       "label": "Weather",
+       "pct": 7
+      },
+      {
+       "label": "Jobs",
+       "pct": 4
+      },
+      {
+       "label": "Retirement",
+       "pct": 4
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Adults who plan to move from New York State (n=505, MOE 5.6); no NYC column published",
+     "quote": "Cost of living: 40% Quality of life: 21% Taxes: 15% Politics: 10% Weather: 7% Jobs: 4% Retirement: 4%",
+     "source_kind": "release"
+    }
+   ]
+  },
+  {
+   "poll_id": "marist-20261007",
+   "pollster": "Marist Poll (Marist Institute for Public Opinion)",
+   "sponsor": null,
+   "geography": "New York State",
+   "population": "RV",
+   "n": 1361,
+   "moe": 3.6,
+   "field_start": "2026-10-01",
+   "field_end": "2026-10-04",
+   "release_date": "2026-10-07",
+   "mode": "multi-mode: live-interviewer phone (297), text (813), online panel (251); sample from L2 voter file",
+   "url": "https://maristpoll.marist.edu/polls/midterm-elections-in-new-york-october-2026/",
+   "tables_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf",
+   "confidence": "HIGH",
+   "notes": "All results are registered voters; nyc_results = crosstab row 'Region New York City'. Party ID is self-identification (42% D, 28% R, 28% independent). Omitted as voting-behavior or survey-methods items rather than policy/politics opinion: VOTEREG1 (how often you vote), VTMTDR2 (vote method), DUTY1/DUTY1R (voting duty vs. choice), CMPCT1 (campaign contact), NORMDESC1 (how many people you know will vote), SRCHMT26 (search-engine AI summaries). pct values of '<1' kept as the string '<1'.",
+   "questions": [
+    {
+     "subject": "2026 governor: Hochul vs. Blakeman",
+     "subject_type": "race",
+     "measure": "horse race",
+     "category": "2026 governor race",
+     "wording": "In November's election for Governor, are you supporting:",
+     "results": [
+      {
+       "label": "Kathy Hochul, the Democrat",
+       "pct": 53
+      },
+      {
+       "label": "Bruce Blakeman, the Republican",
+       "pct": 42
+      },
+      {
+       "label": "Another party's candidate",
+       "pct": 1
+      },
+      {
+       "label": "Undecided",
+       "pct": 5
+      },
+      {
+       "label": "Vol: No response",
+       "pct": "<1"
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Kathy Hochul, the Democrat",
+       "pct": 69
+      },
+      {
+       "label": "Bruce Blakeman, the Republican",
+       "pct": 24
+      },
+      {
+       "label": "Another party's candidate",
+       "pct": 1
+      },
+      {
+       "label": "Undecided",
+       "pct": 6
+      },
+      {
+       "label": "Vol: No response",
+       "pct": "<1"
+      }
+     ],
+     "population_note": null,
+     "quote": "Hochul (53%) leads Blakeman (42%) by 11 points among registered voters in New York's gubernatorial contest. [Crosstab: Registered Voters 53% 42% 1% 5% <1% | Region New York City 69% 24% 1% 6% <1%]",
+     "source_kind": "release"
+    },
+    {
+     "subject": "2026 governor: Hochul vs. Blakeman",
+     "subject_type": "race",
+     "measure": "other",
+     "category": "2026 governor race",
+     "wording": "Would you say you strongly support [GVVT26], somewhat support [GVVT26], or do you think you might vote differently?",
+     "results": [
+      {
+       "label": "Strongly support",
+       "pct": 64
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 34
+      },
+      {
+       "label": "Might vote differently",
+       "pct": 2
+      },
+      {
+       "label": "Vol: No response",
+       "pct": "<1"
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Strongly support",
+       "pct": 56
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 42
+      },
+      {
+       "label": "Might vote differently",
+       "pct": 2
+      },
+      {
+       "label": "Vol: No response",
+       "pct": 0
+      }
+     ],
+     "population_note": "Strength of support among voters choosing a candidate",
+     "quote": "Registered Voters 64% 34% 2% <1% | Region New York City 56% 42% 2% 0",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "2026 governor: Hochul vs. Blakeman",
+     "subject_type": "race",
+     "measure": "other",
+     "category": "2026 governor race",
+     "wording": "Regardless of who you support, who do you think will actually win the election for Governor?",
+     "results": [
+      {
+       "label": "Kathy Hochul, the Democrat",
+       "pct": 69
+      },
+      {
+       "label": "Bruce Blakeman, the Republican",
+       "pct": 28
+      },
+      {
+       "label": "Another party's candidate",
+       "pct": 1
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 2
+      },
+      {
+       "label": "Vol: No response",
+       "pct": "<1"
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Kathy Hochul, the Democrat",
+       "pct": 81
+      },
+      {
+       "label": "Bruce Blakeman, the Republican",
+       "pct": 15
+      },
+      {
+       "label": "Another party's candidate",
+       "pct": 1
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 3
+      },
+      {
+       "label": "Vol: No response",
+       "pct": 0
+      }
+     ],
+     "population_note": "Expectation of who will win",
+     "quote": "Registered Voters 69% 28% 1% 2% <1% | Region New York City 81% 15% 1% 3% 0",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "2026 U.S. House generic ballot in New York",
+     "subject_type": "race",
+     "measure": "horse race",
+     "category": "Other 2026 races",
+     "wording": "If November's election for Congress were held today, which party's candidate are you more likely to vote for in your district:",
+     "results": [
+      {
+       "label": "Democrat",
+       "pct": 55
+      },
+      {
+       "label": "Republican",
+       "pct": 42
+      },
+      {
+       "label": "Another party's candidate",
+       "pct": 1
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 1
+      },
+      {
+       "label": "Vol: No response",
+       "pct": "<1"
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Democrat",
+       "pct": 73
+      },
+      {
+       "label": "Republican",
+       "pct": 24
+      },
+      {
+       "label": "Another party's candidate",
+       "pct": 1
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 2
+      },
+      {
+       "label": "Vol: No response",
+       "pct": 1
+      }
+     ],
+     "population_note": null,
+     "quote": "the Democratic candidate on the ballot (55%) leads the Republican (42%) among registered voters. [Crosstab: Registered Voters 55% 42% 1% 1% <1% | Region New York City 73% 24% 1% 2% 1%]",
+     "source_kind": "release"
+    },
+    {
+     "subject": "2026 U.S. House generic ballot in New York",
+     "subject_type": "race",
+     "measure": "other",
+     "category": "Other 2026 races",
+     "wording": "Regardless of who you support, which party's candidate do you think will actually win the election for Congress in your district?",
+     "results": [
+      {
+       "label": "The Democrat",
+       "pct": 61
+      },
+      {
+       "label": "The Republican",
+       "pct": 36
+      },
+      {
+       "label": "Another party's candidate",
+       "pct": 1
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 2
+      },
+      {
+       "label": "Vol: No response",
+       "pct": "<1"
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "The Democrat",
+       "pct": 80
+      },
+      {
+       "label": "The Republican",
+       "pct": 16
+      },
+      {
+       "label": "Another party's candidate",
+       "pct": 1
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 3
+      },
+      {
+       "label": "Vol: No response",
+       "pct": 0
+      }
+     ],
+     "population_note": "Expectation of which party will win the voter's district",
+     "quote": "Registered Voters 61% 36% 1% 2% <1% | Region New York City 80% 16% 1% 3% 0",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Trump as a factor in congressional vote",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Trump and Washington",
+     "wording": "In general thinking about your vote for Congress, is it mostly:",
+     "results": [
+      {
+       "label": "A vote for President Trump",
+       "pct": 22
+      },
+      {
+       "label": "A vote against President Trump",
+       "pct": 44
+      },
+      {
+       "label": "Or President Trump is not much of a factor in your vote for Congress",
+       "pct": 33
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": "<1"
+      },
+      {
+       "label": "Vol: No response",
+       "pct": 1
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "A vote for President Trump",
+       "pct": 16
+      },
+      {
+       "label": "A vote against President Trump",
+       "pct": 50
+      },
+      {
+       "label": "Or President Trump is not much of a factor in your vote for Congress",
+       "pct": 33
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": "<1"
+      },
+      {
+       "label": "Vol: No response",
+       "pct": "<1"
+      }
+     ],
+     "population_note": null,
+     "quote": "44% of the New York electorate say their vote for Congress is mainly a vote against President Trump. 22% report it is a vote for the president, and 33% say President Trump has no impact on their vote for Congress. [NYC crosstab row: 16% 50% 33% <1% <1%]",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Donald Trump",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Trump and Washington",
+     "wording": "How much do you approve or disapprove of the job Donald Trump is doing as president?",
+     "results": [
+      {
+       "label": "Approve",
+       "pct": 38
+      },
+      {
+       "label": "Disapprove",
+       "pct": 60
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 1
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Approve",
+       "pct": 25
+      },
+      {
+       "label": "Disapprove",
+       "pct": 74
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 2
+      }
+     ],
+     "population_note": null,
+     "quote": "President Trump's job approval rating is underwater, with 38% of registered voters saying they approve and 60% saying they disapprove. [Crosstab: Registered Voters 38% 60% 1% | Region New York City 25% 74% 2%]",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Donald Trump",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Trump and Washington",
+     "wording": "How much do you approve or disapprove of the job Donald Trump is doing as president?",
+     "results": [
+      {
+       "label": "Strongly approve",
+       "pct": 26
+      },
+      {
+       "label": "Just approve",
+       "pct": 13
+      },
+      {
+       "label": "Just disapprove",
+       "pct": 7
+      },
+      {
+       "label": "Strongly disapprove",
+       "pct": 53
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 1
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Strongly approve",
+       "pct": 17
+      },
+      {
+       "label": "Just approve",
+       "pct": 7
+      },
+      {
+       "label": "Just disapprove",
+       "pct": 9
+      },
+      {
+       "label": "Strongly disapprove",
+       "pct": 65
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 2
+      }
+     ],
+     "population_note": "Intensity version (table TRUDP105B)",
+     "quote": "Registered Voters 26% 13% 7% 53% 1% | Region New York City 17% 7% 9% 65% 2%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Donald Trump",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Trump and Washington",
+     "wording": "In general, do you have a favorable or unfavorable impression of Donald Trump?",
+     "results": [
+      {
+       "label": "Favorable",
+       "pct": 36
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 60
+      },
+      {
+       "label": "Unsure/Never heard",
+       "pct": 4
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Favorable",
+       "pct": 24
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 73
+      },
+      {
+       "label": "Unsure/Never heard",
+       "pct": 3
+      }
+     ],
+     "population_note": null,
+     "quote": "Registered Voters 36% 60% 4% | Region New York City 24% 73% 3%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Governor",
+     "wording": "In general, do you have a favorable or unfavorable impression of Kathy Hochul?",
+     "results": [
+      {
+       "label": "Favorable",
+       "pct": 43
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 47
+      },
+      {
+       "label": "Unsure/Never heard",
+       "pct": 8
+      },
+      {
+       "label": "Vol: No response",
+       "pct": 2
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Favorable",
+       "pct": 54
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 32
+      },
+      {
+       "label": "Unsure/Never heard",
+       "pct": 12
+      },
+      {
+       "label": "Vol: No response",
+       "pct": 2
+      }
+     ],
+     "population_note": null,
+     "quote": "Registered Voters 43% 47% 8% 2% | Region New York City 54% 32% 12% 2%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Bruce Blakeman",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "2026 governor race",
+     "wording": "In general, do you have a favorable or unfavorable impression of Bruce Blakeman?",
+     "results": [
+      {
+       "label": "Favorable",
+       "pct": 36
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 35
+      },
+      {
+       "label": "Unsure/Never heard",
+       "pct": 27
+      },
+      {
+       "label": "Vol: No response",
+       "pct": 2
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Favorable",
+       "pct": 20
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 39
+      },
+      {
+       "label": "Unsure/Never heard",
+       "pct": 38
+      },
+      {
+       "label": "Vol: No response",
+       "pct": 2
+      }
+     ],
+     "population_note": null,
+     "quote": "Registered Voters 36% 35% 27% 2% | Region New York City 20% 39% 38% 2%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Personal family finances in the past year",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Economy and cost of living",
+     "wording": "In the past year, have your personal family finances:",
+     "results": [
+      {
+       "label": "Gotten better",
+       "pct": 18
+      },
+      {
+       "label": "Gotten worse",
+       "pct": 40
+      },
+      {
+       "label": "Stayed about the same",
+       "pct": 41
+      },
+      {
+       "label": "Vol: No response",
+       "pct": 2
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Gotten better",
+       "pct": 16
+      },
+      {
+       "label": "Gotten worse",
+       "pct": 40
+      },
+      {
+       "label": "Stayed about the same",
+       "pct": 41
+      },
+      {
+       "label": "Vol: No response",
+       "pct": 2
+      }
+     ],
+     "population_note": null,
+     "quote": "40% of registered voters in New York say their family finances have gotten worse in the last year. 18% report they have gotten better, and 41% say there has been little change to their finances. [NYC crosstab row: 16% 40% 41% 2%]",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Undocumented immigrants: path to legal status vs. required to leave",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Immigration",
+     "wording": "Which comes closer to your view about immigrants now living in the United States without legal permission?",
+     "results": [
+      {
+       "label": "They should be required to leave the country",
+       "pct": 31
+      },
+      {
+       "label": "They should have a way to stay legally if they meet certain requirements",
+       "pct": 66
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": "<1"
+      },
+      {
+       "label": "Vol: No response",
+       "pct": 3
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "They should be required to leave the country",
+       "pct": 18
+      },
+      {
+       "label": "They should have a way to stay legally if they meet certain requirements",
+       "pct": 77
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": "<1"
+      },
+      {
+       "label": "Vol: No response",
+       "pct": 4
+      }
+     ],
+     "population_note": "Column order verified from PDF word positions",
+     "quote": "Registered Voters 31% 66% <1% 3% | Region New York City 18% 77% <1% 4%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Government: wasteful vs. does a better job than credited",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Other issues",
+     "wording": "Which comes closer to your view?",
+     "results": [
+      {
+       "label": "Government is almost always wasteful and inefficient",
+       "pct": 55
+      },
+      {
+       "label": "Government often does a better job than people give it credit for",
+       "pct": 40
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 1
+      },
+      {
+       "label": "Vol: No response",
+       "pct": 4
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Government is almost always wasteful and inefficient",
+       "pct": 43
+      },
+      {
+       "label": "Government often does a better job than people give it credit for",
+       "pct": 50
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 1
+      },
+      {
+       "label": "Vol: No response",
+       "pct": 6
+      }
+     ],
+     "population_note": "Column order verified from PDF word positions",
+     "quote": "Registered Voters 55% 40% 1% 4% | Region New York City 43% 50% 1% 6%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Gun control vs. gun rights",
+     "subject_type": "issue",
+     "measure": "issue priority",
+     "category": "Public safety and policing",
+     "wording": "Which should be the higher priority?",
+     "results": [
+      {
+       "label": "Protecting the right of Americans to own guns",
+       "pct": 42
+      },
+      {
+       "label": "Passing stricter gun control laws",
+       "pct": 54
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": "<1"
+      },
+      {
+       "label": "Vol: No response",
+       "pct": 3
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Protecting the right of Americans to own guns",
+       "pct": 27
+      },
+      {
+       "label": "Passing stricter gun control laws",
+       "pct": 69
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": "<1"
+      },
+      {
+       "label": "Vol: No response",
+       "pct": 4
+      }
+     ],
+     "population_note": "Column order verified from PDF word positions",
+     "quote": "Registered Voters 42% 54% <1% 3% | Region New York City 27% 69% <1% 4%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Equality vs. group hierarchy in an ideal society",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Other issues",
+     "wording": "Which comes closer to your view?",
+     "results": [
+      {
+       "label": "An ideal society needs some groups to be on top and others to be on the bottom",
+       "pct": 26
+      },
+      {
+       "label": "An ideal society needs equality for all groups",
+       "pct": 68
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": 1
+      },
+      {
+       "label": "Vol: No response",
+       "pct": 6
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "An ideal society needs some groups to be on top and others to be on the bottom",
+       "pct": 20
+      },
+      {
+       "label": "An ideal society needs equality for all groups",
+       "pct": 75
+      },
+      {
+       "label": "Vol: Unsure",
+       "pct": "<1"
+      },
+      {
+       "label": "Vol: No response",
+       "pct": 5
+      }
+     ],
+     "population_note": "Column order verified from PDF word positions",
+     "quote": "Registered Voters 26% 68% 1% 6% | Region New York City 20% 75% <1% 5%",
+     "source_kind": "crosstab"
+    }
+   ]
+  },
+  {
+   "poll_id": "quinnipiac-20260923",
+   "pollster": "Quinnipiac University Poll",
+   "sponsor": null,
+   "geography": "New York State",
+   "population": "LV",
+   "n": 1026,
+   "moe": 4.1,
+   "field_start": "2026-09-17",
+   "field_end": "2026-09-20",
+   "release_date": "2026-09-23",
+   "mode": "RDD live-interviewer telephone (landline and cell), English or Spanish",
+   "url": "https://poll.qu.edu/poll-release?releaseid=3967",
+   "tables_url": "https://poll.qu.edu/images/polling/ny/ny09232026_nurk76.pdf",
+   "confidence": "HIGH",
+   "notes": "Release text and crosstabs are in the same PDF; demographics/methodology in https://poll.qu.edu/images/polling/ny/ny09232026_demos_nurk76.pdf. nyc_results = the 'NYC' area column in the crosstabs. Quinnipiac prints '-' for zero/none; recorded as 0. Party ID among LV: 21% R, 39% D, 34% independent.",
+   "questions": [
+    {
+     "subject": "2026 governor: Hochul vs. Blakeman",
+     "subject_type": "race",
+     "measure": "horse race",
+     "category": "2026 governor race",
+     "wording": "If the election for governor were being held today, and the candidates were Kathy Hochul the Democrat and Bruce Blakeman the Republican, for whom would you vote? (INCLUDES LEANERS)",
+     "results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 58
+      },
+      {
+       "label": "Bruce Blakeman",
+       "pct": 39
+      },
+      {
+       "label": "Someone else (vol)",
+       "pct": 0
+      },
+      {
+       "label": "Wouldn't vote (vol)",
+       "pct": 0
+      },
+      {
+       "label": "Undecided (vol)",
+       "pct": 2
+      },
+      {
+       "label": "Refused",
+       "pct": 1
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 70
+      },
+      {
+       "label": "Bruce Blakeman",
+       "pct": 27
+      },
+      {
+       "label": "Someone else (vol)",
+       "pct": 0
+      },
+      {
+       "label": "Wouldn't vote (vol)",
+       "pct": 0
+      },
+      {
+       "label": "Undecided (vol)",
+       "pct": 2
+      },
+      {
+       "label": "Refused",
+       "pct": 1
+      }
+     ],
+     "population_note": null,
+     "quote": "Hochul holds a commanding lead over Republican challenger Bruce Blakeman with 58 percent of likely voters supporting Hochul and 39 percent supporting Blakeman ... Three percent of likely voters did not choose a candidate. [NYC column: Hochul 70%, Blakeman 27, UNDECIDED(VOL) 2, REFUSED 1]",
+     "source_kind": "release"
+    },
+    {
+     "subject": "2026 governor: Hochul vs. Blakeman",
+     "subject_type": "race",
+     "measure": "other",
+     "category": "2026 governor race",
+     "wording": "(If candidate chosen q1) Would you say you are very enthusiastic about supporting (candidate of choice), somewhat enthusiastic, not so enthusiastic, or not enthusiastic at all?",
+     "results": [
+      {
+       "label": "Very enthusiastic",
+       "pct": 38
+      },
+      {
+       "label": "Somewhat enthusiastic",
+       "pct": 46
+      },
+      {
+       "label": "Not so enthusiastic",
+       "pct": 10
+      },
+      {
+       "label": "Not enthusiastic at all",
+       "pct": 5
+      },
+      {
+       "label": "DK/NA",
+       "pct": 2
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Likely voters who chose a candidate; no NYC column published",
+     "quote": "Very enthusiastic 38% / Smwht enthusiastic 46 / Not so enthusiastic 10 / Not enthus at all 5 / DK/NA 2",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "2026 governor: Hochul vs. Blakeman",
+     "subject_type": "race",
+     "measure": "other",
+     "category": "2026 governor race",
+     "wording": "(If candidate chosen q1) How likely is it that you will change your mind about your choice for governor before the election; very likely, somewhat likely, not so likely, or not likely at all?",
+     "results": [
+      {
+       "label": "Very likely",
+       "pct": 2
+      },
+      {
+       "label": "Somewhat likely",
+       "pct": 7
+      },
+      {
+       "label": "Not so likely",
+       "pct": 11
+      },
+      {
+       "label": "Not likely at all",
+       "pct": 79
+      },
+      {
+       "label": "DK/NA",
+       "pct": 1
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Likely voters who chose a candidate; no NYC column published",
+     "quote": "Very likely 2% / Somewhat likely 7 / Not so likely 11 / Not likely at all 79 / DK/NA 1",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Governor",
+     "wording": "Is your opinion of Kathy Hochul favorable, unfavorable or haven't you heard enough about her?",
+     "results": [
+      {
+       "label": "Favorable",
+       "pct": 46
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 43
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 10
+      },
+      {
+       "label": "Refused",
+       "pct": 1
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Favorable",
+       "pct": 53
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 34
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 11
+      },
+      {
+       "label": "Refused",
+       "pct": 2
+      }
+     ],
+     "population_note": null,
+     "quote": "Forty-six percent of likely voters have a favorable opinion of Kathy Hochul, while 43 percent have an unfavorable opinion of her, and 10 percent haven't heard enough about her.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Bruce Blakeman",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "2026 governor race",
+     "wording": "Is your opinion of Bruce Blakeman favorable, unfavorable or haven't you heard enough about him?",
+     "results": [
+      {
+       "label": "Favorable",
+       "pct": 30
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 36
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 34
+      },
+      {
+       "label": "Refused",
+       "pct": 1
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Favorable",
+       "pct": 18
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 35
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 47
+      },
+      {
+       "label": "Refused",
+       "pct": 0
+      }
+     ],
+     "population_note": null,
+     "quote": "Thirty percent of likely voters have a favorable opinion of Bruce Blakeman, while 36 percent have an unfavorable opinion of him, and 34 percent haven't heard enough about him.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Donald Trump",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Trump and Washington",
+     "wording": "Is your opinion of Donald Trump favorable, unfavorable or haven't you heard enough about him?",
+     "results": [
+      {
+       "label": "Favorable",
+       "pct": 30
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 63
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 4
+      },
+      {
+       "label": "Refused",
+       "pct": 4
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Favorable",
+       "pct": 24
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 71
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 2
+      },
+      {
+       "label": "Refused",
+       "pct": 3
+      }
+     ],
+     "population_note": null,
+     "quote": "Thirty percent of likely voters have a favorable opinion of Donald Trump, 63 percent have an unfavorable opinion of him, and 4 percent haven't heard enough about him.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Mayor",
+     "wording": "Is your opinion of Zohran Mamdani favorable, unfavorable or haven't you heard enough about him?",
+     "results": [
+      {
+       "label": "Favorable",
+       "pct": 46
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 36
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 15
+      },
+      {
+       "label": "Refused",
+       "pct": 2
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Favorable",
+       "pct": 60
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 29
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 9
+      },
+      {
+       "label": "Refused",
+       "pct": 2
+      }
+     ],
+     "population_note": null,
+     "quote": "Zohran Mamdani: 46 percent favorable, 36 percent unfavorable, 15 percent haven't heard enough about him",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Alexandria Ocasio-Cortez",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Other officials",
+     "wording": "Is your opinion of Alexandria Ocasio-Cortez favorable, unfavorable or haven't you heard enough about her?",
+     "results": [
+      {
+       "label": "Favorable",
+       "pct": 41
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 36
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 21
+      },
+      {
+       "label": "Refused",
+       "pct": 1
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Favorable",
+       "pct": 50
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 30
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 18
+      },
+      {
+       "label": "Refused",
+       "pct": 2
+      }
+     ],
+     "population_note": null,
+     "quote": "Alexandria Ocasio-Cortez: 41 percent favorable, 36 percent unfavorable, 21 percent haven't heard enough about her",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Chuck Schumer",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Other officials",
+     "wording": "Is your opinion of Chuck Schumer favorable, unfavorable or haven't you heard enough about him?",
+     "results": [
+      {
+       "label": "Favorable",
+       "pct": 34
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 51
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 12
+      },
+      {
+       "label": "Refused",
+       "pct": 2
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Favorable",
+       "pct": 32
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 55
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 12
+      },
+      {
+       "label": "Refused",
+       "pct": 1
+      }
+     ],
+     "population_note": null,
+     "quote": "Chuck Schumer: 34 percent favorable, 51 percent unfavorable, 12 percent haven't heard enough about him",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Democratic Socialists of America",
+     "subject_type": "institution",
+     "measure": "favorability",
+     "category": "Other officials",
+     "wording": "Is your opinion of the Democratic Socialists of America favorable, unfavorable or haven't you heard enough about it?",
+     "results": [
+      {
+       "label": "Favorable",
+       "pct": 29
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 43
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 27
+      },
+      {
+       "label": "Refused",
+       "pct": 1
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Favorable",
+       "pct": 36
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 37
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 25
+      },
+      {
+       "label": "Refused",
+       "pct": 2
+      }
+     ],
+     "population_note": null,
+     "quote": "The Democratic Socialists of America: 29 percent favorable, 43 percent unfavorable, 27 percent haven't heard enough about it",
+     "source_kind": "release"
+    },
+    {
+     "subject": "MAGA movement",
+     "subject_type": "institution",
+     "measure": "favorability",
+     "category": "Trump and Washington",
+     "wording": "Is your opinion of Donald Trump's Make America Great Again (MAGA) movement favorable, unfavorable or haven't you heard enough about it?",
+     "results": [
+      {
+       "label": "Favorable",
+       "pct": 29
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 62
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 6
+      },
+      {
+       "label": "Refused",
+       "pct": 2
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Favorable",
+       "pct": 21
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 71
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 7
+      },
+      {
+       "label": "Refused",
+       "pct": 1
+      }
+     ],
+     "population_note": null,
+     "quote": "The Make America Great Again (MAGA) movement: 29 percent favorable, 62 percent unfavorable, 6 percent haven't heard enough about it.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Governor",
+     "wording": "Do you approve or disapprove of the way Kathy Hochul is handling her job as governor?",
+     "results": [
+      {
+       "label": "Approve",
+       "pct": 48
+      },
+      {
+       "label": "Disapprove",
+       "pct": 44
+      },
+      {
+       "label": "DK/NA",
+       "pct": 8
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Approve",
+       "pct": 54
+      },
+      {
+       "label": "Disapprove",
+       "pct": 36
+      },
+      {
+       "label": "DK/NA",
+       "pct": 10
+      }
+     ],
+     "population_note": null,
+     "quote": "Forty-eight percent of likely voters approve of the way Kathy Hochul is handling her job as governor, while 44 percent disapprove, with 8 percent not offering an opinion.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Chuck Schumer",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Other officials",
+     "wording": "Do you approve or disapprove of the way Chuck Schumer is handling his job as United States Senator?",
+     "results": [
+      {
+       "label": "Approve",
+       "pct": 36
+      },
+      {
+       "label": "Disapprove",
+       "pct": 54
+      },
+      {
+       "label": "DK/NA",
+       "pct": 10
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Approve",
+       "pct": 32
+      },
+      {
+       "label": "Disapprove",
+       "pct": 55
+      },
+      {
+       "label": "DK/NA",
+       "pct": 12
+      }
+     ],
+     "population_note": null,
+     "quote": "Thirty-six percent of likely voters approve of the way Chuck Schumer is handling his job as United States Senator, while 54 percent disapprove, with 10 percent not offering an opinion.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Kirsten Gillibrand",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Other officials",
+     "wording": "Do you approve or disapprove of the way Kirsten Gillibrand is handling her job as United States Senator?",
+     "results": [
+      {
+       "label": "Approve",
+       "pct": 41
+      },
+      {
+       "label": "Disapprove",
+       "pct": 33
+      },
+      {
+       "label": "DK/NA",
+       "pct": 26
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Approve",
+       "pct": 35
+      },
+      {
+       "label": "Disapprove",
+       "pct": 34
+      },
+      {
+       "label": "DK/NA",
+       "pct": 31
+      }
+     ],
+     "population_note": null,
+     "quote": "Forty-one percent of likely voters approve of the way Kirsten Gillibrand is handling her job as United States Senator, while 33 percent disapprove, with 26 percent not offering an opinion.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Donald Trump",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Trump and Washington",
+     "wording": "Do you approve or disapprove of the way Donald Trump is handling his job as president?",
+     "results": [
+      {
+       "label": "Approve",
+       "pct": 29
+      },
+      {
+       "label": "Disapprove",
+       "pct": 66
+      },
+      {
+       "label": "DK/NA",
+       "pct": 4
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Approve",
+       "pct": 22
+      },
+      {
+       "label": "Disapprove",
+       "pct": 75
+      },
+      {
+       "label": "DK/NA",
+       "pct": 3
+      }
+     ],
+     "population_note": null,
+     "quote": "Twenty-nine percent of likely voters approve of the way Donald Trump is handling his job as president, while 66 percent disapprove.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Most important issue in governor vote",
+     "subject_type": "issue",
+     "measure": "issue priority",
+     "category": "2026 governor race",
+     "wording": "Which of these is the most important issue to you in deciding who to vote for in the election for governor: the economy, the cost of living, health care, taxes, energy costs, crime, schools, immigration, affordable housing, or AI data centers?",
+     "results": [
+      {
+       "label": "Economy",
+       "pct": 21
+      },
+      {
+       "label": "Cost of living",
+       "pct": 28
+      },
+      {
+       "label": "Health care",
+       "pct": 11
+      },
+      {
+       "label": "Taxes",
+       "pct": 7
+      },
+      {
+       "label": "Energy costs",
+       "pct": 3
+      },
+      {
+       "label": "Crime",
+       "pct": 5
+      },
+      {
+       "label": "Schools",
+       "pct": 3
+      },
+      {
+       "label": "Immigration",
+       "pct": 9
+      },
+      {
+       "label": "Affordable housing",
+       "pct": 5
+      },
+      {
+       "label": "AI data centers",
+       "pct": 3
+      },
+      {
+       "label": "Something else (vol)",
+       "pct": 3
+      },
+      {
+       "label": "DK/NA",
+       "pct": 3
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Economy",
+       "pct": 21
+      },
+      {
+       "label": "Cost of living",
+       "pct": 31
+      },
+      {
+       "label": "Health care",
+       "pct": 9
+      },
+      {
+       "label": "Taxes",
+       "pct": 4
+      },
+      {
+       "label": "Energy costs",
+       "pct": 1
+      },
+      {
+       "label": "Crime",
+       "pct": 6
+      },
+      {
+       "label": "Schools",
+       "pct": 3
+      },
+      {
+       "label": "Immigration",
+       "pct": 10
+      },
+      {
+       "label": "Affordable housing",
+       "pct": 6
+      },
+      {
+       "label": "AI data centers",
+       "pct": 4
+      },
+      {
+       "label": "Something else (vol)",
+       "pct": 4
+      },
+      {
+       "label": "DK/NA",
+       "pct": 2
+      }
+     ],
+     "population_note": null,
+     "quote": "the cost of living tops the list, with 28 percent, followed by the economy (21 percent) and health care (11 percent). No other issue reaches double digits. [Full list from crosstab: Economy 21%, Cost of living 28, Health care 11, Taxes 7, Energy costs 3, Crime 5, Schools 3, Immigration 9, Affordable housing 5, AI data centers 3, SOMETHING ELSE(VOL) 3, DK/NA 3]",
+     "source_kind": "release"
+    },
+    {
+     "subject": "New York State direction",
+     "subject_type": "direction",
+     "measure": "direction",
+     "category": "Direction of state/city",
+     "wording": "In general, how satisfied are you with the way things are going in New York State today; are you very satisfied, somewhat satisfied, somewhat dissatisfied, or very dissatisfied?",
+     "results": [
+      {
+       "label": "Very satisfied",
+       "pct": 6
+      },
+      {
+       "label": "Somewhat satisfied",
+       "pct": 39
+      },
+      {
+       "label": "Somewhat dissatisfied",
+       "pct": 19
+      },
+      {
+       "label": "Very dissatisfied",
+       "pct": 35
+      },
+      {
+       "label": "DK/NA",
+       "pct": 2
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very satisfied",
+       "pct": 8
+      },
+      {
+       "label": "Somewhat satisfied",
+       "pct": 38
+      },
+      {
+       "label": "Somewhat dissatisfied",
+       "pct": 22
+      },
+      {
+       "label": "Very dissatisfied",
+       "pct": 29
+      },
+      {
+       "label": "DK/NA",
+       "pct": 2
+      }
+     ],
+     "population_note": null,
+     "quote": "Very satisfied 6% / Smwht satisfied 39 / Smwht dissatisfied 19 / Very dissatisfied 35 / DK/NA 2 [NYC column: 8% 38 22 29 2]",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "New York State economy",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Economy and cost of living",
+     "wording": "Would you describe the state of New York State's economy these days as excellent, good, not so good, or poor?",
+     "results": [
+      {
+       "label": "Excellent",
+       "pct": 2
+      },
+      {
+       "label": "Good",
+       "pct": 32
+      },
+      {
+       "label": "Not so good",
+       "pct": 35
+      },
+      {
+       "label": "Poor",
+       "pct": 27
+      },
+      {
+       "label": "DK/NA",
+       "pct": 3
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Excellent",
+       "pct": 3
+      },
+      {
+       "label": "Good",
+       "pct": 34
+      },
+      {
+       "label": "Not so good",
+       "pct": 35
+      },
+      {
+       "label": "Poor",
+       "pct": 23
+      },
+      {
+       "label": "DK/NA",
+       "pct": 5
+      }
+     ],
+     "population_note": null,
+     "quote": "Excellent 2% / Good 32 / Not so good 35 / Poor 27 / DK/NA 3 [NYC column: 3% 34 35 23 5]",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Governor",
+     "wording": "Would you say that Kathy Hochul - has good leadership skills, or not?",
+     "results": [
+      {
+       "label": "Yes",
+       "pct": 48
+      },
+      {
+       "label": "No",
+       "pct": 45
+      },
+      {
+       "label": "DK/NA",
+       "pct": 7
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Yes",
+       "pct": 53
+      },
+      {
+       "label": "No",
+       "pct": 39
+      },
+      {
+       "label": "DK/NA",
+       "pct": 8
+      }
+     ],
+     "population_note": "Trait: has good leadership skills",
+     "quote": "Hochul: 48 percent say yes, 45 percent say no, with 7 percent not offering an opinion",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Bruce Blakeman",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "2026 governor race",
+     "wording": "Would you say that Bruce Blakeman - has good leadership skills, or not?",
+     "results": [
+      {
+       "label": "Yes",
+       "pct": 34
+      },
+      {
+       "label": "No",
+       "pct": 38
+      },
+      {
+       "label": "DK/NA",
+       "pct": 28
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Yes",
+       "pct": 27
+      },
+      {
+       "label": "No",
+       "pct": 40
+      },
+      {
+       "label": "DK/NA",
+       "pct": 33
+      }
+     ],
+     "population_note": "Trait: has good leadership skills",
+     "quote": "Blakeman: 34 percent say yes, 38 percent say no, with 28 percent not offering an opinion",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Governor",
+     "wording": "Would you say that Kathy Hochul - is honest, or not?",
+     "results": [
+      {
+       "label": "Yes",
+       "pct": 45
+      },
+      {
+       "label": "No",
+       "pct": 43
+      },
+      {
+       "label": "DK/NA",
+       "pct": 12
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Yes",
+       "pct": 46
+      },
+      {
+       "label": "No",
+       "pct": 40
+      },
+      {
+       "label": "DK/NA",
+       "pct": 13
+      }
+     ],
+     "population_note": "Trait: is honest",
+     "quote": "Hochul: 45 percent say yes, 43 percent say no, with 12 percent not offering an opinion",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Bruce Blakeman",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "2026 governor race",
+     "wording": "Would you say that Bruce Blakeman - is honest, or not?",
+     "results": [
+      {
+       "label": "Yes",
+       "pct": 32
+      },
+      {
+       "label": "No",
+       "pct": 38
+      },
+      {
+       "label": "DK/NA",
+       "pct": 30
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Yes",
+       "pct": 26
+      },
+      {
+       "label": "No",
+       "pct": 40
+      },
+      {
+       "label": "DK/NA",
+       "pct": 34
+      }
+     ],
+     "population_note": "Trait: is honest",
+     "quote": "Blakeman: 32 percent say yes, 38 percent say no, with 30 percent not offering an opinion",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Governor",
+     "wording": "Would you say that Kathy Hochul - cares about the needs and problems of people like you, or not?",
+     "results": [
+      {
+       "label": "Yes",
+       "pct": 48
+      },
+      {
+       "label": "No",
+       "pct": 45
+      },
+      {
+       "label": "DK/NA",
+       "pct": 7
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Yes",
+       "pct": 50
+      },
+      {
+       "label": "No",
+       "pct": 40
+      },
+      {
+       "label": "DK/NA",
+       "pct": 10
+      }
+     ],
+     "population_note": "Trait: cares about the needs and problems of people like you",
+     "quote": "Hochul: 48 percent say yes, 45 percent say no, with 7 percent not offering an opinion",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Bruce Blakeman",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "2026 governor race",
+     "wording": "Would you say that Bruce Blakeman - cares about the needs and problems of people like you, or not?",
+     "results": [
+      {
+       "label": "Yes",
+       "pct": 35
+      },
+      {
+       "label": "No",
+       "pct": 43
+      },
+      {
+       "label": "DK/NA",
+       "pct": 21
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Yes",
+       "pct": 25
+      },
+      {
+       "label": "No",
+       "pct": 45
+      },
+      {
+       "label": "DK/NA",
+       "pct": 30
+      }
+     ],
+     "population_note": "Trait: cares about the needs and problems of people like you",
+     "quote": "Blakeman: 35 percent say yes, 43 percent say no, with 21 percent not offering an opinion",
+     "source_kind": "release"
+    },
+    {
+     "subject": "2026 governor: Hochul vs. Blakeman",
+     "subject_type": "race",
+     "measure": "other",
+     "category": "2026 governor race",
+     "wording": "Regardless of how you intend to vote, who do you think would do a better job of - growing the state's economy: Kathy Hochul or Bruce Blakeman?",
+     "results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 51
+      },
+      {
+       "label": "Bruce Blakeman",
+       "pct": 41
+      },
+      {
+       "label": "DK/NA",
+       "pct": 8
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 60
+      },
+      {
+       "label": "Bruce Blakeman",
+       "pct": 31
+      },
+      {
+       "label": "DK/NA",
+       "pct": 9
+      }
+     ],
+     "population_note": "Better job on: growing the state's economy",
+     "quote": "Hochul 51% / Blakeman 41 / DK/NA 8 [NYC column: 60% 31 9]",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "2026 governor: Hochul vs. Blakeman",
+     "subject_type": "race",
+     "measure": "other",
+     "category": "2026 governor race",
+     "wording": "Regardless of how you intend to vote, who do you think would do a better job of - lowering the cost of living: Kathy Hochul or Bruce Blakeman?",
+     "results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 50
+      },
+      {
+       "label": "Bruce Blakeman",
+       "pct": 38
+      },
+      {
+       "label": "DK/NA",
+       "pct": 12
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 60
+      },
+      {
+       "label": "Bruce Blakeman",
+       "pct": 27
+      },
+      {
+       "label": "DK/NA",
+       "pct": 13
+      }
+     ],
+     "population_note": "Better job on: lowering the cost of living",
+     "quote": "Hochul 50% / Blakeman 38 / DK/NA 12 [NYC column: 60% 27 13]",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "2026 governor: Hochul vs. Blakeman",
+     "subject_type": "race",
+     "measure": "other",
+     "category": "2026 governor race",
+     "wording": "Regardless of how you intend to vote, who do you think would do a better job of - handling taxes: Kathy Hochul or Bruce Blakeman?",
+     "results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 48
+      },
+      {
+       "label": "Bruce Blakeman",
+       "pct": 43
+      },
+      {
+       "label": "DK/NA",
+       "pct": 9
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 55
+      },
+      {
+       "label": "Bruce Blakeman",
+       "pct": 33
+      },
+      {
+       "label": "DK/NA",
+       "pct": 11
+      }
+     ],
+     "population_note": "Better job on: handling taxes",
+     "quote": "Hochul 48% / Blakeman 43 / DK/NA 9 [NYC column: 55% 33 11]",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "2026 governor: Hochul vs. Blakeman",
+     "subject_type": "race",
+     "measure": "other",
+     "category": "2026 governor race",
+     "wording": "Regardless of how you intend to vote, who do you think would do a better job of - handling immigration: Kathy Hochul or Bruce Blakeman?",
+     "results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 50
+      },
+      {
+       "label": "Bruce Blakeman",
+       "pct": 42
+      },
+      {
+       "label": "DK/NA",
+       "pct": 8
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 58
+      },
+      {
+       "label": "Bruce Blakeman",
+       "pct": 34
+      },
+      {
+       "label": "DK/NA",
+       "pct": 8
+      }
+     ],
+     "population_note": "Better job on: handling immigration",
+     "quote": "Hochul 50% / Blakeman 42 / DK/NA 8 [NYC column: 58% 34 8]",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "2026 governor: Hochul vs. Blakeman",
+     "subject_type": "race",
+     "measure": "other",
+     "category": "2026 governor race",
+     "wording": "Regardless of how you intend to vote, who do you think would do a better job of - handling AI data centers: Kathy Hochul or Bruce Blakeman?",
+     "results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 53
+      },
+      {
+       "label": "Bruce Blakeman",
+       "pct": 31
+      },
+      {
+       "label": "DK/NA",
+       "pct": 16
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 59
+      },
+      {
+       "label": "Bruce Blakeman",
+       "pct": 24
+      },
+      {
+       "label": "DK/NA",
+       "pct": 17
+      }
+     ],
+     "population_note": "Better job on: handling AI data centers",
+     "quote": "Hochul 53% / Blakeman 31 / DK/NA 16 [NYC column: 59% 24 17]",
+     "source_kind": "crosstab"
+    }
+   ]
+  },
+  {
+   "poll_id": "quinnipiac-20261021",
+   "pollster": "Quinnipiac University Poll",
+   "sponsor": null,
+   "geography": "New York State",
+   "population": "LV",
+   "n": 1167,
+   "moe": 3.8,
+   "field_start": "2026-10-15",
+   "field_end": "2026-10-19",
+   "release_date": "2026-10-21",
+   "mode": "RDD live-interviewer telephone (landline and cell), English or Spanish",
+   "url": "https://poll.qu.edu/poll-release?releaseid=3972",
+   "tables_url": "https://poll.qu.edu/images/polling/ny/ny10212026_nygb97.pdf",
+   "confidence": "HIGH",
+   "notes": "Released today (2026-10-21). Horse race includes voters who already voted and leaners. Trends file: https://poll.qu.edu/images/polling/ny/ny10212026_trends_nygb97.pdf; demographics: https://poll.qu.edu/images/polling/ny/ny10212026_demos_nygb97.pdf. nyc_results = the 'NYC' area column. '-' recorded as 0.",
+   "questions": [
+    {
+     "subject": "2026 governor: Hochul vs. Blakeman",
+     "subject_type": "race",
+     "measure": "horse race",
+     "category": "2026 governor race",
+     "wording": "If the election for governor were being held today, and the candidates were Kathy Hochul the Democrat and Bruce Blakeman the Republican, for whom would you vote? (INCLUDES ALREADY VOTED AND LEANERS)",
+     "results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 55
+      },
+      {
+       "label": "Bruce Blakeman",
+       "pct": 41
+      },
+      {
+       "label": "Someone else (vol)",
+       "pct": 0
+      },
+      {
+       "label": "Wouldn't vote (vol)",
+       "pct": 0
+      },
+      {
+       "label": "Undecided (vol)",
+       "pct": 2
+      },
+      {
+       "label": "Refused",
+       "pct": 2
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 70
+      },
+      {
+       "label": "Bruce Blakeman",
+       "pct": 24
+      },
+      {
+       "label": "Someone else (vol)",
+       "pct": 1
+      },
+      {
+       "label": "Wouldn't vote (vol)",
+       "pct": 0
+      },
+      {
+       "label": "Undecided (vol)",
+       "pct": 3
+      },
+      {
+       "label": "Refused",
+       "pct": 2
+      }
+     ],
+     "population_note": null,
+     "quote": "Democratic incumbent Kathy Hochul receives 55 percent support among likely voters and Republican challenger Bruce Blakeman receives 41 percent support, with 4 percent not choosing a candidate [NYC column: Hochul 70%, Blakeman 24, SMONE ELSE(VOL) 1, UNDECIDED(VOL) 3, REFUSED 2]",
+     "source_kind": "release"
+    },
+    {
+     "subject": "2026 governor: Hochul vs. Blakeman",
+     "subject_type": "race",
+     "measure": "other",
+     "category": "2026 governor race",
+     "wording": "(If candidate chosen q1) Would you say you are very enthusiastic about supporting (candidate of choice), somewhat enthusiastic, not so enthusiastic, or not enthusiastic at all?",
+     "results": [
+      {
+       "label": "Very enthusiastic",
+       "pct": 47
+      },
+      {
+       "label": "Somewhat enthusiastic",
+       "pct": 38
+      },
+      {
+       "label": "Not so enthusiastic",
+       "pct": 7
+      },
+      {
+       "label": "Not enthusiastic at all",
+       "pct": 5
+      },
+      {
+       "label": "DK/NA",
+       "pct": 3
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Likely voters who chose a candidate; no NYC column published",
+     "quote": "Very enthusiastic 47% / Smwht enthusiastic 38 / Not so enthusiastic 7 / Not enthus at all 5 / DK/NA 3",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "2026 governor: Hochul vs. Blakeman",
+     "subject_type": "race",
+     "measure": "other",
+     "category": "2026 governor race",
+     "wording": "(If candidate chosen q1) How likely is it that you will change your mind about your choice for governor before the election; very likely, somewhat likely, not so likely, or not likely at all?",
+     "results": [
+      {
+       "label": "Very likely",
+       "pct": 1
+      },
+      {
+       "label": "Somewhat likely",
+       "pct": 3
+      },
+      {
+       "label": "Not so likely",
+       "pct": 8
+      },
+      {
+       "label": "Not likely at all",
+       "pct": 87
+      },
+      {
+       "label": "DK/NA",
+       "pct": 1
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Likely voters who chose a candidate; no NYC column published",
+     "quote": "Very likely 1% / Somewhat likely 3 / Not so likely 8 / Not likely at all 87 / DK/NA 1",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Governor",
+     "wording": "Is your opinion of Kathy Hochul favorable, unfavorable or haven't you heard enough about her?",
+     "results": [
+      {
+       "label": "Favorable",
+       "pct": 45
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 46
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 6
+      },
+      {
+       "label": "Refused",
+       "pct": 3
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Favorable",
+       "pct": 55
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 30
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 9
+      },
+      {
+       "label": "Refused",
+       "pct": 7
+      }
+     ],
+     "population_note": null,
+     "quote": "Forty-five percent of likely voters have a favorable opinion of Kathy Hochul, while 46 percent have an unfavorable opinion of her and 6 percent haven't heard enough about her.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Bruce Blakeman",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "2026 governor race",
+     "wording": "Is your opinion of Bruce Blakeman favorable, unfavorable or haven't you heard enough about him?",
+     "results": [
+      {
+       "label": "Favorable",
+       "pct": 36
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 40
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 23
+      },
+      {
+       "label": "Refused",
+       "pct": 1
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Favorable",
+       "pct": 22
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 47
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 28
+      },
+      {
+       "label": "Refused",
+       "pct": 2
+      }
+     ],
+     "population_note": null,
+     "quote": "In today's poll, 36 percent of likely voters have a favorable opinion of Bruce Blakeman, while 40 percent have an unfavorable opinion of him and 23 percent haven't heard enough about him.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Donald Trump",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Trump and Washington",
+     "wording": "Is your opinion of Donald Trump favorable, unfavorable or haven't you heard enough about him?",
+     "results": [
+      {
+       "label": "Favorable",
+       "pct": 35
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 59
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 2
+      },
+      {
+       "label": "Refused",
+       "pct": 4
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Favorable",
+       "pct": 21
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 70
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 2
+      },
+      {
+       "label": "Refused",
+       "pct": 6
+      }
+     ],
+     "population_note": null,
+     "quote": "Thirty-five percent of likely voters have a favorable opinion of Donald Trump, 59 percent have an unfavorable opinion of him, and 2 percent haven't heard enough about him.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Mayor",
+     "wording": "Is your opinion of Zohran Mamdani favorable, unfavorable or haven't you heard enough about him?",
+     "results": [
+      {
+       "label": "Favorable",
+       "pct": 43
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 42
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 12
+      },
+      {
+       "label": "Refused",
+       "pct": 4
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Favorable",
+       "pct": 61
+      },
+      {
+       "label": "Unfavorable",
+       "pct": 27
+      },
+      {
+       "label": "Haven't heard enough",
+       "pct": 9
+      },
+      {
+       "label": "Refused",
+       "pct": 4
+      }
+     ],
+     "population_note": null,
+     "quote": "Forty-three percent of likely voters have a favorable opinion of Zohran Mamdani, 42 percent have an unfavorable opinion of him, and 12 percent haven't heard enough about him.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Governor",
+     "wording": "Do you approve or disapprove of the way Kathy Hochul is handling her job as governor?",
+     "results": [
+      {
+       "label": "Approve",
+       "pct": 49
+      },
+      {
+       "label": "Disapprove",
+       "pct": 45
+      },
+      {
+       "label": "DK/NA",
+       "pct": 6
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Approve",
+       "pct": 62
+      },
+      {
+       "label": "Disapprove",
+       "pct": 29
+      },
+      {
+       "label": "DK/NA",
+       "pct": 9
+      }
+     ],
+     "population_note": null,
+     "quote": "Forty-nine percent of likely voters approve of the way Kathy Hochul is handling her job as governor, while 45 percent disapprove.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Donald Trump",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Trump and Washington",
+     "wording": "Do you approve or disapprove of the way Donald Trump is handling his job as president?",
+     "results": [
+      {
+       "label": "Approve",
+       "pct": 34
+      },
+      {
+       "label": "Disapprove",
+       "pct": 60
+      },
+      {
+       "label": "DK/NA",
+       "pct": 5
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Approve",
+       "pct": 20
+      },
+      {
+       "label": "Disapprove",
+       "pct": 72
+      },
+      {
+       "label": "DK/NA",
+       "pct": 7
+      }
+     ],
+     "population_note": null,
+     "quote": "Thirty-four percent of likely voters approve of the way Donald Trump is handling his job as president, while 60 percent disapprove.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Most important issue in governor vote",
+     "subject_type": "issue",
+     "measure": "issue priority",
+     "category": "2026 governor race",
+     "wording": "Which of these is the most important issue to you in deciding who to vote for in the election for governor: the economy, the cost of living, health care, taxes, energy costs, crime, schools, immigration, affordable housing, or AI data centers?",
+     "results": [
+      {
+       "label": "Economy",
+       "pct": 19
+      },
+      {
+       "label": "Cost of living",
+       "pct": 22
+      },
+      {
+       "label": "Health care",
+       "pct": 9
+      },
+      {
+       "label": "Taxes",
+       "pct": 7
+      },
+      {
+       "label": "Energy costs",
+       "pct": 3
+      },
+      {
+       "label": "Crime",
+       "pct": 9
+      },
+      {
+       "label": "Schools",
+       "pct": 2
+      },
+      {
+       "label": "Immigration",
+       "pct": 13
+      },
+      {
+       "label": "Affordable housing",
+       "pct": 6
+      },
+      {
+       "label": "AI data centers",
+       "pct": 2
+      },
+      {
+       "label": "Something else (vol)",
+       "pct": 2
+      },
+      {
+       "label": "DK/NA",
+       "pct": 5
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Economy",
+       "pct": 21
+      },
+      {
+       "label": "Cost of living",
+       "pct": 26
+      },
+      {
+       "label": "Health care",
+       "pct": 12
+      },
+      {
+       "label": "Taxes",
+       "pct": 6
+      },
+      {
+       "label": "Energy costs",
+       "pct": 1
+      },
+      {
+       "label": "Crime",
+       "pct": 7
+      },
+      {
+       "label": "Schools",
+       "pct": 2
+      },
+      {
+       "label": "Immigration",
+       "pct": 8
+      },
+      {
+       "label": "Affordable housing",
+       "pct": 10
+      },
+      {
+       "label": "AI data centers",
+       "pct": 1
+      },
+      {
+       "label": "Something else (vol)",
+       "pct": 3
+      },
+      {
+       "label": "DK/NA",
+       "pct": 3
+      }
+     ],
+     "population_note": null,
+     "quote": "the cost of living (22 percent) and the economy (19 percent) top the list, followed by immigration (13 percent). No other issue reaches double digits. [Full list from crosstab: Economy 19%, Cost of living 22, Health care 9, Taxes 7, Energy costs 3, Crime 9, Schools 2, Immigration 13, Affordable housing 6, AI data centers 2, SOMETHING ELSE(VOL) 2, DK/NA 5]",
+     "source_kind": "release"
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  {
+   "what": "Marist 'New York City Baseball, May 2026' poll",
+   "where_seen": "https://maristpoll.marist.edu/wp-sitemap-posts-polls-1.xml",
+   "why_excluded": "Sports-fandom poll, not policy or politics; not fetched in detail."
+  },
+  {
+   "what": "Marist NYC trend tables and Quinnipiac trend tables (prior-period figures, e.g. Eric Adams and Bill de Blasio comparisons, Oct 2025 NYC direction)",
+   "where_seen": "https://maristpoll.marist.edu/wp-content/uploads/2026/04/Marist-Poll_NYC-NOS-and-Tables_202604021433.pdf",
+   "why_excluded": "Earlier fieldings (pre-2026) fall outside the window; only the 2026 rows are recorded."
+  }
+ ],
+ "searches": [
+  "WebSearch: Marist poll New York 2026 (maristpoll.marist.edu)",
+  "WebSearch: Quinnipiac poll New York 2026 Hochul (poll.qu.edu)",
+  "maristpoll.marist.edu/wp-sitemap-posts-polls-1.xml (full list of Marist poll pages; 2026 NY/NYC entries: Feb 2026 NYS, Apr 2026 NYC, May 2026 NYC baseball, Oct 2026 NYS)",
+  "maristpoll.marist.edu/latest-polls/ and /polls/ listing",
+  "poll.qu.edu/poll-results/ (release list ids 3943-3972) plus release pages 3938-3942, 3946, 3949, 3950, 3954, 3957 checked for NY/NYC content; only 3967 (Sept 23) and 3972 (Oct 21) are New York State polls in 2026",
+  "Downloaded and parsed (PyMuPDF): Marist NYC Apr 2026 tables, Marist NYS Feb 2026 tables, Marist NYS Oct 2026 tables, Quinnipiac NY 9/23/26 release+demos, Quinnipiac NY 10/21/26 release+demos+trends"
+ ]
+}

@@ -1,0 +1,4976 @@
+{
+ "agent": "others (non-Siena/Marist/Quinnipiac/Emerson/Suffolk/Honan pollsters)",
+ "compiled": "2026-10-21",
+ "polls": [
+  {
+   "poll_id": "moxie-20260918",
+   "pollster": "Moxie Strategies",
+   "sponsor": "Firefighters Association of the State of New York (FASNY)",
+   "sponsor_type": "advocacy",
+   "geography": "New York State",
+   "population": "RV",
+   "n": 813,
+   "moe": 4.3,
+   "field_start": "2026-07-22",
+   "field_end": "2026-07-28",
+   "release_date": "2026-09-18",
+   "mode": "live phone (landline 109, cell 250) and text-to-web (454); English and Spanish; fieldwork by ReconMR",
+   "url": "https://empirereportnewyork.com/poll-new-york-voters-overwhelmingly-say-its-time-to-quadruple-the-volunteer-firefighter-tax-credit/",
+   "tables_url": "https://drive.google.com/file/d/1s_TTvF20ATWrpc5VLFts2oBCySqN6K0A/view?usp=sharing",
+   "confidence": "HIGH",
+   "notes": "Full crosstabs PDF (16 pages, linked from the FASNY release published on Empire Report) downloaded and read; NYC column is the 'NYC' region column (n=288 unweighted). The release published on Empire Report does not name a commissioning sponsor in so many words, but it is a FASNY release promoting FASNY's tax-credit bill; Wikipedia also lists FASNY as sponsor. Release date 2026-09-18 is the Empire Report article date (per Wikipedia citation); not independently confirmed. Wikipedia/270toWin label the sample LV; the crosstabs say 'n = 813 registered voters', which is used here. Several fire-service items are message tests that follow informational preambles. Governor vote includes leaners.",
+   "questions": [
+    {
+     "subject": "New York State direction",
+     "subject_type": "direction",
+     "measure": "direction",
+     "category": "Direction of state/city",
+     "wording": "Generally speaking, do you think things in New York State are going in the right direction or the wrong direction?",
+     "results": [
+      {
+       "label": "Right direction",
+       "pct": 39
+      },
+      {
+       "label": "Wrong direction",
+       "pct": 56
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 4
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Right direction",
+       "pct": 52
+      },
+      {
+       "label": "Wrong direction",
+       "pct": 43
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 6
+      }
+     ],
+     "population_note": null,
+     "quote": "Generally speaking, do you think things in New York State are going in the right direction or the wrong direction? || Right direction 39% 37% 41% 50% 35% 33% 34% 46% 49% 31% 6% 61% 29% 52% 30% 31% / Wrong direction 56% 61% 53% 44% 64% 61% 63% 48% 49% 63% 91% 35% 64% 43% 66% 65% / Don’t know / Refused 4% 2% 7% 6% 2% 6% 4% 6% 2% 6% 2% 4% 7% 6% 4% 4%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "2026 governor: Hochul vs. Blakeman",
+     "subject_type": "race",
+     "measure": "horse race",
+     "category": "2026 governor race",
+     "wording": "If the election for Governor of New York were held today, and the candidates were Kathy Hochul, the Democrat, and Bruce Blakeman, the Republican, who would you vote for?",
+     "results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 49
+      },
+      {
+       "label": "Bruce Blakeman",
+       "pct": 37
+      },
+      {
+       "label": "Would not vote",
+       "pct": 7
+      },
+      {
+       "label": "Other / Refused",
+       "pct": 7
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 58
+      },
+      {
+       "label": "Bruce Blakeman",
+       "pct": 19
+      },
+      {
+       "label": "Would not vote",
+       "pct": 13
+      },
+      {
+       "label": "Other / Refused",
+       "pct": 9
+      }
+     ],
+     "population_note": "Includes respondents who leaned toward a candidate.",
+     "quote": "If the election for Governor of New York were held today, and the candidates were Kathy Hochul, the Democrat, and Bruce Blakeman, the Republican, who would you vote for? || Kathy Hochul 49% 43% 54% 59% 42% 46% 42% 58% 57% 42% 8% 74% 40% 58% 40% 44% / Bruce Blakeman 37% 43% 33% 21% 41% 48% 51% 18% 34% 39% 88% 13% 37% 19% 54% 45% / Would not vote 7% 5% 9% 13% 9% 2% 3% 14% 4% 10% 1% 8% 13% 13% 3% 4% / Other / Refused 7% 9% 4% 8% 8% 4% 4% 11% 4% 9% 3% 6% 11% 9% 4% 6%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Governor",
+     "wording": "Do you approve or disapprove of the job Kathy Hochul is doing as governor?",
+     "results": [
+      {
+       "label": "Strongly approve",
+       "pct": 12
+      },
+      {
+       "label": "Somewhat approve",
+       "pct": 33
+      },
+      {
+       "label": "Somewhat disapprove",
+       "pct": 17
+      },
+      {
+       "label": "Strongly disapprove",
+       "pct": 35
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 3
+      },
+      {
+       "label": "NET Approve",
+       "pct": 46
+      },
+      {
+       "label": "NET Disapprove",
+       "pct": 51
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Strongly approve",
+       "pct": 15
+      },
+      {
+       "label": "Somewhat approve",
+       "pct": 43
+      },
+      {
+       "label": "Somewhat disapprove",
+       "pct": 17
+      },
+      {
+       "label": "Strongly disapprove",
+       "pct": 20
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 5
+      },
+      {
+       "label": "NET Approve",
+       "pct": 59
+      },
+      {
+       "label": "NET Disapprove",
+       "pct": 37
+      }
+     ],
+     "population_note": null,
+     "quote": "Do you approve or disapprove of the job Kathy Hochul is doing as governor? || Strongly approve 12% 8% 17% 10% 9% 16% 10% 14% 11% 13% 6% 19% 7% 15% 15% 8% / Somewhat approve 33% 33% 34% 38% 37% 27% 27% 44% 37% 31% 5% 44% 38% 43% 27% 26% / Somewhat disapprove 17% 16% 17% 23% 16% 12% 18% 15% 19% 15% 13% 20% 13% 17% 11% 20% / Strongly disapprove 35% 41% 28% 24% 37% 43% 44% 22% 31% 38% 76% 13% 38% 20% 46% 44% / Don’t know / Refused 3% 2% 3% 5% 1% 3% 1% 5% 2% 3% 0% 4% 3% 5% 0% 3% / NET Approve 46% 40% 51% 48% 46% 42% 37% 58% 48% 44% 11% 63% 46% 59% 43% 34% / NET Disapprove 51% 58% 46% 47% 53% 54% 62% 37% 50% 53% 89% 33% 51% 37% 57% 64%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Most important problem for state government",
+     "subject_type": "issue",
+     "measure": "issue priority",
+     "category": "Other issues",
+     "wording": "What do you think is the most important problem for New York State government to address right now?",
+     "results": [
+      {
+       "label": "Cost of living",
+       "pct": 15
+      },
+      {
+       "label": "Taxes",
+       "pct": 13
+      },
+      {
+       "label": "Housing",
+       "pct": 11
+      },
+      {
+       "label": "Immigration",
+       "pct": 7
+      },
+      {
+       "label": "Crime",
+       "pct": 5
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Cost of living",
+       "pct": 17
+      },
+      {
+       "label": "Taxes",
+       "pct": 5
+      },
+      {
+       "label": "Housing",
+       "pct": 18
+      },
+      {
+       "label": "Immigration",
+       "pct": 4
+      },
+      {
+       "label": "Crime",
+       "pct": 5
+      }
+     ],
+     "population_note": "Open-ended responses; only the top five categories are shown. Percentages are of all respondents.",
+     "quote": "What do you think is the most important problem for New York State government to address right now? || Cost of living 15% 14% 15% 23% 10% 11% 15% 14% 21% 10% 6% 20% 13% 17% 15% 13% / Taxes 13% 15% 11% 8% 13% 19% 19% 5% 13% 13% 23% 8% 13% 5% 17% 19% / Housing 11% 8% 14% 13% 12% 9% 7% 19% 13% 10% 4% 14% 12% 18% 8% 6% / Immigration 7% 6% 9% 7% 6% 9% 8% 7% 6% 8% 16% 3% 8% 4% 11% 8% / Crime 5% 6% 4% 2% 6% 6% 4% 6% 2% 7% 8% 3% 4% 5% 6% 3%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Party trusted on most important problem",
+     "subject_type": "institution",
+     "measure": "other",
+     "category": "Other issues",
+     "wording": "Which political party do you think can do a better job of handling the problem you think is most important — the Republican Party or the Democratic Party?",
+     "results": [
+      {
+       "label": "The Republican Party",
+       "pct": 35
+      },
+      {
+       "label": "The Democratic Party",
+       "pct": 40
+      },
+      {
+       "label": "Both equally",
+       "pct": 7
+      },
+      {
+       "label": "Neither",
+       "pct": 13
+      },
+      {
+       "label": "A different political party",
+       "pct": 4
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "The Republican Party",
+       "pct": 22
+      },
+      {
+       "label": "The Democratic Party",
+       "pct": 49
+      },
+      {
+       "label": "Both equally",
+       "pct": 7
+      },
+      {
+       "label": "Neither",
+       "pct": 14
+      },
+      {
+       "label": "A different political party",
+       "pct": 6
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 2
+      }
+     ],
+     "population_note": null,
+     "quote": "Which political party do you think can do a better job of handling the problem you think is most important — the Republican Party or the Democratic Party? || The Republican Party 35% 40% 31% 19% 39% 45% 45% 19% 29% 39% 79% 12% 37% 22% 50% 38% / The Democratic Party 40% 37% 44% 47% 33% 40% 33% 49% 45% 36% 8% 63% 27% 49% 32% 35% / Both equally 7% 5% 9% 10% 6% 6% 6% 9% 6% 8% 5% 8% 8% 7% 6% 7% / Neither 13% 13% 12% 18% 13% 8% 12% 16% 13% 13% 6% 12% 21% 14% 9% 15% / A different political party 4% 3% 3% 5% 5% 1% 4% 4% 6% 2% 3% 5% 4% 6% 2% 3% / Don’t know / Refused 1% 2% 1% 1% 4% 0% 0% 3% 1% 2% 0% 1% 4% 2% 1% 2%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Mayor",
+     "wording": "Next, please indicate whether you have a favorable or unfavorable opinion of each of the following, or if you do not know enough to say. New York City Mayor Zohran Mamdani",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 33
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 15
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 5
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 36
+      },
+      {
+       "label": "Don’t know enough to say",
+       "pct": 8
+      },
+      {
+       "label": "Never heard of them",
+       "pct": 2
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      },
+      {
+       "label": "NET Favorable",
+       "pct": 48
+      },
+      {
+       "label": "NET Unfavorable",
+       "pct": 41
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very favorable",
+       "pct": 46
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 20
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 6
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 22
+      },
+      {
+       "label": "Don’t know enough to say",
+       "pct": 6
+      },
+      {
+       "label": "Never heard of them",
+       "pct": 0
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      },
+      {
+       "label": "NET Favorable",
+       "pct": 66
+      },
+      {
+       "label": "NET Unfavorable",
+       "pct": 27
+      }
+     ],
+     "population_note": null,
+     "quote": "Next, please indicate whether you have a favorable or unfavorable opinion of each of the following, or if you do not know enough to say. New York City Mayor Zohran Mamdani || Very favorable 33% 32% 35% 56% 28% 18% 28% 41% 41% 27% 3% 55% 22% 46% 25% 26% / Somewhat favorable 15% 12% 17% 14% 17% 15% 11% 20% 16% 14% 6% 17% 19% 20% 10% 12% / Somewhat unfavorable 5% 5% 6% 6% 3% 7% 5% 6% 4% 7% 4% 4% 8% 6% 7% 4% / Very unfavorable 36% 41% 30% 20% 41% 45% 46% 20% 34% 37% 79% 13% 38% 22% 54% 39% / Don’t know enough to say 8% 7% 9% 3% 11% 10% 7% 9% 3% 12% 6% 8% 10% 6% 3% 13% / Never heard of them 2% 2% 1% 0% 1% 4% 1% 3% 1% 2% 1% 2% 2% 0% 0% 4% / Don’t know / Refused 1% 1% 1% 1% 0% 2% 2% 1% 1% 1% 0% 1% 2% 1% 2% 2% / NET Favorable 48% 44% 52% 69% 45% 32% 40% 61% 57% 41% 9% 72% 40% 66% 35% 38% / NET Unfavorable 41% 46% 36% 27% 44% 52% 51% 26% 38% 43% 84% 17% 46% 27% 60% 44%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Governor",
+     "wording": "Next, please indicate whether you have a favorable or unfavorable opinion of each of the following, or if you do not know enough to say. Governor Kathy Hochul",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 13
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 31
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 15
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 34
+      },
+      {
+       "label": "Don’t know enough to say",
+       "pct": 5
+      },
+      {
+       "label": "Never heard of them",
+       "pct": 1
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      },
+      {
+       "label": "NET Favorable",
+       "pct": 44
+      },
+      {
+       "label": "NET Unfavorable",
+       "pct": 49
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very favorable",
+       "pct": 15
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 36
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 16
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 21
+      },
+      {
+       "label": "Don’t know enough to say",
+       "pct": 11
+      },
+      {
+       "label": "Never heard of them",
+       "pct": 0
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 0
+      },
+      {
+       "label": "NET Favorable",
+       "pct": 52
+      },
+      {
+       "label": "NET Unfavorable",
+       "pct": 37
+      }
+     ],
+     "population_note": null,
+     "quote": "Next, please indicate whether you have a favorable or unfavorable opinion of each of the following, or if you do not know enough to say. Governor Kathy Hochul || Very favorable 13% 10% 15% 12% 11% 14% 10% 15% 11% 14% 4% 19% 9% 15% 15% 8% / Somewhat favorable 31% 27% 36% 32% 34% 30% 26% 41% 35% 29% 7% 42% 33% 36% 28% 29% / Somewhat unfavorable 15% 17% 14% 23% 15% 8% 15% 15% 20% 11% 9% 19% 14% 16% 9% 17% / Very unfavorable 34% 39% 28% 21% 36% 43% 44% 18% 29% 37% 78% 13% 32% 21% 44% 41% / Don’t know enough to say 5% 4% 7% 10% 3% 3% 2% 10% 3% 7% 1% 5% 9% 11% 0% 3% / Never heard of them 1% 2% 1% 2% 1% 0% 1% 1% 1% 1% 0% 2% 1% 0% 2% 2% / Don’t know / Refused 1% 1% 0% 0% 0% 1% 1% 1% 1% 1% 1% 0% 1% 0% 2% 0% / NET Favorable 44% 37% 51% 44% 45% 44% 36% 55% 46% 43% 11% 61% 42% 52% 43% 36% / NET Unfavorable 49% 56% 42% 44% 51% 51% 60% 33% 50% 48% 87% 32% 46% 37% 53% 58%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Alexandria Ocasio-Cortez",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Other officials",
+     "wording": "Next, please indicate whether you have a favorable or unfavorable opinion of each of the following, or if you do not know enough to say. U.S. Representative Alexandria Ocasio-Cortez",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 24
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 17
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 6
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 34
+      },
+      {
+       "label": "Don’t know enough to say",
+       "pct": 13
+      },
+      {
+       "label": "Never heard of them",
+       "pct": 4
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      },
+      {
+       "label": "NET Favorable",
+       "pct": 41
+      },
+      {
+       "label": "NET Unfavorable",
+       "pct": 40
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very favorable",
+       "pct": 33
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 21
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 7
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 21
+      },
+      {
+       "label": "Don’t know enough to say",
+       "pct": 16
+      },
+      {
+       "label": "Never heard of them",
+       "pct": 2
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      },
+      {
+       "label": "NET Favorable",
+       "pct": 54
+      },
+      {
+       "label": "NET Unfavorable",
+       "pct": 27
+      }
+     ],
+     "population_note": null,
+     "quote": "Next, please indicate whether you have a favorable or unfavorable opinion of each of the following, or if you do not know enough to say. U.S. Representative Alexandria Ocasio-Cortez || Very favorable 24% 22% 25% 35% 19% 17% 23% 24% 35% 15% 3% 39% 15% 33% 15% 20% / Somewhat favorable 17% 16% 18% 20% 16% 17% 14% 23% 19% 17% 5% 24% 16% 21% 16% 14% / Somewhat unfavorable 6% 7% 5% 5% 6% 6% 6% 6% 8% 4% 3% 6% 7% 7% 5% 5% / Very unfavorable 34% 41% 28% 22% 38% 43% 45% 19% 32% 37% 76% 15% 33% 21% 54% 37% / Don’t know enough to say 13% 8% 18% 14% 16% 9% 7% 22% 6% 19% 10% 11% 18% 16% 5% 15% / Never heard of them 4% 5% 4% 3% 5% 5% 3% 6% 1% 7% 1% 3% 9% 2% 4% 7% / Don’t know / Refused 1% 0% 2% 1% 0% 2% 1% 1% 0% 2% 1% 1% 2% 1% 1% 1% / NET Favorable 41% 39% 43% 55% 35% 34% 37% 47% 53% 32% 9% 63% 31% 54% 31% 34% / NET Unfavorable 40% 47% 33% 26% 43% 49% 51% 25% 40% 41% 79% 21% 40% 27% 59% 42%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Kirsten Gillibrand",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Other officials",
+     "wording": "Next, please indicate whether you have a favorable or unfavorable opinion of each of the following, or if you do not know enough to say. U.S. Senator Kirsten Gillibrand",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 9
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 24
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 12
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 21
+      },
+      {
+       "label": "Don’t know enough to say",
+       "pct": 25
+      },
+      {
+       "label": "Never heard of them",
+       "pct": 8
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      },
+      {
+       "label": "NET Favorable",
+       "pct": 33
+      },
+      {
+       "label": "NET Unfavorable",
+       "pct": 33
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very favorable",
+       "pct": 5
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 26
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 13
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 15
+      },
+      {
+       "label": "Don’t know enough to say",
+       "pct": 31
+      },
+      {
+       "label": "Never heard of them",
+       "pct": 8
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      },
+      {
+       "label": "NET Favorable",
+       "pct": 31
+      },
+      {
+       "label": "NET Unfavorable",
+       "pct": 28
+      }
+     ],
+     "population_note": null,
+     "quote": "Next, please indicate whether you have a favorable or unfavorable opinion of each of the following, or if you do not know enough to say. U.S. Senator Kirsten Gillibrand || Very favorable 9% 8% 10% 5% 6% 16% 11% 7% 11% 8% 6% 14% 4% 5% 16% 10% / Somewhat favorable 24% 21% 27% 24% 23% 26% 23% 26% 28% 21% 14% 30% 23% 26% 18% 26% / Somewhat unfavorable 12% 13% 11% 13% 13% 12% 14% 9% 15% 10% 17% 10% 12% 13% 10% 13% / Very unfavorable 21% 27% 14% 17% 20% 25% 26% 13% 23% 19% 41% 14% 16% 15% 26% 23% / Don’t know enough to say 25% 21% 29% 29% 30% 15% 17% 34% 18% 29% 15% 24% 34% 31% 18% 22% / Never heard of them 8% 8% 8% 12% 7% 4% 6% 10% 4% 11% 5% 8% 10% 8% 9% 6% / Don’t know / Refused 1% 1% 1% 1% 1% 2% 2% 1% 1% 1% 2% 1% 1% 1% 3% 0% / NET Favorable 33% 30% 38% 29% 29% 42% 34% 33% 39% 29% 20% 43% 28% 31% 34% 36% / NET Unfavorable 33% 40% 25% 30% 33% 37% 41% 22% 38% 29% 57% 24% 28% 28% 37% 36%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Chuck Schumer",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Other officials",
+     "wording": "Next, please indicate whether you have a favorable or unfavorable opinion of each of the following, or if you do not know enough to say. U.S. Senator Chuck Schumer",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 9
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 23
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 17
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 39
+      },
+      {
+       "label": "Don’t know enough to say",
+       "pct": 10
+      },
+      {
+       "label": "Never heard of them",
+       "pct": 2
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      },
+      {
+       "label": "NET Favorable",
+       "pct": 31
+      },
+      {
+       "label": "NET Unfavorable",
+       "pct": 56
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very favorable",
+       "pct": 9
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 25
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 18
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 30
+      },
+      {
+       "label": "Don’t know enough to say",
+       "pct": 14
+      },
+      {
+       "label": "Never heard of them",
+       "pct": 2
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      },
+      {
+       "label": "NET Favorable",
+       "pct": 34
+      },
+      {
+       "label": "NET Unfavorable",
+       "pct": 48
+      }
+     ],
+     "population_note": null,
+     "quote": "Next, please indicate whether you have a favorable or unfavorable opinion of each of the following, or if you do not know enough to say. U.S. Senator Chuck Schumer || Very favorable 9% 7% 10% 6% 7% 13% 6% 13% 8% 10% 5% 12% 6% 9% 12% 6% / Somewhat favorable 23% 16% 29% 23% 24% 21% 21% 25% 26% 20% 9% 31% 19% 25% 18% 22% / Somewhat unfavorable 17% 17% 18% 22% 18% 13% 19% 16% 22% 13% 10% 19% 20% 18% 14% 18% / Very unfavorable 39% 48% 29% 31% 36% 47% 48% 24% 39% 39% 73% 24% 36% 30% 46% 43% / Don’t know enough to say 10% 9% 11% 13% 13% 4% 6% 15% 3% 15% 2% 11% 14% 14% 4% 9% / Never heard of them 2% 2% 2% 3% 2% 0% 0% 4% 1% 2% 0% 1% 4% 2% 4% 0% / Don’t know / Refused 1% 1% 2% 2% 0% 2% 1% 3% 1% 2% 1% 2% 1% 1% 2% 2% / NET Favorable 31% 23% 39% 28% 31% 34% 27% 39% 34% 29% 14% 43% 26% 34% 30% 28% / NET Unfavorable 56% 64% 47% 53% 54% 59% 67% 39% 60% 52% 82% 43% 56% 48% 60% 61%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Bruce Blakeman",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "2026 governor race",
+     "wording": "Next, please indicate whether you have a favorable or unfavorable opinion of each of the following, or if you do not know enough to say. Nassau County Executive Bruce Blakeman",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 15
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 14
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 6
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 11
+      },
+      {
+       "label": "Don’t know enough to say",
+       "pct": 37
+      },
+      {
+       "label": "Never heard of them",
+       "pct": 15
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 2
+      },
+      {
+       "label": "NET Favorable",
+       "pct": 29
+      },
+      {
+       "label": "NET Unfavorable",
+       "pct": 17
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very favorable",
+       "pct": 9
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 11
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 7
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 10
+      },
+      {
+       "label": "Don’t know enough to say",
+       "pct": 45
+      },
+      {
+       "label": "Never heard of them",
+       "pct": 17
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      },
+      {
+       "label": "NET Favorable",
+       "pct": 20
+      },
+      {
+       "label": "NET Unfavorable",
+       "pct": 17
+      }
+     ],
+     "population_note": null,
+     "quote": "Next, please indicate whether you have a favorable or unfavorable opinion of each of the following, or if you do not know enough to say. Nassau County Executive Bruce Blakeman || Very favorable 15% 18% 12% 8% 13% 23% 18% 11% 10% 19% 36% 8% 10% 9% 30% 12% / Somewhat favorable 14% 13% 15% 13% 15% 14% 16% 11% 16% 12% 25% 7% 15% 11% 19% 14% / Somewhat unfavorable 6% 6% 6% 11% 4% 5% 6% 7% 9% 4% 6% 7% 5% 7% 6% 7% / Very unfavorable 11% 12% 9% 10% 9% 12% 13% 7% 16% 6% 6% 15% 8% 10% 13% 9% / Don’t know enough to say 37% 33% 42% 38% 44% 29% 33% 42% 36% 38% 22% 44% 39% 45% 22% 39% / Never heard of them 15% 17% 14% 18% 15% 13% 12% 21% 12% 18% 3% 18% 21% 17% 8% 18% / Don’t know / Refused 2% 1% 2% 2% 1% 3% 2% 1% 1% 2% 2% 1% 2% 1% 3% 1% / NET Favorable 29% 31% 27% 21% 28% 37% 34% 22% 26% 31% 61% 15% 26% 20% 49% 26% / NET Unfavorable 17% 19% 15% 21% 13% 17% 19% 14% 25% 10% 12% 22% 13% 17% 19% 16%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "New York State Legislature",
+     "subject_type": "institution",
+     "measure": "favorability",
+     "category": "Other officials",
+     "wording": "Next, please indicate whether you have a favorable or unfavorable opinion of each of the following, or if you do not know enough to say. The New York State Legislature",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 3
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 24
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 17
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 21
+      },
+      {
+       "label": "Don’t know enough to say",
+       "pct": 28
+      },
+      {
+       "label": "Never heard of them",
+       "pct": 5
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 2
+      },
+      {
+       "label": "NET Favorable",
+       "pct": 27
+      },
+      {
+       "label": "NET Unfavorable",
+       "pct": 37
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very favorable",
+       "pct": 4
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 27
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 14
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 11
+      },
+      {
+       "label": "Don’t know enough to say",
+       "pct": 35
+      },
+      {
+       "label": "Never heard of them",
+       "pct": 6
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 2
+      },
+      {
+       "label": "NET Favorable",
+       "pct": 30
+      },
+      {
+       "label": "NET Unfavorable",
+       "pct": 26
+      }
+     ],
+     "population_note": null,
+     "quote": "Next, please indicate whether you have a favorable or unfavorable opinion of each of the following, or if you do not know enough to say. The New York State Legislature || Very favorable 3% 3% 4% 0% 4% 5% 3% 4% 3% 4% 4% 3% 2% 4% 4% 2% / Somewhat favorable 24% 22% 26% 26% 24% 22% 24% 24% 31% 19% 9% 35% 19% 27% 20% 24% / Somewhat unfavorable 17% 19% 15% 18% 15% 17% 20% 13% 18% 16% 17% 16% 17% 14% 18% 19% / Very unfavorable 21% 26% 16% 13% 21% 28% 27% 13% 20% 21% 52% 6% 21% 11% 28% 26% / Don’t know enough to say 28% 23% 33% 32% 32% 21% 22% 36% 26% 30% 14% 35% 29% 35% 24% 24% / Never heard of them 5% 5% 4% 9% 2% 3% 2% 8% 1% 7% 2% 3% 8% 6% 4% 3% / Don’t know / Refused 2% 3% 2% 2% 2% 3% 2% 2% 2% 3% 1% 2% 4% 2% 3% 2% / NET Favorable 27% 25% 30% 26% 28% 28% 27% 28% 33% 23% 14% 38% 21% 30% 24% 27% / NET Unfavorable 37% 45% 31% 31% 36% 46% 46% 25% 38% 37% 69% 22% 38% 26% 45% 45%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Local fire department",
+     "subject_type": "institution",
+     "measure": "favorability",
+     "category": "Public safety and policing",
+     "wording": "The following questions are about fire and emergency service where you live. If you do not know the answer to any of these questions, please indicate that. Do you have a favorable or unfavorable opinion of your local fire department?",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 60
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 17
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 4
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 4
+      },
+      {
+       "label": "Don’t know enough to say",
+       "pct": 13
+      },
+      {
+       "label": "Never heard of them",
+       "pct": 1
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      },
+      {
+       "label": "NET Favorable",
+       "pct": 77
+      },
+      {
+       "label": "NET Unfavorable",
+       "pct": 8
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very favorable",
+       "pct": 51
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 20
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 7
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 3
+      },
+      {
+       "label": "Don’t know enough to say",
+       "pct": 18
+      },
+      {
+       "label": "Never heard of them",
+       "pct": 1
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      },
+      {
+       "label": "NET Favorable",
+       "pct": 71
+      },
+      {
+       "label": "NET Unfavorable",
+       "pct": 10
+      }
+     ],
+     "population_note": null,
+     "quote": "The following questions are about fire and emergency service where you live. If you do not know the answer to any of these questions, please indicate that. Do you have a favorable or unfavorable opinion of your local fire department? || Very favorable 60% 58% 61% 52% 57% 69% 67% 49% 52% 66% 70% 58% 54% 51% 65% 65% / Somewhat favorable 17% 17% 17% 20% 18% 13% 15% 20% 23% 13% 13% 18% 19% 20% 18% 14% / Somewhat unfavorable 4% 5% 3% 7% 3% 3% 2% 7% 3% 5% 2% 3% 8% 7% 2% 3% / Very unfavorable 4% 6% 3% 1% 6% 6% 4% 5% 3% 5% 9% 3% 2% 3% 4% 6% / Don’t know enough to say 13% 12% 14% 18% 15% 8% 11% 16% 17% 11% 6% 16% 15% 18% 10% 10% / Never heard of them 1% 0% 2% 2% 1% 0% 0% 2% 1% 1% 1% 1% 0% 1% 0% 2% / Don’t know / Refused 1% 1% 0% 0% 0% 1% 1% 1% 1% 0% 0% 0% 1% 1% 1% 0% / NET Favorable 77% 75% 78% 73% 75% 81% 82% 69% 75% 78% 83% 76% 73% 71% 84% 79% / NET Unfavorable 8% 11% 6% 7% 9% 9% 6% 12% 6% 10% 11% 6% 10% 10% 6% 9%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Career firefighters",
+     "subject_type": "institution",
+     "measure": "favorability",
+     "category": "Public safety and policing",
+     "wording": "As you may know, there are two kinds of firefighters in New York State. Volunteer firefighters are trained first responders who serve with little or no regular pay. This is common in suburban or rural areas. Career firefighters live at a firehouse during their shift and get paid a full-time salary and benefits for their work. This is common in larger cities. Please indicate whether you have a favorable or unfavorable opinion of each of the following. Career firefighters",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 64
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 18
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 3
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 4
+      },
+      {
+       "label": "Don’t know enough to say",
+       "pct": 10
+      },
+      {
+       "label": "Never heard of them",
+       "pct": 1
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 0
+      },
+      {
+       "label": "NET Favorable",
+       "pct": 82
+      },
+      {
+       "label": "NET Unfavorable",
+       "pct": 7
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very favorable",
+       "pct": 57
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 19
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 3
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 3
+      },
+      {
+       "label": "Don’t know enough to say",
+       "pct": 14
+      },
+      {
+       "label": "Never heard of them",
+       "pct": 2
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      },
+      {
+       "label": "NET Favorable",
+       "pct": 76
+      },
+      {
+       "label": "NET Unfavorable",
+       "pct": 7
+      }
+     ],
+     "population_note": null,
+     "quote": "As you may know, there are two kinds of firefighters in New York State. Volunteer firefighters are trained first responders who serve with little or no regular pay. This is common in suburban or rural areas. Career firefighters live at a firehouse during their shift and get paid a full-time salary and benefits for their work. This is common in larger cities. Please indicate whether you have a favorable or unfavorable opinion of each of the following. Career firefighters || Very favorable 64% 63% 65% 60% 65% 67% 69% 56% 62% 65% 69% 64% 60% 57% 65% 70% / Somewhat favorable 18% 18% 18% 20% 19% 14% 14% 23% 19% 17% 13% 20% 18% 19% 20% 15% / Somewhat unfavorable 3% 3% 3% 5% 2% 2% 3% 3% 4% 2% 3% 2% 4% 3% 3% 2% / Very unfavorable 4% 5% 3% 2% 4% 7% 5% 3% 4% 4% 7% 3% 4% 3% 3% 6% / Don’t know enough to say 10% 10% 9% 13% 6% 10% 8% 13% 10% 10% 8% 9% 13% 14% 9% 6% / Never heard of them 1% 0% 2% 0% 3% 0% 0% 2% 0% 2% 0% 2% 1% 2% 0% 0% / Don’t know / Refused 0% 0% 1% 1% 0% 0% 1% 0% 1% 0% 1% 0% 0% 1% 0% 0% / NET Favorable 82% 81% 83% 80% 84% 81% 83% 79% 81% 82% 82% 84% 78% 76% 85% 85% / NET Unfavorable 7% 8% 6% 6% 6% 9% 8% 6% 8% 6% 10% 5% 8% 7% 6% 8%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Volunteer firefighters",
+     "subject_type": "institution",
+     "measure": "favorability",
+     "category": "Public safety and policing",
+     "wording": "As you may know, there are two kinds of firefighters in New York State. Volunteer firefighters are trained first responders who serve with little or no regular pay. This is common in suburban or rural areas. Career firefighters live at a firehouse during their shift and get paid a full-time salary and benefits for their work. This is common in larger cities. Please indicate whether you have a favorable or unfavorable opinion of each of the following. Volunteer firefighters",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 62
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 16
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 4
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 5
+      },
+      {
+       "label": "Don’t know enough to say",
+       "pct": 11
+      },
+      {
+       "label": "Never heard of them",
+       "pct": 1
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      },
+      {
+       "label": "NET Favorable",
+       "pct": 78
+      },
+      {
+       "label": "NET Unfavorable",
+       "pct": 9
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very favorable",
+       "pct": 48
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 20
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 7
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 3
+      },
+      {
+       "label": "Don’t know enough to say",
+       "pct": 19
+      },
+      {
+       "label": "Never heard of them",
+       "pct": 3
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      },
+      {
+       "label": "NET Favorable",
+       "pct": 68
+      },
+      {
+       "label": "NET Unfavorable",
+       "pct": 9
+      }
+     ],
+     "population_note": null,
+     "quote": "As you may know, there are two kinds of firefighters in New York State. Volunteer firefighters are trained first responders who serve with little or no regular pay. This is common in suburban or rural areas. Career firefighters live at a firehouse during their shift and get paid a full-time salary and benefits for their work. This is common in larger cities. Please indicate whether you have a favorable or unfavorable opinion of each of the following. Volunteer firefighters || Very favorable 62% 62% 63% 58% 55% 72% 70% 51% 57% 67% 74% 58% 61% 48% 66% 76% / Somewhat favorable 16% 15% 17% 16% 18% 14% 12% 21% 20% 12% 11% 16% 19% 20% 17% 10% / Somewhat unfavorable 4% 4% 5% 7% 5% 2% 4% 5% 5% 3% 4% 4% 5% 7% 3% 3% / Very unfavorable 5% 6% 3% 4% 5% 5% 5% 4% 5% 5% 6% 3% 6% 3% 5% 6% / Don’t know enough to say 11% 13% 10% 12% 17% 7% 8% 16% 12% 11% 4% 17% 8% 19% 9% 5% / Never heard of them 1% 1% 1% 3% 0% 0% 0% 2% 0% 2% 0% 2% 1% 3% 0% 0% / Don’t know / Refused 1% 0% 1% 1% 1% 1% 1% 0% 0% 1% 0% 1% 1% 1% 0% 1% / NET Favorable 78% 77% 80% 74% 74% 85% 82% 72% 77% 79% 86% 73% 80% 68% 83% 86% / NET Unfavorable 9% 10% 8% 11% 9% 7% 9% 9% 10% 8% 10% 7% 10% 9% 8% 9%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Makeup of local fire department",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Public safety and policing",
+     "wording": "As far as you know, is your local fire department made up mostly of volunteers, mostly of career firefighters, or is it a mix of both?",
+     "results": [
+      {
+       "label": "Mostly or entirely volunteer firefighters",
+       "pct": 33
+      },
+      {
+       "label": "Mostly or entirely career firefighters",
+       "pct": 26
+      },
+      {
+       "label": "A mix of both",
+       "pct": 16
+      },
+      {
+       "label": "Not sure",
+       "pct": 25
+      },
+      {
+       "label": "Refused",
+       "pct": 0
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Mostly or entirely volunteer firefighters",
+       "pct": 1
+      },
+      {
+       "label": "Mostly or entirely career firefighters",
+       "pct": 47
+      },
+      {
+       "label": "A mix of both",
+       "pct": 13
+      },
+      {
+       "label": "Not sure",
+       "pct": 39
+      },
+      {
+       "label": "Refused",
+       "pct": 0
+      }
+     ],
+     "population_note": null,
+     "quote": "As far as you know, is your local fire department made up mostly of volunteers, mostly of career firefighters, or is it a mix of both? || Mostly or entirely volunteer firefighters 33% 35% 30% 21% 28% 47% 48% 9% 31% 34% 54% 20% 36% 1% 58% 50% / Mostly or entirely career firefighters 26% 24% 28% 29% 27% 23% 24% 29% 31% 22% 16% 34% 20% 47% 12% 12% / A mix of both 16% 16% 17% 19% 19% 11% 11% 24% 11% 20% 17% 15% 18% 13% 15% 20% / Not sure 25% 25% 24% 32% 26% 18% 17% 37% 27% 24% 12% 31% 26% 39% 16% 17% / Refused 0% 0% 0% 0% 0% 0% 0% 0% 0% 0% 0% 0% 0% 0% 0% 0%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Fire response times in your area (perceived trend)",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Public safety and policing",
+     "wording": "From what you have seen, read, or heard, are firefighters in your area responding to emergencies faster, about the same, or slower than they have in the past?",
+     "results": [
+      {
+       "label": "Faster",
+       "pct": 21
+      },
+      {
+       "label": "About the same",
+       "pct": 46
+      },
+      {
+       "label": "Slower",
+       "pct": 5
+      },
+      {
+       "label": "Not sure",
+       "pct": 25
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 2
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Faster",
+       "pct": 26
+      },
+      {
+       "label": "About the same",
+       "pct": 38
+      },
+      {
+       "label": "Slower",
+       "pct": 4
+      },
+      {
+       "label": "Not sure",
+       "pct": 30
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 2
+      }
+     ],
+     "population_note": null,
+     "quote": "From what you have seen, read, or heard, are firefighters in your area responding to emergencies faster, about the same, or slower than they have in the past? || Faster 21% 24% 20% 21% 24% 19% 17% 28% 12% 29% 19% 22% 23% 26% 23% 16% / About the same 46% 43% 50% 43% 41% 55% 51% 40% 46% 46% 55% 46% 40% 38% 48% 54% / Slower 5% 7% 4% 9% 3% 4% 5% 5% 7% 4% 6% 5% 6% 4% 6% 6% / Not sure 25% 23% 26% 26% 32% 18% 25% 24% 32% 20% 19% 25% 29% 30% 20% 23% / Don’t know / Refused 2% 3% 1% 2% 1% 3% 2% 2% 3% 1% 0% 3% 2% 2% 4% 0%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Volunteer vs. paid fire response speed (perceived)",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Public safety and policing",
+     "wording": "In areas with volunteer firefighters, do you think emergency help arrives faster, about the same, or slower than in areas with paid firefighters?",
+     "results": [
+      {
+       "label": "Faster",
+       "pct": 9
+      },
+      {
+       "label": "About the same",
+       "pct": 34
+      },
+      {
+       "label": "Slower",
+       "pct": 17
+      },
+      {
+       "label": "Not sure",
+       "pct": 36
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 4
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Faster",
+       "pct": 10
+      },
+      {
+       "label": "About the same",
+       "pct": 25
+      },
+      {
+       "label": "Slower",
+       "pct": 14
+      },
+      {
+       "label": "Not sure",
+       "pct": 43
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 7
+      }
+     ],
+     "population_note": null,
+     "quote": "In areas with volunteer firefighters, do you think emergency help arrives faster, about the same, or slower than in areas with paid firefighters? || Faster 9% 10% 9% 9% 8% 11% 8% 11% 5% 13% 12% 6% 13% 10% 12% 7% / About the same 34% 33% 36% 29% 35% 37% 34% 34% 29% 38% 40% 30% 35% 25% 40% 39% / Slower 17% 17% 16% 21% 16% 13% 22% 9% 20% 14% 21% 15% 15% 14% 13% 21% / Not sure 36% 37% 35% 38% 37% 33% 33% 40% 40% 32% 26% 41% 34% 43% 32% 31% / Don’t know / Refused 4% 4% 4% 3% 4% 6% 3% 6% 5% 4% 1% 7% 3% 7% 3% 2%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Out-of-pocket costs deterring volunteer firefighters",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Public safety and policing",
+     "wording": "To the best of your knowledge, how big a problem is each of the following in New York State right now? Out-of-pocket costs for gear, fuel, and training making fewer people willing to volunteer as a firefighter or ambulance worker, or keep serving",
+     "results": [
+      {
+       "label": "A big problem",
+       "pct": 40
+      },
+      {
+       "label": "A moderate problem",
+       "pct": 28
+      },
+      {
+       "label": "A small problem",
+       "pct": 14
+      },
+      {
+       "label": "Not a problem at all",
+       "pct": 9
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 9
+      },
+      {
+       "label": "NET Problem",
+       "pct": 68
+      },
+      {
+       "label": "NET Not a problem",
+       "pct": 23
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "A big problem",
+       "pct": 40
+      },
+      {
+       "label": "A moderate problem",
+       "pct": 24
+      },
+      {
+       "label": "A small problem",
+       "pct": 15
+      },
+      {
+       "label": "Not a problem at all",
+       "pct": 7
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 14
+      },
+      {
+       "label": "NET Problem",
+       "pct": 65
+      },
+      {
+       "label": "NET Not a problem",
+       "pct": 22
+      }
+     ],
+     "population_note": null,
+     "quote": "To the best of your knowledge, how big a problem is each of the following in New York State right now? Out-of-pocket costs for gear, fuel, and training making fewer people willing to volunteer as a firefighter or ambulance worker, or keep serving || A big problem 40% 38% 43% 40% 42% 39% 38% 42% 37% 43% 41% 38% 43% 40% 30% 46% / A moderate problem 28% 29% 27% 32% 29% 25% 33% 23% 32% 26% 24% 32% 26% 24% 29% 32% / A small problem 14% 13% 14% 17% 11% 14% 14% 14% 16% 12% 17% 12% 16% 15% 16% 12% / Not a problem at all 9% 11% 7% 5% 11% 10% 10% 8% 6% 11% 12% 7% 10% 7% 15% 7% / Don’t know / Refused 9% 9% 8% 6% 8% 12% 5% 13% 9% 8% 6% 12% 6% 14% 10% 3% / NET Problem 68% 67% 70% 71% 71% 64% 71% 65% 68% 69% 65% 70% 69% 65% 59% 78% / NET Not a problem 23% 24% 22% 22% 22% 24% 24% 22% 23% 23% 29% 19% 25% 22% 32% 19%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Volunteer shortage at fire departments",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Public safety and policing",
+     "wording": "To the best of your knowledge, how big a problem is each of the following in New York State right now? Fire departments not having enough volunteers to answer emergency calls",
+     "results": [
+      {
+       "label": "A big problem",
+       "pct": 38
+      },
+      {
+       "label": "A moderate problem",
+       "pct": 28
+      },
+      {
+       "label": "A small problem",
+       "pct": 16
+      },
+      {
+       "label": "Not a problem at all",
+       "pct": 11
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 7
+      },
+      {
+       "label": "NET Problem",
+       "pct": 66
+      },
+      {
+       "label": "NET Not a problem",
+       "pct": 27
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "A big problem",
+       "pct": 39
+      },
+      {
+       "label": "A moderate problem",
+       "pct": 24
+      },
+      {
+       "label": "A small problem",
+       "pct": 17
+      },
+      {
+       "label": "Not a problem at all",
+       "pct": 11
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 9
+      },
+      {
+       "label": "NET Problem",
+       "pct": 63
+      },
+      {
+       "label": "NET Not a problem",
+       "pct": 28
+      }
+     ],
+     "population_note": null,
+     "quote": "To the best of your knowledge, how big a problem is each of the following in New York State right now? Fire departments not having enough volunteers to answer emergency calls || A big problem 38% 34% 42% 30% 40% 44% 37% 38% 33% 43% 45% 34% 40% 39% 31% 42% / A moderate problem 28% 30% 26% 31% 29% 24% 31% 23% 30% 26% 25% 29% 27% 24% 32% 29% / A small problem 16% 16% 16% 24% 10% 15% 16% 17% 18% 14% 17% 15% 17% 17% 15% 16% / Not a problem at all 11% 12% 10% 8% 15% 9% 10% 13% 9% 12% 9% 12% 10% 11% 14% 9% / Don’t know / Refused 7% 8% 6% 7% 6% 9% 6% 9% 10% 5% 4% 10% 5% 9% 9% 4% / NET Problem 66% 64% 68% 61% 69% 68% 68% 62% 63% 69% 70% 63% 67% 63% 63% 71% / NET Not a problem 27% 28% 26% 32% 25% 24% 26% 29% 27% 26% 26% 27% 28% 28% 29% 25%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Longer emergency response times",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Public safety and policing",
+     "wording": "To the best of your knowledge, how big a problem is each of the following in New York State right now? Longer emergency response times in some areas",
+     "results": [
+      {
+       "label": "A big problem",
+       "pct": 37
+      },
+      {
+       "label": "A moderate problem",
+       "pct": 28
+      },
+      {
+       "label": "A small problem",
+       "pct": 16
+      },
+      {
+       "label": "Not a problem at all",
+       "pct": 15
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 4
+      },
+      {
+       "label": "NET Problem",
+       "pct": 65
+      },
+      {
+       "label": "NET Not a problem",
+       "pct": 31
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "A big problem",
+       "pct": 42
+      },
+      {
+       "label": "A moderate problem",
+       "pct": 26
+      },
+      {
+       "label": "A small problem",
+       "pct": 16
+      },
+      {
+       "label": "Not a problem at all",
+       "pct": 11
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 5
+      },
+      {
+       "label": "NET Problem",
+       "pct": 68
+      },
+      {
+       "label": "NET Not a problem",
+       "pct": 26
+      }
+     ],
+     "population_note": null,
+     "quote": "To the best of your knowledge, how big a problem is each of the following in New York State right now? Longer emergency response times in some areas || A big problem 37% 32% 41% 38% 38% 34% 31% 44% 36% 38% 36% 37% 36% 42% 30% 35% / A moderate problem 28% 28% 29% 31% 30% 25% 34% 21% 29% 28% 27% 28% 29% 26% 24% 33% / A small problem 16% 16% 15% 16% 14% 17% 16% 15% 17% 15% 14% 17% 15% 16% 15% 16% / Not a problem at all 15% 19% 12% 12% 13% 19% 14% 15% 12% 17% 19% 13% 15% 11% 25% 13% / Don’t know / Refused 4% 5% 4% 3% 5% 5% 4% 5% 7% 2% 4% 5% 4% 5% 5% 3% / NET Problem 65% 60% 69% 69% 68% 58% 65% 65% 65% 66% 63% 66% 66% 68% 54% 68% / NET Not a problem 31% 35% 27% 28% 27% 36% 30% 30% 29% 32% 33% 30% 30% 26% 40% 29%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Small-town fire departments shutting down or merging",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Public safety and policing",
+     "wording": "To the best of your knowledge, how big a problem is each of the following in New York State right now? Small-town fire departments having to shut down or merge",
+     "results": [
+      {
+       "label": "A big problem",
+       "pct": 36
+      },
+      {
+       "label": "A moderate problem",
+       "pct": 28
+      },
+      {
+       "label": "A small problem",
+       "pct": 14
+      },
+      {
+       "label": "Not a problem at all",
+       "pct": 13
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 8
+      },
+      {
+       "label": "NET Problem",
+       "pct": 64
+      },
+      {
+       "label": "NET Not a problem",
+       "pct": 27
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "A big problem",
+       "pct": 40
+      },
+      {
+       "label": "A moderate problem",
+       "pct": 27
+      },
+      {
+       "label": "A small problem",
+       "pct": 12
+      },
+      {
+       "label": "Not a problem at all",
+       "pct": 10
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 10
+      },
+      {
+       "label": "NET Problem",
+       "pct": 68
+      },
+      {
+       "label": "NET Not a problem",
+       "pct": 22
+      }
+     ],
+     "population_note": null,
+     "quote": "To the best of your knowledge, how big a problem is each of the following in New York State right now? Small-town fire departments having to shut down or merge || A big problem 36% 32% 40% 31% 36% 41% 34% 40% 34% 38% 42% 34% 35% 40% 24% 39% / A moderate problem 28% 27% 29% 32% 30% 24% 29% 27% 30% 27% 25% 31% 26% 27% 28% 29% / A small problem 14% 14% 13% 18% 12% 14% 17% 11% 17% 11% 12% 13% 18% 12% 18% 15% / Not a problem at all 13% 17% 10% 12% 14% 13% 13% 14% 11% 14% 14% 14% 10% 10% 21% 11% / Don’t know / Refused 8% 9% 8% 7% 8% 9% 7% 9% 8% 8% 7% 8% 10% 10% 9% 6% / NET Problem 64% 60% 69% 63% 67% 65% 63% 67% 63% 66% 66% 65% 62% 68% 52% 69% / NET Not a problem 27% 32% 23% 30% 26% 26% 30% 25% 29% 26% 26% 27% 28% 22% 39% 25%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Raising volunteer firefighter/EMS tax credit from $200 to $800",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Taxes and budget",
+     "wording": "Consider the following proposal. Right now, New York State gives volunteer firefighters and volunteer ambulance workers a state income tax credit of $200 a year. New York is considering a proposal that would raise that tax credit to $800 a year. Just your first impression: Would you support or oppose raising the state income tax credit for these workers, or are you not sure?",
+     "results": [
+      {
+       "label": "Support",
+       "pct": 81
+      },
+      {
+       "label": "Oppose",
+       "pct": 4
+      },
+      {
+       "label": "Not sure",
+       "pct": 15
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 0
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Support",
+       "pct": 75
+      },
+      {
+       "label": "Oppose",
+       "pct": 5
+      },
+      {
+       "label": "Not sure",
+       "pct": 20
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 0
+      }
+     ],
+     "population_note": null,
+     "quote": "Consider the following proposal. Right now, New York State gives volunteer firefighters and volunteer ambulance workers a state income tax credit of $200 a year. New York is considering a proposal that would raise that tax credit to $800 a year. Just your first impression: Would you support or oppose raising the state income tax credit for these workers, or are you not sure? || Support 81% 82% 80% 78% 79% 84% 86% 73% 85% 77% 88% 81% 75% 75% 78% 88% / Oppose 4% 4% 4% 6% 3% 3% 4% 4% 5% 3% 5% 3% 5% 5% 5% 2% / Not sure 15% 14% 16% 16% 18% 12% 10% 23% 10% 19% 7% 16% 20% 20% 17% 9% / Don’t know / Refused 0% 1% 0% 0% 0% 1% 0% 1% 0% 1% 0% 1% 0% 0% 0% 1%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Reason to raise volunteer firefighter tax credit: volunteers cover 80% of state",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Taxes and budget",
+     "wording": "Please indicate if you believe each of the following is a good reason or bad reason to increase the state income tax credit for volunteer firefighters and volunteer ambulance workers. Volunteer departments cover 80% of New York State’s geography, and nearly everything outside of cities. Supporting volunteers makes sure everyone has the service they deserve no matter where they live.",
+     "results": [
+      {
+       "label": "Very good reason",
+       "pct": 64
+      },
+      {
+       "label": "Somewhat good reason",
+       "pct": 27
+      },
+      {
+       "label": "Somewhat bad reason",
+       "pct": 7
+      },
+      {
+       "label": "Very bad reason",
+       "pct": 2
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      },
+      {
+       "label": "NET Good reason",
+       "pct": 91
+      },
+      {
+       "label": "NET Bad reason",
+       "pct": 9
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very good reason",
+       "pct": 57
+      },
+      {
+       "label": "Somewhat good reason",
+       "pct": 32
+      },
+      {
+       "label": "Somewhat bad reason",
+       "pct": 8
+      },
+      {
+       "label": "Very bad reason",
+       "pct": 2
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      },
+      {
+       "label": "NET Good reason",
+       "pct": 88
+      },
+      {
+       "label": "NET Bad reason",
+       "pct": 10
+      }
+     ],
+     "population_note": null,
+     "quote": "Please indicate if you believe each of the following is a good reason or bad reason to increase the state income tax credit for volunteer firefighters and volunteer ambulance workers. Volunteer departments cover 80% of New York State’s geography, and nearly everything outside of cities. Supporting volunteers makes sure everyone has the service they deserve no matter where they live. || Very good reason 64% 60% 68% 52% 66% 72% 69% 55% 66% 62% 73% 63% 58% 57% 66% 71% / Somewhat good reason 27% 28% 25% 29% 29% 23% 24% 31% 26% 27% 21% 28% 28% 32% 20% 26% / Somewhat bad reason 7% 9% 5% 16% 2% 2% 5% 9% 6% 8% 3% 6% 12% 8% 13% 2% / Very bad reason 2% 2% 2% 2% 2% 2% 1% 3% 1% 2% 2% 2% 2% 2% 1% 2% / Don’t know / Refused 1% 1% 0% 1% 0% 1% 0% 1% 1% 1% 0% 1% 0% 1% 0% 0% / NET Good reason 91% 88% 93% 81% 96% 95% 94% 86% 92% 90% 95% 92% 86% 88% 86% 96% / NET Bad reason 9% 11% 7% 18% 4% 4% 6% 12% 7% 10% 5% 7% 13% 10% 14% 3%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Reason to raise volunteer firefighter tax credit: volunteers save state $4 billion",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Taxes and budget",
+     "wording": "Please indicate if you believe each of the following is a good reason or bad reason to increase the state income tax credit for volunteer firefighters and volunteer ambulance workers. Volunteers save New York State $4 billion every year. A small tax benefit for each person saves money overall.",
+     "results": [
+      {
+       "label": "Very good reason",
+       "pct": 56
+      },
+      {
+       "label": "Somewhat good reason",
+       "pct": 32
+      },
+      {
+       "label": "Somewhat bad reason",
+       "pct": 6
+      },
+      {
+       "label": "Very bad reason",
+       "pct": 3
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 3
+      },
+      {
+       "label": "NET Good reason",
+       "pct": 88
+      },
+      {
+       "label": "NET Bad reason",
+       "pct": 9
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very good reason",
+       "pct": 50
+      },
+      {
+       "label": "Somewhat good reason",
+       "pct": 36
+      },
+      {
+       "label": "Somewhat bad reason",
+       "pct": 7
+      },
+      {
+       "label": "Very bad reason",
+       "pct": 4
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 3
+      },
+      {
+       "label": "NET Good reason",
+       "pct": 86
+      },
+      {
+       "label": "NET Bad reason",
+       "pct": 11
+      }
+     ],
+     "population_note": null,
+     "quote": "Please indicate if you believe each of the following is a good reason or bad reason to increase the state income tax credit for volunteer firefighters and volunteer ambulance workers. Volunteers save New York State $4 billion every year. A small tax benefit for each person saves money overall. || Very good reason 56% 52% 61% 47% 57% 63% 63% 46% 57% 55% 65% 54% 52% 50% 57% 62% / Somewhat good reason 32% 35% 29% 39% 32% 27% 28% 39% 32% 33% 26% 36% 31% 36% 35% 27% / Somewhat bad reason 6% 6% 5% 5% 7% 6% 4% 8% 4% 7% 4% 5% 8% 7% 3% 6% / Very bad reason 3% 4% 2% 6% 2% 1% 3% 4% 4% 3% 4% 2% 4% 4% 4% 2% / Don’t know / Refused 3% 2% 3% 3% 2% 3% 2% 3% 2% 3% 1% 2% 4% 3% 1% 3% / NET Good reason 88% 87% 89% 86% 89% 90% 91% 85% 90% 88% 91% 90% 84% 86% 92% 89% / NET Bad reason 9% 11% 7% 11% 9% 7% 7% 12% 8% 9% 8% 8% 12% 11% 7% 8%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Reason to raise volunteer firefighter tax credit: recruiting shortage",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Taxes and budget",
+     "wording": "Please indicate if you believe each of the following is a good reason or bad reason to increase the state income tax credit for volunteer firefighters and volunteer ambulance workers. Volunteer departments are having a hard time recruiting new workers. The tax credit is fair compensation for their work and will help address the worker shortage.",
+     "results": [
+      {
+       "label": "Very good reason",
+       "pct": 55
+      },
+      {
+       "label": "Somewhat good reason",
+       "pct": 33
+      },
+      {
+       "label": "Somewhat bad reason",
+       "pct": 7
+      },
+      {
+       "label": "Very bad reason",
+       "pct": 3
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 2
+      },
+      {
+       "label": "NET Good reason",
+       "pct": 88
+      },
+      {
+       "label": "NET Bad reason",
+       "pct": 11
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very good reason",
+       "pct": 49
+      },
+      {
+       "label": "Somewhat good reason",
+       "pct": 36
+      },
+      {
+       "label": "Somewhat bad reason",
+       "pct": 10
+      },
+      {
+       "label": "Very bad reason",
+       "pct": 3
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 2
+      },
+      {
+       "label": "NET Good reason",
+       "pct": 85
+      },
+      {
+       "label": "NET Bad reason",
+       "pct": 13
+      }
+     ],
+     "population_note": null,
+     "quote": "Please indicate if you believe each of the following is a good reason or bad reason to increase the state income tax credit for volunteer firefighters and volunteer ambulance workers. Volunteer departments are having a hard time recruiting new workers. The tax credit is fair compensation for their work and will help address the worker shortage. || Very good reason 55% 51% 59% 47% 54% 64% 59% 50% 52% 57% 66% 53% 49% 49% 63% 56% / Somewhat good reason 33% 35% 30% 39% 35% 26% 30% 37% 35% 32% 24% 33% 39% 36% 27% 33% / Somewhat bad reason 7% 8% 6% 8% 7% 5% 6% 8% 8% 7% 6% 9% 6% 10% 3% 8% / Very bad reason 3% 3% 3% 6% 2% 2% 3% 4% 4% 3% 3% 3% 3% 3% 4% 2% / Don’t know / Refused 2% 3% 1% 1% 2% 2% 2% 1% 1% 2% 1% 2% 2% 2% 2% 1% / NET Good reason 88% 86% 90% 85% 89% 91% 89% 87% 86% 89% 90% 86% 88% 85% 90% 89% / NET Bad reason 11% 11% 10% 13% 10% 7% 9% 12% 13% 9% 9% 12% 10% 13% 8% 10%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Volunteer firefighter tax credit: smart investment vs. can't afford it",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Taxes and budget",
+     "wording": "Which comes closer to your view, even if neither is exactly right? [Statement pair 1 on raising the volunteer firefighter tax credit]",
+     "results": [
+      {
+       "label": "Raising the tax credit is a smart investment. Volunteer firefighters save taxpayers billions of dollars compared with a paid fire service, so a bigger credit is necessary to keep communities safe.",
+       "pct": 79
+      },
+      {
+       "label": "The state cannot afford to raise the tax credit right now. With the budget tight, New York State should not add a new tax break, even for a good cause like this one.",
+       "pct": 18
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 2
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Raising the tax credit is a smart investment. Volunteer firefighters save taxpayers billions of dollars compared with a paid fire service, so a bigger credit is necessary to keep communities safe.",
+       "pct": 71
+      },
+      {
+       "label": "The state cannot afford to raise the tax credit right now. With the budget tight, New York State should not add a new tax break, even for a good cause like this one.",
+       "pct": 25
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 3
+      }
+     ],
+     "population_note": "Message-test pair asked after informational statements; sponsored by FASNY.",
+     "quote": "Which comes closer to your view, even if neither is exactly right? [Statement pair 1 on raising the volunteer firefighter tax credit] || Raising the tax credit is a smart investment. Volunteer firefighters save taxpayers billions of dollars compared with a paid fire service, so a bigger credit is necessary to keep communities safe. 79% 80% 80% 74% 80% 84% 86% 69% 82% 78% 88% 81% 71% 71% 83% 86% / The state cannot afford to raise the tax credit right now. With the budget tight, New York State should not add a new tax break, even for a good cause like this one. 18% 18% 18% 24% 20% 13% 13% 27% 17% 20% 10% 17% 28% 25% 15% 13% / Don’t know / Refused 2% 2% 2% 3% 1% 3% 1% 4% 1% 3% 1% 3% 1% 3% 1% 1%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Volunteer firefighter tax credit: act now vs. no emergency",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Taxes and budget",
+     "wording": "Which comes closer to your view, even if neither is exactly right? [Statement pair 2 on raising the volunteer firefighter tax credit]",
+     "results": [
+      {
+       "label": "We need to act now. The state has not raised the tax credit for volunteer firefighters in nearly 20 years, even as inflation has driven up the cost of volunteering, and volunteers already pay most of their own costs out of pocket. Departments are struggling to find and keep volunteers, and if we do not fix this, response times could get longer and some towns could lose their fire departments.",
+       "pct": 81
+      },
+      {
+       "label": "There is no emergency here. New York State’s fire departments are still answering calls, and Albany politicians are always ready to throw more taxpayer money at the problem. Raising a tax credit that already exists would cost taxpayers more, and there is no clear sign that money is what is keeping people from volunteering.",
+       "pct": 17
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 2
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "We need to act now. The state has not raised the tax credit for volunteer firefighters in nearly 20 years, even as inflation has driven up the cost of volunteering, and volunteers already pay most of their own costs out of pocket. Departments are struggling to find and keep volunteers, and if we do not fix this, response times could get longer and some towns could lose their fire departments.",
+       "pct": 79
+      },
+      {
+       "label": "There is no emergency here. New York State’s fire departments are still answering calls, and Albany politicians are always ready to throw more taxpayer money at the problem. Raising a tax credit that already exists would cost taxpayers more, and there is no clear sign that money is what is keeping people from volunteering.",
+       "pct": 18
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 3
+      }
+     ],
+     "population_note": "Message-test pair; sponsored by FASNY.",
+     "quote": "Which comes closer to your view, even if neither is exactly right? [Statement pair 2 on raising the volunteer firefighter tax credit] || ...some towns could lose their fire departments. 81% 80% 81% 80% 80% 84% 85% 76% 80% 82% 85% 81% 79% 79% 81% 83% / ...there is no clear sign that money is what is keeping people from volunteering. 17% 18% 16% 18% 18% 13% 14% 20% 18% 16% 14% 16% 20% 18% 17% 15% / Don’t know / Refused 2% 2% 3% 2% 2% 3% 1% 4% 3% 2% 1% 3% 2% 3% 2% 2%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Raising volunteer firefighter/EMS tax credit from $200 to $800 (informed)",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Taxes and budget",
+     "wording": "Now that you’ve learned more about this issue, do you think New York State should raise the state income tax credit for volunteer firefighters and volunteer ambulance workers to $800 or do you think New York State should keep the state income tax credit for these workers the same, at $200?",
+     "results": [
+      {
+       "label": "Increase the state income tax credit for these workers to $800",
+       "pct": 87
+      },
+      {
+       "label": "Keep the state income tax credit for these workers the same, at $200",
+       "pct": 12
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Increase the state income tax credit for these workers to $800",
+       "pct": 83
+      },
+      {
+       "label": "Keep the state income tax credit for these workers the same, at $200",
+       "pct": 15
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      }
+     ],
+     "population_note": "Asked after arguments for and against; this is the 87% figure cited in the FASNY release.",
+     "quote": "Now that you’ve learned more about this issue, do you think New York State should raise the state income tax credit for volunteer firefighters and volunteer ambulance workers to $800 or do you think New York State should keep the state income tax credit for these workers the same, at $200? || Increase the state income tax credit for these workers to $800 87% 87% 86% 84% 87% 89% 90% 81% 88% 86% 91% 86% 84% 83% 86% 90% / Keep the state income tax credit for these workers the same, at $200 12% 12% 13% 15% 13% 10% 9% 18% 11% 13% 7% 13% 15% 15% 12% 10% / Don’t know / Refused 1% 1% 1% 1% 0% 2% 1% 1% 1% 1% 1% 1% 1% 1% 2% 0%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Workers' compensation-level injury benefits for volunteer firefighters",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Public safety and policing",
+     "wording": "For each of the following ideas related to volunteer firefighters and ambulance workers, please indicate whether you support or oppose it. Giving volunteers hurt in the line of duty the same injury benefits that workers’ compensation law provides",
+     "results": [
+      {
+       "label": "Strongly support",
+       "pct": 68
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 24
+      },
+      {
+       "label": "Somewhat oppose",
+       "pct": 5
+      },
+      {
+       "label": "Strongly oppose",
+       "pct": 2
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      },
+      {
+       "label": "NET Support",
+       "pct": 92
+      },
+      {
+       "label": "NET Oppose",
+       "pct": 7
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Strongly support",
+       "pct": 65
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 29
+      },
+      {
+       "label": "Somewhat oppose",
+       "pct": 3
+      },
+      {
+       "label": "Strongly oppose",
+       "pct": 2
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      },
+      {
+       "label": "NET Support",
+       "pct": 94
+      },
+      {
+       "label": "NET Oppose",
+       "pct": 4
+      }
+     ],
+     "population_note": null,
+     "quote": "For each of the following ideas related to volunteer firefighters and ambulance workers, please indicate whether you support or oppose it. Giving volunteers hurt in the line of duty the same injury benefits that workers’ compensation law provides || Strongly support 68% 67% 70% 68% 64% 72% 71% 63% 68% 68% 70% 70% 64% 65% 64% 73% / Somewhat support 24% 24% 24% 24% 28% 21% 21% 29% 26% 22% 24% 23% 26% 29% 22% 19% / Somewhat oppose 5% 5% 4% 7% 3% 3% 5% 5% 3% 6% 3% 4% 7% 3% 7% 5% / Strongly oppose 2% 4% 1% 1% 4% 2% 2% 2% 2% 3% 3% 2% 2% 2% 5% 2% / Don’t know / Refused 1% 1% 1% 1% 0% 2% 1% 1% 1% 1% 1% 1% 1% 1% 2% 0% / NET Support 92% 90% 94% 92% 92% 93% 92% 92% 95% 90% 93% 92% 90% 94% 86% 93% / NET Oppose 7% 9% 5% 8% 8% 5% 7% 7% 5% 9% 6% 7% 8% 4% 12% 7%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Larger tax credit for volunteers who serve more",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Taxes and budget",
+     "wording": "For each of the following ideas related to volunteer firefighters and ambulance workers, please indicate whether you support or oppose it. A larger tax credit for volunteers who give more of their time, so the more someone serves, the bigger their credit",
+     "results": [
+      {
+       "label": "Strongly support",
+       "pct": 45
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 39
+      },
+      {
+       "label": "Somewhat oppose",
+       "pct": 10
+      },
+      {
+       "label": "Strongly oppose",
+       "pct": 6
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      },
+      {
+       "label": "NET Support",
+       "pct": 83
+      },
+      {
+       "label": "NET Oppose",
+       "pct": 16
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Strongly support",
+       "pct": 47
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 41
+      },
+      {
+       "label": "Somewhat oppose",
+       "pct": 7
+      },
+      {
+       "label": "Strongly oppose",
+       "pct": 5
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 0
+      },
+      {
+       "label": "NET Support",
+       "pct": 88
+      },
+      {
+       "label": "NET Oppose",
+       "pct": 12
+      }
+     ],
+     "population_note": null,
+     "quote": "For each of the following ideas related to volunteer firefighters and ambulance workers, please indicate whether you support or oppose it. A larger tax credit for volunteers who give more of their time, so the more someone serves, the bigger their credit || Strongly support 45% 49% 42% 43% 47% 44% 43% 46% 43% 46% 48% 44% 43% 47% 37% 47% / Somewhat support 39% 35% 42% 41% 39% 37% 37% 42% 41% 37% 37% 41% 37% 41% 40% 36% / Somewhat oppose 10% 10% 9% 11% 8% 11% 12% 8% 11% 10% 8% 9% 13% 7% 12% 12% / Strongly oppose 6% 5% 6% 5% 5% 6% 7% 4% 5% 6% 6% 6% 6% 5% 10% 4% / Don’t know / Refused 1% 1% 1% 0% 0% 2% 1% 0% 0% 1% 0% 1% 1% 0% 1% 1% / NET Support 83% 84% 84% 84% 86% 81% 80% 88% 84% 83% 86% 84% 80% 88% 77% 83% / NET Oppose 16% 15% 15% 16% 14% 18% 19% 12% 16% 16% 14% 15% 19% 12% 22% 16%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Child care tax credit for volunteer firefighters",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Taxes and budget",
+     "wording": "For each of the following ideas related to volunteer firefighters and ambulance workers, please indicate whether you support or oppose it. Creating a tax credit to help volunteers pay for childcare",
+     "results": [
+      {
+       "label": "Strongly support",
+       "pct": 47
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 34
+      },
+      {
+       "label": "Somewhat oppose",
+       "pct": 11
+      },
+      {
+       "label": "Strongly oppose",
+       "pct": 8
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      },
+      {
+       "label": "NET Support",
+       "pct": 80
+      },
+      {
+       "label": "NET Oppose",
+       "pct": 18
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Strongly support",
+       "pct": 56
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 29
+      },
+      {
+       "label": "Somewhat oppose",
+       "pct": 9
+      },
+      {
+       "label": "Strongly oppose",
+       "pct": 5
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      },
+      {
+       "label": "NET Support",
+       "pct": 85
+      },
+      {
+       "label": "NET Oppose",
+       "pct": 15
+      }
+     ],
+     "population_note": null,
+     "quote": "For each of the following ideas related to volunteer firefighters and ambulance workers, please indicate whether you support or oppose it. Creating a tax credit to help volunteers pay for childcare || Strongly support 47% 43% 49% 56% 47% 37% 40% 55% 49% 45% 31% 55% 45% 56% 37% 43% / Somewhat support 34% 37% 31% 30% 34% 37% 34% 33% 31% 36% 41% 29% 36% 29% 40% 35% / Somewhat oppose 11% 11% 11% 9% 9% 14% 13% 7% 11% 11% 17% 8% 10% 9% 11% 13% / Strongly oppose 8% 7% 7% 3% 9% 10% 10% 3% 7% 8% 11% 6% 7% 5% 10% 8% / Don’t know / Refused 1% 1% 2% 1% 1% 3% 2% 1% 2% 1% 1% 2% 2% 1% 3% 1% / NET Support 80% 81% 80% 87% 81% 73% 74% 89% 80% 80% 72% 83% 82% 85% 77% 78% / NET Oppose 18% 18% 18% 12% 19% 24% 24% 10% 18% 18% 28% 15% 17% 15% 21% 21%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Student loan forgiveness for volunteer firefighters",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Taxes and budget",
+     "wording": "For each of the following ideas related to volunteer firefighters and ambulance workers, please indicate whether you support or oppose it. Offering student loan forgiveness benefits for volunteer firefighters",
+     "results": [
+      {
+       "label": "Strongly support",
+       "pct": 46
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 31
+      },
+      {
+       "label": "Somewhat oppose",
+       "pct": 11
+      },
+      {
+       "label": "Strongly oppose",
+       "pct": 10
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 1
+      },
+      {
+       "label": "NET Support",
+       "pct": 78
+      },
+      {
+       "label": "NET Oppose",
+       "pct": 21
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Strongly support",
+       "pct": 55
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 30
+      },
+      {
+       "label": "Somewhat oppose",
+       "pct": 7
+      },
+      {
+       "label": "Strongly oppose",
+       "pct": 9
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 0
+      },
+      {
+       "label": "NET Support",
+       "pct": 84
+      },
+      {
+       "label": "NET Oppose",
+       "pct": 15
+      }
+     ],
+     "population_note": null,
+     "quote": "For each of the following ideas related to volunteer firefighters and ambulance workers, please indicate whether you support or oppose it. Offering student loan forgiveness benefits for volunteer firefighters || Strongly support 46% 42% 51% 61% 45% 34% 41% 54% 52% 42% 30% 54% 46% 55% 37% 44% / Somewhat support 31% 34% 29% 24% 33% 37% 31% 32% 28% 34% 39% 30% 28% 30% 34% 31% / Somewhat oppose 11% 11% 11% 8% 11% 14% 14% 6% 9% 13% 15% 9% 13% 7% 13% 14% / Strongly oppose 10% 12% 8% 7% 11% 12% 12% 7% 10% 10% 15% 7% 12% 9% 14% 9% / Don’t know / Refused 1% 1% 1% 0% 0% 3% 1% 1% 1% 1% 1% 1% 1% 0% 2% 1% / NET Support 78% 76% 80% 85% 78% 71% 72% 86% 80% 76% 69% 84% 74% 84% 71% 75% / NET Oppose 21% 23% 19% 15% 22% 26% 27% 13% 19% 23% 30% 15% 24% 15% 27% 24%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Property tax reduction or elimination for active volunteers",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Taxes and budget",
+     "wording": "For each of the following ideas related to volunteer firefighters and ambulance workers, please indicate whether you support or oppose it. Allowing towns to reduce or even eliminate property taxes for active volunteers",
+     "results": [
+      {
+       "label": "Strongly support",
+       "pct": 26
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 34
+      },
+      {
+       "label": "Somewhat oppose",
+       "pct": 19
+      },
+      {
+       "label": "Strongly oppose",
+       "pct": 18
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 2
+      },
+      {
+       "label": "NET Support",
+       "pct": 61
+      },
+      {
+       "label": "NET Oppose",
+       "pct": 38
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Strongly support",
+       "pct": 30
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 37
+      },
+      {
+       "label": "Somewhat oppose",
+       "pct": 15
+      },
+      {
+       "label": "Strongly oppose",
+       "pct": 15
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 3
+      },
+      {
+       "label": "NET Support",
+       "pct": 67
+      },
+      {
+       "label": "NET Oppose",
+       "pct": 30
+      }
+     ],
+     "population_note": null,
+     "quote": "For each of the following ideas related to volunteer firefighters and ambulance workers, please indicate whether you support or oppose it. Allowing towns to reduce or even eliminate property taxes for active volunteers || Strongly support 26% 25% 27% 35% 25% 20% 25% 28% 24% 29% 29% 24% 28% 30% 24% 24% / Somewhat support 34% 34% 35% 26% 39% 37% 29% 42% 28% 39% 35% 35% 33% 37% 33% 33% / Somewhat oppose 19% 19% 20% 18% 17% 23% 23% 14% 25% 15% 19% 20% 19% 15% 21% 23% / Strongly oppose 18% 20% 17% 19% 19% 17% 22% 14% 23% 15% 16% 20% 17% 15% 21% 20% / Don’t know / Refused 2% 2% 1% 1% 1% 3% 1% 2% 1% 2% 1% 1% 3% 3% 1% 1% / NET Support 61% 59% 62% 61% 63% 57% 54% 70% 52% 68% 64% 59% 61% 67% 56% 57% / NET Oppose 38% 39% 37% 38% 36% 40% 45% 28% 48% 30% 35% 40% 36% 30% 42% 43%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "$250 monthly gift card for volunteer firefighters",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Taxes and budget",
+     "wording": "For each of the following ideas related to volunteer firefighters and ambulance workers, please indicate whether you support or oppose it. Providing volunteers a $250 gift card each month",
+     "results": [
+      {
+       "label": "Strongly support",
+       "pct": 24
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 32
+      },
+      {
+       "label": "Somewhat oppose",
+       "pct": 23
+      },
+      {
+       "label": "Strongly oppose",
+       "pct": 18
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 2
+      },
+      {
+       "label": "NET Support",
+       "pct": 56
+      },
+      {
+       "label": "NET Oppose",
+       "pct": 41
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Strongly support",
+       "pct": 31
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 33
+      },
+      {
+       "label": "Somewhat oppose",
+       "pct": 22
+      },
+      {
+       "label": "Strongly oppose",
+       "pct": 13
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 2
+      },
+      {
+       "label": "NET Support",
+       "pct": 64
+      },
+      {
+       "label": "NET Oppose",
+       "pct": 34
+      }
+     ],
+     "population_note": null,
+     "quote": "For each of the following ideas related to volunteer firefighters and ambulance workers, please indicate whether you support or oppose it. Providing volunteers a $250 gift card each month || Strongly support 24% 24% 24% 29% 25% 20% 20% 30% 19% 28% 21% 26% 24% 31% 22% 19% / Somewhat support 32% 33% 32% 30% 34% 33% 29% 36% 27% 37% 31% 32% 34% 33% 27% 34% / Somewhat oppose 23% 21% 25% 24% 21% 24% 25% 21% 29% 18% 23% 24% 21% 22% 23% 25% / Strongly oppose 18% 20% 16% 17% 19% 18% 23% 11% 23% 14% 23% 17% 17% 13% 24% 20% / Don’t know / Refused 2% 2% 3% 1% 2% 4% 3% 1% 1% 3% 2% 1% 4% 2% 4% 2% / NET Support 56% 57% 56% 59% 58% 53% 49% 67% 46% 65% 52% 58% 58% 64% 49% 53% / NET Oppose 41% 41% 41% 41% 40% 43% 48% 32% 53% 32% 46% 41% 38% 34% 47% 45%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Best incentive for younger volunteer firefighters",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Public safety and policing",
+     "wording": "Which of these do you think would be more successful at attracting younger people to become volunteer firefighters?",
+     "results": [
+      {
+       "label": "Student loan forgiveness benefits",
+       "pct": 67
+      },
+      {
+       "label": "A child care tax credit",
+       "pct": 29
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 4
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Student loan forgiveness benefits",
+       "pct": 74
+      },
+      {
+       "label": "A child care tax credit",
+       "pct": 24
+      },
+      {
+       "label": "Don’t know / Refused",
+       "pct": 2
+      }
+     ],
+     "population_note": null,
+     "quote": "Which of these do you think would be more successful at attracting younger people to become volunteer firefighters? || Student loan forgiveness benefits 67% 63% 71% 75% 67% 60% 64% 72% 72% 63% 62% 71% 64% 74% 64% 62% / A child care tax credit 29% 32% 26% 23% 31% 34% 32% 26% 26% 32% 34% 25% 33% 24% 32% 33% / Don’t know / Refused 4% 5% 3% 2% 2% 6% 5% 2% 2% 5% 4% 4% 3% 2% 4% 5%",
+     "source_kind": "crosstab"
+    }
+   ]
+  },
+  {
+   "poll_id": "dataforprogress-20260608",
+   "pollster": "Data for Progress",
+   "sponsor": "Institute for Middle East Understanding (IMEU)",
+   "sponsor_type": "advocacy",
+   "geography": "New York State",
+   "population": "LV",
+   "n": 719,
+   "moe": 4,
+   "field_start": "2026-05-20",
+   "field_end": "2026-05-26",
+   "release_date": "2026-06-08",
+   "mode": "SMS and web panel",
+   "url": "https://www.dataforprogress.org/blog/2026/6/8/voters-in-new-york-believe-that-us-military-aid-to-israel-should-be-halted-and-that-israel-is-committing-a-genocide-in-gaza",
+   "tables_url": "https://www.filesforprogress.org/datasets/2026/6/dfp_imeu_ny_ip_poll_26_regions_tabs.pdf",
+   "confidence": "HIGH",
+   "notes": "Release and full crosstabs (13 pages) fetched. Data for Progress is a progressive firm; the poll was conducted with IMEU, an advocacy group on Israel/Palestine, so sponsor_type is advocacy. NYC column = 'NYC' region (weighted N 240). Omitted as not New York-focused: favorability of Bernie Sanders, Pete Buttigieg, Josh Shapiro, Chris Van Hollen, Kamala Harris, Gavin Newsom, Rahm Emanuel, AIPAC, Benjamin Netanyahu, and Q3 (whether a war on Iran benefits the U.S. or Israel). The crosstabs also print a FAVORABLE (NET) row; it is included as published, not computed. Value '<0.5' kept as a string. Questions 4 and 5 were randomized. Q8 and Q9 result rows were reassembled by hand from wrapped crosstab lines; quotes show the raw wrapped text.",
+   "questions": [
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Mayor",
+     "wording": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Zohran Mamdani",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 26
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 22
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 10
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 31
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 12
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 48
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 41
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": 7
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very favorable",
+       "pct": 38
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 23
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 14
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 21
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 4
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 61
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 35
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": 26
+      }
+     ],
+     "population_note": null,
+     "quote": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Zohran Mamdani || Very favorable 26 42 27 1 31 21 39 21 23 31 37 24 27 22 38 18 / Somewhat favorable 22 34 17 7 20 24 24 21 19 24 28 18 32 17 23 25 / Somewhat 10 7 11 11 8 11 7 10 7 13 11 9 15 6 14 9 unfavorable / Very unfavorable 31 9 32 65 26 38 16 37 34 27 13 36 22 33 21 41 / Haven't heard enough 12 7 14 15 16 6 13 11 17 4 11 13 5 22 4 7 to say / FAVORABLE (TOTAL) 48 76 44 8 51 45 63 42 42 55 65 42 59 39 61 43 / UNFAVORABLE 41 16 43 76 34 49 23 47 41 40 24 45 37 39 35 50 (TOTAL) / FAVORABLE (NET) +7 +60 +1 −68 +17 −4 +40 −5 +1 +15 +41 −3 +22 0 +26 −7",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Governor",
+     "wording": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Kathy Hochul",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 16
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 32
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 14
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 33
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 5
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 48
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 47
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": 1
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very favorable",
+       "pct": 21
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 39
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 14
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 20
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 6
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 60
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 34
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": 26
+      }
+     ],
+     "population_note": null,
+     "quote": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Kathy Hochul || Very favorable 16 28 9 4 19 12 18 15 19 12 32 13 16 14 21 12 / Somewhat favorable 32 48 32 7 32 32 34 31 24 42 36 31 42 25 39 32 / Somewhat 14 12 18 13 13 15 13 14 12 16 10 15 11 14 14 14 unfavorable / Very unfavorable 33 10 34 68 29 37 23 37 38 26 10 38 24 42 20 37 / Haven't heard enough 5 3 7 7 6 4 12 2 7 3 13 3 7 5 6 5 to say / FAVORABLE (TOTAL) 48 76 41 11 51 44 52 46 43 54 68 44 58 39 60 44 / UNFAVORABLE 47 22 52 81 42 52 36 51 50 42 20 53 35 56 34 51 (TOTAL) / FAVORABLE (NET) +1 +54 −11 −70 +9 −8 +16 −5 −7 +12 +48 −9 +23 −17 +26 −7",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Chuck Schumer",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Other officials",
+     "wording": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Chuck Schumer",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 15
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 24
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 16
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 38
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 7
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 39
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 54
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": -15
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very favorable",
+       "pct": 24
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 27
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 15
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 29
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 5
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 51
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 44
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": 7
+      }
+     ],
+     "population_note": null,
+     "quote": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Chuck Schumer || Very favorable 15 29 8 2 17 13 15 16 17 13 36 11 24 12 24 10 / Somewhat favorable 24 34 20 13 26 21 20 25 23 26 31 22 32 24 27 20 / Somewhat 16 16 18 13 15 16 20 14 10 23 8 18 10 14 15 18 unfavorable / Very unfavorable 38 15 48 64 33 45 32 41 41 35 15 45 27 43 29 44 / Haven't heard enough 7 5 7 8 9 4 14 4 9 4 11 5 6 7 5 7 to say / FAVORABLE (TOTAL) 39 63 28 15 43 34 35 41 40 39 67 33 56 36 51 30 / UNFAVORABLE 54 31 66 77 48 61 52 55 51 58 23 63 37 57 44 62 (TOTAL) / FAVORABLE (NET) −15 +32 −38 −62 −5 −27 −17 −14 −11 −19 +44 −30 +19 −21 +7 −32",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Kirsten Gillibrand",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Other officials",
+     "wording": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Kirsten Gillibrand",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 16
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 28
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 16
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 23
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 17
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 44
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 39
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": 5
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very favorable",
+       "pct": 18
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 29
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 13
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 19
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 21
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 47
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 32
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": 15
+      }
+     ],
+     "population_note": null,
+     "quote": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Kirsten Gillibrand || Very favorable 16 29 7 4 16 15 11 18 15 17 19 15 20 15 18 14 / Somewhat favorable 28 32 31 19 29 27 24 30 25 32 30 31 22 30 29 25 / Somewhat 16 12 16 21 13 18 16 15 15 16 4 18 11 17 13 16 unfavorable / Very unfavorable 23 11 25 42 21 26 20 25 24 23 16 25 20 21 19 31 / Haven't heard enough 17 17 21 15 21 14 29 13 21 13 31 12 26 18 21 13 to say / FAVORABLE (TOTAL) 44 61 38 23 45 42 35 48 40 49 49 46 42 45 47 39 / UNFAVORABLE 39 23 41 63 34 44 36 40 39 39 20 43 31 38 32 47 (TOTAL) / FAVORABLE (NET) +5 +38 −3 −40 +11 −2 −1 +8 +1 +10 +29 +3 +11 +7 +15 −8",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Alexandria Ocasio-Cortez",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Other officials",
+     "wording": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Alexandria Ocasio-Cortez (AOC)",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 24
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 21
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 7
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 35
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 13
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 45
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 42
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": 3
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very favorable",
+       "pct": 33
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 25
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 10
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 21
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 11
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 58
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 31
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": 27
+      }
+     ],
+     "population_note": null,
+     "quote": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Alexandria Ocasio-Cortez (AOC) || Very favorable 24 38 22 4 27 20 32 20 19 30 31 23 22 23 33 14 / Somewhat favorable 21 35 15 7 21 22 21 21 18 26 27 18 34 16 25 24 / Somewhat 7 8 8 6 7 8 9 7 5 11 11 7 9 6 10 6 unfavorable / Very unfavorable 35 9 42 69 29 42 21 41 39 29 10 40 27 39 21 46 / Haven't heard enough 13 11 13 15 16 8 17 11 19 3 22 12 8 17 11 10 to say / FAVORABLE (TOTAL) 45 73 37 11 48 42 53 41 37 56 58 41 56 39 58 38 / UNFAVORABLE 42 17 50 75 36 50 30 48 44 40 21 47 36 45 31 52 (TOTAL) / FAVORABLE (NET) +3 +56 −13 −64 +12 −8 +23 −7 −7 +16 +37 −6 +20 −6 +27 −14",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Hakeem Jeffries",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Other officials",
+     "wording": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Hakeem Jeffries",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 16
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 20
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 13
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 27
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 24
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 36
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 40
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": -4
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very favorable",
+       "pct": 21
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 25
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 15
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 20
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 19
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 46
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 35
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": 11
+      }
+     ],
+     "population_note": null,
+     "quote": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Hakeem Jeffries || Very favorable 16 31 8 2 19 13 9 19 16 16 30 15 13 13 21 15 / Somewhat favorable 20 28 20 9 18 24 22 20 16 26 21 20 32 18 25 18 / Somewhat 13 11 16 12 12 15 18 11 8 20 10 13 13 12 15 12 unfavorable / Very unfavorable 27 7 31 53 19 35 19 30 29 23 12 31 16 24 20 36 / Haven't heard enough 24 22 25 25 32 14 32 20 31 14 27 21 26 33 19 18 to say / FAVORABLE (TOTAL) 36 59 28 11 37 37 31 39 32 42 51 35 45 31 46 33 / UNFAVORABLE 40 18 47 65 31 50 37 41 37 43 22 44 29 36 35 48 (TOTAL) / FAVORABLE (NET) −4 +41 −19 −54 +6 −13 −6 −2 −5 −1 +29 −9 +16 −5 +11 −15",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Ritchie Torres",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Other officials",
+     "wording": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Ritchie Torres",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 7
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 12
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 7
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 12
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 61
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 19
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 19
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": 0
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very favorable",
+       "pct": 12
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 21
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 7
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 18
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 43
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 33
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 25
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": 8
+      }
+     ],
+     "population_note": null,
+     "quote": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Ritchie Torres || Very favorable 7 12 5 2 8 6 6 7 7 7 17 6 8 4 12 5 / Somewhat favorable 12 19 6 8 9 15 15 10 11 13 20 10 17 5 21 10 / Somewhat 7 4 9 10 7 8 8 7 6 9 9 7 2 6 7 9 unfavorable / Very unfavorable 12 8 13 19 9 17 14 12 13 12 12 13 13 7 18 13 / Haven't heard enough 61 57 67 61 67 55 56 64 63 59 42 64 60 78 43 62 to say / FAVORABLE (TOTAL) 19 31 11 10 17 21 21 17 18 20 37 16 25 9 33 15 / UNFAVORABLE 19 12 22 29 16 25 22 19 19 21 21 20 15 13 25 22 (TOTAL) / FAVORABLE (NET) 0 +19 −11 −19 +1 −4 −1 −2 −1 −1 +16 −4 +10 −4 +8 −7",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Donald Trump",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Trump and Washington",
+     "wording": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Donald Trump",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 26
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 10
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 7
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 56
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 1
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 36
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 63
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": -27
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very favorable",
+       "pct": 17
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 8
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 6
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 67
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 2
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 25
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 73
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": -48
+      }
+     ],
+     "population_note": null,
+     "quote": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Donald Trump || Very favorable 26 3 22 70 25 28 21 29 32 18 4 30 22 29 17 34 / Somewhat favorable 10 1 14 20 7 13 12 9 11 9 7 10 5 9 8 13 / Somewhat 7 4 11 6 7 6 8 6 7 6 11 7 8 7 6 6 unfavorable / Very unfavorable 56 91 52 4 60 51 56 56 48 66 75 51 64 53 67 46 / Haven't heard enough 1 1 2 1 1 2 3 1 2 1 3 1 1 1 2 1 to say / FAVORABLE (TOTAL) 36 4 36 90 32 41 33 38 43 27 11 40 27 38 25 47 / UNFAVORABLE 63 95 63 10 67 57 64 62 55 72 86 58 72 60 73 52 (TOTAL) / FAVORABLE (NET) −27 −91 −27 +80 −35 −16 −31 −24 −12 −45 −75 −18 −45 −22 −48 −5",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Working Families Party",
+     "subject_type": "institution",
+     "measure": "favorability",
+     "category": "Other officials",
+     "wording": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Working Families Party",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 15
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 28
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 9
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 10
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 37
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 43
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 19
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": 24
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very favorable",
+       "pct": 19
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 36
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 11
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 4
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 31
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 55
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 15
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": 40
+      }
+     ],
+     "population_note": null,
+     "quote": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Working Families Party || Very favorable 15 21 15 7 19 11 23 12 17 13 18 14 19 14 19 13 / Somewhat favorable 28 36 26 18 29 27 34 25 25 32 32 24 36 23 36 25 / Somewhat 9 6 9 13 6 12 11 8 7 11 2 10 5 5 11 11 unfavorable / Very unfavorable 10 3 13 19 6 16 3 14 9 12 5 12 11 12 4 16 / Haven't heard enough 37 35 37 43 40 35 29 41 41 32 44 40 29 46 31 35 to say / FAVORABLE (TOTAL) 43 57 41 25 48 38 57 37 42 45 50 38 55 37 55 38 / UNFAVORABLE 19 9 22 32 12 28 14 22 16 23 7 22 16 17 15 27 (TOTAL) / FAVORABLE (NET) +24 +48 +19 −7 +36 +10 +43 +15 +26 +22 +43 +16 +39 +20 +40 +11",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Democratic Socialists of America",
+     "subject_type": "institution",
+     "measure": "favorability",
+     "category": "Other officials",
+     "wording": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Democratic Socialists of America (DSA)",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 12
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 18
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 10
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 32
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 28
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 30
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 42
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": -12
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very favorable",
+       "pct": 18
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 27
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 12
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 18
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 25
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 45
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 30
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": 15
+      }
+     ],
+     "population_note": null,
+     "quote": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Democratic Socialists of America (DSA) || Very favorable 12 17 13 1 14 9 22 7 10 14 20 10 6 7 18 9 / Somewhat favorable 18 29 14 5 17 20 22 16 14 24 29 14 27 13 27 14 / Somewhat 10 9 12 10 8 13 12 9 10 11 5 12 5 9 12 11 unfavorable / Very unfavorable 32 5 36 69 28 37 21 36 35 28 9 39 19 37 18 41 / Haven't heard enough 28 39 24 15 33 22 22 31 32 22 36 25 43 34 25 24 to say / FAVORABLE (TOTAL) 30 46 27 6 31 29 44 23 24 38 49 24 33 20 45 23 / UNFAVORABLE 42 14 48 79 36 50 33 45 45 39 14 51 24 46 30 52 (TOTAL) / FAVORABLE (NET) −12 +32 −21 −73 −5 −21 +11 −22 −21 −1 +35 −27 +9 −26 +15 −29",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Democratic Party",
+     "subject_type": "institution",
+     "measure": "favorability",
+     "category": "Other officials",
+     "wording": "Do you have a favorable or unfavorable opinion of the following people or institutions? — The Democratic Party",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 19
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 27
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 19
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 30
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 4
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 46
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 49
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": -3
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very favorable",
+       "pct": 30
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 29
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 19
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 19
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 3
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 59
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 38
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": 21
+      }
+     ],
+     "population_note": null,
+     "quote": "Do you have a favorable or unfavorable opinion of the following people or institutions? — The Democratic Party || Very favorable 19 41 6 2 20 18 20 19 22 16 45 13 29 13 30 15 / Somewhat favorable 27 42 26 6 30 25 30 26 20 38 23 27 35 27 29 26 / Somewhat 19 11 26 23 18 21 20 19 19 20 12 20 16 20 19 19 unfavorable / Very unfavorable 30 4 35 67 27 35 22 34 34 26 7 37 17 35 19 39 / Haven't heard enough 4 2 6 3 5 2 7 2 6 <0.5 13 2 3 6 3 2 to say / FAVORABLE (TOTAL) 46 83 32 8 50 43 50 45 42 54 68 40 64 40 59 41 / UNFAVORABLE 49 15 61 90 45 56 42 53 53 46 19 57 33 55 38 58 (TOTAL) / FAVORABLE (NET) −3 +68 −29 −82 +5 −13 +8 −8 −11 +8 +49 −17 +31 −15 +21 −17",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Republican Party",
+     "subject_type": "institution",
+     "measure": "favorability",
+     "category": "Other officials",
+     "wording": "Do you have a favorable or unfavorable opinion of the following people or institutions? — The Republican Party",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 19
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 18
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 12
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 48
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 3
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 37
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 60
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": -23
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Very favorable",
+       "pct": 13
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 11
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 11
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 62
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 2
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 24
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 73
+      },
+      {
+       "label": "FAVORABLE (NET)",
+       "pct": -49
+      }
+     ],
+     "population_note": null,
+     "quote": "Do you have a favorable or unfavorable opinion of the following people or institutions? — The Republican Party || Very favorable 19 2 10 58 21 18 18 20 24 13 6 22 12 22 13 23 / Somewhat favorable 18 4 23 33 14 22 20 17 20 15 8 19 17 18 11 25 / Somewhat 12 13 16 5 11 12 10 13 9 15 14 11 16 12 11 12 unfavorable / Very unfavorable 48 79 45 4 50 47 49 48 42 56 62 45 53 43 62 40 / Haven't heard enough 3 2 5 1 4 2 3 2 4 <0.5 11 2 2 5 2 1 to say / FAVORABLE (TOTAL) 37 6 33 91 35 40 38 37 44 28 14 41 29 40 24 48 / UNFAVORABLE 60 92 61 9 61 59 59 61 51 71 76 56 69 55 73 52 (TOTAL) / FAVORABLE (NET) −23 −86 −28 +82 −26 −19 −21 −24 −7 −43 −62 −15 −40 −15 −49 −4",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Chuck Schumer",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Other officials",
+     "wording": "In general, do you think Senator Chuck Schumer is too supportive of Israel, not supportive enough of Israel, or supports Israel the right amount?",
+     "results": [
+      {
+       "label": "Too supportive of Israel",
+       "pct": 31
+      },
+      {
+       "label": "Supports Israel the right amount",
+       "pct": 26
+      },
+      {
+       "label": "Not supportive enough of Israel",
+       "pct": 20
+      },
+      {
+       "label": "Don't know",
+       "pct": 23
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Too supportive of Israel",
+       "pct": 43
+      },
+      {
+       "label": "Supports Israel the right amount",
+       "pct": 29
+      },
+      {
+       "label": "Not supportive enough of Israel",
+       "pct": 9
+      },
+      {
+       "label": "Don't know",
+       "pct": 19
+      }
+     ],
+     "population_note": "Measures view of the senator's support for Israel",
+     "quote": "In general, do you think Senator Chuck Schumer is too supportive of Israel, not supportive enough of Israel, or supports Israel the right amount? || Too supportive of Israel 31 34 42 13 27 36 50 23 26 38 32 29 30 25 43 24 / Supports Israel the right 26 40 16 15 26 25 21 28 23 30 24 26 30 20 29 29 amount / Not supportive enough 20 4 19 46 18 22 7 26 21 19 5 24 14 23 9 29 of Israel / Don't know 23 22 23 26 29 17 23 23 31 14 39 20 26 32 19 18",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Kirsten Gillibrand",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "Other officials",
+     "wording": "In general, do you think Senator Kirsten Gillibrand is too supportive of Israel, not supportive enough of Israel, or supports Israel the right amount?",
+     "results": [
+      {
+       "label": "Too supportive of Israel",
+       "pct": 24
+      },
+      {
+       "label": "Supports Israel the right amount",
+       "pct": 26
+      },
+      {
+       "label": "Not supportive enough of Israel",
+       "pct": 16
+      },
+      {
+       "label": "Don't know",
+       "pct": 34
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Too supportive of Israel",
+       "pct": 34
+      },
+      {
+       "label": "Supports Israel the right amount",
+       "pct": 29
+      },
+      {
+       "label": "Not supportive enough of Israel",
+       "pct": 7
+      },
+      {
+       "label": "Don't know",
+       "pct": 29
+      }
+     ],
+     "population_note": "Measures view of the senator's support for Israel",
+     "quote": "In general, do you think Senator Kirsten Gillibrand is too supportive of Israel, not supportive enough of Israel, or supports Israel the right amount? || Too supportive of Israel 24 28 30 9 21 27 39 18 21 28 28 22 26 21 34 16 / Supports Israel the right 26 32 21 20 25 27 22 27 24 28 30 27 26 21 29 27 amount / Not supportive enough 16 4 16 34 15 17 9 19 17 15 4 19 12 16 7 25 of Israel / Don't know 34 35 32 36 40 28 31 36 39 29 38 32 36 42 29 32",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Senate vote to stop transfer of bombs to Israel",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Trump and Washington",
+     "wording": "In January, the Trump administration announced the delivery of over 20,000 bombs to Israel. This includes bombs Israel has used in military operations in Gaza, Iran, and Lebanon. The U.S. Senate recently held a vote on whether to stop the transfer of these bombs to Israel. Would you approve or disapprove of the U.S. Senate voting to stop the transfer of these bombs to Israel?",
+     "results": [
+      {
+       "label": "Strongly approve",
+       "pct": 42
+      },
+      {
+       "label": "Somewhat approve",
+       "pct": 19
+      },
+      {
+       "label": "Somewhat disapprove",
+       "pct": 12
+      },
+      {
+       "label": "Strongly disapprove",
+       "pct": 22
+      },
+      {
+       "label": "Don't know",
+       "pct": 5
+      },
+      {
+       "label": "APPROVE (TOTAL)",
+       "pct": 61
+      },
+      {
+       "label": "DISAPPROVE (TOTAL)",
+       "pct": 34
+      },
+      {
+       "label": "APPROVE (NET)",
+       "pct": 27
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Strongly approve",
+       "pct": 48
+      },
+      {
+       "label": "Somewhat approve",
+       "pct": 16
+      },
+      {
+       "label": "Somewhat disapprove",
+       "pct": 11
+      },
+      {
+       "label": "Strongly disapprove",
+       "pct": 20
+      },
+      {
+       "label": "Don't know",
+       "pct": 5
+      },
+      {
+       "label": "APPROVE (TOTAL)",
+       "pct": 64
+      },
+      {
+       "label": "DISAPPROVE (TOTAL)",
+       "pct": 31
+      },
+      {
+       "label": "APPROVE (NET)",
+       "pct": 33
+      }
+     ],
+     "population_note": null,
+     "quote": "In January, the Trump administration announced the delivery of over 20,000 bombs to Israel. This includes bombs Israel has used in military operations in Gaza, Iran, and Lebanon. The U.S. Senate recently held a vote on whether to stop the transfer of these bombs to Israel. Would you approve or disapprove of the U.S. Senate voting to stop the transfer of these bombs to Israel? || Strongly approve 42 55 42 21 43 41 56 36 39 47 46 38 47 41 48 37 / Somewhat approve 19 21 15 19 20 17 15 20 19 18 20 20 16 20 16 20 / Somewhat 12 8 8 24 12 13 8 14 13 11 8 15 7 12 11 14 disapprove / Strongly disapprove 22 12 27 31 18 26 14 25 22 21 17 23 23 20 20 25 / Don't know 5 4 8 5 7 3 6 5 7 3 8 5 6 7 5 4 / APPROVE (TOTAL) 61 76 57 40 63 58 71 56 58 65 66 58 63 61 64 57 / DISAPPROVE 34 20 35 55 30 39 22 39 35 32 25 38 30 32 31 39 (TOTAL) / APPROVE (NET) +27 +56 +22 −15 +33 +19 +49 +17 +23 +33 +41 +20 +33 +29 +33 +18",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Senate vote to stop transfer of bulldozers to Israel",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Trump and Washington",
+     "wording": "Last year, the Trump administration announced the delivery of an estimated $295 million worth of bulldozers to Israel. The U.S. Senate recently held a vote on whether to stop the transfer of these bulldozers to Israel. Would you approve or disapprove of the U.S. Senate voting to stop the transfer of these bulldozers to Israel?",
+     "results": [
+      {
+       "label": "Strongly approve",
+       "pct": 37
+      },
+      {
+       "label": "Somewhat approve",
+       "pct": 20
+      },
+      {
+       "label": "Somewhat disapprove",
+       "pct": 16
+      },
+      {
+       "label": "Strongly disapprove",
+       "pct": 21
+      },
+      {
+       "label": "Don't know",
+       "pct": 6
+      },
+      {
+       "label": "APPROVE (TOTAL)",
+       "pct": 57
+      },
+      {
+       "label": "DISAPPROVE (TOTAL)",
+       "pct": 37
+      },
+      {
+       "label": "APPROVE (NET)",
+       "pct": 20
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Strongly approve",
+       "pct": 44
+      },
+      {
+       "label": "Somewhat approve",
+       "pct": 19
+      },
+      {
+       "label": "Somewhat disapprove",
+       "pct": 13
+      },
+      {
+       "label": "Strongly disapprove",
+       "pct": 17
+      },
+      {
+       "label": "Don't know",
+       "pct": 6
+      },
+      {
+       "label": "APPROVE (TOTAL)",
+       "pct": 63
+      },
+      {
+       "label": "DISAPPROVE (TOTAL)",
+       "pct": 30
+      },
+      {
+       "label": "APPROVE (NET)",
+       "pct": 33
+      }
+     ],
+     "population_note": null,
+     "quote": "Last year, the Trump administration announced the delivery of an estimated $295 million worth of bulldozers to Israel. The U.S. Senate recently held a vote on whether to stop the transfer of these bulldozers to Israel. Would you approve or disapprove of the U.S. Senate voting to stop the transfer of these bulldozers to Israel? || Strongly approve 37 46 41 17 38 35 50 31 32 43 38 32 45 35 44 31 / Somewhat approve 20 25 13 20 22 18 19 21 22 18 22 21 19 20 19 21 / Somewhat 16 12 14 24 14 18 13 17 17 14 10 19 10 13 13 21 disapprove / Strongly disapprove 21 13 23 32 17 26 12 25 22 20 15 22 20 23 17 23 / Don't know 6 5 9 7 9 3 7 6 7 5 15 6 6 8 6 5 / APPROVE (TOTAL) 57 71 54 37 60 53 69 52 54 61 60 53 64 55 63 52 / DISAPPROVE 37 25 37 56 31 44 25 42 39 34 25 41 30 36 30 44 (TOTAL) / APPROVE (NET) +20 +46 +17 −19 +29 +9 +44 +10 +15 +27 +35 +12 +34 +19 +33 +8",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Whether Israel is committing genocide in Gaza",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Other issues",
+     "wording": "Do you believe Israel is committing genocide against the Palestinian people living in Gaza?",
+     "results": [
+      {
+       "label": "Yes, Israel is committing genocide against Palestinian people in Gaza",
+       "pct": 51
+      },
+      {
+       "label": "No, Israel is not committing genocide against Palestinian people in Gaza",
+       "pct": 33
+      },
+      {
+       "label": "Don't know",
+       "pct": 16
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Yes, Israel is committing genocide against Palestinian people in Gaza",
+       "pct": 60
+      },
+      {
+       "label": "No, Israel is not committing genocide against Palestinian people in Gaza",
+       "pct": 22
+      },
+      {
+       "label": "Don't know",
+       "pct": 19
+      }
+     ],
+     "population_note": null,
+     "quote": "Do you believe Israel is committing genocide against the Palestinian people living in Gaza? || Yes, Israel is committing genocide against Palestinian 51 70 51 19 52 49 67 44 44 59 58 47 55 48 60 44 people in Gaza / No, Israel is not committing genocide against Palestinian 33 15 28 67 28 39 18 39 34 31 7 39 29 32 22 46 people in Gaza / Don't know 16 14 21 14 20 12 15 17 21 10 35 14 16 20 19 10",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "U.S. weapons to Israel",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Trump and Washington",
+     "wording": "Which policy regarding U.S. weapons to Israel do you prefer, even if neither is exactly right?",
+     "results": [
+      {
+       "label": "The U.S. should continue delivering weapons to Israel to support Israel's right to defend itself against terrorism and complete its war aims in Gaza.",
+       "pct": 33
+      },
+      {
+       "label": "The U.S. should restrict tax-payer funded weapons to Israel until it stops attacking civilians in Gaza, Lebanon, and Iran, supports Palestinian rights, and commits to a long-term peace process.",
+       "pct": 60
+      },
+      {
+       "label": "Don't know",
+       "pct": 8
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "The U.S. should continue delivering weapons to Israel to support Israel's right to defend itself against terrorism and complete its war aims in Gaza.",
+       "pct": 21
+      },
+      {
+       "label": "The U.S. should restrict tax-payer funded weapons to Israel until it stops attacking civilians in Gaza, Lebanon, and Iran, supports Palestinian rights, and commits to a long-term peace process.",
+       "pct": 70
+      },
+      {
+       "label": "Don't know",
+       "pct": 9
+      }
+     ],
+     "population_note": null,
+     "quote": "Which policy regarding U.S. weapons to Israel do you prefer, even if neither is exactly right? || The U.S. should continue delivering weapons to Israel to support Israel's right to defend 33 13 30 67 27 39 15 40 34 31 8 38 26 32 21 45 itself against terrorism and complete its war aims in Gaza. / The U.S. should restrict tax-payer funded weapons to Israel until it stops attacking civilians in Gaza, 60 82 60 24 63 56 75 53 56 64 77 55 65 59 70 49 Lebanon, and Iran, supports Palestinian rights, and commits to a long-term peace process. / Don't know 8 5 10 10 10 5 10 7 10 5 15 7 9 9 9 5",
+     "source_kind": "crosstab"
+    }
+   ]
+  },
+  {
+   "poll_id": "echelon-20260330",
+   "pollster": "Echelon Insights",
+   "sponsor": "Tusk Strategies",
+   "sponsor_type": "advocacy",
+   "geography": "New York State",
+   "population": "RV in the likely electorate",
+   "n": 500,
+   "moe": 5.4,
+   "field_start": "2026-03-24",
+   "field_end": "2026-03-26",
+   "release_date": "2026-03-30",
+   "mode": "70% text-to-web, 15% live cell, 15% live landline; L2 voter file sample",
+   "url": "https://www.politico.com/f/?id=0000019d-407c-d107-a19d-e6ff72210000",
+   "tables_url": "https://web.archive.org/web/20260730181746/https://www.politico.com/f/?id=0000019d-407c-d107-a19d-e6ff72210000",
+   "confidence": "HIGH",
+   "notes": "Full topline with question wording read from the Wayback Machine copy of the Politico-hosted PDF (politico.com itself blocked our fetch). Commissioned by Tusk Strategies amid Tusk's campaign against the State Senate proposal to decouple from the federal startup-stock (QSBS) exclusion; sponsor_type advocacy. Release date 2026-03-30 is the date Wikipedia gives for the Politico posting, not independently confirmed. Topline only; no NYC column (county pre-codes show sample composition only). Questions 5-9 are message tests with argumentative preambles. Quotes are from the PDF text; for the governor question some intermediate lines are elided with '...'.",
+   "questions": [
+    {
+     "subject": "2026 governor: Hochul vs. Blakeman",
+     "subject_type": "race",
+     "measure": "horse race",
+     "category": "2026 governor race",
+     "wording": "[QNYGov] If the 2026 New York state gubernatorial election were being held today, and you had to make a choice, would you vote for Bruce Blakeman, the Republican candidate or Kathy Hochul the Democratic candidate? [QNYGovLeaner] And if you had to choose today, would you vote for Bruce Blakeman or Kathy Hochul in the 2026 New York state gubernatorial election?",
+     "results": [
+      {
+       "label": "Bruce Blakeman, the Republican candidate, definitely/probably/lean",
+       "pct": 40
+      },
+      {
+       "label": "Kathy Hochul, the Democratic candidate, definitely/probably/lean",
+       "pct": 55
+      },
+      {
+       "label": "Bruce Blakeman, definitely",
+       "pct": 30
+      },
+      {
+       "label": "Bruce Blakeman, probably",
+       "pct": 8
+      },
+      {
+       "label": "Bruce Blakeman, lean",
+       "pct": 1
+      },
+      {
+       "label": "Kathy Hochul, lean",
+       "pct": 1
+      },
+      {
+       "label": "Kathy Hochul, probably",
+       "pct": 17
+      },
+      {
+       "label": "Kathy Hochul, definitely",
+       "pct": 37
+      },
+      {
+       "label": "Don't know/Refused/Unsure",
+       "pct": 6
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "BRUCE BLAKEMAN, THE REPUBLICAN CANDIDATE, DEFINITELY/PROBABLY/LEAN 40% KATHY HOCHUL, THE DEMOCRATIC CANDIDATE, DEFINITELY/PROBABLY/LEAN 55% ... Don’t know/Refused/Unsure 6%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Importance of startup and tech sector to state economy",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Economy and cost of living",
+     "wording": "New York City is the second-largest startup hub in the world, home to more than 25,000 tech-focused startups. The city's tech sector supports hundreds of thousands of jobs – accounting for roughly 7% of all jobs in the city – and the ecosystem is valued at over $600 billion. In 2024 alone, New York startups raised more than $17 billion in venture capital investment. [QNYStartup] Knowing this, how important do you think the growth of New York's startup and tech sector is to the long-term economic health of New York State?",
+     "results": [
+      {
+       "label": "Extremely/very important",
+       "pct": 58
+      },
+      {
+       "label": "Extremely important",
+       "pct": 25
+      },
+      {
+       "label": "Very important",
+       "pct": 32
+      },
+      {
+       "label": "Somewhat important",
+       "pct": 29
+      },
+      {
+       "label": "Not very important",
+       "pct": 4
+      },
+      {
+       "label": "Not at all important",
+       "pct": 4
+      },
+      {
+       "label": "Don't know/Refused/Unsure",
+       "pct": 5
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "EXTREMELY/VERY IMPORTANT 58% Extremely important 25% Very important 32% Somewhat important 29% Not very important 4% Not at all important 4% Don’t know/Refused/Unsure 5%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "State Senate proposal to eliminate startup investment tax incentive",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Taxes and budget",
+     "wording": "The New York State Senate's budget includes a proposal to eliminate a federal tax incentive that encourages investment in startups and small businesses. Supporters say it closes a loophole that benefits wealthy investors. Opponents say it will drive startup jobs out of New York. [QNYBudgetProposal] Knowing this, do you have a favorable or unfavorable view of this proposed legislation in New York State?",
+     "results": [
+      {
+       "label": "Very/somewhat favorable",
+       "pct": 28
+      },
+      {
+       "label": "Very/somewhat unfavorable",
+       "pct": 44
+      },
+      {
+       "label": "Very favorable",
+       "pct": 8
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 20
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 20
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 25
+      },
+      {
+       "label": "Don't know/Refused/Unsure",
+       "pct": 27
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "VERY/SOMEWHAT FAVORABLE 28% VERY/SOMEWHAT UNFAVORABLE 44% Very favorable 8% Somewhat favorable 20% Somewhat unfavorable 20% Very unfavorable 25% Don’t know/Refused/Unsure 27%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Eliminating tax benefit for startup investment",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Taxes and budget",
+     "wording": "[QNYEliminate] In general, do you think it is a good idea or a bad idea for New York State to eliminate a tax benefit that currently encourages investment in startups and small businesses?",
+     "results": [
+      {
+       "label": "Very/somewhat good idea",
+       "pct": 26
+      },
+      {
+       "label": "Very/somewhat bad idea",
+       "pct": 61
+      },
+      {
+       "label": "Very good idea",
+       "pct": 7
+      },
+      {
+       "label": "Somewhat good idea",
+       "pct": 19
+      },
+      {
+       "label": "Somewhat bad idea",
+       "pct": 31
+      },
+      {
+       "label": "Very bad idea",
+       "pct": 30
+      },
+      {
+       "label": "Don't know/Refused/Unsure",
+       "pct": 12
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "VERY/SOMEWHAT GOOD IDEA 26% VERY/SOMEWHAT BAD IDEA 61% Very good idea 7% Somewhat good idea 19% Somewhat bad idea 31% Very bad idea 30% Don’t know/Refused/Unsure 12%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Concern: losing startups and tech jobs if incentives eliminated",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Taxes and budget",
+     "wording": "[QMessage_LostJobs] How concerned would you be if the New York state legislature passed legislation that would eliminate all incentives for startup investments, resulting in the loss of a significant number of startup companies and tech jobs in New York?",
+     "results": [
+      {
+       "label": "Extremely/very concerned",
+       "pct": 52
+      },
+      {
+       "label": "Extremely concerned",
+       "pct": 19
+      },
+      {
+       "label": "Very concerned",
+       "pct": 34
+      },
+      {
+       "label": "Somewhat concerned",
+       "pct": 24
+      },
+      {
+       "label": "Not very concerned",
+       "pct": 8
+      },
+      {
+       "label": "Not concerned at all",
+       "pct": 8
+      },
+      {
+       "label": "Don't know/Refused/Unsure",
+       "pct": 8
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Message-test question from the sponsor's campaign against the startup tax proposal",
+     "quote": "EXTREMELY/VERY CONCERNED 52% Extremely concerned 19% Very concerned 34% Somewhat concerned 24% Not very concerned 8% Not concerned at all 8% Don’t know/Refused/Unsure 8%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Concern: losing startups to Austin and Miami",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Taxes and budget",
+     "wording": "[QMessage_Cities] Austin and Miami are already competing aggressively for New York's tech talent and startup investment by offering lower taxes and friendlier business climates. Some say the proposed new legislation would make New York even less competitive. Knowing this, how concerned are you that New York could lose startup companies and tech jobs to cities like Austin and Miami?",
+     "results": [
+      {
+       "label": "Extremely/very concerned",
+       "pct": 46
+      },
+      {
+       "label": "Extremely concerned",
+       "pct": 23
+      },
+      {
+       "label": "Very concerned",
+       "pct": 23
+      },
+      {
+       "label": "Somewhat concerned",
+       "pct": 26
+      },
+      {
+       "label": "Not very concerned",
+       "pct": 11
+      },
+      {
+       "label": "Not concerned at all",
+       "pct": 10
+      },
+      {
+       "label": "Don't know/Refused/Unsure",
+       "pct": 7
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Message-test question from the sponsor's campaign against the startup tax proposal",
+     "quote": "EXTREMELY/VERY CONCERNED 46% Extremely concerned 23% Very concerned 23% Somewhat concerned 26% Not very concerned 11% Not concerned at all 10% Don’t know/Refused/Unsure 7%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Concern: startup tax proposal leading to cuts in child care and services",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Taxes and budget",
+     "wording": "[QMessage_Cuts] Some say that if this proposal passes and drives startups and tech companies, jobs and investments to places like Miami or Austin, New York State will lose long-term tax revenues and may no longer be able to afford key priorities like subsidizing childcare or other services that families rely on. Knowing this, how concerned are you that this proposal could lead to cuts in priorities like subsidized childcare and other services that help New York families?",
+     "results": [
+      {
+       "label": "Extremely/very concerned",
+       "pct": 44
+      },
+      {
+       "label": "Extremely concerned",
+       "pct": 18
+      },
+      {
+       "label": "Very concerned",
+       "pct": 26
+      },
+      {
+       "label": "Somewhat concerned",
+       "pct": 29
+      },
+      {
+       "label": "Not very concerned",
+       "pct": 12
+      },
+      {
+       "label": "Not concerned at all",
+       "pct": 9
+      },
+      {
+       "label": "Don't know/Refused/Unsure",
+       "pct": 7
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Message-test question from the sponsor's campaign against the startup tax proposal",
+     "quote": "EXTREMELY/VERY CONCERNED 44% Extremely concerned 18% Very concerned 26% Somewhat concerned 29% Not very concerned 12% Not concerned at all 9% Don’t know/Refused/Unsure 7%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Concern: losing startups to New Jersey",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Taxes and budget",
+     "wording": "[QMessage_NJ] Recently, New Jersey has adopted a new state tax break on startup stock gains to attract more startup investment and jobs, while some New York lawmakers are proposing to end New York’s own tax break. Some say this would push even more startups, jobs, and tax revenue across the river to New Jersey. Knowing this, how concerned are you that New York could lose startup companies and tech jobs to New Jersey?",
+     "results": [
+      {
+       "label": "Extremely/very concerned",
+       "pct": 45
+      },
+      {
+       "label": "Extremely concerned",
+       "pct": 18
+      },
+      {
+       "label": "Very concerned",
+       "pct": 28
+      },
+      {
+       "label": "Somewhat concerned",
+       "pct": 25
+      },
+      {
+       "label": "Not very concerned",
+       "pct": 11
+      },
+      {
+       "label": "Not concerned at all",
+       "pct": 9
+      },
+      {
+       "label": "Don't know/Refused/Unsure",
+       "pct": 10
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Message-test question from the sponsor's campaign against the startup tax proposal",
+     "quote": "EXTREMELY/VERY CONCERNED 45% Extremely concerned 18% Very concerned 28% Somewhat concerned 25% Not very concerned 11% Not concerned at all 9% Don’t know/Refused/Unsure 10%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Concern: state budget over-reliance on Wall Street",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Taxes and budget",
+     "wording": "[QMessage_WallStreet] New York's budget is already too dependent on Wall Street. Nearly 20% of all New York State tax revenue comes from the finance industry. When there is a stock market downturn, Albany's budget struggles. Tech and startups are a way to diversify the state’s economy and create new revenue streams. Some say this proposal takes away the incentives that bring startup jobs to New York in the first place. Knowing this, how concerned are you about New York State's over-reliance on the financial industry and its potential vulnerability if Wall Street has a major downturn?",
+     "results": [
+      {
+       "label": "Extremely/very concerned",
+       "pct": 41
+      },
+      {
+       "label": "Extremely concerned",
+       "pct": 16
+      },
+      {
+       "label": "Very concerned",
+       "pct": 25
+      },
+      {
+       "label": "Somewhat concerned",
+       "pct": 34
+      },
+      {
+       "label": "Not very concerned",
+       "pct": 10
+      },
+      {
+       "label": "Not concerned at all",
+       "pct": 6
+      },
+      {
+       "label": "Don't know/Refused/Unsure",
+       "pct": 9
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Message-test question from the sponsor's campaign against the startup tax proposal",
+     "quote": "EXTREMELY/VERY CONCERNED 41% Extremely concerned 16% Very concerned 25% Somewhat concerned 34% Not very concerned 10% Not concerned at all 6% Don’t know/Refused/Unsure 9%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Albany should grow tech sector, not pass new taxes",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Taxes and budget",
+     "wording": "[QAgree_NoTaxes] Based on what you have heard so far, do you agree or disagree with the following statement: \"Albany should be doing everything it can to grow New York's tech and startup sector, not passing new taxes that drive those jobs to other states.\"",
+     "results": [
+      {
+       "label": "Strongly/somewhat agree",
+       "pct": 78
+      },
+      {
+       "label": "Strongly/somewhat disagree",
+       "pct": 16
+      },
+      {
+       "label": "Strongly agree",
+       "pct": 48
+      },
+      {
+       "label": "Somewhat agree",
+       "pct": 30
+      },
+      {
+       "label": "Somewhat disagree",
+       "pct": 8
+      },
+      {
+       "label": "Strongly disagree",
+       "pct": 8
+      },
+      {
+       "label": "Don't know/Refused/Unsure",
+       "pct": 6
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Asked after the message-test battery",
+     "quote": "STRONGLY/SOMEWHAT AGREE 78% STRONGLY/SOMEWHAT DISAGREE 16% Strongly agree 48% Somewhat agree 30% Somewhat disagree 8% Strongly disagree 8% Don’t know/Refused/Unsure 6%",
+     "source_kind": "release"
+    }
+   ]
+  },
+  {
+   "poll_id": "pollfinity-20260616",
+   "pollster": "Pollfinity Research",
+   "sponsor": null,
+   "sponsor_type": "independent",
+   "geography": "New York State",
+   "population": "RV",
+   "n": 229,
+   "moe": 6.5,
+   "field_start": "2026-06-11",
+   "field_end": "2026-06-14",
+   "release_date": "2026-06-16",
+   "mode": "SMS-to-web (Typeform), L2 voter file sample; unweighted",
+   "url": "https://pollfinity.com/polls/ny-governor-2026",
+   "tables_url": "https://pollfinity.com/assets/polls/ny-gov-2026-topline.pdf",
+   "confidence": "HIGH",
+   "notes": "Release page, topline PDF and crosstab PDF (https://pollfinity.com/assets/polls/ny-gov-2026-crosstabs.pdf) all fetched. Self-funded; the release says it was not commissioned by any candidate or group, but discloses that Pollfinity Research LLC is owned by Lars Mapstead, a 2024 Libertarian presidential candidate, and the poll tests Libertarian Larry Sharpe. Very small, UNWEIGHTED sample (229 completes; 81% college graduates, 1% aged 18-29) - treat with caution. Topline and crosstab PDFs disagree by 1-2 points on several items (noted per question). Exact question wording published only for the three-way vote, head-to-head, GOP primary and most-important-issue items; others are null. NYC column (n=62) only published for the vote-choice items.",
+   "questions": [
+    {
+     "subject": "2026 governor: Hochul vs. Blakeman vs. Sharpe",
+     "subject_type": "race",
+     "measure": "horse race",
+     "category": "2026 governor race",
+     "wording": "If the election for Governor of New York were held today, and the candidates were Democrat Kathy Hochul, Republican Bruce Blakeman, and Libertarian Larry Sharpe, for whom would you vote?",
+     "results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 46
+      },
+      {
+       "label": "Bruce Blakeman",
+       "pct": 35
+      },
+      {
+       "label": "Larry Sharpe",
+       "pct": 4
+      },
+      {
+       "label": "Undecided / someone else",
+       "pct": 14
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 53
+      },
+      {
+       "label": "Bruce Blakeman",
+       "pct": 32
+      },
+      {
+       "label": "Larry Sharpe",
+       "pct": 2
+      },
+      {
+       "label": "Undecided",
+       "pct": 13
+      }
+     ],
+     "population_note": null,
+     "quote": "Governor Vote Choice — Full Field Kathy Hochul 46% Bruce Blakeman 35% Larry Sharpe 4% Undecided / someone else 14% || [crosstab] New York City 62 53% 32% 2% 13%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "2026 governor: Hochul vs. Blakeman vs. Sharpe (with leaners)",
+     "subject_type": "race",
+     "measure": "horse race",
+     "category": "2026 governor race",
+     "wording": null,
+     "results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 47
+      },
+      {
+       "label": "Bruce Blakeman",
+       "pct": 37
+      },
+      {
+       "label": "Larry Sharpe",
+       "pct": 4
+      },
+      {
+       "label": "Still undecided",
+       "pct": 12
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Topline PDF gives 47/37/4/12; the crosstab PDF gives 48/38/5/10 for the same measure. Both as published.",
+     "quote": "Vote Choice After Leaners Kathy Hochul 47% Bruce Blakeman 37% Larry Sharpe 4% Still undecided 12%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "2026 governor: Hochul vs. Blakeman",
+     "subject_type": "race",
+     "measure": "horse race",
+     "category": "2026 governor race",
+     "wording": "If the 2026 Governor's race came down to just Hochul and Blakeman, for whom would you vote?",
+     "results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 50
+      },
+      {
+       "label": "Bruce Blakeman",
+       "pct": 40
+      },
+      {
+       "label": "Undecided",
+       "pct": 10
+      }
+     ],
+     "nyc_results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 60
+      },
+      {
+       "label": "Bruce Blakeman",
+       "pct": 32
+      },
+      {
+       "label": "Undecided",
+       "pct": 8
+      }
+     ],
+     "population_note": null,
+     "quote": "Head-to-Head: Hochul vs. Blakeman Kathy Hochul 50% Bruce Blakeman 40% Undecided 10% || [crosstab] New York City 60% 32% 8%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "2026 governor: Hochul vs. Sharpe",
+     "subject_type": "race",
+     "measure": "horse race",
+     "category": "2026 governor race",
+     "wording": null,
+     "results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 49
+      },
+      {
+       "label": "Larry Sharpe",
+       "pct": 26
+      },
+      {
+       "label": "Undecided",
+       "pct": 25
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Head-to-Head: Hochul vs. Sharpe Kathy Hochul 49% Larry Sharpe 26% Undecided 25%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Preferred challenger to Hochul",
+     "subject_type": "race",
+     "measure": "other",
+     "category": "2026 governor race",
+     "wording": null,
+     "results": [
+      {
+       "label": "Bruce Blakeman",
+       "pct": 39
+      },
+      {
+       "label": "Larry Sharpe",
+       "pct": 9
+      },
+      {
+       "label": "Not sure / someone else",
+       "pct": 52
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Preferred Challenger to Hochul Bruce Blakeman 39% Larry Sharpe 9% Not sure / someone else 52%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "2026 Republican primary for governor: Blakeman vs. Sharpe",
+     "subject_type": "race",
+     "measure": "primary",
+     "category": "2026 governor race",
+     "wording": "If the Republican primary for Governor were held today between Bruce Blakeman and Larry Sharpe, for whom would you vote?",
+     "results": [
+      {
+       "label": "Bruce Blakeman",
+       "pct": 37
+      },
+      {
+       "label": "Larry Sharpe",
+       "pct": 13
+      },
+      {
+       "label": "Undecided",
+       "pct": 50
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Asked of all respondents, not only Republicans. Among self-identified Republicans (n=48) the release reports Blakeman 88%, Sharpe 2%, Undecided 10%.",
+     "quote": "GOP Primary Choice (2-Way) Bruce Blakeman 37% Larry Sharpe 13% Undecided 50%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Governor",
+     "wording": null,
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 20
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 24
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 13
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 38
+      },
+      {
+       "label": "No opinion / don't know",
+       "pct": 4
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Topline PDF figures; the crosstab PDF prints Very favorable 21%, Somewhat favorable 25% (Favorable 46% / Unfavorable 51%).",
+     "quote": "Hochul Favorability Very favorable 20% Somewhat favorable 24% Somewhat unfavorable 13% Very unfavorable 38% No opinion / don't know 4%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Bruce Blakeman",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "2026 governor race",
+     "wording": null,
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 20
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 14
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 4
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 33
+      },
+      {
+       "label": "No opinion / don't know",
+       "pct": 30
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Blakeman Favorability Very favorable 20% Somewhat favorable 14% Somewhat unfavorable 4% Very unfavorable 33% No opinion / don't know 30%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Larry Sharpe",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "2026 governor race",
+     "wording": null,
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 2
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 10
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 4
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 19
+      },
+      {
+       "label": "No opinion / don't know",
+       "pct": 66
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Sharpe Favorability Very favorable 2% Somewhat favorable 10% Somewhat unfavorable 4% Very unfavorable 19% No opinion / don't know 66%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Donald Trump",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Trump and Washington",
+     "wording": null,
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 27
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 9
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 4
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 58
+      },
+      {
+       "label": "No opinion / don't know",
+       "pct": 1
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Trump Favorability Very favorable 27% Somewhat favorable 9% Somewhat unfavorable 4% Very unfavorable 58% No opinion / don't know 1%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Larry Sharpe",
+     "subject_type": "person",
+     "measure": "other",
+     "category": "2026 governor race",
+     "wording": null,
+     "results": [
+      {
+       "label": "Very familiar",
+       "pct": 5
+      },
+      {
+       "label": "Somewhat familiar",
+       "pct": 12
+      },
+      {
+       "label": "Just the name",
+       "pct": 18
+      },
+      {
+       "label": "Never heard of him",
+       "pct": 64
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Name familiarity",
+     "quote": "Familiarity with Larry Sharpe Very familiar 5% Somewhat familiar 12% Just the name 18% Never heard of him 64%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Governor",
+     "wording": null,
+     "results": [
+      {
+       "label": "Strongly approve",
+       "pct": 20
+      },
+      {
+       "label": "Somewhat approve",
+       "pct": 25
+      },
+      {
+       "label": "Somewhat disapprove",
+       "pct": 12
+      },
+      {
+       "label": "Strongly disapprove",
+       "pct": 39
+      },
+      {
+       "label": "Not sure",
+       "pct": 4
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Topline PDF figures; the release page and crosstab PDF report Approve 46% / Disapprove 51% and Strongly approve 21%.",
+     "quote": "Hochul Job Approval Strongly approve 20% Somewhat approve 25% Somewhat disapprove 12% Strongly disapprove 39% Not sure 4%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "New York State direction",
+     "subject_type": "direction",
+     "measure": "direction",
+     "category": "Direction of state/city",
+     "wording": null,
+     "results": [
+      {
+       "label": "Right direction",
+       "pct": 42
+      },
+      {
+       "label": "Wrong track",
+       "pct": 46
+      },
+      {
+       "label": "Not sure",
+       "pct": 12
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Direction of the State Right direction 42% Wrong track 46% Not sure 12%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "re-elect",
+     "category": "Governor",
+     "wording": null,
+     "results": [
+      {
+       "label": "Hochul deserves reelection",
+       "pct": 38
+      },
+      {
+       "label": "Time for new leadership",
+       "pct": 52
+      },
+      {
+       "label": "Not sure",
+       "pct": 9
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Reelect Hochul vs. New Leadership Hochul deserves reelection 38% Time for new leadership 52% Not sure 9%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "re-elect",
+     "category": "Governor",
+     "wording": null,
+     "results": [
+      {
+       "label": "Strongly agree",
+       "pct": 47
+      },
+      {
+       "label": "Somewhat agree",
+       "pct": 10
+      },
+      {
+       "label": "Somewhat disagree",
+       "pct": 14
+      },
+      {
+       "label": "Strongly disagree",
+       "pct": 20
+      },
+      {
+       "label": "Not sure",
+       "pct": 8
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Agreement with a 'time for new leadership' statement; exact statement not published",
+     "quote": "\"Time for New Leadership\" Agreement Strongly agree 47% Somewhat agree 10% Somewhat disagree 14% Strongly disagree 20% Not sure 8%",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Most important issue facing New York State",
+     "subject_type": "issue",
+     "measure": "issue priority",
+     "category": "Other issues",
+     "wording": "What is the most important issue facing New York State? (Single choice)",
+     "results": [
+      {
+       "label": "Cost of living / inflation",
+       "pct": 28
+      },
+      {
+       "label": "Taxes",
+       "pct": 13
+      },
+      {
+       "label": "Crime & public safety",
+       "pct": 10
+      },
+      {
+       "label": "Civil liberties & freedom",
+       "pct": 8
+      },
+      {
+       "label": "Healthcare",
+       "pct": 7
+      },
+      {
+       "label": "Govt spending / fiscal resp.",
+       "pct": 7
+      },
+      {
+       "label": "Immigration",
+       "pct": 6
+      },
+      {
+       "label": "Housing affordability",
+       "pct": 6
+      },
+      {
+       "label": "Economy & jobs",
+       "pct": 6
+      },
+      {
+       "label": "Education",
+       "pct": 2
+      },
+      {
+       "label": "Something else",
+       "pct": 9
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Most Important Issue Cost of living / inflation 28% Taxes 13% Crime & public safety 10% Civil liberties & freedom 8% Healthcare 7% Govt spending / fiscal resp. 7% Immigration 6% Housing affordability 6% Economy & jobs 6% Education 2% Something else 9%",
+     "source_kind": "release"
+    }
+   ],
+   "exclude": "Sample of 229 registered voters, unweighted; the topline and crosstab PDFs disagree by 1-2 points on several items. Does not meet the page's standard for a respected independent poll."
+  },
+  {
+   "poll_id": "zogby-20260112",
+   "pollster": "John Zogby Strategies",
+   "sponsor": null,
+   "sponsor_type": "independent",
+   "geography": "New York State",
+   "population": "LV",
+   "n": 844,
+   "moe": 3.4,
+   "field_start": "2026-01-06",
+   "field_end": "2026-01-08",
+   "release_date": "2026-01-12",
+   "mode": "online",
+   "url": "https://johnzogbystrategies.com/new-john-zogby-strategies-poll-hochul-leads-comfortably-today-but-could-lose-support-from-independents-and-upstate/",
+   "tables_url": null,
+   "confidence": "MEDIUM",
+   "notes": "Only the press release was available; no toplines, question wording or crosstabs published (release says to contact the firm for data). Results lists contain only the figures the release reports, so they do not sum to 100. The release also says Hochul's approval on cost of living, immigration, crime and promoting business growth was net positive but gives figures only for cost of living. Independents: 36% approve / 46% disapprove of Hochul on affordability; 28% say she deserves reelection vs. 45% new leadership (not entered as separate questions). Release date taken from the site's 2026/01/12 archive page; the post itself is headed 'Poll Covered in Depth on Zogby's Podcast, Tomorrow — January 13, 2026'. No sponsor named, so treated as independent (self-released).",
+   "questions": [
+    {
+     "subject": "2026 governor: Hochul vs. Blakeman",
+     "subject_type": "race",
+     "measure": "horse race",
+     "category": "2026 governor race",
+     "wording": null,
+     "results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 53
+      },
+      {
+       "label": "Bruce Blakeman",
+       "pct": 39
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Democratic Governor Kathy Hochul maintains a double-digit lead over Nassau County Executive Bruce Blakeman, the likely GOP gubernatorial candidate, 53% to 39%.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "2026 governor: Hochul vs. Blakeman vs. Sharpe",
+     "subject_type": "race",
+     "measure": "horse race",
+     "category": "2026 governor race",
+     "wording": null,
+     "results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 49
+      },
+      {
+       "label": "Bruce Blakeman",
+       "pct": 34
+      },
+      {
+       "label": "Larry Sharpe",
+       "pct": 8
+      },
+      {
+       "label": "Undecided",
+       "pct": 10
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "when factoring in Independent candidate Larry Sharpe, Hochul’s lead falls to 49%, with Blakeman receiving 34% and Sharpe pulling 8%, leaving 10% of voters undecided.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "2026 Democratic primary for governor: Hochul vs. Delgado",
+     "subject_type": "race",
+     "measure": "primary",
+     "category": "2026 governor race",
+     "wording": null,
+     "results": [
+      {
+       "label": "Kathy Hochul",
+       "pct": 64
+      },
+      {
+       "label": "Antonio Delgado",
+       "pct": 12
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Democratic primary voters (subsample size not published)",
+     "quote": "Governor Hochul dominates the Democratic primary horse race against Lieutenant Governor Antonio Delgado, 64% to 12%.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "2026 Republican primary for governor",
+     "subject_type": "race",
+     "measure": "primary",
+     "category": "2026 governor race",
+     "wording": null,
+     "results": [
+      {
+       "label": "Bruce Blakeman",
+       "pct": 34
+      },
+      {
+       "label": "Another candidate",
+       "pct": 21
+      },
+      {
+       "label": "Undecided",
+       "pct": 45
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Republican primary voters (subsample size not published)",
+     "quote": "In the Republican primary horse race, 45% are undecided about whom to back. Another 34% select Blakeman, and 21% select another candidate.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Governor",
+     "wording": null,
+     "results": [
+      {
+       "label": "Approve",
+       "pct": 55
+      },
+      {
+       "label": "Disapprove",
+       "pct": 37
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Democrat Hochul commands a 55% overall approval rating among New York voters vs. 37% who disapprove.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Kathy Hochul's handling of cost of living",
+     "subject_type": "person",
+     "measure": "job approval",
+     "category": "Economy and cost of living",
+     "wording": null,
+     "results": [
+      {
+       "label": "Approve",
+       "pct": 46
+      },
+      {
+       "label": "Disapprove",
+       "pct": 43
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "while 46% of voters approve, as many as 43% disapprove of the Governor’s job handling affordability",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "re-elect",
+     "category": "Governor",
+     "wording": null,
+     "results": [
+      {
+       "label": "Deserves reelection",
+       "pct": 38
+      },
+      {
+       "label": "Time for new leadership",
+       "pct": 46
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "only 38% of voters say Hochul deserves reelection, while 46% say it’s time for new leadership.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Top issues driving vote for governor",
+     "subject_type": "issue",
+     "measure": "issue priority",
+     "category": "Other issues",
+     "wording": null,
+     "results": [
+      {
+       "label": "Inflation",
+       "pct": 36
+      },
+      {
+       "label": "Health and the state of healthcare",
+       "pct": 28
+      },
+      {
+       "label": "Affordable housing",
+       "pct": 23
+      },
+      {
+       "label": "Crime and public safety",
+       "pct": 20
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Multiple responses apparently allowed (figures sum above 100); only top four published",
+     "quote": "the top issues that voters say will drive their decision who to vote for come Election Day include inflation (cited by 36%), health and the state of healthcare in New York state (28%), followed by affordable housing (cited by 23%), and in fourth place crime and public safety (20%).",
+     "source_kind": "release"
+    }
+   ],
+   "exclude": "The release gives no question wording or full results, so the figures cannot be checked against the questions asked."
+  }
+ ],
+ "gaps": [
+  {
+   "what": "Beacon Research (D) statewide poll, Oct 1-6, 2026, 820 RV: Hochul 53%, Blakeman 31% (per Wikipedia/270toWin); release titled 'New York voters overwhelmingly reject political deepfakes, support AI safety action' (sponsor appears to be an AI-safety advocacy group, not confirmed)",
+   "where_seen": "https://en.wikipedia.org/wiki/2026_New_York_gubernatorial_election (cites https://www.politico.com/f/?id=000001a1-3bf3-d058-adf3-3bfb56120000)",
+   "why_excluded": "Politico PDF blocked (Cloudflare) on two tries; no Wayback snapshot exists. Could not verify sponsor, wording or toplines."
+  },
+  {
+   "what": "Concord Public Opinion Partners (D) for Education Reform Now, Aug 19-21, 2026, 505 LV: Hochul 50%, Blakeman 34%; Hochul fav 51/40; right track NYS 41/45/14, NYC 41/45/14, US 25/66/9; 71% support NY opting into the federal scholarship tax credit (FSTC)",
+   "where_seen": "https://www.politico.com/f/?id=000001a0-63f8-d286-a1b8-fffc39b00000 (read via Wayback Machine; saved as pdfs/others_concord_202609.pdf)",
+   "why_excluded": "Partisan pollster / advocacy sponsor; 4-page findings deck publishes no question wording and says 'Crosstabs available upon request', so it fails the full-wording-and-toplines test."
+  },
+  {
+   "what": "Cygnal for the Empire Center for Public Policy, July 6-8, 2026, 600 LV: released in parts (energy Jul 22, education Aug 9, tort reform Sep 2, RGGI Sep 8, income tax Oct 6). E.g. 64% support eliminating the state income tax (47 strongly, 16 somewhat, 27 oppose, 9 unsure); 67% say not getting good value for taxes; 63% oppose home-heating electrification; 60% oppose climate lawsuits vs. oil companies",
+   "where_seen": "https://www.empirecenter.org/publications/poll-64-of-new-yorkers-back-eliminating-the-state-income-tax-67-say-state-taxes-arent-delivering/ ; https://www.empirecenter.org/wp-content/uploads/2026/07/Opinion-poll-2026-Energy.pdf ; https://www.empirecenter.org/wp-content/uploads/2026/08/Opinion-poll-2026-Education.pdf ; https://www.empirecenter.org/wp-content/uploads/2026/09/Opinion-poll-2026-Tort-reform.pdf",
+   "why_excluded": "Advocacy sponsor (free-market think tank); reports show charts and narrative only, with no question wording or full toplines published."
+  },
+  {
+   "what": "MAD Global Strategy for Natural Allies for a Clean Energy Future, Feb 2-4, 2026, 600 LV text-to-web: Hochul 47%, Blakeman 34%; Hochul approval 44/48; energy questions (71% want middle path on renewables and gas, 64% support Long Island gas pipeline, etc.)",
+   "where_seen": "https://yonkerstimes.com/new-poll-shows-new-york-voters-support-hochuls-pragmatic-leadership-on-natural-gas-and-renewables-by-wide-margins/",
+   "why_excluded": "Advocacy sponsor; numbers only in a republished press release. Its 'poll briefing memo' link resolves to an Adobe Acrobat share page (acrobat.adobe.com) that could not be fetched as a document."
+  },
+  {
+   "what": "co/efficient (R) for Coalition to Protect Nassau Taxpayers, Sep 23-25, 2026, 1,046 LV: Hochul 48%, Blakeman 41%; socialism concern questions",
+   "where_seen": "https://nypost.com/2026/10/05/us-news/more-than-half-of-new-york-voters-concerned-about-rise-of-socialism-poll/ (via Wikipedia/270toWin)",
+   "why_excluded": "Partisan; numbers available only via New York Post coverage, no pollster toplines found."
+  },
+  {
+   "what": "co/efficient (R) for Coalition to Protect Nassau Taxpayers, Jun 30-Jul 2, 2026, 1,085 LV: Hochul 47%, Blakeman 41%",
+   "where_seen": "https://nypost.com/2026/07/06/us-news/nyc-ny-state-politics-live-updates-on-governors-race-more/ (via Wikipedia)",
+   "why_excluded": "Partisan; New York Post coverage only."
+  },
+  {
+   "what": "OnMessage Inc. (R) for the Saritha Komatireddy campaign, Oct 1-6, 2026, 1,000 LV: Hochul 50%, Blakeman 46%",
+   "where_seen": "https://nypost.com/2026/10/20/us-news/hochul-leads-blakeman-by-only-4-points-in-ny-governors-race-gop-internal-poll-claims/ (via Wikipedia)",
+   "why_excluded": "Campaign internal; New York Post coverage only."
+  },
+  {
+   "what": "OnMessage Inc. (R) for the Komatireddy campaign, Oct 12-14, 2026, 1,000 LV: attorney general James 51%, Komatireddy 45%",
+   "where_seen": "https://nypost.com/2026/10/18/us-news/ny-ag-hopeful-komatireddy-pulls-within-just-6-points-of-dem-incumbent-tish-james-after-debate-poll/ (via https://en.wikipedia.org/wiki/2026_New_York_Attorney_General_election)",
+   "why_excluded": "Campaign internal; New York Post coverage only."
+  },
+  {
+   "what": "McLaughlin & Associates (R) for the Blakeman campaign, Aug 27-31, 2026, 800 LV: Hochul 50%, Blakeman 46%",
+   "where_seen": "https://nypost.com/2026/09/08/us-news/blakeman-poll-claims-hes-within-4-points-of-toppling-hochul/ (via Wikipedia)",
+   "why_excluded": "Campaign internal; New York Post coverage only."
+  },
+  {
+   "what": "McLaughlin & Associates (R), Mar 4-8, 2026, 800 LV: Hochul 52%, Blakeman 43%",
+   "where_seen": "https://www.politico.com/newsletters/new-york-playbook/2026/03/25/bruce-is-no-lee-00843339 and https://www.cityandstateny.com/politics/2026/03/internal-gop-poll-shows-blakeman-just-9-points-behind-hochul/412372/ (via Wikipedia/search)",
+   "why_excluded": "GOP internal; numbers only in news coverage."
+  },
+  {
+   "what": "Red Oak Strategic (R) for Strong And Safe (pro-Blakeman super PAC), Jul 7-12, 2026, 2,000 RV: Hochul 47%, Blakeman 43%",
+   "where_seen": "https://vinnews.com/2026/07/28/nyp-hochul-leads-blakeman-by-4-points-in-gop-backed-poll-as-new-york-governors-race-tightens/ (via Wikipedia)",
+   "why_excluded": "Partisan; news coverage only."
+  },
+  {
+   "what": "Data for Progress Democratic primary poll (AOC 55% vs. Schumer 36% for 2028 Senate primary)",
+   "where_seen": "https://www.yahoo.com/news/poll-aoc-leads-schumer-head-090000109.html",
+   "why_excluded": "Fielded March 26-31, 2025, outside the 2026 window."
+  },
+  {
+   "what": "Public Policy Polling NY-12 poll (Mar 2026) and Emerson/PIX11 NY-7, NY-10, NY-12 Democratic primary polls (May 2026)",
+   "where_seen": "https://data.ddhq.io/polls/2026/03/10/Public-Policy-Polling-New-York--12 ; https://pix11.com/news/local-news/how-is-mayor-mamdani-doing-we-asked-three-nyc-districts/",
+   "why_excluded": "Congressional-district polls, not statewide or citywide (Emerson is also covered by another agent)."
+  },
+  {
+   "what": "Manhattan Institute 2026 polling",
+   "where_seen": "https://media4.manhattan-institute.org/wp-content/uploads/MI-Dems-Harris-Combined-Toplines-03.05-FINAL.pdf (search result)",
+   "why_excluded": "Only 2026 MI survey found is a national poll of Democrats/Harris voters (Feb 6-15, 2026), not a New York poll; MI's New York polls found were October 2025."
+  }
+ ],
+ "searches": [
+  "Wikipedia raw wikitext: 2026 New York gubernatorial election (all polling tables), Mayoralty of Zohran Mamdani, Zohran Mamdani, 2026 New York Attorney General election, 2026 New York State Comptroller election, 2026 New York state elections",
+  "270toWin 2026 New York governor polls page (source links extracted)",
+  "Web searches: Manhattan Institute 2026 NYC poll; Data for Progress New York 2026; Pollfinity; John Zogby Strategies Jan 2026; Mamdani approval polls Sept 2026; Echelon Insights/Tusk; CSS Unheard Third 2026; MAD Global Strategy; Empire Center/Cygnal; Beacon Research deepfakes poll; Moxie/FASNY; co/efficient Coalition to Protect Nassau Taxpayers; OnMessage Komatireddy; Slingshot/Change Research/Global Strategy Group/Tulchin; Citizens Budget Commission, Partnership for New York City, Tri-State Transportation Campaign; Gotham Polling; YouGov NYC 2026; Public Policy Polling NY 2026; congestion pricing polls 2026; City & State poll coverage 2026",
+  "Fetched: johnzogbystrategies.com release; pollfinity.com release + topline + crosstab PDFs; empirereportnewyork.com Moxie release + Google Drive crosstab PDF; dataforprogress.org blog + filesforprogress.org tabs PDF; Wayback copies of Politico-hosted Echelon/Tusk and Concord PDFs; empirecenter.org poll pages and 3 report PDFs; yonkerstimes.com MAD Global release; pfnyc.org news page (no 2026 poll found); theaipi.org media page (empty response)",
+  "Fox News/Beacon-Shaw NYC poll checked: fielded Sept 2025, outside window",
+  "Local project file ~/Experiments/mamdani-poll-tracker/research/polls.json consulted only as a lead list (found the Data for Progress June 2026 poll); all numbers re-read from the primary source"
+ ]
+}
