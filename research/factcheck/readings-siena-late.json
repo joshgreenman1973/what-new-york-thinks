@@ -1,0 +1,4031 @@
+{
+ "checker": "siena-late",
+ "results": [
+  {
+   "check_id": "siena-20260923-9c",
+   "figures": {
+    "Favorable": "16%",
+    "Unfavorable": "33%",
+    "Don't know/No opinion": "51%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 2, Q10 (Bruce Blakeman), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-9",
+   "figures": {
+    "Favorable": "35%",
+    "Unfavorable": "34%",
+    "Don't know/No opinion": "31%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 2, Q10 (Bruce Blakeman), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-8c",
+   "figures": {
+    "Favorable": "60%",
+    "Unfavorable": "31%",
+    "Don't know/No opinion": "10%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 2, Q9 (Kathy Hochul), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-8",
+   "figures": {
+    "Favorable": "48%",
+    "Unfavorable": "46%",
+    "Don't know/No opinion": "6%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 2, Q9 (Kathy Hochul), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-7c",
+   "figures": {
+    "Strongly approve": "13%",
+    "Somewhat approve": "12%",
+    "Total Approve": "25%",
+    "Somewhat disapprove": "5%",
+    "Strongly disapprove": "66%",
+    "Total Disapprove": "71%",
+    "Don't know/Refused": "3%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 2, Q8 (Switching gears, do you approve or disapprove of the job that Donald Trump is doing as Pre), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=1,144.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-7",
+   "figures": {
+    "Strongly approve": "18%",
+    "Somewhat approve": "17%",
+    "Total Approve": "35%",
+    "Somewhat disapprove": "6%",
+    "Strongly disapprove": "56%",
+    "Total Disapprove": "62%",
+    "Don't know/Refused": "2%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 2, Q8 (Switching gears, do you approve or disapprove of the job that Donald Trump is doing as Pre), Total column",
+   "status": "read",
+   "note": "Table sample size=1,144.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-6c",
+   "figures": {
+    "Strongly approve": "23%",
+    "Somewhat approve": "35%",
+    "Total Approve": "58%",
+    "Somewhat disapprove": "11%",
+    "Strongly disapprove": "23%",
+    "Total Disapprove": "34%",
+    "Don't know/Refused": "8%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 2, Q7 (Do you approve or disapprove of the job that Kathy Hochul is doing as Governor?), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=1,144.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-6",
+   "figures": {
+    "Strongly approve": "18%",
+    "Somewhat approve": "30%",
+    "Total Approve": "48%",
+    "Somewhat disapprove": "9%",
+    "Strongly disapprove": "38%",
+    "Total Disapprove": "47%",
+    "Don't know/Refused": "4%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 2, Q7 (Do you approve or disapprove of the job that Kathy Hochul is doing as Governor?), Total column",
+   "status": "read",
+   "note": "Table sample size=1,144.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-5c",
+   "figures": {
+    "the Democrat": "64%",
+    "the Republican": "27%",
+    "Wouldn't vote": "1%",
+    "Don't know/Refused": "8%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 2, Q6 (If the election for your representative in Congress was held today, would you vote for: [C), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=1,144.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-5",
+   "figures": {
+    "the Democrat": "51%",
+    "the Republican": "40%",
+    "Wouldn't vote": "1%",
+    "Don't know/Refused": "7%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 2, Q6 (If the election for your representative in Congress was held today, would you vote for: [C), Total column",
+   "status": "read",
+   "note": "Table sample size=1,144.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-4c",
+   "figures": {
+    "Democrat Tom DiNapoli": "59%",
+    "Republican Joseph Hernandez": "23%",
+    "Someone else": "0%",
+    "Don't know/Refused": "17%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 1, Q5 (If the election for State Comptroller was held today, who would you vote for if the candid), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=1,144.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-4",
+   "figures": {
+    "Democrat Tom DiNapoli": "56%",
+    "Republican Joseph Hernandez": "33%",
+    "Someone else": "0%",
+    "Don't know/Refused": "12%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 1, Q5 (If the election for State Comptroller was held today, who would you vote for if the candid), Total column",
+   "status": "read",
+   "note": "Table sample size=1,144.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-3c",
+   "figures": {
+    "Democrat Letitia James": "62%",
+    "Republican Saritha Komatireddy": "26%",
+    "Someone else": "0%",
+    "Don't know/Refused": "12%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 1, Q4 (If the election for New York State Attorney General was held today, who would you vote for), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=1,144.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-35c",
+   "figures": {
+    "Agree": "28%",
+    "Disagree": "71%",
+    "In the middle": "0%",
+    "Don't know/Refused": "0%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 7, Q36 (President Trump wants to largely eliminate mail-in voting starting with this year's electi), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-35",
+   "figures": {
+    "Agree": "39%",
+    "Disagree": "59%",
+    "In the middle": "0%",
+    "Don't know/Refused": "1%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 7, Q36 (President Trump wants to largely eliminate mail-in voting starting with this year's electi), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-34c",
+   "figures": {
+    "Very likely": "37%",
+    "Somewhat likely": "35%",
+    "Not very likely": "17%",
+    "Not at all likely": "7%",
+    "Don't know/Refused": "4%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 7, Q35 (Once all votes are cast, how likely do you think it is that elections results across Ameri), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-34",
+   "figures": {
+    "Very likely": "32%",
+    "Somewhat likely": "41%",
+    "Not very likely": "16%",
+    "Not at all likely": "7%",
+    "Don't know/Refused": "5%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 7, Q35 (Once all votes are cast, how likely do you think it is that elections results across Ameri), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-33c",
+   "figures": {
+    "Very likely": "37%",
+    "Somewhat likely": "36%",
+    "Not very likely": "17%",
+    "Not at all likely": "6%",
+    "Don't know/Refused": "4%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 7, Q34 (How likely do you think it is that all American citizens entitled to vote in this year's e), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-33",
+   "figures": {
+    "Very likely": "44%",
+    "Somewhat likely": "32%",
+    "Not very likely": "16%",
+    "Not at all likely": "4%",
+    "Don't know/Refused": "3%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 7, Q34 (How likely do you think it is that all American citizens entitled to vote in this year's e), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-32c",
+   "figures": {
+    "Support": "18%",
+    "Oppose": "76%",
+    "In the middle": "1%",
+    "Don't know/Refused": "5%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 7, Q33 (On a different issue, do you support or oppose President Trump's renaming of Lake Ontario ), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-32",
+   "figures": {
+    "Support": "19%",
+    "Oppose": "74%",
+    "In the middle": "1%",
+    "Don't know/Refused": "6%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 7, Q33 (On a different issue, do you support or oppose President Trump's renaming of Lake Ontario ), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-31c",
+   "figures": {
+    "Support": "23%",
+    "Oppose": "62%",
+    "In the middle": "1%",
+    "Don't know/Refused": "14%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 7, Q32 (Switching gears, New York State has a one-year moratorium on new large data centers. When ), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-31",
+   "figures": {
+    "Support": "25%",
+    "Oppose": "63%",
+    "In the middle": "1%",
+    "Don't know/Refused": "12%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 7, Q32 (Switching gears, New York State has a one-year moratorium on new large data centers. When ), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-30c",
+   "figures": {
+    "Kathy Hochul": "74%",
+    "Bruce Blakeman": "18%",
+    "Other": "0%",
+    "Don't know/Refused": "8%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 6, Q31 (Regardless of who you are voting for, who do you think is going to win the election for go), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-30",
+   "figures": {
+    "Kathy Hochul": "66%",
+    "Bruce Blakeman": "25%",
+    "Other": "0%",
+    "Don't know/Refused": "8%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 6, Q31 (Regardless of who you are voting for, who do you think is going to win the election for go), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-3",
+   "figures": {
+    "Democrat Letitia James": "52%",
+    "Republican Saritha Komatireddy": "39%",
+    "Someone else": "0%",
+    "Don't know/Refused": "10%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 1, Q4 (If the election for New York State Attorney General was held today, who would you vote for), Total column",
+   "status": "read",
+   "note": "Table sample size=1,144.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-2c",
+   "figures": {
+    "Democrat Kathy Hochul": "61%",
+    "Republican Bruce Blakeman": "27%",
+    "Someone else": "0%",
+    "Don't know/Refused": "12%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 1, Q3 (If the election for Governor was held today, who would you vote for if the candidates were), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=1,144.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-29c",
+   "figures": {
+    "Positive": "68%",
+    "Negative": "20%",
+    "In the middle": "1%",
+    "Little or No Effect": "4%",
+    "Don't know/Refused": "7%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 6, Q30 (Do you think Mayor Mamdani's endorsement of Hochul will be a positive or a negative for Ho), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-29",
+   "figures": {
+    "Positive": "50%",
+    "Negative": "30%",
+    "In the middle": "1%",
+    "Little or No Effect": "9%",
+    "Don't know/Refused": "9%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 6, Q30 (Do you think Mayor Mamdani's endorsement of Hochul will be a positive or a negative for Ho), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-28c",
+   "figures": {
+    "Positive": "21%",
+    "Negative": "59%",
+    "In the middle": "0%",
+    "Little or No Effect": "8%",
+    "Don't know/Refused": "11%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 6, Q29 (Do you think President Trump's endorsement of Blakeman will be a positive or a negative fo), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-28",
+   "figures": {
+    "Positive": "30%",
+    "Negative": "51%",
+    "In the middle": "1%",
+    "Little or No Effect": "9%",
+    "Don't know/Refused": "8%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 6, Q29 (Do you think President Trump's endorsement of Blakeman will be a positive or a negative fo), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-27c",
+   "figures": {
+    "Does": "26%",
+    "Does not": "51%",
+    "In the middle": "1%",
+    "Don't know/Refused": "22%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 6, Q28 (Has the right stuff to be governor), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-27",
+   "figures": {
+    "Does": "40%",
+    "Does not": "40%",
+    "In the middle": "5%",
+    "Don't know/Refused": "15%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 6, Q28 (Has the right stuff to be governor), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-26c",
+   "figures": {
+    "Does": "21%",
+    "Does not": "44%",
+    "In the middle": "4%",
+    "Don't know/Refused": "31%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 6, Q27 (Gets things done), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-26",
+   "figures": {
+    "Does": "35%",
+    "Does not": "34%",
+    "In the middle": "6%",
+    "Don't know/Refused": "25%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 6, Q27 (Gets things done), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-25c",
+   "figures": {
+    "Does": "23%",
+    "Does not": "50%",
+    "In the middle": "2%",
+    "Don't know/Refused": "24%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 5, Q26 (In touch with average New Yorkers), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-25",
+   "figures": {
+    "Does": "35%",
+    "Does not": "41%",
+    "In the middle": "6%",
+    "Don't know/Refused": "18%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 5, Q26 (In touch with average New Yorkers), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-24c",
+   "figures": {
+    "Does": "59%",
+    "Does not": "25%",
+    "In the middle": "11%",
+    "Don't know/Refused": "5%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 5, Q25 (Has the right stuff to be governor), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-24",
+   "figures": {
+    "Does": "47%",
+    "Does not": "42%",
+    "In the middle": "9%",
+    "Don't know/Refused": "2%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 5, Q25 (Has the right stuff to be governor), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-23c",
+   "figures": {
+    "Does": "58%",
+    "Does not": "25%",
+    "In the middle": "11%",
+    "Don't know/Refused": "6%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 5, Q24 (Gets things done), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-23",
+   "figures": {
+    "Does": "47%",
+    "Does not": "39%",
+    "In the middle": "11%",
+    "Don't know/Refused": "3%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 5, Q24 (Gets things done), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-22c",
+   "figures": {
+    "Does": "50%",
+    "Does not": "32%",
+    "In the middle": "13%",
+    "Don't know/Refused": "5%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 5, Q23 (In touch with average New Yorkers), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-22",
+   "figures": {
+    "Does": "39%",
+    "Does not": "46%",
+    "In the middle": "11%",
+    "Don't know/Refused": "3%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 5, Q23 (In touch with average New Yorkers), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-21c",
+   "figures": {
+    "Kathy Hochul": "61%",
+    "Bruce Blakeman": "26%",
+    "Both/Neither": "1%",
+    "Don't know/Refused": "12%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 5, Q22 (Addressing undocumented immigrants living in New York [CHOICES ROTATED]), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-21",
+   "figures": {
+    "Kathy Hochul": "47%",
+    "Bruce Blakeman": "43%",
+    "Both/Neither": "1%",
+    "Don't know/Refused": "9%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 5, Q22 (Addressing undocumented immigrants living in New York [CHOICES ROTATED]), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-20c",
+   "figures": {
+    "Kathy Hochul": "61%",
+    "Bruce Blakeman": "28%",
+    "Both/Neither": "2%",
+    "Don't know/Refused": "10%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 4, Q21 (Keeping New Yorkers safe [CHOICES ROTATED]), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-20",
+   "figures": {
+    "Kathy Hochul": "49%",
+    "Bruce Blakeman": "43%",
+    "Both/Neither": "1%",
+    "Don't know/Refused": "7%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 4, Q21 (Keeping New Yorkers safe [CHOICES ROTATED]), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-2",
+   "figures": {
+    "Democrat Kathy Hochul": "50%",
+    "Republican Bruce Blakeman": "41%",
+    "Someone else": "0%",
+    "Don't know/Refused": "9%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 1, Q3 (If the election for Governor was held today, who would you vote for if the candidates were), Total column",
+   "status": "read",
+   "note": "Table sample size=1,144.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-1c",
+   "figures": {
+    "Right track": "16%",
+    "Wrong direction": "77%",
+    "Don't know/No opinion": "6%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 1, Q2 (Is the United States on the right track, or is it headed in the wrong direction?), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=1,144.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-19c",
+   "figures": {
+    "Kathy Hochul": "59%",
+    "Bruce Blakeman": "23%",
+    "Both/Neither": "3%",
+    "Don't know/Refused": "14%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 4, Q20 (Making prices more affordable for the average New Yorker [CHOICES ROTATED]), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-19",
+   "figures": {
+    "Kathy Hochul": "49%",
+    "Bruce Blakeman": "40%",
+    "Both/Neither": "2%",
+    "Don't know/Refused": "9%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 4, Q20 (Making prices more affordable for the average New Yorker [CHOICES ROTATED]), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-18c",
+   "figures": {
+    "Favorable": "43%",
+    "Unfavorable": "50%",
+    "Don't know/No opinion": "7%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 4, Q19 (Democrats in Congress), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-18",
+   "figures": {
+    "Favorable": "38%",
+    "Unfavorable": "55%",
+    "Don't know/No opinion": "7%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 4, Q19 (Democrats in Congress), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-17c",
+   "figures": {
+    "Favorable": "21%",
+    "Unfavorable": "71%",
+    "Don't know/No opinion": "7%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 4, Q18 (Republicans in Congress), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-17",
+   "figures": {
+    "Favorable": "32%",
+    "Unfavorable": "62%",
+    "Don't know/No opinion": "6%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 4, Q18 (Republicans in Congress), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-16c",
+   "figures": {
+    "Favorable": "53%",
+    "Unfavorable": "31%",
+    "Don't know/No opinion": "16%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 4, Q17 (Alexandria Ocasio-Cortez), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-16",
+   "figures": {
+    "Favorable": "43%",
+    "Unfavorable": "44%",
+    "Don't know/No opinion": "13%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 4, Q17 (Alexandria Ocasio-Cortez), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-15c",
+   "figures": {
+    "Favorable": "13%",
+    "Unfavorable": "12%",
+    "Don't know/No opinion": "75%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 3, Q16 (Joseph Hernandez), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-15",
+   "figures": {
+    "Favorable": "16%",
+    "Unfavorable": "9%",
+    "Don't know/No opinion": "74%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 3, Q16 (Joseph Hernandez), Total column",
+   "status": "read",
+   "note": "Table sample size=991. Release text gives 16-9-71%; crosstab Q16 prints 16%/9%/74%. Differ on Don't know (71 vs 74).",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {
+    "release_text": {
+     "Favorable": "16%",
+     "Unfavorable": "9%",
+     "Don't know/No opinion": "71%",
+     "quote": "Hernandez's favorability rating is 16-9-71%"
+    }
+   }
+  },
+  {
+   "check_id": "siena-20260923-14c",
+   "figures": {
+    "Favorable": "35%",
+    "Unfavorable": "15%",
+    "Don't know/No opinion": "49%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 3, Q15 (Tom DiNapoli), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-14",
+   "figures": {
+    "Favorable": "41%",
+    "Unfavorable": "18%",
+    "Don't know/No opinion": "40%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 3, Q15 (Tom DiNapoli), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-13c",
+   "figures": {
+    "Favorable": "14%",
+    "Unfavorable": "14%",
+    "Don't know/No opinion": "72%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 3, Q14 (Saritha Komatireddy), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-13",
+   "figures": {
+    "Favorable": "17%",
+    "Unfavorable": "12%",
+    "Don't know/No opinion": "71%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 3, Q14 (Saritha Komatireddy), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-12c",
+   "figures": {
+    "Favorable": "60%",
+    "Unfavorable": "27%",
+    "Don't know/No opinion": "13%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 3, Q13 (Letitia James), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-12",
+   "figures": {
+    "Favorable": "51%",
+    "Unfavorable": "40%",
+    "Don't know/No opinion": "10%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 3, Q13 (Letitia James), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-11c",
+   "figures": {
+    "Favorable": "60%",
+    "Unfavorable": "31%",
+    "Don't know/No opinion": "9%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 3, Q12 (Zohran Mamdani), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-11",
+   "figures": {
+    "Favorable": "46%",
+    "Unfavorable": "44%",
+    "Don't know/No opinion": "10%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 3, Q12 (Zohran Mamdani), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-10c",
+   "figures": {
+    "Favorable": "22%",
+    "Unfavorable": "74%",
+    "Don't know/No opinion": "4%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 3, Q11 (Donald Trump), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-10",
+   "figures": {
+    "Favorable": "34%",
+    "Unfavorable": "63%",
+    "Don't know/No opinion": "4%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 3, Q11 (Donald Trump), Total column",
+   "status": "read",
+   "note": "Table sample size=991.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-1",
+   "figures": {
+    "Right track": "28%",
+    "Wrong direction": "66%",
+    "Don't know/No opinion": "6%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 1, Q2 (Is the United States on the right track, or is it headed in the wrong direction?), Total column",
+   "status": "read",
+   "note": "Table sample size=1,144.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-0c",
+   "figures": {
+    "Right track": "44%",
+    "Wrong direction": "41%",
+    "Don't know/No opinion": "14%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 1, Q1 (Is New York State on the right track, or is it headed in the wrong direction?), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=1,144.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260923-0",
+   "figures": {
+    "Right track": "38%",
+    "Wrong direction": "49%",
+    "Don't know/No opinion": "13%"
+   },
+   "where": "SNY-September-2026-Poll-Crosstabs-9-23-26.pdf, page 1, Q1 (Is New York State on the right track, or is it headed in the wrong direction?), Total column",
+   "status": "read",
+   "note": "Table sample size=1,144. Core questions n=1,144 (MOE +/-3.9); full survey n=991 (MOE +/-4.2), per crosstabs methodology",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": 3.9,
+    "population": "Likely New York voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-9c",
+   "figures": {
+    "Favorable": "21%",
+    "Unfavorable": "33%",
+    "Don't know/No opinion": "46%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 2, Q10 (Bruce Blakeman), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-9",
+   "figures": {
+    "Favorable": "33%",
+    "Unfavorable": "26%",
+    "Don't know/No opinion": "40%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 2, Q10 (Bruce Blakeman), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-8c",
+   "figures": {
+    "Favorable": "59%",
+    "Unfavorable": "31%",
+    "Don't know/No opinion": "10%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 2, Q9 (Kathy Hochul), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-8",
+   "figures": {
+    "Favorable": "46%",
+    "Unfavorable": "49%",
+    "Don't know/No opinion": "5%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 2, Q9 (Kathy Hochul), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-7c",
+   "figures": {
+    "Strongly approve": "12%",
+    "Somewhat approve": "6%",
+    "Total Approve": "18%",
+    "Somewhat disapprove": "7%",
+    "Strongly disapprove": "69%",
+    "Total Disapprove": "76%",
+    "Don't know/Refused": "6%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 2, Q8 (Switching gears, do you approve or disapprove of the job that Donald Trump is doing as Pre), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=811.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-7",
+   "figures": {
+    "Strongly approve": "23%",
+    "Somewhat approve": "14%",
+    "Total Approve": "37%",
+    "Somewhat disapprove": "5%",
+    "Strongly disapprove": "55%",
+    "Total Disapprove": "60%",
+    "Don't know/Refused": "3%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 2, Q8 (Switching gears, do you approve or disapprove of the job that Donald Trump is doing as Pre), Total column",
+   "status": "read",
+   "note": "Table sample size=811.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-6c",
+   "figures": {
+    "Strongly approve": "30%",
+    "Somewhat approve": "33%",
+    "Total Approve": "63%",
+    "Somewhat disapprove": "11%",
+    "Strongly disapprove": "18%",
+    "Total Disapprove": "29%",
+    "Don't know/Refused": "8%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 2, Q7 (Do you approve or disapprove of the job that Kathy Hochul is doing as Governor?), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=811.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-6",
+   "figures": {
+    "Strongly approve": "18%",
+    "Somewhat approve": "30%",
+    "Total Approve": "48%",
+    "Somewhat disapprove": "13%",
+    "Strongly disapprove": "36%",
+    "Total Disapprove": "49%",
+    "Don't know/Refused": "4%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 2, Q7 (Do you approve or disapprove of the job that Kathy Hochul is doing as Governor?), Total column",
+   "status": "read",
+   "note": "Table sample size=811.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-5c",
+   "figures": {
+    "the Democrat": "71%",
+    "the Republican": "19%",
+    "Wouldn't vote": "1%",
+    "Don't know/Refused": "9%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 2, Q6 (If the election for your representative in Congress was held today, would you vote for: [C), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=811.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-5",
+   "figures": {
+    "the Democrat": "54%",
+    "the Republican": "38%",
+    "Wouldn't vote": "0%",
+    "Don't know/Refused": "8%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 2, Q6 (If the election for your representative in Congress was held today, would you vote for: [C), Total column",
+   "status": "read",
+   "note": "Table sample size=811.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-4c",
+   "figures": {
+    "Democrat Tom DiNapoli": "62%",
+    "Republican Joseph Hernandez": "20%",
+    "Someone else": "2%",
+    "Don't know/Refused": "16%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 1, Q5 (If the election for State Comptroller was held today, who would you vote for if the candid), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=811.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-4",
+   "figures": {
+    "Democrat Tom DiNapoli": "55%",
+    "Republican Joseph Hernandez": "32%",
+    "Someone else": "1%",
+    "Don't know/Refused": "12%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 1, Q5 (If the election for State Comptroller was held today, who would you vote for if the candid), Total column",
+   "status": "read",
+   "note": "Table sample size=811. Release summary bullet says DiNapoli 56%, release body and crosstab say 55%.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {
+    "release_text": {
+     "summary bullet": "DiNapoli 56% – Hernandez 32%",
+     "body": "DiNapoli leads Hernandez 55-32%"
+    }
+   }
+  },
+  {
+   "check_id": "siena-20260812-3c",
+   "figures": {
+    "Democrat Letitia James": "71%",
+    "Republican Saritha Komatireddy": "20%",
+    "Someone else": "1%",
+    "Don't know/Refused": "9%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 1, Q4 (If the election for New York State Attorney General was held today, who would you vote for), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=811.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-35c",
+   "figures": {
+    "Ahead of us": "62%",
+    "Behind us": "27%",
+    "In the middle": "7%",
+    "Don't know/Refused": "4%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 7, Q36 (How about New York. Would you say New York's best years are ahead of us or behind us?), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-35",
+   "figures": {
+    "Ahead of us": "48%",
+    "Behind us": "35%",
+    "In the middle": "9%",
+    "Don't know/Refused": "9%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 7, Q36 (How about New York. Would you say New York's best years are ahead of us or behind us?), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-34c",
+   "figures": {
+    "Ahead of us": "49%",
+    "Behind us": "43%",
+    "In the middle": "0%",
+    "Don't know/Refused": "8%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 7, Q35 (Thinking about the future of the U.S., would you say the country's best years are ahead of), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-34",
+   "figures": {
+    "Ahead of us": "48%",
+    "Behind us": "39%",
+    "In the middle": "5%",
+    "Don't know/Refused": "8%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 7, Q35 (Thinking about the future of the U.S., would you say the country's best years are ahead of), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-33c",
+   "figures": {
+    "Right decision": "51%",
+    "Wrong decision": "28%",
+    "In the middle": "6%",
+    "Don't know/Refused": "15%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 7, Q34 (On another issue, do you think the one year moratorium on permits for new large data cente), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-33",
+   "figures": {
+    "Right decision": "52%",
+    "Wrong decision": "25%",
+    "In the middle": "10%",
+    "Don't know/Refused": "13%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 7, Q34 (On another issue, do you think the one year moratorium on permits for new large data cente), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-32c",
+   "figures": {
+    "Gone too far": "81%",
+    "Not gone far enough": "6%",
+    "Have been about right": "13%",
+    "Don't know/Refused": "0%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 7, Q33 (Thinking about the tactics used by ICE, do you think they have gone too far, not gone far ), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-32",
+   "figures": {
+    "Gone too far": "63%",
+    "Not gone far enough": "12%",
+    "Have been about right": "24%",
+    "Don't know/Refused": "1%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 7, Q33 (Thinking about the tactics used by ICE, do you think they have gone too far, not gone far ), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-31c",
+   "figures": {
+    "Support": "18%",
+    "Oppose": "79%",
+    "In the middle": "2%",
+    "Don't know/Refused": "0%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 7, Q32 (Switching gears... Do you support or oppose the way in which Immigration and Customs Enfor), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-31",
+   "figures": {
+    "Support": "36%",
+    "Oppose": "60%",
+    "In the middle": "3%",
+    "Don't know/Refused": "1%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 7, Q32 (Switching gears... Do you support or oppose the way in which Immigration and Customs Enfor), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-30c",
+   "figures": {
+    "Does": "22%",
+    "Does not": "47%",
+    "In the middle": "1%",
+    "Don't know/Refused": "30%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 6, Q31 (Gets things done), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-30",
+   "figures": {
+    "Does": "37%",
+    "Does not": "29%",
+    "In the middle": "5%",
+    "Don't know/Refused": "28%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 6, Q31 (Gets things done), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-3",
+   "figures": {
+    "Democrat Letitia James": "54%",
+    "Republican Saritha Komatireddy": "36%",
+    "Someone else": "0%",
+    "Don't know/Refused": "10%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 1, Q4 (If the election for New York State Attorney General was held today, who would you vote for), Total column",
+   "status": "read",
+   "note": "Table sample size=811.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-2c",
+   "figures": {
+    "Democrat Kathy Hochul": "64%",
+    "Republican Bruce Blakeman": "19%",
+    "Someone else": "2%",
+    "Don't know/Refused": "14%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 1, Q3 (If the election for Governor was held today, who would you vote for if the candidates were), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=811.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-29c",
+   "figures": {
+    "Does": "35%",
+    "Does not": "34%",
+    "In the middle": "1%",
+    "Don't know/Refused": "30%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 6, Q30 (Tough), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-29",
+   "figures": {
+    "Does": "47%",
+    "Does not": "22%",
+    "In the middle": "4%",
+    "Don't know/Refused": "27%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 6, Q30 (Tough), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-28c",
+   "figures": {
+    "Does": "25%",
+    "Does not": "42%",
+    "In the middle": "2%",
+    "Don't know/Refused": "30%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 6, Q29 (Honest), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-28",
+   "figures": {
+    "Does": "37%",
+    "Does not": "32%",
+    "In the middle": "4%",
+    "Don't know/Refused": "26%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 6, Q29 (Honest), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-27c",
+   "figures": {
+    "Does": "21%",
+    "Does not": "54%",
+    "In the middle": "2%",
+    "Don't know/Refused": "24%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 6, Q28 (In touch with average New Yorkers), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-27",
+   "figures": {
+    "Does": "36%",
+    "Does not": "40%",
+    "In the middle": "3%",
+    "Don't know/Refused": "21%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 6, Q28 (In touch with average New Yorkers), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-26c",
+   "figures": {
+    "Does": "66%",
+    "Does not": "22%",
+    "In the middle": "9%",
+    "Don't know/Refused": "3%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 6, Q27 (Gets things done), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-26",
+   "figures": {
+    "Does": "46%",
+    "Does not": "41%",
+    "In the middle": "10%",
+    "Don't know/Refused": "3%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 6, Q27 (Gets things done), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-25c",
+   "figures": {
+    "Does": "63%",
+    "Does not": "26%",
+    "In the middle": "5%",
+    "Don't know/Refused": "6%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 5, Q26 (Tough), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-25",
+   "figures": {
+    "Does": "44%",
+    "Does not": "42%",
+    "In the middle": "10%",
+    "Don't know/Refused": "3%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 5, Q26 (Tough), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-24c",
+   "figures": {
+    "Does": "59%",
+    "Does not": "30%",
+    "In the middle": "7%",
+    "Don't know/Refused": "4%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 5, Q25 (Honest), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-24",
+   "figures": {
+    "Does": "42%",
+    "Does not": "44%",
+    "In the middle": "9%",
+    "Don't know/Refused": "5%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 5, Q25 (Honest), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-23c",
+   "figures": {
+    "Does": "54%",
+    "Does not": "33%",
+    "In the middle": "9%",
+    "Don't know/Refused": "3%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 5, Q24 (In touch with average New Yorkers), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-23",
+   "figures": {
+    "Does": "39%",
+    "Does not": "51%",
+    "In the middle": "9%",
+    "Don't know/Refused": "2%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 5, Q24 (In touch with average New Yorkers), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-22c",
+   "figures": {
+    "Kathy Hochul": "66%",
+    "Bruce Blakeman": "22%",
+    "Both/Neither": "0%",
+    "Don't know/Refused": "11%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 5, Q23 (Developing New York's energy future), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-22",
+   "figures": {
+    "Kathy Hochul": "47%",
+    "Bruce Blakeman": "42%",
+    "Both/Neither": "2%",
+    "Don't know/Refused": "10%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 5, Q23 (Developing New York's energy future), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-21c",
+   "figures": {
+    "Kathy Hochul": "62%",
+    "Bruce Blakeman": "23%",
+    "Both/Neither": "2%",
+    "Don't know/Refused": "13%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 5, Q22 (Addressing undocumented immigrants living in New York), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-21",
+   "figures": {
+    "Kathy Hochul": "45%",
+    "Bruce Blakeman": "44%",
+    "Both/Neither": "2%",
+    "Don't know/Refused": "10%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 5, Q22 (Addressing undocumented immigrants living in New York), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-20c",
+   "figures": {
+    "Kathy Hochul": "68%",
+    "Bruce Blakeman": "17%",
+    "Both/Neither": "2%",
+    "Don't know/Refused": "12%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 4, Q21 (Increasing the supply of affordable housing), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-20",
+   "figures": {
+    "Kathy Hochul": "51%",
+    "Bruce Blakeman": "35%",
+    "Both/Neither": "3%",
+    "Don't know/Refused": "11%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 4, Q21 (Increasing the supply of affordable housing), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-2",
+   "figures": {
+    "Democrat Kathy Hochul": "49%",
+    "Republican Bruce Blakeman": "39%",
+    "Someone else": "1%",
+    "Don't know/Refused": "11%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 1, Q3 (If the election for Governor was held today, who would you vote for if the candidates were), Total column",
+   "status": "read",
+   "note": "Table sample size=811.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-1c",
+   "figures": {
+    "Right track": "18%",
+    "Wrong direction": "74%",
+    "Don't know/No opinion": "8%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 1, Q2 (Is the United States on the right track, or is it headed in the wrong direction?), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=811.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-19c",
+   "figures": {
+    "Kathy Hochul": "66%",
+    "Bruce Blakeman": "24%",
+    "Both/Neither": "1%",
+    "Don't know/Refused": "9%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 4, Q20 (Keeping New Yorkers safe), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-19",
+   "figures": {
+    "Kathy Hochul": "47%",
+    "Bruce Blakeman": "44%",
+    "Both/Neither": "2%",
+    "Don't know/Refused": "7%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 4, Q20 (Keeping New Yorkers safe), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-18c",
+   "figures": {
+    "Kathy Hochul": "67%",
+    "Bruce Blakeman": "24%",
+    "Both/Neither": "1%",
+    "Don't know/Refused": "8%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 4, Q19 (Making prices more affordable for the average New Yorker), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-18",
+   "figures": {
+    "Kathy Hochul": "48%",
+    "Bruce Blakeman": "41%",
+    "Both/Neither": "2%",
+    "Don't know/Refused": "9%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 4, Q19 (Making prices more affordable for the average New Yorker), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-17c",
+   "figures": {
+    "Favorable": "25%",
+    "Unfavorable": "59%",
+    "Don't know/No opinion": "16%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 4, Q18 (Artificial Intelligence or AI), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-17",
+   "figures": {
+    "Favorable": "29%",
+    "Unfavorable": "52%",
+    "Don't know/No opinion": "19%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 4, Q18 (Artificial Intelligence or AI), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-16c",
+   "figures": {
+    "Favorable": "49%",
+    "Unfavorable": "32%",
+    "Don't know/No opinion": "20%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 4, Q17 (The Democratic Socialists of America or DSA), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-16",
+   "figures": {
+    "Favorable": "30%",
+    "Unfavorable": "47%",
+    "Don't know/No opinion": "23%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 4, Q17 (The Democratic Socialists of America or DSA), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-15c",
+   "figures": {
+    "Favorable": "15%",
+    "Unfavorable": "14%",
+    "Don't know/No opinion": "71%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 3, Q16 (Joseph Hernandez), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-15",
+   "figures": {
+    "Favorable": "20%",
+    "Unfavorable": "11%",
+    "Don't know/No opinion": "70%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 3, Q16 (Joseph Hernandez), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-14c",
+   "figures": {
+    "Favorable": "39%",
+    "Unfavorable": "15%",
+    "Don't know/No opinion": "46%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 3, Q15 (Tom DiNapoli), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-14",
+   "figures": {
+    "Favorable": "42%",
+    "Unfavorable": "18%",
+    "Don't know/No opinion": "40%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 3, Q15 (Tom DiNapoli), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-13c",
+   "figures": {
+    "Favorable": "18%",
+    "Unfavorable": "11%",
+    "Don't know/No opinion": "71%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 3, Q14 (Saritha Komatireddy), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-13",
+   "figures": {
+    "Favorable": "17%",
+    "Unfavorable": "12%",
+    "Don't know/No opinion": "71%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 3, Q14 (Saritha Komatireddy), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-12c",
+   "figures": {
+    "Favorable": "74%",
+    "Unfavorable": "20%",
+    "Don't know/No opinion": "6%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 3, Q13 (Letitia James), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-12",
+   "figures": {
+    "Favorable": "52%",
+    "Unfavorable": "38%",
+    "Don't know/No opinion": "11%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 3, Q13 (Letitia James), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-11c",
+   "figures": {
+    "Favorable": "69%",
+    "Unfavorable": "24%",
+    "Don't know/No opinion": "8%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 3, Q12 (Zohran Mamdani), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-11",
+   "figures": {
+    "Favorable": "47%",
+    "Unfavorable": "44%",
+    "Don't know/No opinion": "9%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 3, Q12 (Zohran Mamdani), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-10c",
+   "figures": {
+    "Favorable": "20%",
+    "Unfavorable": "78%",
+    "Don't know/No opinion": "3%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 3, Q11 (Donald Trump), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-10",
+   "figures": {
+    "Favorable": "38%",
+    "Unfavorable": "60%",
+    "Don't know/No opinion": "2%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 3, Q11 (Donald Trump), Total column",
+   "status": "read",
+   "note": "Table sample size=691.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-1",
+   "figures": {
+    "Right track": "31%",
+    "Wrong direction": "62%",
+    "Don't know/No opinion": "7%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 1, Q2 (Is the United States on the right track, or is it headed in the wrong direction?), Total column",
+   "status": "read",
+   "note": "Table sample size=811.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-0c",
+   "figures": {
+    "Right track": "55%",
+    "Wrong direction": "31%",
+    "Don't know/No opinion": "14%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 1, Q1 (Is New York State on the right track, or is it headed in the wrong direction?), NYC (under Region) column",
+   "status": "read",
+   "note": "Table sample size=811.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260812-0",
+   "figures": {
+    "Right track": "43%",
+    "Wrong direction": "47%",
+    "Don't know/No opinion": "10%"
+   },
+   "where": "SNY0826-Release-Crosstabs_Corrected.pdf (corrected crosstabs), page 1, Q1 (Is New York State on the right track, or is it headed in the wrong direction?), Total column",
+   "status": "read",
+   "note": "Table sample size=811. Core n=811 (MOE +/-4.2); full survey n=691: Nature of the Sample says MOE +/-4.6, but the disclosure grid says \"For full surveys, the margin of error is +/- 4.7\"",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": 4.2,
+    "population": "New York likely voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260722-1c",
+   "figures": {
+    "Good": "26%",
+    "Bad": "34%",
+    "In the middle": "32%",
+    "Don't know/Refused": "8%"
+   },
+   "where": "ICS-Q2-2026-Sports-Betting-Crosstabs.pdf, page 2, Q9 (Overall, do you think online sports gambling is good or bad for New York?), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-07-01",
+    "field_end": "2026-07-08",
+    "n": 814,
+    "moe": 3.7,
+    "population": "New York State residents"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260722-1",
+   "figures": {
+    "Good": "22%",
+    "Bad": "39%",
+    "In the middle": "31%",
+    "Don't know/Refused": "7%"
+   },
+   "where": "ICS-Q2-2026-Sports-Betting-Crosstabs.pdf, page 2, Q9 (Overall, do you think online sports gambling is good or bad for New York?), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-07-01",
+    "field_end": "2026-07-08",
+    "n": 814,
+    "moe": 3.7,
+    "population": "New York State residents"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260722-0c",
+   "figures": {
+    "Strongly agree": "22%",
+    "Somewhat agree": "20%",
+    "Total Agree": "42%",
+    "Somewhat disagree": "25%",
+    "Strongly disagree": "17%",
+    "Total Disagree": "42%",
+    "Don't know/Refused": "16%"
+   },
+   "where": "ICS-Q2-2026-Sports-Betting-Crosstabs.pdf, page 2, Q7 (Please tell me whether you agree or disagree with the following statement about online spo), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-07-01",
+    "field_end": "2026-07-08",
+    "n": 814,
+    "moe": 3.7,
+    "population": "New York State residents"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260722-0",
+   "figures": {
+    "Strongly agree": "23%",
+    "Somewhat agree": "20%",
+    "Total Agree": "43%",
+    "Somewhat disagree": "26%",
+    "Strongly disagree": "18%",
+    "Total Disagree": "44%",
+    "Don't know/Refused": "14%"
+   },
+   "where": "ICS-Q2-2026-Sports-Betting-Crosstabs.pdf, page 2, Q7 (Please tell me whether you agree or disagree with the following statement about online spo), Total column",
+   "status": "read",
+   "note": "Statement is worded negatively (\"I don't think sportsbooks should be allowed to advertise\"); release reports 44% in favor of permitting ads (= Total Disagree) and 43% opposed (= Total Agree). Consistent with tables, but the polarity is easy to flip. Crosstabs Nature of the Sample says \"conducted ... among 762 New York State Residents. Of the 814 respondents...\" (internal inconsistency; header and release say 814)",
+   "poll_details": {
+    "field_start": "2026-07-01",
+    "field_end": "2026-07-08",
+    "n": 814,
+    "moe": 3.7,
+    "population": "New York State residents"
+   },
+   "other_figures": {
+    "release_text": {
+     "in favor of permitting ads": "44%",
+     "opposed": "43%",
+     "don't know": "14%"
+    }
+   }
+  },
+  {
+   "check_id": "siena-20260625-9c",
+   "figures": {
+    "the Democrat": "63%",
+    "the Republican": "22%",
+    "Wouldn't vote": "5%",
+    "Don't know/Refused": "9%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 2, Q10 (If the election for your representative in Congress was held today, would you vote for: (R), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-9",
+   "figures": {
+    "the Democrat": "52%",
+    "the Republican": "32%",
+    "Wouldn't vote": "5%",
+    "Don't know/Refused": "10%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 2, Q10 (If the election for your representative in Congress was held today, would you vote for: (R), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-8c",
+   "figures": {
+    "Democrat Kathy Hochul": "62%",
+    "Republican Bruce Blakeman": "20%",
+    "Someone else": "0%",
+    "Don't know/Refused": "17%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 2, Q9 (If the election for Governor was held today, who would you vote for if the candidates were), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-8",
+   "figures": {
+    "Democrat Kathy Hochul": "52%",
+    "Republican Bruce Blakeman": "32%",
+    "Someone else": "1%",
+    "Don't know/Refused": "15%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 2, Q9 (If the election for Governor was held today, who would you vote for if the candidates were), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-7c",
+   "figures": {
+    "Favorable": "48%",
+    "Unfavorable": "27%",
+    "Don't know/No opinion": "25%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 2, Q8 (New York State Senate), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-7",
+   "figures": {
+    "Favorable": "42%",
+    "Unfavorable": "34%",
+    "Don't know/No opinion": "24%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 2, Q8 (New York State Senate), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-6c",
+   "figures": {
+    "Favorable": "50%",
+    "Unfavorable": "25%",
+    "Don't know/No opinion": "24%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 2, Q7 (New York State Assembly), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-6",
+   "figures": {
+    "Favorable": "42%",
+    "Unfavorable": "31%",
+    "Don't know/No opinion": "27%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 2, Q7 (New York State Assembly), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-5c",
+   "figures": {
+    "Favorable": "58%",
+    "Unfavorable": "26%",
+    "Don't know/No opinion": "16%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 1, Q6 (Zohran Mamdani), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-5",
+   "figures": {
+    "Favorable": "45%",
+    "Unfavorable": "34%",
+    "Don't know/No opinion": "21%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 1, Q6 (Zohran Mamdani), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-4c",
+   "figures": {
+    "Favorable": "30%",
+    "Unfavorable": "67%",
+    "Don't know/No opinion": "3%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 1, Q5 (Donald Trump), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-4",
+   "figures": {
+    "Favorable": "32%",
+    "Unfavorable": "63%",
+    "Don't know/No opinion": "5%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 1, Q5 (Donald Trump), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-3c",
+   "figures": {
+    "Favorable": "21%",
+    "Unfavorable": "19%",
+    "Don't know/No opinion": "60%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 1, Q4 (Bruce Blakeman), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-3",
+   "figures": {
+    "Favorable": "25%",
+    "Unfavorable": "21%",
+    "Don't know/No opinion": "54%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 1, Q4 (Bruce Blakeman), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-2c",
+   "figures": {
+    "Favorable": "50%",
+    "Unfavorable": "34%",
+    "Don't know/No opinion": "15%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 1, Q3 (Kathy Hochul), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-25c",
+   "figures": {
+    "Approve": "31%",
+    "Disapprove": "55%",
+    "In the middle": "9%",
+    "Don't know/Refused": "5%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 6, Q25 (Making Americans proud to be Americans), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-25",
+   "figures": {
+    "Approve": "37%",
+    "Disapprove": "50%",
+    "In the middle": "10%",
+    "Don't know/Refused": "3%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 6, Q25 (Making Americans proud to be Americans), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-24c",
+   "figures": {
+    "Approve": "35%",
+    "Disapprove": "54%",
+    "In the middle": "9%",
+    "Don't know/Refused": "2%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 5, Q24 (Making prices more affordable for average Americans), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-24",
+   "figures": {
+    "Approve": "36%",
+    "Disapprove": "54%",
+    "In the middle": "7%",
+    "Don't know/Refused": "2%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 5, Q24 (Making prices more affordable for average Americans), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-23c",
+   "figures": {
+    "Approve": "31%",
+    "Disapprove": "58%",
+    "In the middle": "8%",
+    "Don't know/Refused": "3%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 5, Q23 (Ending wars around the world), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-23",
+   "figures": {
+    "Approve": "34%",
+    "Disapprove": "55%",
+    "In the middle": "8%",
+    "Don't know/Refused": "3%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 5, Q23 (Ending wars around the world), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-22c",
+   "figures": {
+    "Approve": "44%",
+    "Disapprove": "46%",
+    "In the middle": "8%",
+    "Don't know/Refused": "2%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 5, Q22 (Securing America's border with Mexico), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-22",
+   "figures": {
+    "Approve": "48%",
+    "Disapprove": "40%",
+    "In the middle": "10%",
+    "Don't know/Refused": "3%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 5, Q22 (Securing America's border with Mexico), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-21c",
+   "figures": {
+    "Strongly approve": "15%",
+    "Somewhat approve": "15%",
+    "Total Approve": "30%",
+    "Somewhat disapprove": "10%",
+    "Strongly disapprove": "59%",
+    "Total Disapprove": "69%",
+    "Don't know/Refused": "2%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 5, Q21 (Switching gears, do you approve or disapprove of the job that Donald Trump is doing as Pre), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-21",
+   "figures": {
+    "Strongly approve": "19%",
+    "Somewhat approve": "15%",
+    "Total Approve": "34%",
+    "Somewhat disapprove": "10%",
+    "Strongly disapprove": "55%",
+    "Total Disapprove": "65%",
+    "Don't know/Refused": "1%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 5, Q21 (Switching gears, do you approve or disapprove of the job that Donald Trump is doing as Pre), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-20c",
+   "figures": {
+    "Good for NY": "60%",
+    "Bad for NY": "22%",
+    "In the middle": "14%",
+    "Don't know/Refused": "4%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 5, Q20 (Increasing the property tax for people who live outside New York City but own a second hom), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-20",
+   "figures": {
+    "Good for NY": "53%",
+    "Bad for NY": "29%",
+    "In the middle": "11%",
+    "Don't know/Refused": "7%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 5, Q20 (Increasing the property tax for people who live outside New York City but own a second hom), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-2",
+   "figures": {
+    "Favorable": "43%",
+    "Unfavorable": "44%",
+    "Don't know/No opinion": "13%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 1, Q3 (Kathy Hochul), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-1c",
+   "figures": {
+    "Right track": "28%",
+    "Wrong direction": "64%",
+    "Don't know/No opinion": "8%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 1, Q2 (Is the United States on the right track, or is it headed in the wrong direction?), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-19c",
+   "figures": {
+    "Good for NY": "72%",
+    "Bad for NY": "10%",
+    "In the middle": "11%",
+    "Don't know/Refused": "8%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 4, Q19 (Budgeting $1 billion to provide a utility rate rebate check from the state of between $100), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-19",
+   "figures": {
+    "Good for NY": "67%",
+    "Bad for NY": "16%",
+    "In the middle": "11%",
+    "Don't know/Refused": "6%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 4, Q19 (Budgeting $1 billion to provide a utility rate rebate check from the state of between $100), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-18c",
+   "figures": {
+    "Good for NY": "77%",
+    "Bad for NY": "8%",
+    "In the middle": "10%",
+    "Don't know/Refused": "5%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 4, Q18 (Allowing any New Yorker to sue federal, state or local government officials who violate th), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-18",
+   "figures": {
+    "Good for NY": "71%",
+    "Bad for NY": "11%",
+    "In the middle": "12%",
+    "Don't know/Refused": "6%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 4, Q18 (Allowing any New Yorker to sue federal, state or local government officials who violate th), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-17c",
+   "figures": {
+    "Good for NY": "75%",
+    "Bad for NY": "13%",
+    "In the middle": "10%",
+    "Don't know/Refused": "2%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 4, Q17 (Ensuring that every child in New York has a right to a public education, regardless of imm), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-17",
+   "figures": {
+    "Good for NY": "69%",
+    "Bad for NY": "19%",
+    "In the middle": "10%",
+    "Don't know/Refused": "2%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 4, Q17 (Ensuring that every child in New York has a right to a public education, regardless of imm), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-16c",
+   "figures": {
+    "Good for NY": "58%",
+    "Bad for NY": "23%",
+    "In the middle": "14%",
+    "Don't know/Refused": "6%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 4, Q16 (Prohibiting local, state or federal law enforcement officers from wearing a mask while int), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-16",
+   "figures": {
+    "Good for NY": "53%",
+    "Bad for NY": "28%",
+    "In the middle": "14%",
+    "Don't know/Refused": "6%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 4, Q16 (Prohibiting local, state or federal law enforcement officers from wearing a mask while int), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-15c",
+   "figures": {
+    "Good for NY": "46%",
+    "Bad for NY": "19%",
+    "In the middle": "17%",
+    "Don't know/Refused": "18%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 4, Q15 (A one-year moratorium on new permits for large data centers in New York), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-15",
+   "figures": {
+    "Good for NY": "46%",
+    "Bad for NY": "21%",
+    "In the middle": "17%",
+    "Don't know/Refused": "16%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 4, Q15 (A one-year moratorium on new permits for large data centers in New York), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-14c",
+   "figures": {
+    "Good for NY": "30%",
+    "Bad for NY": "33%",
+    "In the middle": "23%",
+    "Don't know/Refused": "14%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 3, Q14 (A proposed Constitutional amendment - which could be on the ballot in November 2027 - to a), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-14",
+   "figures": {
+    "Good for NY": "21%",
+    "Bad for NY": "44%",
+    "In the middle": "21%",
+    "Don't know/Refused": "13%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 3, Q14 (A proposed Constitutional amendment - which could be on the ballot in November 2027 - to a), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-13c",
+   "figures": {
+    "Cost of living": "72%",
+    "Affordable housing": "45%",
+    "Crime": "34%",
+    "Immigration": "18%",
+    "Iran & the Middle East": "15%",
+    "Environment": "12%",
+    "Other": "1%",
+    "Don't know/Refused": "3%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 3, Q13 (Of the remaining issues, or any other issue, which is the second most important to you? Co), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-13",
+   "figures": {
+    "Cost of living": "77%",
+    "Affordable housing": "37%",
+    "Crime": "31%",
+    "Immigration": "22%",
+    "Iran & the Middle East": "14%",
+    "Environment": "13%",
+    "Other": "2%",
+    "Don't know/Refused": "3%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 3, Q13 (Of the remaining issues, or any other issue, which is the second most important to you? Co), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-12c",
+   "figures": {
+    "Cost of living": "26%",
+    "Affordable housing": "25%",
+    "Crime": "20%",
+    "Immigration": "10%",
+    "Environment": "8%",
+    "Iran & the Middle East": "9%",
+    "Other": "1%",
+    "Don't know/Refused": "1%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 3, Q13 (Of the remaining issues, or any other issue, which is the second most important to you?), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-12",
+   "figures": {
+    "Cost of living": "24%",
+    "Affordable housing": "24%",
+    "Crime": "20%",
+    "Immigration": "13%",
+    "Environment": "9%",
+    "Iran & the Middle East": "8%",
+    "Other": "1%",
+    "Don't know/Refused": "1%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 3, Q13 (Of the remaining issues, or any other issue, which is the second most important to you?), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-11c",
+   "figures": {
+    "Cost of living": "46%",
+    "Affordable housing": "20%",
+    "Crime": "14%",
+    "Immigration": "8%",
+    "Iran & the Middle East": "6%",
+    "Environment": "4%",
+    "Other": "0%",
+    "Don't know/Refused": "2%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 3, Q12 (Of the following six issues affecting New Yorkers, or any other issue - which is the singl), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-11",
+   "figures": {
+    "Cost of living": "53%",
+    "Affordable housing": "13%",
+    "Crime": "11%",
+    "Immigration": "9%",
+    "Iran & the Middle East": "6%",
+    "Environment": "4%",
+    "Other": "1%",
+    "Don't know/Refused": "2%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 3, Q12 (Of the following six issues affecting New Yorkers, or any other issue - which is the singl), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-10c",
+   "figures": {
+    "Strongly approve": "25%",
+    "Somewhat approve": "38%",
+    "Total Approve": "63%",
+    "Somewhat disapprove": "17%",
+    "Strongly disapprove": "14%",
+    "Total Disapprove": "31%",
+    "Don't know/Refused": "6%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 2, Q11 (Do you approve or disapprove of the job that Kathy Hochul is doing as Governor?), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-10",
+   "figures": {
+    "Strongly approve": "19%",
+    "Somewhat approve": "34%",
+    "Total Approve": "53%",
+    "Somewhat disapprove": "17%",
+    "Strongly disapprove": "25%",
+    "Total Disapprove": "42%",
+    "Don't know/Refused": "6%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 2, Q11 (Do you approve or disapprove of the job that Kathy Hochul is doing as Governor?), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-1",
+   "figures": {
+    "Right track": "28%",
+    "Wrong direction": "63%",
+    "Don't know/No opinion": "8%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 1, Q2 (Is the United States on the right track, or is it headed in the wrong direction?), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-0c",
+   "figures": {
+    "Right track": "53%",
+    "Wrong direction": "30%",
+    "Don't know/No opinion": "17%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 1, Q1 (Is New York State on the right track, or is it headed in the wrong direction?), NYC (under Region) column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  },
+  {
+   "check_id": "siena-20260625-0",
+   "figures": {
+    "Right track": "44%",
+    "Wrong direction": "41%",
+    "Don't know/No opinion": "15%"
+   },
+   "where": "SNY0626-Release-Crosstabs.pdf, page 1, Q1 (Is New York State on the right track, or is it headed in the wrong direction?), Total column",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": 3.6,
+    "population": "New York State registered voters"
+   },
+   "other_figures": {}
+  }
+ ]
+}

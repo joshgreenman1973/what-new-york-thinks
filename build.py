@@ -98,7 +98,12 @@ def split_note(q):
     if not n:
         return item, None, None
     if ITEM.match(n):
-        return item or ITEM.sub("", n).strip(), None, None
+        it = ITEM.sub("", n).strip()
+        extra = None
+        if " (" in it:  # a research note in parentheses after the item
+            it, extra = it.split(" (", 1)
+            extra = extra.rstrip(")")
+        return item or it[0].upper() + it[1:], None, extra
     if NOTE_ONLY.search(n):
         return item, None, n
     return item, n, None
@@ -219,7 +224,8 @@ def main():
             if VERSION.match(q.get("population_note") or ""):
                 twin = next((t for t in questions if t is not q and not VERSION.match(t.get("population_note") or "")
                              and t.get("subject") == q.get("subject") and t.get("measure") == q.get("measure")
-                             and t.get("item") == q.get("item")), None)
+                             and t.get("item") == q.get("item")
+                             and (t.get("wording") or "")[:40].lower() == (q.get("wording") or "")[:40].lower()), None)
                 if twin:
                     twin["_breakdown"], twin["_breakdown_nyc"] = q.get("results"), q.get("nyc_results")
                     q["_drop"] = True

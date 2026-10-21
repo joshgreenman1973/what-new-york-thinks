@@ -1,0 +1,1241 @@
+{
+ "checker": "marist",
+ "results": [
+  {
+   "check_id": "marist-20261007-9c",
+   "figures": {
+    "Favorable": "54%",
+    "Unfavorable": "32%",
+    "Unsure/Never heard": "12%",
+    "Vol: No response": "2%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.18 GVDEM020R, Region: New York City row",
+   "status": "read"
+  },
+  {
+   "check_id": "marist-20261007-9",
+   "figures": {
+    "Favorable": "43%",
+    "Unfavorable": "47%",
+    "Unsure/Never heard": "8%",
+    "Vol: No response": "2%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.18 GVDEM020R, Registered Voters row",
+   "status": "read"
+  },
+  {
+   "check_id": "marist-20261007-8c",
+   "figures": {
+    "Favorable": "24%",
+    "Unfavorable": "73%",
+    "Unsure/Never heard": "3%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.17 TRUD020R, Region: New York City row",
+   "status": "read"
+  },
+  {
+   "check_id": "marist-20261007-8",
+   "figures": {
+    "Favorable": "36%",
+    "Unfavorable": "60%",
+    "Unsure/Never heard": "4%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.17 TRUD020R, Registered Voters row",
+   "status": "read"
+  },
+  {
+   "check_id": "marist-20261007-6c",
+   "figures": {
+    "Strongly approve": "17%",
+    "Just approve": "7%",
+    "Just disapprove": "9%",
+    "Strongly disapprove": "65%",
+    "Vol: Unsure": "2%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.3 TRUDP105B, Region: New York City row",
+   "status": "read",
+   "note": "Collapsed table TRUDP105BR (p.4): total approve 38%, disapprove 60%, unsure 1%; NYC 25%/74%/2%. Release text: 38% approve, 60% disapprove."
+  },
+  {
+   "check_id": "marist-20261007-6",
+   "figures": {
+    "Strongly approve": "26%",
+    "Just approve": "13%",
+    "Just disapprove": "7%",
+    "Strongly disapprove": "53%",
+    "Vol: Unsure": "1%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.3 TRUDP105B, Registered Voters row",
+   "status": "read",
+   "note": "Collapsed table TRUDP105BR (p.4): total approve 38%, disapprove 60%, unsure 1%; NYC 25%/74%/2%. Release text: 38% approve, 60% disapprove."
+  },
+  {
+   "check_id": "marist-20261007-5c",
+   "figures": {
+    "A vote for President Trump": "16%",
+    "A vote against President Trump": "50%",
+    "Or President Trump is not much of a factor in your vote for Congress": "33%",
+    "Vol: Unsure": "<1%",
+    "Vol: No response": "<1%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.10 CNGVTDT1, Region: New York City row",
+   "status": "read"
+  },
+  {
+   "check_id": "marist-20261007-5",
+   "figures": {
+    "A vote for President Trump": "22%",
+    "A vote against President Trump": "44%",
+    "Or President Trump is not much of a factor in your vote for Congress": "33%",
+    "Vol: Unsure": "<1%",
+    "Vol: No response": "1%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.10 CNGVTDT1, Registered Voters row",
+   "status": "read",
+   "other_figures": {
+    "release_text": {
+     "A vote for President Trump": "22%",
+     "A vote against President Trump": "44%",
+     "Or President Trump is not much of a factor in your vote for Congress": "33%"
+    }
+   }
+  },
+  {
+   "check_id": "marist-20261007-4c",
+   "figures": {
+    "The Democrat": "80%",
+    "The Republican": "16%",
+    "Another party's candidate": "1%",
+    "Vol: Unsure": "3%",
+    "Vol: No response": "0"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.11 CGNWINEXPC1, Region: New York City row",
+   "status": "read",
+   "note": "NYC Vol: No response printed as \"0\"."
+  },
+  {
+   "check_id": "marist-20261007-4",
+   "figures": {
+    "The Democrat": "61%",
+    "The Republican": "36%",
+    "Another party's candidate": "1%",
+    "Vol: Unsure": "2%",
+    "Vol: No response": "<1%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.11 CGNWINEXPC1, Registered Voters row",
+   "status": "read",
+   "other_figures": {
+    "release_text": {
+     "The Democrat": "61%"
+    }
+   },
+   "note": "NYC Vol: No response printed as \"0\"."
+  },
+  {
+   "check_id": "marist-20261007-3c",
+   "figures": {
+    "Democrat": "73%",
+    "Republican": "24%",
+    "Another party's candidate": "1%",
+    "Vol: Unsure": "2%",
+    "Vol: No response": "1%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.9 USCNGS01, Region: New York City row",
+   "status": "read",
+   "other_figures": {
+    "release_text": {
+     "Democrat": "73%"
+    }
+   }
+  },
+  {
+   "check_id": "marist-20261007-3",
+   "figures": {
+    "Democrat": "55%",
+    "Republican": "42%",
+    "Another party's candidate": "1%",
+    "Vol: Unsure": "1%",
+    "Vol: No response": "<1%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.9 USCNGS01, Registered Voters row",
+   "status": "read",
+   "other_figures": {
+    "release_text": {
+     "Democrat": "55%",
+     "Republican": "42%"
+    }
+   }
+  },
+  {
+   "check_id": "marist-20261007-2c",
+   "figures": {
+    "Kathy Hochul, the Democrat": "81%",
+    "Bruce Blakeman, the Republican": "15%",
+    "Another party's candidate": "1%",
+    "Vol: Unsure": "3%",
+    "Vol: No response": "0"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.8 GVWINEXPC1, Region: New York City row",
+   "status": "read",
+   "note": "NYC Vol: No response printed as \"0\"."
+  },
+  {
+   "check_id": "marist-20261007-2",
+   "figures": {
+    "Kathy Hochul, the Democrat": "69%",
+    "Bruce Blakeman, the Republican": "28%",
+    "Another party's candidate": "1%",
+    "Vol: Unsure": "2%",
+    "Vol: No response": "<1%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.8 GVWINEXPC1, Registered Voters row",
+   "status": "read",
+   "other_figures": {
+    "release_text": {
+     "Kathy Hochul, the Democrat": "69%"
+    }
+   },
+   "note": "NYC Vol: No response printed as \"0\"."
+  },
+  {
+   "check_id": "marist-20261007-1c",
+   "figures": {
+    "Strongly support": "56%",
+    "Somewhat support": "42%",
+    "Might vote differently": "2%",
+    "Vol: No response": "0"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.7 STSGV26, Region: New York City row",
+   "status": "read",
+   "note": "Footer: N=1217 for this question (registered voters choosing a candidate). NYC Vol: No response printed as \"0\"."
+  },
+  {
+   "check_id": "marist-20261007-15c",
+   "figures": {
+    "An ideal society needs some groups to be on top and others to be on the bottom": "20%",
+    "An ideal society needs equality for all groups": "75%",
+    "Vol: Unsure": "<1%",
+    "Vol: No response": "5%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.25 ISSRC1, Region: New York City row",
+   "status": "read"
+  },
+  {
+   "check_id": "marist-20261007-15",
+   "figures": {
+    "An ideal society needs some groups to be on top and others to be on the bottom": "26%",
+    "An ideal society needs equality for all groups": "68%",
+    "Vol: Unsure": "1%",
+    "Vol: No response": "6%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.25 ISSRC1, Registered Voters row",
+   "status": "read"
+  },
+  {
+   "check_id": "marist-20261007-14c",
+   "figures": {
+    "Protecting the right of Americans to own guns": "27%",
+    "Passing stricter gun control laws": "69%",
+    "Vol: Unsure": "<1%",
+    "Vol: No response": "4%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.24 ISSGUN1, Region: New York City row",
+   "status": "read"
+  },
+  {
+   "check_id": "marist-20261007-14",
+   "figures": {
+    "Protecting the right of Americans to own guns": "42%",
+    "Passing stricter gun control laws": "54%",
+    "Vol: Unsure": "<1%",
+    "Vol: No response": "3%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.24 ISSGUN1, Registered Voters row",
+   "status": "read"
+  },
+  {
+   "check_id": "marist-20261007-13c",
+   "figures": {
+    "Government is almost always wasteful and inefficient": "43%",
+    "Government often does a better job than people give it credit for": "50%",
+    "Vol: Unsure": "1%",
+    "Vol: No response": "6%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.23 ISSGOV1, Region: New York City row",
+   "status": "read"
+  },
+  {
+   "check_id": "marist-20261007-13",
+   "figures": {
+    "Government is almost always wasteful and inefficient": "55%",
+    "Government often does a better job than people give it credit for": "40%",
+    "Vol: Unsure": "1%",
+    "Vol: No response": "4%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.23 ISSGOV1, Registered Voters row",
+   "status": "read"
+  },
+  {
+   "check_id": "marist-20261007-12c",
+   "figures": {
+    "They should be required to leave the country": "18%",
+    "They should have a way to stay legally if they meet certain requirements": "77%",
+    "Vol: Unsure": "<1%",
+    "Vol: No response": "4%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.22 ISSIMM1, Region: New York City row",
+   "status": "read"
+  },
+  {
+   "check_id": "marist-20261007-12",
+   "figures": {
+    "They should be required to leave the country": "31%",
+    "They should have a way to stay legally if they meet certain requirements": "66%",
+    "Vol: Unsure": "<1%",
+    "Vol: No response": "3%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.22 ISSIMM1, Registered Voters row",
+   "status": "read"
+  },
+  {
+   "check_id": "marist-20261007-11c",
+   "figures": {
+    "Gotten better": "16%",
+    "Gotten worse": "40%",
+    "Stayed about the same": "41%",
+    "Vol: No response": "2%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.21 ECOPFPY1, Region: New York City row",
+   "status": "read"
+  },
+  {
+   "check_id": "marist-20261007-11",
+   "figures": {
+    "Gotten better": "18%",
+    "Gotten worse": "40%",
+    "Stayed about the same": "41%",
+    "Vol: No response": "2%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.21 ECOPFPY1, Registered Voters row",
+   "status": "read",
+   "other_figures": {
+    "release_text": {
+     "Gotten better": "18%",
+     "Gotten worse": "40%",
+     "Stayed about the same": "41%"
+    }
+   }
+  },
+  {
+   "check_id": "marist-20261007-10c",
+   "figures": {
+    "Favorable": "20%",
+    "Unfavorable": "39%",
+    "Unsure/Never heard": "38%",
+    "Vol: No response": "2%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.20 GVREP020R, Region: New York City row",
+   "status": "read"
+  },
+  {
+   "check_id": "marist-20261007-10",
+   "figures": {
+    "Favorable": "36%",
+    "Unfavorable": "35%",
+    "Unsure/Never heard": "27%",
+    "Vol: No response": "2%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.20 GVREP020R, Registered Voters row",
+   "status": "read"
+  },
+  {
+   "check_id": "marist-20261007-1",
+   "figures": {
+    "Strongly support": "64%",
+    "Somewhat support": "34%",
+    "Might vote differently": "2%",
+    "Vol: No response": "<1%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.7 STSGV26, Registered Voters row",
+   "status": "read",
+   "note": "Footer: N=1217 for this question (registered voters choosing a candidate). NYC Vol: No response printed as \"0\"."
+  },
+  {
+   "check_id": "marist-20261007-0c",
+   "figures": {
+    "Kathy Hochul, the Democrat": "69%",
+    "Bruce Blakeman, the Republican": "24%",
+    "Another party's candidate": "1%",
+    "Undecided": "6%",
+    "Vol: No response": "<1%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.6 GVVT26R, Region: New York City row",
+   "status": "read",
+   "other_figures": {
+    "release_text": {
+     "Kathy Hochul, the Democrat": "69%"
+    }
+   }
+  },
+  {
+   "check_id": "marist-20261007-0",
+   "figures": {
+    "Kathy Hochul, the Democrat": "53%",
+    "Bruce Blakeman, the Republican": "42%",
+    "Another party's candidate": "1%",
+    "Undecided": "5%",
+    "Vol: No response": "<1%"
+   },
+   "where": "Marist-Poll_NYS_NOS-and-Tables_202610051034565bVw9_q.pdf p.6 GVVT26R, Registered Voters row",
+   "status": "read",
+   "other_figures": {
+    "release_text": {
+     "Kathy Hochul, the Democrat": "53%",
+     "Bruce Blakeman, the Republican": "42%"
+    }
+   }
+  },
+  {
+   "check_id": "marist-20260408-9",
+   "figures": {
+    "Right direction": "56%",
+    "Wrong direction": "43%",
+    "Vol: Unsure": "2%"
+   },
+   "where": "Marist-Poll_NYC-NOS-and-Tables_202604021433.pdf p.17 NYC1000, NYC Adults row",
+   "status": "read",
+   "other_figures": {
+    "release_text": {
+     "Right direction": "56%",
+     "Wrong direction": "43%"
+    }
+   },
+   "poll_details": {
+    "field_start": "2026-03-26",
+    "field_end": "2026-03-31",
+    "n": 1454,
+    "moe": 3.3,
+    "population": "New York City adults 18+ (registered voters subset n=1,247, MOE \u00b13.5)"
+   }
+  },
+  {
+   "check_id": "marist-20260408-8",
+   "figures": {
+    "Approve": "65%",
+    "Disapprove": "34%",
+    "Vol: Unsure": "1%"
+   },
+   "where": "Marist-Poll_NYC-NOS-and-Tables_202604021433.pdf p.16 ZMWNTR1, NYC Adults row",
+   "status": "read",
+   "other_figures": {
+    "release_text": {
+     "Approve": "65%",
+     "Disapprove": "34%"
+    }
+   }
+  },
+  {
+   "check_id": "marist-20260408-6",
+   "figures": {
+    "A great deal/A good amount": "58%",
+    "Not very much/Not at all": "41%",
+    "Vol: Unsure": "1%"
+   },
+   "where": "Marist-Poll_NYC-NOS-and-Tables_202604021433.pdf p.14 ZMTRDNYC1R, NYC Adults row",
+   "status": "read",
+   "other_figures": {
+    "release_text": {
+     "A great deal/A good amount": "58%",
+     "Not very much/Not at all": "41%"
+    }
+   }
+  },
+  {
+   "check_id": "marist-20260408-5",
+   "figures": {
+    "A great deal": "22%",
+    "A good amount": "35%",
+    "Not very much": "19%",
+    "Not at all": "22%",
+    "Vol: Unsure": "1%"
+   },
+   "where": "Marist-Poll_NYC-NOS-and-Tables_202604021433.pdf p.15 ZMTRDNYC1, NYC Adults row",
+   "status": "read",
+   "note": "Input wording \"As mayor, do you think Zohran Mamdani is:\" matches MAMZUDC1 (unite/divide, p.13: 61% unite / 36% divide / 2% unsure), but the answer labels match the trust question ZMTRDNYC1 (\"How much do you trust Mayor Zohran Mamdani to make decisions that are in the best interest of New York City?\"). Figures recorded are from ZMTRDNYC1."
+  },
+  {
+   "check_id": "marist-20260408-4",
+   "figures": {
+    "For the better": "52%",
+    "For the worse": "27%",
+    "Not at all": "18%",
+    "Vol: Unsure": "2%"
+   },
+   "where": "Marist-Poll_NYC-NOS-and-Tables_202604021433.pdf p.11 MAMZ720, NYC Adults row",
+   "status": "read",
+   "note": "Trend table (p.12, labeled NYC Registered Voters) April 2026 row: 52/28/18/2."
+  },
+  {
+   "check_id": "marist-20260408-2",
+   "figures": {
+    "Very favorable": "29%",
+    "Somewhat favorable": "26%",
+    "Somewhat unfavorable": "12%",
+    "Very unfavorable": "22%",
+    "Unsure/Never Heard": "12%"
+   },
+   "where": "Marist-Poll_NYC-NOS-and-Tables_202604021433.pdf p.9 MAMZ0204R, NYC Adults row",
+   "status": "read",
+   "note": "Collapsed MAMZ0204RC (p.7): 55% favorable / 33% unfavorable / 12% unsure. Trend tables (pp.8,10) labeled NYC Registered Voters show April 2026: 31/24/12/22/10 (collapsed 55/35/10); release says RVs 55% favorable, 35% not."
+  },
+  {
+   "check_id": "marist-20260408-17",
+   "figures": {
+    "Working too closely with President Trump": "12%",
+    "Not working closely enough with President Trump": "26%",
+    "Working about the right amount with President Trump": "59%",
+    "Vol: Unsure": "3%"
+   },
+   "where": "Marist-Poll_NYC-NOS-and-Tables_202604021433.pdf p.31 DTZMREL1, NYC Adults row",
+   "status": "read",
+   "other_figures": {
+    "release_text": {
+     "Working too closely with President Trump": "12%",
+     "Not working closely enough with President Trump": "26%",
+     "Working about the right amount with President Trump": "59%"
+    }
+   }
+  },
+  {
+   "check_id": "marist-20260408-16",
+   "figures": {
+    "Working too closely with Governor Hochul": "15%",
+    "Not working closely enough with Governor Hochul": "20%",
+    "Working about the right amount with Governor Hochul": "60%",
+    "Vol: Unsure": "4%"
+   },
+   "where": "Marist-Poll_NYC-NOS-and-Tables_202604021433.pdf p.30 KHZMREL1, NYC Adults row",
+   "status": "read",
+   "other_figures": {
+    "release_text": {
+     "Working too closely with Governor Hochul": "15%",
+     "Not working closely enough with Governor Hochul": "20%",
+     "Working about the right amount with Governor Hochul": "60%"
+    }
+   }
+  },
+  {
+   "check_id": "marist-20260408-15",
+   "figures": {
+    "Agree": "61%",
+    "Disagree": "37%",
+    "Vol: Unsure": "1%"
+   },
+   "where": "Marist-Poll_NYC-NOS-and-Tables_202604021433.pdf p.29 MAMZ505, NYC Adults row",
+   "status": "read",
+   "other_figures": {
+    "release_text": {
+     "Agree": "61%",
+     "Disagree": "37%"
+    }
+   }
+  },
+  {
+   "check_id": "marist-20260408-14",
+   "figures": {
+    "Agree": "60%",
+    "Disagree": "36%",
+    "Vol: Unsure": "4%"
+   },
+   "where": "Marist-Poll_NYC-NOS-and-Tables_202604021433.pdf p.27 MAMZ588, NYC Adults row",
+   "status": "read",
+   "other_figures": {
+    "release_text": {
+     "Agree": "60%",
+     "Disagree": "36%"
+    }
+   },
+   "note": "Trend (p.28, RV) 60/37/3."
+  },
+  {
+   "check_id": "marist-20260408-13",
+   "figures": {
+    "Agree": "74%",
+    "Disagree": "25%",
+    "Vol: Unsure": "2%"
+   },
+   "where": "Marist-Poll_NYC-NOS-and-Tables_202604021433.pdf p.25 MAMZ135, NYC Adults row",
+   "status": "read",
+   "other_figures": {
+    "release_text": {
+     "Agree": "74%",
+     "Disagree": "25%"
+    }
+   },
+   "note": "Trend (p.26, RV) 73/25/2; release says 73% of RVs."
+  },
+  {
+   "check_id": "marist-20260408-12",
+   "figures": {
+    "Agree": "64%",
+    "Disagree": "35%",
+    "Vol: Unsure": "1%"
+   },
+   "where": "Marist-Poll_NYC-NOS-and-Tables_202604021433.pdf p.23 MAMZ106, NYC Adults row",
+   "status": "read",
+   "other_figures": {
+    "release_text": {
+     "Agree": "61%",
+     "Disagree": "35%"
+    }
+   },
+   "note": "DISCREPANCY: table MAMZ106 prints 64% agree; release text says 61% of adults (and the same proportion of RVs). Trend table p.24 (RV) April 2026 also 64/35/1."
+  },
+  {
+   "check_id": "marist-20260408-11",
+   "figures": {
+    "Agree": "61%",
+    "Disagree": "37%",
+    "Vol: Unsure": "2%"
+   },
+   "where": "Marist-Poll_NYC-NOS-and-Tables_202604021433.pdf p.21 MAMZ103, NYC Adults row",
+   "status": "read",
+   "note": "Trend table (p.22, NYC Registered Voters) April 2026: 60/38/2."
+  },
+  {
+   "check_id": "marist-20260408-10",
+   "figures": {
+    "Agree": "61%",
+    "Disagree": "37%",
+    "Vol: Unsure": "2%"
+   },
+   "where": "Marist-Poll_NYC-NOS-and-Tables_202604021433.pdf p.19 MAMZ102, NYC Adults row",
+   "status": "read",
+   "note": "Trend table (p.20, NYC Registered Voters) April 2026: 60/38/2; release: RVs 60%."
+  },
+  {
+   "check_id": "marist-20260408-0",
+   "figures": {
+    "Strongly approve": "25%",
+    "Approve": "23%",
+    "Disapprove": "9%",
+    "Strongly disapprove": "21%",
+    "Vol: Unsure": "23%"
+   },
+   "where": "Marist-Poll_NYC-NOS-and-Tables_202604021433.pdf p.5 MAMZ105R, NYC Adults row",
+   "status": "read",
+   "other_figures": {
+    "release_text": {
+     "Strongly approve": "25%",
+     "Strongly disapprove": "21%"
+    }
+   },
+   "note": "Collapsed MAMZ105 (p.3): approve 48%, disapprove 30%, unsure 23%."
+  },
+  {
+   "check_id": "marist-20260226-9c",
+   "figures": {
+    "Agree": "66%",
+    "Disagree": "33%",
+    "Vol: Unsure": "1%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.19 HOCK501, Region: New York City row",
+   "status": "read"
+  },
+  {
+   "check_id": "marist-20260226-9",
+   "figures": {
+    "Agree": "54%",
+    "Disagree": "45%",
+    "Vol: Unsure": "1%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.19 HOCK501, NYS Adults row",
+   "status": "read",
+   "other_figures": {
+    "NYS Registered Voters row": [
+     "52%",
+     "47%",
+     "1%"
+    ],
+    "release_text": {
+     "Agree": "54%"
+    }
+   }
+  },
+  {
+   "check_id": "marist-20260226-8c",
+   "figures": {
+    "Right direction": "52%",
+    "Wrong direction": "48%",
+    "Vol: Unsure": "0%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.17 NYS1000, Region: New York City row",
+   "status": "read",
+   "note": "Release text gives registered-voter figures (44/56), matching the RV row and RV trend table (p.18); adults row is 46/54/<1. NYC unsure printed \"0%\"."
+  },
+  {
+   "check_id": "marist-20260226-8",
+   "figures": {
+    "Right direction": "46%",
+    "Wrong direction": "54%",
+    "Vol: Unsure": "<1%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.17 NYS1000, NYS Adults row",
+   "status": "read",
+   "other_figures": {
+    "NYS Registered Voters row": [
+     "44%",
+     "56%",
+     "0%"
+    ],
+    "release_text": {
+     "Right direction": "44%",
+     "Wrong direction": "56%"
+    }
+   },
+   "note": "Release text gives registered-voter figures (44/56), matching the RV row and RV trend table (p.18); adults row is 46/54/<1. NYC unsure printed \"0%\"."
+  },
+  {
+   "check_id": "marist-20260226-7c",
+   "figures": {
+    "Favorable": "18%",
+    "Unfavorable": "26%",
+    "Unsure-Never Heard": "56%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.16 BLAB020R, Region: New York City row",
+   "status": "read"
+  },
+  {
+   "check_id": "marist-20260226-7",
+   "figures": {
+    "Favorable": "24%",
+    "Unfavorable": "24%",
+    "Unsure-Never Heard": "52%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.16 BLAB020R, NYS Adults row",
+   "status": "read",
+   "other_figures": {
+    "NYS Registered Voters row": [
+     "27%",
+     "24%",
+     "49%"
+    ],
+    "release_text": {
+     "Favorable": "24%",
+     "Unfavorable": "24%",
+     "Unsure-Never Heard": "52%"
+    }
+   }
+  },
+  {
+   "check_id": "marist-20260226-6c",
+   "figures": {
+    "Favorable": "57%",
+    "Unfavorable": "27%",
+    "Unsure-Never Heard": "15%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.14 HOCK020R, Region: New York City row",
+   "status": "read"
+  },
+  {
+   "check_id": "marist-20260226-6",
+   "figures": {
+    "Favorable": "48%",
+    "Unfavorable": "39%",
+    "Unsure-Never Heard": "13%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.14 HOCK020R, NYS Adults row",
+   "status": "read",
+   "other_figures": {
+    "NYS Registered Voters row": [
+     "47%",
+     "43%",
+     "10%"
+    ],
+    "release_text": {
+     "Favorable": "48%",
+     "Unfavorable": "39%",
+     "Unsure-Never Heard": "13%"
+    }
+   }
+  },
+  {
+   "check_id": "marist-20260226-5c",
+   "figures": {
+    "Kathy Hochul, the Democrat": "62%",
+    "Bruce Blakeman, the Republican": "20%",
+    "Another party's candidate": "1%",
+    "Vol: Undecided": "17%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.13 NYGOV26, Region: New York City row",
+   "status": "read",
+   "other_figures": {
+    "release_text": {
+     "Kathy Hochul, the Democrat": "62%"
+    }
+   }
+  },
+  {
+   "check_id": "marist-20260226-5",
+   "figures": {
+    "Kathy Hochul, the Democrat": "50%",
+    "Bruce Blakeman, the Republican": "33%",
+    "Another party's candidate": "2%",
+    "Vol: Undecided": "15%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.13 NYGOV26, NYS Registered Voters row (question asked of RVs)",
+   "status": "read",
+   "other_figures": {
+    "release_text": {
+     "Kathy Hochul, the Democrat": "50%",
+     "Bruce Blakeman, the Republican": "33%",
+     "Another party's candidate": "2%",
+     "Vol: Undecided": "15%"
+    }
+   }
+  },
+  {
+   "check_id": "marist-20260226-4c",
+   "figures": {
+    "Excellent": "11%",
+    "Good": "22%",
+    "Fair": "25%",
+    "Poor": "19%",
+    "Vol: Unsure": "23%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.11 GILS005, Region: New York City row",
+   "status": "read",
+   "note": "Release text figures match the RV row/RV trend table (p.12), not the adults row."
+  },
+  {
+   "check_id": "marist-20260226-4",
+   "figures": {
+    "Excellent": "9%",
+    "Good": "21%",
+    "Fair": "25%",
+    "Poor": "24%",
+    "Vol: Unsure": "21%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.11 GILS005, NYS Adults row",
+   "status": "read",
+   "other_figures": {
+    "NYS Registered Voters row": [
+     "9%",
+     "22%",
+     "26%",
+     "25%",
+     "18%"
+    ],
+    "release_text": {
+     "Excellent": "9%",
+     "Good": "22%",
+     "Fair": "26%",
+     "Poor": "25%",
+     "Vol: Unsure": "18%"
+    }
+   },
+   "note": "Release text figures match the RV row/RV trend table (p.12), not the adults row."
+  },
+  {
+   "check_id": "marist-20260226-3c",
+   "figures": {
+    "Excellent": "11%",
+    "Good": "23%",
+    "Fair": "26%",
+    "Poor": "29%",
+    "Vol: Unsure": "12%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.9 SCHS005, Region: New York City row",
+   "status": "read",
+   "note": "Release text cites registered-voter figures (8/19/24/41), which match the RV row and the RV trend table (p.10), not the adults row."
+  },
+  {
+   "check_id": "marist-20260226-3",
+   "figures": {
+    "Excellent": "9%",
+    "Good": "20%",
+    "Fair": "24%",
+    "Poor": "38%",
+    "Vol: Unsure": "10%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.9 SCHS005, NYS Adults row",
+   "status": "read",
+   "other_figures": {
+    "NYS Registered Voters row": [
+     "8%",
+     "19%",
+     "24%",
+     "41%",
+     "8%"
+    ],
+    "release_text": {
+     "Excellent": "8%",
+     "Good": "19%",
+     "Fair": "24%",
+     "Poor": "41%"
+    }
+   },
+   "note": "Release text cites registered-voter figures (8/19/24/41), which match the RV row and the RV trend table (p.10), not the adults row."
+  },
+  {
+   "check_id": "marist-20260226-2c",
+   "figures": {
+    "Excellent": "12%",
+    "Good": "35%",
+    "Fair": "20%",
+    "Poor": "20%",
+    "Vol: Unsure": "12%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.7 HOCK005, Region: New York City row",
+   "status": "read"
+  },
+  {
+   "check_id": "marist-20260226-20",
+   "figures": {
+    "Cost of living": "40%",
+    "Quality of life": "21%",
+    "Taxes": "15%",
+    "Politics": "10%",
+    "Weather": "7%",
+    "Jobs": "4%",
+    "Retirement": "4%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.41 LIVNY5MV, \"Adults who plan to move from NYS\" row (base n=505, MOE \u00b15.6)",
+   "status": "read",
+   "other_figures": {
+    "NYS Registered Voters row": [
+     "39%",
+     "19%",
+     "18%",
+     "11%",
+     "7%",
+     "3%",
+     "4%"
+    ],
+    "release_text": {
+     "Cost of living": "40%",
+     "Quality of life": "21%",
+     "Taxes": "15%",
+     "Politics": "10%",
+     "Weather": "7%",
+     "Jobs": "4%",
+     "Retirement": "4%"
+    }
+   },
+   "note": "A row labeled \"NYS Registered Voters\" on p.41 shows 39/19/18/11/7/3/4 (RV movers). No NYC column used."
+  },
+  {
+   "check_id": "marist-20260226-2",
+   "figures": {
+    "Excellent": "11%",
+    "Good": "29%",
+    "Fair": "18%",
+    "Poor": "33%",
+    "Vol: Unsure": "9%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.7 HOCK005, NYS Adults row",
+   "status": "read",
+   "other_figures": {
+    "NYS Registered Voters row": [
+     "11%",
+     "29%",
+     "17%",
+     "37%",
+     "6%"
+    ],
+    "release_text": {
+     "Excellent": "11%",
+     "Good": "29%",
+     "Fair": "18%",
+     "Poor": "33%"
+    }
+   }
+  },
+  {
+   "check_id": "marist-20260226-18c",
+   "figures": {
+    "Plan to stay": "68%",
+    "Plan to move - Economic reasons": "17%",
+    "Plan to move - Non-economic reasons": "14%",
+    "Vol: Unsure": "1%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.39 LIVNY5C, Region: New York City row",
+   "status": "read",
+   "note": "Columns by header position: Plan to stay | Plan to move - Economic reasons | Plan to move - Non-economic reasons | Vol: Unsure. Collapsed LIVNY5 (p.37): adults 66/33/1; NYC 67/31/1."
+  },
+  {
+   "check_id": "marist-20260226-18",
+   "figures": {
+    "Plan to stay": "66%",
+    "Plan to move - Economic reasons": "19%",
+    "Plan to move - Non-economic reasons": "14%",
+    "Vol: Unsure": "1%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.39 LIVNY5C, NYS Adults row",
+   "status": "read",
+   "other_figures": {
+    "NYS Registered Voters row": [
+     "66%",
+     "20%",
+     "14%",
+     "1%"
+    ],
+    "release_text": {
+     "Plan to stay": "66%"
+    }
+   },
+   "note": "Columns by header position: Plan to stay | Plan to move - Economic reasons | Plan to move - Non-economic reasons | Vol: Unsure. Collapsed LIVNY5 (p.37): adults 66/33/1; NYC 67/31/1."
+  },
+  {
+   "check_id": "marist-20260226-16c",
+   "figures": {
+    "Very affordable": "2%",
+    "Affordable": "11%",
+    "Not very affordable": "54%",
+    "Not affordable at all": "32%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.35 COMCOST1, Region: New York City row",
+   "status": "read",
+   "note": "Collapsed COMCOST1R (p.33): adults 14/86; NYC 14/86."
+  },
+  {
+   "check_id": "marist-20260226-16",
+   "figures": {
+    "Very affordable": "2%",
+    "Affordable": "12%",
+    "Not very affordable": "57%",
+    "Not affordable at all": "30%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.35 COMCOST1, NYS Adults row",
+   "status": "read",
+   "other_figures": {
+    "NYS Registered Voters row": [
+     "2%",
+     "12%",
+     "58%",
+     "28%"
+    ],
+    "release_text": {
+     "Very affordable/Affordable (combined)": "14%",
+     "Not very/Not at all (combined)": "86%"
+    }
+   },
+   "note": "Collapsed COMCOST1R (p.33): adults 14/86; NYC 14/86."
+  },
+  {
+   "check_id": "marist-20260226-15c",
+   "figures": {
+    "Get better": "32%",
+    "Get worse": "26%",
+    "Stay about the same": "42%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.31 ECO0102, Region: New York City row",
+   "status": "read",
+   "note": "Release text figures (25/26/49) match the RV row and RV trend table (p.32); the adults row is 26/27/47. Release does not label them as RV in the finances sentence."
+  },
+  {
+   "check_id": "marist-20260226-15",
+   "figures": {
+    "Get better": "26%",
+    "Get worse": "27%",
+    "Stay about the same": "47%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.31 ECO0102, NYS Adults row",
+   "status": "read",
+   "other_figures": {
+    "NYS Registered Voters row": [
+     "25%",
+     "26%",
+     "49%"
+    ],
+    "release_text": {
+     "Get better": "25%",
+     "Get worse": "26%",
+     "Stay about the same": "49%"
+    }
+   },
+   "note": "Release text figures (25/26/49) match the RV row and RV trend table (p.32); the adults row is 26/27/47. Release does not label them as RV in the finances sentence."
+  },
+  {
+   "check_id": "marist-20260226-14c",
+   "figures": {
+    "Getting better": "17%",
+    "Getting worse": "54%",
+    "Staying about the same": "29%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.29 ECONY63, Region: New York City row",
+   "status": "read",
+   "note": "Release text gives RV figures (12/55/32), matching RV row; adults row is 13/56/31."
+  },
+  {
+   "check_id": "marist-20260226-14",
+   "figures": {
+    "Getting better": "13%",
+    "Getting worse": "56%",
+    "Staying about the same": "31%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.29 ECONY63, NYS Adults row",
+   "status": "read",
+   "other_figures": {
+    "NYS Registered Voters row": [
+     "12%",
+     "55%",
+     "32%"
+    ],
+    "release_text": {
+     "Getting better": "12%",
+     "Getting worse": "55%",
+     "Staying about the same": "32%"
+    }
+   },
+   "note": "Release text gives RV figures (12/55/32), matching RV row; adults row is 13/56/31."
+  },
+  {
+   "check_id": "marist-20260226-12c",
+   "figures": {
+    "Gotten better": "18%",
+    "Gotten worse": "48%",
+    "Remained the same - Good thing": "14%",
+    "Remained the same - Bad thing": "18%",
+    "Remained the same - unspecified": "1%",
+    "Vol: Unsure": "1%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.27 NYS5000R, Region: New York City row",
+   "status": "read",
+   "note": "Columns read by header position: Gotten better | Gotten worse | Remained the same - Good thing | Remained the same - Bad thing | Remained the same - unspecified | Vol: Unsure. Collapsed NYS5000 (p.25): adults 13/51/35/<1; NYC 18/48/33/1."
+  },
+  {
+   "check_id": "marist-20260226-12",
+   "figures": {
+    "Gotten better": "13%",
+    "Gotten worse": "51%",
+    "Remained the same - Good thing": "16%",
+    "Remained the same - Bad thing": "17%",
+    "Remained the same - unspecified": "2%",
+    "Vol: Unsure": "<1%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.27 NYS5000R, NYS Adults row",
+   "status": "read",
+   "other_figures": {
+    "NYS Registered Voters row": [
+     "12%",
+     "51%",
+     "17%",
+     "17%",
+     "2%",
+     "0%"
+    ],
+    "release_text": {
+     "Gotten better": "13%",
+     "Gotten worse": "51%",
+     "Remained the same - Good thing": "16%",
+     "Remained the same - Bad thing": "17%",
+     "Remained the same - unspecified": "2%"
+    }
+   },
+   "note": "Columns read by header position: Gotten better | Gotten worse | Remained the same - Good thing | Remained the same - Bad thing | Remained the same - unspecified | Vol: Unsure. Collapsed NYS5000 (p.25): adults 13/51/35/<1; NYC 18/48/33/1."
+  },
+  {
+   "check_id": "marist-20260226-11c",
+   "figures": {
+    "Agree": "62%",
+    "Disagree": "37%",
+    "Vol: Unsure": "1%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.23 HOCK505, Region: New York City row",
+   "status": "read"
+  },
+  {
+   "check_id": "marist-20260226-11",
+   "figures": {
+    "Agree": "51%",
+    "Disagree": "48%",
+    "Vol: Unsure": "1%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.23 HOCK505, NYS Adults row",
+   "status": "read",
+   "other_figures": {
+    "NYS Registered Voters row": [
+     "50%",
+     "50%",
+     "0%"
+    ],
+    "release_text": {
+     "Agree": "51%",
+     "Disagree": "48%",
+     "Vol: Unsure": "1%"
+    }
+   }
+  },
+  {
+   "check_id": "marist-20260226-10c",
+   "figures": {
+    "Agree": "55%",
+    "Disagree": "43%",
+    "Vol: Unsure": "2%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.21 HOCK503, Region: New York City row",
+   "status": "read"
+  },
+  {
+   "check_id": "marist-20260226-10",
+   "figures": {
+    "Agree": "46%",
+    "Disagree": "52%",
+    "Vol: Unsure": "1%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.21 HOCK503, NYS Adults row",
+   "status": "read",
+   "other_figures": {
+    "NYS Registered Voters row": [
+     "44%",
+     "55%",
+     "1%"
+    ],
+    "release_text": {
+     "Agree": "46%",
+     "Disagree": "52%"
+    }
+   }
+  },
+  {
+   "check_id": "marist-20260226-0c",
+   "figures": {
+    "Strongly approve": "19%",
+    "Approve": "34%",
+    "Disapprove": "11%",
+    "Strongly disapprove": "17%",
+    "Vol: Unsure": "19%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.5 HOCK105R, Region: New York City row",
+   "status": "read",
+   "note": "Collapsed HOCK105 (p.3): adults 46/40/15; NYC 53/28/19."
+  },
+  {
+   "check_id": "marist-20260226-0",
+   "figures": {
+    "Strongly approve": "16%",
+    "Approve": "29%",
+    "Disapprove": "11%",
+    "Strongly disapprove": "29%",
+    "Vol: Unsure": "15%"
+   },
+   "where": "Marist-Poll_NYS-NOS-and-Tables_202602201349.pdf p.5 HOCK105R, NYS Adults row",
+   "status": "read",
+   "other_figures": {
+    "NYS Registered Voters row": [
+     "16%",
+     "29%",
+     "10%",
+     "32%",
+     "12%"
+    ],
+    "release_text": {
+     "Strongly approve": "16%",
+     "Strongly disapprove": "29%"
+    }
+   },
+   "note": "Collapsed HOCK105 (p.3): adults 46/40/15; NYC 53/28/19."
+  }
+ ]
+}

@@ -1,0 +1,1664 @@
+{
+ "checker": "quinnipiac",
+ "results": [
+  {
+   "check_id": "quinnipiac-20261021-9c",
+   "figures": {
+    "Economy": "21",
+    "Cost of living": "26",
+    "Health care": "12",
+    "Taxes": "6",
+    "Energy costs": "1",
+    "Crime": "7",
+    "Schools": "2",
+    "Immigration": "8",
+    "Affordable housing": "10",
+    "AI data centers": "1",
+    "Something else (vol)": "3",
+    "DK/NA": "3"
+   },
+   "where": "ny10212026_nygb97.pdf p.6, Q8 ('Which of these is the most important issue to you in deciding who to v...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "October 15, 2026",
+    "field_end": "October 19, 2026",
+    "n": 1167,
+    "moe": "+/- 3.8 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q8. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20261021-9",
+   "figures": {
+    "Economy": "19",
+    "Cost of living": "22",
+    "Health care": "9",
+    "Taxes": "7",
+    "Energy costs": "3",
+    "Crime": "9",
+    "Schools": "2",
+    "Immigration": "13",
+    "Affordable housing": "6",
+    "AI data centers": "2",
+    "Something else (vol)": "2",
+    "DK/NA": "5"
+   },
+   "where": "ny10212026_nygb97.pdf p.6, Q8 ('Which of these is the most important issue to you in deciding who to v...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Cost of living": "22",
+     "Economy": "19",
+     "Immigration": "13"
+    }
+   },
+   "poll_details": {
+    "field_start": "October 15, 2026",
+    "field_end": "October 19, 2026",
+    "n": 1167,
+    "moe": "+/- 3.8 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q8. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20261021-8c",
+   "figures": {
+    "Approve": "20",
+    "Disapprove": "72",
+    "DK/NA": "7"
+   },
+   "where": "ny10212026_nygb97.pdf p.6, Q7 ('Do you approve or disapprove of the way Donald Trump is handling his j...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "October 15, 2026",
+    "field_end": "October 19, 2026",
+    "n": 1167,
+    "moe": "+/- 3.8 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q7. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20261021-8",
+   "figures": {
+    "Approve": "34",
+    "Disapprove": "60",
+    "DK/NA": "5"
+   },
+   "where": "ny10212026_nygb97.pdf p.6, Q7 ('Do you approve or disapprove of the way Donald Trump is handling his j...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Approve": "34",
+     "Disapprove": "60"
+    }
+   },
+   "poll_details": {
+    "field_start": "October 15, 2026",
+    "field_end": "October 19, 2026",
+    "n": 1167,
+    "moe": "+/- 3.8 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q7. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20261021-7c",
+   "figures": {
+    "Approve": "62",
+    "Disapprove": "29",
+    "DK/NA": "9"
+   },
+   "where": "ny10212026_nygb97.pdf p.5, Q6 ('Do you approve or disapprove of the way Kathy Hochul is handling her j...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "October 15, 2026",
+    "field_end": "October 19, 2026",
+    "n": 1167,
+    "moe": "+/- 3.8 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q6. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20261021-7",
+   "figures": {
+    "Approve": "49",
+    "Disapprove": "45",
+    "DK/NA": "6"
+   },
+   "where": "ny10212026_nygb97.pdf p.5, Q6 ('Do you approve or disapprove of the way Kathy Hochul is handling her j...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Approve": "49",
+     "Disapprove": "45"
+    }
+   },
+   "poll_details": {
+    "field_start": "October 15, 2026",
+    "field_end": "October 19, 2026",
+    "n": 1167,
+    "moe": "+/- 3.8 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q6. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20261021-6c",
+   "figures": {
+    "Favorable": "61",
+    "Unfavorable": "27",
+    "Haven't heard enough": "9",
+    "Refused": "4"
+   },
+   "where": "ny10212026_nygb97.pdf p.5, Q5 ('Is your opinion of Zohran Mamdani favorable, unfavorable or haven't yo...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "October 15, 2026",
+    "field_end": "October 19, 2026",
+    "n": 1167,
+    "moe": "+/- 3.8 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q5. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20261021-6",
+   "figures": {
+    "Favorable": "43",
+    "Unfavorable": "42",
+    "Haven't heard enough": "12",
+    "Refused": "4"
+   },
+   "where": "ny10212026_nygb97.pdf p.5, Q5 ('Is your opinion of Zohran Mamdani favorable, unfavorable or haven't yo...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Favorable": "43",
+     "Unfavorable": "42",
+     "Haven't heard enough": "12"
+    }
+   },
+   "poll_details": {
+    "field_start": "October 15, 2026",
+    "field_end": "October 19, 2026",
+    "n": 1167,
+    "moe": "+/- 3.8 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q5. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20261021-5c",
+   "figures": {
+    "Favorable": "21",
+    "Unfavorable": "70",
+    "Haven't heard enough": "2",
+    "Refused": "6"
+   },
+   "where": "ny10212026_nygb97.pdf p.5, Q4 ('Is your opinion of Donald Trump favorable, unfavorable or haven't you ...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "October 15, 2026",
+    "field_end": "October 19, 2026",
+    "n": 1167,
+    "moe": "+/- 3.8 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q4. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20261021-5",
+   "figures": {
+    "Favorable": "35",
+    "Unfavorable": "59",
+    "Haven't heard enough": "2",
+    "Refused": "4"
+   },
+   "where": "ny10212026_nygb97.pdf p.5, Q4 ('Is your opinion of Donald Trump favorable, unfavorable or haven't you ...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Favorable": "35",
+     "Unfavorable": "59",
+     "Haven't heard enough": "2"
+    }
+   },
+   "poll_details": {
+    "field_start": "October 15, 2026",
+    "field_end": "October 19, 2026",
+    "n": 1167,
+    "moe": "+/- 3.8 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q4. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20261021-4c",
+   "figures": {
+    "Favorable": "22",
+    "Unfavorable": "47",
+    "Haven't heard enough": "28",
+    "Refused": "2"
+   },
+   "where": "ny10212026_nygb97.pdf p.4, Q3 ('Is your opinion of Bruce Blakeman favorable, unfavorable or haven't yo...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "October 15, 2026",
+    "field_end": "October 19, 2026",
+    "n": 1167,
+    "moe": "+/- 3.8 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q3. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20261021-4",
+   "figures": {
+    "Favorable": "36",
+    "Unfavorable": "40",
+    "Haven't heard enough": "23",
+    "Refused": "1"
+   },
+   "where": "ny10212026_nygb97.pdf p.4, Q3 ('Is your opinion of Bruce Blakeman favorable, unfavorable or haven't yo...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Favorable": "36",
+     "Unfavorable": "40",
+     "Haven't heard enough": "23"
+    }
+   },
+   "poll_details": {
+    "field_start": "October 15, 2026",
+    "field_end": "October 19, 2026",
+    "n": 1167,
+    "moe": "+/- 3.8 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q3. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20261021-3c",
+   "figures": {
+    "Favorable": "55",
+    "Unfavorable": "30",
+    "Haven't heard enough": "9",
+    "Refused": "7"
+   },
+   "where": "ny10212026_nygb97.pdf p.4, Q2 ('Is your opinion of Kathy Hochul favorable, unfavorable or haven't you ...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "October 15, 2026",
+    "field_end": "October 19, 2026",
+    "n": 1167,
+    "moe": "+/- 3.8 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q2. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20261021-3",
+   "figures": {
+    "Favorable": "45",
+    "Unfavorable": "46",
+    "Haven't heard enough": "6",
+    "Refused": "3"
+   },
+   "where": "ny10212026_nygb97.pdf p.4, Q2 ('Is your opinion of Kathy Hochul favorable, unfavorable or haven't you ...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Favorable": "45",
+     "Unfavorable": "46",
+     "Haven't heard enough": "6"
+    }
+   },
+   "poll_details": {
+    "field_start": "October 15, 2026",
+    "field_end": "October 19, 2026",
+    "n": 1167,
+    "moe": "+/- 3.8 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q2. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20261021-2",
+   "figures": {
+    "Very likely": "1",
+    "Somewhat likely": "3",
+    "Not so likely": "8",
+    "Not likely at all": "87",
+    "DK/NA": "1"
+   },
+   "where": "ny10212026_nygb97.pdf p.4, Q1b ('(If candidate chosen q1) How likely is it that you will change your mi...'), Tot column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "October 15, 2026",
+    "field_end": "October 19, 2026",
+    "n": 1167,
+    "moe": "+/- 3.8 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Asked of likely voters who chose a candidate in Q1; table has only Tot/Hochul/Blakeman columns, no NYC column. Values from Tot column. Pollster question number is Q1b. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20261021-1",
+   "figures": {
+    "Very enthusiastic": "47",
+    "Somewhat enthusiastic": "38",
+    "Not so enthusiastic": "7",
+    "Not enthusiastic at all": "5",
+    "DK/NA": "3"
+   },
+   "where": "ny10212026_nygb97.pdf p.3, Q1a ('(If candidate chosen q1) Would you say you are very enthusiastic about...'), Tot column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "October 15, 2026",
+    "field_end": "October 19, 2026",
+    "n": 1167,
+    "moe": "+/- 3.8 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Asked of likely voters who chose a candidate in Q1; table has only Tot/Hochul/Blakeman columns, no NYC column. Values from Tot column. Pollster question number is Q1a. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20261021-0c",
+   "figures": {
+    "Kathy Hochul": "70",
+    "Bruce Blakeman": "24",
+    "Someone else (vol)": "1",
+    "Wouldn't vote (vol)": "-",
+    "Undecided (vol)": "3",
+    "Refused": "2"
+   },
+   "where": "ny10212026_nygb97.pdf p.3, Q1 ('If the election for governor were being held today, and the candidates...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "October 15, 2026",
+    "field_end": "October 19, 2026",
+    "n": 1167,
+    "moe": "+/- 3.8 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Oct table header: INCLUDES ALREADY VOTED AND LEANERS Pollster question number is Q1. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20261021-0",
+   "figures": {
+    "Kathy Hochul": "55",
+    "Bruce Blakeman": "41",
+    "Someone else (vol)": "-",
+    "Wouldn't vote (vol)": "-",
+    "Undecided (vol)": "2",
+    "Refused": "2"
+   },
+   "where": "ny10212026_nygb97.pdf p.3, Q1 ('If the election for governor were being held today, and the candidates...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Kathy Hochul": "55",
+     "Bruce Blakeman": "41",
+     "not choosing a candidate": "4"
+    }
+   },
+   "poll_details": {
+    "field_start": "October 15, 2026",
+    "field_end": "October 19, 2026",
+    "n": 1167,
+    "moe": "+/- 3.8 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Oct table header: INCLUDES ALREADY VOTED AND LEANERS Pollster question number is Q1. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20260923-9c",
+   "figures": {
+    "Favorable": "36",
+    "Unfavorable": "37",
+    "Haven't heard enough": "25",
+    "Refused": "2"
+   },
+   "where": "ny09232026_nurk76.pdf p.7, Q8 ('Is your opinion of the Democratic Socialists of America favorable, unf...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q8. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-9",
+   "figures": {
+    "Favorable": "29",
+    "Unfavorable": "43",
+    "Haven't heard enough": "27",
+    "Refused": "1"
+   },
+   "where": "ny09232026_nurk76.pdf p.7, Q8 ('Is your opinion of the Democratic Socialists of America favorable, unf...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Favorable": "29",
+     "Unfavorable": "43",
+     "Haven't heard enough": "27"
+    }
+   },
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q8. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20260923-8c",
+   "figures": {
+    "Favorable": "32",
+    "Unfavorable": "55",
+    "Haven't heard enough": "12",
+    "Refused": "1"
+   },
+   "where": "ny09232026_nurk76.pdf p.7, Q7 ('Is your opinion of Chuck Schumer favorable, unfavorable or haven't you...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q7. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-8",
+   "figures": {
+    "Favorable": "34",
+    "Unfavorable": "51",
+    "Haven't heard enough": "12",
+    "Refused": "2"
+   },
+   "where": "ny09232026_nurk76.pdf p.7, Q7 ('Is your opinion of Chuck Schumer favorable, unfavorable or haven't you...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Favorable": "34",
+     "Unfavorable": "51",
+     "Haven't heard enough": "12"
+    }
+   },
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q7. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20260923-7c",
+   "figures": {
+    "Favorable": "50",
+    "Unfavorable": "30",
+    "Haven't heard enough": "18",
+    "Refused": "2"
+   },
+   "where": "ny09232026_nurk76.pdf p.6, Q6 ('Is your opinion of Alexandria Ocasio-Cortez favorable, unfavorable or ...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q6. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-7",
+   "figures": {
+    "Favorable": "41",
+    "Unfavorable": "36",
+    "Haven't heard enough": "21",
+    "Refused": "1"
+   },
+   "where": "ny09232026_nurk76.pdf p.6, Q6 ('Is your opinion of Alexandria Ocasio-Cortez favorable, unfavorable or ...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Favorable": "41",
+     "Unfavorable": "36",
+     "Haven't heard enough": "21"
+    }
+   },
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q6. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20260923-6c",
+   "figures": {
+    "Favorable": "60",
+    "Unfavorable": "29",
+    "Haven't heard enough": "9",
+    "Refused": "2"
+   },
+   "where": "ny09232026_nurk76.pdf p.6, Q5 ('Is your opinion of Zohran Mamdani favorable, unfavorable or haven't yo...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q5. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-6",
+   "figures": {
+    "Favorable": "46",
+    "Unfavorable": "36",
+    "Haven't heard enough": "15",
+    "Refused": "2"
+   },
+   "where": "ny09232026_nurk76.pdf p.6, Q5 ('Is your opinion of Zohran Mamdani favorable, unfavorable or haven't yo...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Favorable": "46",
+     "Unfavorable": "36",
+     "Haven't heard enough": "15"
+    }
+   },
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q5. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20260923-5c",
+   "figures": {
+    "Favorable": "24",
+    "Unfavorable": "71",
+    "Haven't heard enough": "2",
+    "Refused": "3"
+   },
+   "where": "ny09232026_nurk76.pdf p.6, Q4 ('Is your opinion of Donald Trump favorable, unfavorable or haven't you ...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q4. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-5",
+   "figures": {
+    "Favorable": "30",
+    "Unfavorable": "63",
+    "Haven't heard enough": "4",
+    "Refused": "4"
+   },
+   "where": "ny09232026_nurk76.pdf p.6, Q4 ('Is your opinion of Donald Trump favorable, unfavorable or haven't you ...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Favorable": "30",
+     "Unfavorable": "63",
+     "Haven't heard enough": "4"
+    }
+   },
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q4. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20260923-4c",
+   "figures": {
+    "Favorable": "18",
+    "Unfavorable": "35",
+    "Haven't heard enough": "47",
+    "Refused": "-"
+   },
+   "where": "ny09232026_nurk76.pdf p.5, Q3 ('Is your opinion of Bruce Blakeman favorable, unfavorable or haven't yo...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q3. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-4",
+   "figures": {
+    "Favorable": "30",
+    "Unfavorable": "36",
+    "Haven't heard enough": "34",
+    "Refused": "1"
+   },
+   "where": "ny09232026_nurk76.pdf p.5, Q3 ('Is your opinion of Bruce Blakeman favorable, unfavorable or haven't yo...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Favorable": "30",
+     "Unfavorable": "36",
+     "Haven't heard enough": "34"
+    }
+   },
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q3. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20260923-3c",
+   "figures": {
+    "Favorable": "53",
+    "Unfavorable": "34",
+    "Haven't heard enough": "11",
+    "Refused": "2"
+   },
+   "where": "ny09232026_nurk76.pdf p.5, Q2 ('Is your opinion of Kathy Hochul favorable, unfavorable or haven't you ...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q2. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-3",
+   "figures": {
+    "Favorable": "46",
+    "Unfavorable": "43",
+    "Haven't heard enough": "10",
+    "Refused": "1"
+   },
+   "where": "ny09232026_nurk76.pdf p.5, Q2 ('Is your opinion of Kathy Hochul favorable, unfavorable or haven't you ...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Favorable": "46",
+     "Unfavorable": "43",
+     "Haven't heard enough": "10"
+    }
+   },
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q2. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20260923-28c",
+   "figures": {
+    "Kathy Hochul": "59",
+    "Bruce Blakeman": "24",
+    "DK/NA": "17"
+   },
+   "where": "ny09232026_nurk76.pdf p.14, Q27 ('Regardless of how you intend to vote, who do you think would do a bett...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q27. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-28",
+   "figures": {
+    "Kathy Hochul": "53",
+    "Bruce Blakeman": "31",
+    "DK/NA": "16"
+   },
+   "where": "ny09232026_nurk76.pdf p.14, Q27 ('Regardless of how you intend to vote, who do you think would do a bett...'), Tot column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q27. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-27c",
+   "figures": {
+    "Kathy Hochul": "58",
+    "Bruce Blakeman": "34",
+    "DK/NA": "8"
+   },
+   "where": "ny09232026_nurk76.pdf p.13, Q26 ('Regardless of how you intend to vote, who do you think would do a bett...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q26. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-27",
+   "figures": {
+    "Kathy Hochul": "50",
+    "Bruce Blakeman": "42",
+    "DK/NA": "8"
+   },
+   "where": "ny09232026_nurk76.pdf p.13, Q26 ('Regardless of how you intend to vote, who do you think would do a bett...'), Tot column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q26. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-26c",
+   "figures": {
+    "Kathy Hochul": "55",
+    "Bruce Blakeman": "33",
+    "DK/NA": "11"
+   },
+   "where": "ny09232026_nurk76.pdf p.13, Q25 ('Regardless of how you intend to vote, who do you think would do a bett...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q25. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-26",
+   "figures": {
+    "Kathy Hochul": "48",
+    "Bruce Blakeman": "43",
+    "DK/NA": "9"
+   },
+   "where": "ny09232026_nurk76.pdf p.13, Q25 ('Regardless of how you intend to vote, who do you think would do a bett...'), Tot column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q25. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-25c",
+   "figures": {
+    "Kathy Hochul": "60",
+    "Bruce Blakeman": "27",
+    "DK/NA": "13"
+   },
+   "where": "ny09232026_nurk76.pdf p.13, Q24 ('Regardless of how you intend to vote, who do you think would do a bett...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q24. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-25",
+   "figures": {
+    "Kathy Hochul": "50",
+    "Bruce Blakeman": "38",
+    "DK/NA": "12"
+   },
+   "where": "ny09232026_nurk76.pdf p.13, Q24 ('Regardless of how you intend to vote, who do you think would do a bett...'), Tot column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q24. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-24c",
+   "figures": {
+    "Kathy Hochul": "60",
+    "Bruce Blakeman": "31",
+    "DK/NA": "9"
+   },
+   "where": "ny09232026_nurk76.pdf p.12, Q23 ('Regardless of how you intend to vote, who do you think would do a bett...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q23. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-24",
+   "figures": {
+    "Kathy Hochul": "51",
+    "Bruce Blakeman": "41",
+    "DK/NA": "8"
+   },
+   "where": "ny09232026_nurk76.pdf p.12, Q23 ('Regardless of how you intend to vote, who do you think would do a bett...'), Tot column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q23. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-23c",
+   "figures": {
+    "Yes": "25",
+    "No": "45",
+    "DK/NA": "30"
+   },
+   "where": "ny09232026_nurk76.pdf p.12, Q22 ('Would you say that Bruce Blakeman - cares about the needs and problems...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q22. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-23",
+   "figures": {
+    "Yes": "35",
+    "No": "43",
+    "DK/NA": "21"
+   },
+   "where": "ny09232026_nurk76.pdf p.12, Q22 ('Would you say that Bruce Blakeman - cares about the needs and problems...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Yes": "35",
+     "No": "43",
+     "DK/NA": "21"
+    }
+   },
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q22. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20260923-22c",
+   "figures": {
+    "Yes": "50",
+    "No": "40",
+    "DK/NA": "10"
+   },
+   "where": "ny09232026_nurk76.pdf p.12, Q21 ('Would you say that Kathy Hochul - cares about the needs and problems o...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q21. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-22",
+   "figures": {
+    "Yes": "48",
+    "No": "45",
+    "DK/NA": "7"
+   },
+   "where": "ny09232026_nurk76.pdf p.12, Q21 ('Would you say that Kathy Hochul - cares about the needs and problems o...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Yes": "48",
+     "No": "45",
+     "DK/NA": "7"
+    }
+   },
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q21. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20260923-21c",
+   "figures": {
+    "Yes": "26",
+    "No": "40",
+    "DK/NA": "34"
+   },
+   "where": "ny09232026_nurk76.pdf p.11, Q20 ('Would you say that Bruce Blakeman - is honest, or not? ...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q20. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-21",
+   "figures": {
+    "Yes": "32",
+    "No": "38",
+    "DK/NA": "30"
+   },
+   "where": "ny09232026_nurk76.pdf p.11, Q20 ('Would you say that Bruce Blakeman - is honest, or not? ...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Yes": "32",
+     "No": "38",
+     "DK/NA": "30"
+    }
+   },
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q20. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20260923-20c",
+   "figures": {
+    "Yes": "46",
+    "No": "40",
+    "DK/NA": "13"
+   },
+   "where": "ny09232026_nurk76.pdf p.11, Q19 ('Would you say that Kathy Hochul - is honest, or not? ...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q19. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-20",
+   "figures": {
+    "Yes": "45",
+    "No": "43",
+    "DK/NA": "12"
+   },
+   "where": "ny09232026_nurk76.pdf p.11, Q19 ('Would you say that Kathy Hochul - is honest, or not? ...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Yes": "45",
+     "No": "43",
+     "DK/NA": "12"
+    }
+   },
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q19. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20260923-2",
+   "figures": {
+    "Very likely": "2",
+    "Somewhat likely": "7",
+    "Not so likely": "11",
+    "Not likely at all": "79",
+    "DK/NA": "1"
+   },
+   "where": "ny09232026_nurk76.pdf p.5, Q1b ('(If candidate chosen q1) How likely is it that you will change your mi...'), Tot column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Asked of likely voters who chose a candidate in Q1; table has only Tot/Hochul/Blakeman columns, no NYC column. Values from Tot column. Pollster question number is Q1b. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-19c",
+   "figures": {
+    "Yes": "27",
+    "No": "40",
+    "DK/NA": "33"
+   },
+   "where": "ny09232026_nurk76.pdf p.11, Q18 ('Would you say that Bruce Blakeman - has good leadership skills, or not...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q18. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-19",
+   "figures": {
+    "Yes": "34",
+    "No": "38",
+    "DK/NA": "28"
+   },
+   "where": "ny09232026_nurk76.pdf p.11, Q18 ('Would you say that Bruce Blakeman - has good leadership skills, or not...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Yes": "34",
+     "No": "38",
+     "DK/NA": "28"
+    }
+   },
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q18. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20260923-18c",
+   "figures": {
+    "Yes": "53",
+    "No": "39",
+    "DK/NA": "8"
+   },
+   "where": "ny09232026_nurk76.pdf p.10, Q17 ('Would you say that Kathy Hochul - has good leadership skills, or not? ...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q17. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-18",
+   "figures": {
+    "Yes": "48",
+    "No": "45",
+    "DK/NA": "7"
+   },
+   "where": "ny09232026_nurk76.pdf p.10, Q17 ('Would you say that Kathy Hochul - has good leadership skills, or not? ...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Yes": "48",
+     "No": "45",
+     "DK/NA": "7"
+    }
+   },
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q17. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20260923-17c",
+   "figures": {
+    "Excellent": "3",
+    "Good": "34",
+    "Not so good": "35",
+    "Poor": "23",
+    "DK/NA": "5"
+   },
+   "where": "ny09232026_nurk76.pdf p.10, Q16 ('Would you describe the state of New York State's economy these days as...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q16. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-17",
+   "figures": {
+    "Excellent": "2",
+    "Good": "32",
+    "Not so good": "35",
+    "Poor": "27",
+    "DK/NA": "3"
+   },
+   "where": "ny09232026_nurk76.pdf p.10, Q16 ('Would you describe the state of New York State's economy these days as...'), Tot column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q16. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-16c",
+   "figures": {
+    "Very satisfied": "8",
+    "Somewhat satisfied": "38",
+    "Somewhat dissatisfied": "22",
+    "Very dissatisfied": "29",
+    "DK/NA": "2"
+   },
+   "where": "ny09232026_nurk76.pdf p.10, Q15 ('In general, how satisfied are you with the way things are going in New...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q15. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-16",
+   "figures": {
+    "Very satisfied": "6",
+    "Somewhat satisfied": "39",
+    "Somewhat dissatisfied": "19",
+    "Very dissatisfied": "35",
+    "DK/NA": "2"
+   },
+   "where": "ny09232026_nurk76.pdf p.10, Q15 ('In general, how satisfied are you with the way things are going in New...'), Tot column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q15. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-15c",
+   "figures": {
+    "Economy": "21",
+    "Cost of living": "31",
+    "Health care": "9",
+    "Taxes": "4",
+    "Energy costs": "1",
+    "Crime": "6",
+    "Schools": "3",
+    "Immigration": "10",
+    "Affordable housing": "6",
+    "AI data centers": "4",
+    "Something else (vol)": "4",
+    "DK/NA": "2"
+   },
+   "where": "ny09232026_nurk76.pdf p.9, Q14 ('Which of these is the most important issue to you in deciding who to v...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q14. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-15",
+   "figures": {
+    "Economy": "21",
+    "Cost of living": "28",
+    "Health care": "11",
+    "Taxes": "7",
+    "Energy costs": "3",
+    "Crime": "5",
+    "Schools": "3",
+    "Immigration": "9",
+    "Affordable housing": "5",
+    "AI data centers": "3",
+    "Something else (vol)": "3",
+    "DK/NA": "3"
+   },
+   "where": "ny09232026_nurk76.pdf p.9, Q14 ('Which of these is the most important issue to you in deciding who to v...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Cost of living": "28",
+     "Economy": "21",
+     "Health care": "11"
+    }
+   },
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q14. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20260923-14c",
+   "figures": {
+    "Approve": "22",
+    "Disapprove": "75",
+    "DK/NA": "3"
+   },
+   "where": "ny09232026_nurk76.pdf p.9, Q13 ('Do you approve or disapprove of the way Donald Trump is handling his j...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q13. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-14",
+   "figures": {
+    "Approve": "29",
+    "Disapprove": "66",
+    "DK/NA": "4"
+   },
+   "where": "ny09232026_nurk76.pdf p.9, Q13 ('Do you approve or disapprove of the way Donald Trump is handling his j...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Approve": "29",
+     "Disapprove": "66"
+    }
+   },
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q13. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20260923-13c",
+   "figures": {
+    "Approve": "35",
+    "Disapprove": "34",
+    "DK/NA": "31"
+   },
+   "where": "ny09232026_nurk76.pdf p.8, Q12 ('Do you approve or disapprove of the way Kirsten Gillibrand is handling...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q12. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-13",
+   "figures": {
+    "Approve": "41",
+    "Disapprove": "33",
+    "DK/NA": "26"
+   },
+   "where": "ny09232026_nurk76.pdf p.8, Q12 ('Do you approve or disapprove of the way Kirsten Gillibrand is handling...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Approve": "41",
+     "Disapprove": "33",
+     "DK/NA": "26"
+    }
+   },
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q12. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20260923-12c",
+   "figures": {
+    "Approve": "32",
+    "Disapprove": "55",
+    "DK/NA": "12"
+   },
+   "where": "ny09232026_nurk76.pdf p.8, Q11 ('Do you approve or disapprove of the way Chuck Schumer is handling his ...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q11. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-12",
+   "figures": {
+    "Approve": "36",
+    "Disapprove": "54",
+    "DK/NA": "10"
+   },
+   "where": "ny09232026_nurk76.pdf p.8, Q11 ('Do you approve or disapprove of the way Chuck Schumer is handling his ...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Approve": "36",
+     "Disapprove": "54",
+     "DK/NA": "10"
+    }
+   },
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q11. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20260923-11c",
+   "figures": {
+    "Approve": "54",
+    "Disapprove": "36",
+    "DK/NA": "10"
+   },
+   "where": "ny09232026_nurk76.pdf p.8, Q10 ('Do you approve or disapprove of the way Kathy Hochul is handling her j...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q10. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-11",
+   "figures": {
+    "Approve": "48",
+    "Disapprove": "44",
+    "DK/NA": "8"
+   },
+   "where": "ny09232026_nurk76.pdf p.8, Q10 ('Do you approve or disapprove of the way Kathy Hochul is handling her j...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Approve": "48",
+     "Disapprove": "44",
+     "DK/NA": "8"
+    }
+   },
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q10. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20260923-10c",
+   "figures": {
+    "Favorable": "21",
+    "Unfavorable": "71",
+    "Haven't heard enough": "7",
+    "Refused": "1"
+   },
+   "where": "ny09232026_nurk76.pdf p.7, Q9 ('Is your opinion of Donald Trump's Make America Great Again (MAGA) move...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q9. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-10",
+   "figures": {
+    "Favorable": "29",
+    "Unfavorable": "62",
+    "Haven't heard enough": "6",
+    "Refused": "2"
+   },
+   "where": "ny09232026_nurk76.pdf p.7, Q9 ('Is your opinion of Donald Trump's Make America Great Again (MAGA) move...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Favorable": "29",
+     "Unfavorable": "62",
+     "Haven't heard enough": "6"
+    }
+   },
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Pollster question number is Q9. '-' printed for zero/none. Release text matches the table figures."
+  },
+  {
+   "check_id": "quinnipiac-20260923-1",
+   "figures": {
+    "Very enthusiastic": "38",
+    "Somewhat enthusiastic": "46",
+    "Not so enthusiastic": "10",
+    "Not enthusiastic at all": "5",
+    "DK/NA": "2"
+   },
+   "where": "ny09232026_nurk76.pdf p.4, Q1a ('(If candidate chosen q1) Would you say you are very enthusiastic about...'), Tot column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Asked of likely voters who chose a candidate in Q1; table has only Tot/Hochul/Blakeman columns, no NYC column. Values from Tot column. Pollster question number is Q1a. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-0c",
+   "figures": {
+    "Kathy Hochul": "70",
+    "Bruce Blakeman": "27",
+    "Someone else (vol)": "-",
+    "Wouldn't vote (vol)": "-",
+    "Undecided (vol)": "2",
+    "Refused": "1"
+   },
+   "where": "ny09232026_nurk76.pdf p.4, Q1 ('If the election for governor were being held today, and the candidates...'), AREA: NYC column",
+   "other_figures": {},
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Sep table header: INCLUDES LEANERS Pollster question number is Q1. '-' printed for zero/none."
+  },
+  {
+   "check_id": "quinnipiac-20260923-0",
+   "figures": {
+    "Kathy Hochul": "58",
+    "Bruce Blakeman": "39",
+    "Someone else (vol)": "-",
+    "Wouldn't vote (vol)": "-",
+    "Undecided (vol)": "2",
+    "Refused": "1"
+   },
+   "where": "ny09232026_nurk76.pdf p.4, Q1 ('If the election for governor were being held today, and the candidates...'), Tot column",
+   "other_figures": {
+    "release_text": {
+     "Kathy Hochul": "58",
+     "Bruce Blakeman": "39",
+     "did not choose a candidate": "3"
+    }
+   },
+   "poll_details": {
+    "field_start": "September 17, 2026",
+    "field_end": "September 20, 2026",
+    "n": 1026,
+    "moe": "+/- 4.1 percentage points, including the design effect",
+    "population": "New York State likely voters"
+   },
+   "status": "read",
+   "note": "Sep table header: INCLUDES LEANERS Pollster question number is Q1. '-' printed for zero/none. Release text matches the table figures."
+  }
+ ]
+}

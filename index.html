@@ -267,7 +267,7 @@ h1 .ast:hover{color:var(--fg)}
     <li><b>New York City columns of statewide polls.</b> Siena and others publish results for New York City respondents inside their statewide polls. These rows are marked "city column." The city sample is smaller than the statewide one and its size is usually not published, so the uncertainty is larger and unknown.</li>
     <li><b>Who was asked.</b> All adults, registered voters or likely voters, as the pollster describes the sample. Some questions were put to only part of the sample, such as Democrats in a primary question; the row says so.</li>
     <li><b>Kinds of question.</b> Job approval, favorability and an excellent-to-poor grade are different questions and are never combined. A favorable opinion of a person is not approval of the job they're doing.</li>
-    <li><b>Figures</b> are shown exactly as the pollster published them. The page calculates nothing except where dots sit on the charts. Results may not add to 100 because of rounding or answers the pollster didn't report.</li>
+    <li><b>Figures</b> are shown exactly as the pollster published them. The page calculates nothing except where dots sit on the charts and, in the "where it ranks" lists, an issue's place among the answers to a most-important-issue question (how many answers drew a larger share, leaving out "other" and "don't know"). Results may not add to 100 because of rounding or answers the pollster didn't report.</li>
   </ul>
   <h3>Downloads</h3>
   <p><a class="dl" href="data/questions.csv" download>All questions (CSV)</a> &nbsp; <a class="dl" href="data/polls.json">All polls with sources (JSON)</a> &nbsp; <a class="dl" href="https://github.com/joshgreenman1973/what-new-york-thinks/blob/main/METHODOLOGY.md">Full methodology</a></p>
@@ -356,7 +356,7 @@ function rowText(r){return norm([r.subject,r.measure,r.category,r.wording,r.poll
 function terms(){return norm(state.q).split(/\s+/).filter(Boolean)}
 function filtered(){
   const t=terms();
-  const pf=state.filterPick?pickRows({type:PEOPLE.some(p=>p[0]===state.filterPick)?'person':'issue',name:state.filterPick}):null;
+  const pf=state.filterPick?pickRows({type:PEOPLE.some(p=>p[0]===state.filterPick)?'person':ISSUES.some(x=>x.name===state.filterPick)?'issue':'auto',name:state.filterPick}):null;
   const pfs=pf&&new Set(pf);
   let out=ROWS.filter(r=>{
     if(pfs&&!pfs.has(r))return false;
@@ -513,35 +513,66 @@ function renderMults(){
 
 // ---------- quick picks ----------
 const PEOPLE=[['Zohran Mamdani','Mayor'],['Kathy Hochul','Governor'],['Bruce Blakeman','Republican for governor'],['Donald Trump','President'],['Chuck Schumer','Senator'],['Kirsten Gillibrand','Senator'],['Letitia James','Attorney general'],['Tom DiNapoli','Comptroller'],['Alexandria Ocasio-Cortez','Representative'],['Hakeem Jeffries','House Democratic leader'],['Antonio Delgado','Lieutenant governor']];
+// Crime and health care buttons cover New York only (Josh, Oct 21 2026): immigration questions that
+// mention crime or hospitals, and Marist's general gun-values question, are left out.
+const notNY=r=>r.category==='Immigration'||/gun control vs\. gun rights|deport|judicial warrant/i.test(r.subject+' '+(r.item||''));
 const ISSUES=[
   {name:'The race for governor',test:r=>/^2026 (governor|democratic primary)/i.test(r.subject),mk:/governor/i},
   {name:'Other 2026 races',test:r=>r.category==='Other 2026 races',mk:/attorney general|comptroller|house seat|NY-\d/i},
   {name:'Direction of the state',test:r=>/^New York State direction|best (days|years)|quality of life in New York/i.test(r.subject)},
-  {name:'Taxes on the rich',test:r=>/millionaire|over \$1 million|pied|corporate tax|income tax/i.test(r.subject+' '+(r.item||'')),mk:/tax/i},
-  {name:'ICE and immigration',test:r=>r.category==='Immigration'||/ice|deport|immigra/i.test(r.item||''),mk:/ice|deport|immigra/i},
-  {name:'Public safety and the NYPD',test:r=>r.category==='Public safety and policing',mk:/crime|nypd|police|tisch/i},
-  {name:'Cost of living',test:r=>r.category==='Economy and cost of living'||/cost of living|afford|prices/i.test(r.item||''),mk:/rent|wage|afford|price/i},
-  {name:'Housing and rent',test:r=>r.category==='Housing and rent'||/housing|rent/i.test(r.item||''),mk:/rent|housing/i},
-  {name:'Schools and child care',test:r=>r.category==='Schools and child care'||/child ?care|school|education/i.test(r.item||''),mk:/school|child ?care/i},
+  {name:'Taxes on the rich',test:r=>/millionaire|over \$1 million|pied|corporate tax|income tax/i.test(r.subject+' '+(r.item||'')),mk:/tax/i,rank:/^taxes$/i,rankName:'taxes'},
+  {name:'ICE and immigration',test:r=>r.category==='Immigration'||/ice|deport|immigra/i.test(r.item||''),mk:/ice|deport|immigra/i,rank:/immigration/i,rankName:'immigration'},
+  {name:'Crime and public safety',test:r=>!notNY(r)&&(r.category==='Public safety and policing'||/\bcrime|public safety|policing|\bpolice\b|nypd|\bguns?\b|pepper spray/i.test(r.subject+' '+(r.item||''))),mk:/crime|nypd|police|tisch/i,rank:/\bcrime\b/i,rankName:'crime'},
+  {name:'Health care',test:r=>!notNY(r)&&(r.category==='Health'||/health|medicaid|medicare|hospital|immuni[sz]|vaccin/i.test(r.subject+' '+(r.item||''))),mk:/health|medicaid|hospital/i,rank:/health/i,rankName:'health care'},
+  {name:'Cost of living',test:r=>r.category==='Economy and cost of living'||/cost of living|afford|prices/i.test(r.item||''),mk:/rent|wage|afford|price/i,rank:/cost of living|^affordability/i,rankName:'the cost of living'},
+  {name:'Housing and rent',test:r=>r.category==='Housing and rent'||/housing|rent/i.test(r.item||''),mk:/rent|housing/i,rank:/housing/i,rankName:'housing'},
+  {name:'Schools and child care',test:r=>r.category==='Schools and child care'||/child ?care|school|education/i.test(r.item||''),mk:/school|child ?care/i,rank:/school|education/i,rankName:'schools'},
   {name:'Data centers and AI',test:r=>/data cent|artificial intelligence|\bAI\b/i.test(r.subject+' '+(r.item||'')),mk:/data cent|\bAI\b/i},
   {name:'Trump and Washington',test:r=>r.category==='Trump and Washington',mk:/trump/i},
 ];
+// Questions that ask people to pick the most important issue from a list.
+const isRankQ=r=>r.measure==='issue priority'&&/most important|top two issues/i.test(r.subject);
+const OTHERISH=/^(other|something else|undecided|refused|don'?t know|dk)/i;
+function rankBlock(iss){
+  const qs=ROWS.filter(r=>!r.city_column&&isRankQ(r)).map(r=>{
+    const x=r.results.find(y=>iss.rank.test(y.label));if(!x)return null;
+    const ans=r.results.filter(y=>!OTHERISH.test(y.label)&&!NEUT.test(y.label));
+    const above=ans.filter(y=>y.pct>x.pct).length, tied=ans.filter(y=>y!==x&&y.pct===x.pct).length;
+    return {r,x,place:above+1,tied,of:ans.length};
+  }).filter(Boolean).sort((a,b)=>a.r.field_end<b.r.field_end?1:-1);
+  if(!qs.length)return'';
+  const ord=n=>n+(n%10===1&&n!==11?'st':n%10===2&&n!==12?'nd':n%10===3&&n!==13?'rd':'th');
+  return '<div class="once"><h4>Where '+esc(iss.rankName)+' ranks when people pick the most important issue</h4>'+qs.map(({r,x,place,tied,of})=>{
+    const top=r.results.filter(y=>!OTHERISH.test(y.label)&&!NEUT.test(y.label)).sort((a,b)=>b.pct-a.pct)[0];
+    return '<div class="onerow"><div class="w">'+esc(r.subject)+(r.item?': '+esc(r.item):'')+'<small>'+esc(pollLabel(r))+', '+esc(shortRange(r.field_start,r.field_end))+', '+esc(who(r))+(r.sponsor_type!=='independent'?' (advocacy poll)':'')+'. <a href="'+esc(r.tables_url||r.url)+'" target="_blank" rel="noopener">Source</a></small></div>'+
+      '<div><a href="'+esc(r.tables_url||r.url)+'" target="_blank" rel="noopener"><b>'+esc(sh(x))+'%</b> '+esc(x.label)+'</a>, '+(tied?'tied for ':'')+ord(place)+' of '+of+' answers'+(place>1&&top?'. First: '+esc(top.label)+', '+esc(sh(top))+'%':'')+'.<div style="margin-top:6px">'+barHTML(r)+'</div></div></div>';
+  }).join('')+'</div>';
+}
+// Any other subject that three or more polls have asked about gets its own button,
+// so issues that keep coming up appear as the weekly routine adds polls.
+function autoPicks(){
+  const covered=r=>PEOPLE.some(p=>p[0]===r.subject)||ISSUES.some(x=>x.test(r))||isRankQ(r);
+  const polls={};
+  for(const r of ROWS)if(!r.city_column&&r.sponsor_type==='independent'&&!covered(r))(polls[r.subject]=polls[r.subject]||new Set()).add(r.poll_id);
+  return Object.keys(polls).filter(s=>polls[s].size>=3).sort((a,b)=>polls[b].size-polls[a].size||a.localeCompare(b));
+}
 function pickRows(p){
+  if(p.type==='auto')return ROWS.filter(r=>r.subject===p.name);
   if(p.type==='person')return ROWS.filter(r=>r.subject===p.name);
-  const iss=ISSUES.find(x=>x.name===p.name);return iss?ROWS.filter(iss.test):[];
+  const iss=ISSUES.find(x=>x.name===p.name);return iss?ROWS.filter(r=>!(iss.rank&&isRankQ(r))&&iss.test(r)):[];
 }
 function renderPickButtons(){
   const cur=state.pick;
   const btn=(type,name,sub)=>{const n=pickRows({type,name}).filter(r=>!r.city_column).length;if(!n)return'';
     return '<button type="button" class="pick" data-type="'+type+'" data-name="'+esc(name)+'" aria-pressed="'+(cur===name)+'">'+esc(name)+'<small>'+(sub?esc(sub)+', ':'')+n+' '+(n===1?'result':'results')+'</small></button>'};
   $('#pickPeople').innerHTML=PEOPLE.map(([n,s])=>btn('person',n,s)).join('');
-  $('#pickIssues').innerHTML=ISSUES.map(x=>btn('issue',x.name,'')).join('');
+  $('#pickIssues').innerHTML=ISSUES.map(x=>btn('issue',x.name,'')).join('')+autoPicks().map(s=>btn('auto',s,'')).join('');
   $('#pickIssues').classList.add('issues');
 }
 function renderProfile(){
   const el=$('#profile');
   if(!state.pick){el.hidden=true;el.innerHTML='';return}
-  const type=PEOPLE.some(p=>p[0]===state.pick)?'person':'issue';
+  const type=PEOPLE.some(p=>p[0]===state.pick)?'person':ISSUES.some(x=>x.name===state.pick)?'issue':'auto';
   const rows=pickRows({type,name:state.pick});
   if(!rows.length){el.hidden=true;return}
   const groups={};
@@ -553,13 +584,14 @@ function renderProfile(){
   single.sort((a,b)=>a[0].field_end<b[0].field_end?1:-1);
   const polls=new Set(rows.map(r=>r.poll_id)).size, pollsters=[...new Set(rows.map(r=>r.pollster))];
   const first=rows.reduce((m,r)=>r.field_start<m?r.field_start:m,'9'), last=rows.reduce((m,r)=>r.field_end>m?r.field_end:m,'');
-  const title=g=>{const r=g[g.length-1];return (type==='issue'?esc(r.subject)+(r.item?': '+esc(r.item.toLowerCase()):''):(r.item?esc(r.item):esc(r.measure[0].toUpperCase()+r.measure.slice(1))))+(type==='issue'&&!/direction|horse race|primary|other/.test(r.measure)?', '+esc(r.measure):'')+'<span class="place">, '+(r.geography==='New York State'?'statewide':(r.city_column?'New York City (city column)':'New York City'))+'</span>'};
+  const title=g=>{const r=g[g.length-1];return (type!=='person'?esc(r.subject)+(r.item?': '+esc(r.item.toLowerCase()):''):(r.item?esc(r.item):esc(r.measure[0].toUpperCase()+r.measure.slice(1))))+(type!=='person'&&!/direction|horse race|primary|other/.test(r.measure)?', '+esc(r.measure):'')+'<span class="place">, '+(r.geography==='New York State'?'statewide':(r.city_column?'New York City (city column)':'New York City'))+'</span>'};
   const whoG=g=>{const r=g[g.length-1];const pops=[...new Set(g.map(x=>x.population))];return (r.city_column?'New York City (inside statewide polls)':r.geography)+', '+pops.map(p=>POP_SHORT[p]||p).join(' or ')+(r.asked_of?' ('+r.asked_of+')':'')};
   const lastTxt=g=>{const r=g[g.length-1];const top=r.results.filter(x=>!NEUT.test(x.label)).sort((a,b)=>isRace(r)?b.pct-a.pct:0).slice(0,2);return 'Latest: '+top.map(x=>'<a href="'+esc(r.tables_url||r.url)+'" target="_blank" rel="noopener"><b>'+esc(sh(x))+'%</b> '+esc(x.label)+'</a>').join(', ')+' in <a href="'+esc(r.url)+'" target="_blank" rel="noopener">'+esc(r.pollster)+', '+esc(shortRange(r.field_start,r.field_end))+'</a>. Pollsters: '+esc([...new Set(g.map(x=>x.pollster))].join(', '))+'.'};
   let html='<h3>'+esc(state.pick)+'</h3><p class="pl"><b>'+rows.filter(r=>!r.city_column).length+'</b> results from <b>'+polls+'</b> polls by '+esc(pollsters.join(', '))+', fielded from '+esc(fdate(first))+' to '+esc(fdate(last))+'. Hover over any dot for the poll and the full answers.</p>';
   if(multi.length)html+='<div class="pgrid">'+multi.slice(0,12).map(g=>'<div><h4>'+title(g)+'</h4><div class="last">'+esc(whoG(g))+'. '+g.length+' polls. '+lastTxt(g)+'</div>'+lineChart(g,{w:340,h:150})+'</div>').join('')+'</div>';
   const singles=single.filter(g=>!g[0].city_column);
   if(singles.length)html+='<div class="once"><h4>Asked by only one poll in 2026, in this place and this form</h4>'+singles.slice(0,24).map(g=>{const r=g[0];return '<div class="onerow"><div class="w">'+title(g)+'<small>'+esc(pollLabel(r))+', '+esc(shortRange(r.field_start,r.field_end))+', '+esc(who(r))+(r.asked_of?' ('+esc(r.asked_of)+')':'')+'. <a href="'+esc(r.url)+'" target="_blank" rel="noopener">Source</a></small></div><div>'+barHTML(r)+'</div></div>'}).join('')+(singles.length>24?'<p class="aside" style="margin-top:10px">And '+(singles.length-24)+' more in the table.</p>':'')+'</div>';
+  if(type==='issue'){const iss=ISSUES.find(x=>x.name===state.pick);if(iss&&iss.rank)html+=rankBlock(iss)}
   // markets on the same subject
   let mre=null;
   if(type==='person'){const ln=state.pick.split(' ').pop();mre=new RegExp('\\b'+(ln==='Ocasio-Cortez'?'(Ocasio-Cortez|AOC)':ln)+'\\b','i')}

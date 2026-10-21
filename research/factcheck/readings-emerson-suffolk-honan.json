@@ -1,0 +1,907 @@
+{
+ "checker": "emerson-suffolk-honan",
+ "results": [
+  {
+   "check_id": "emerson-20261008-9",
+   "status": "read",
+   "note": "Release text gives combined figures: 56% support (36.1+20.1), 26% oppose (9.3+16.3), 18% neutral.",
+   "figures": {
+    "Strongly support": "36.1",
+    "Somewhat support": "20.1",
+    "Somewhat oppose": "9.3",
+    "Strongly oppose": "16.3",
+    "Neutral or no opinion": "18.2"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 83 (\"Do you support or oppose Governor Hochul's one-year statewid\"); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {
+     "support (combined)": "56%",
+     "oppose (combined)": "26%",
+     "neutral": "18%"
+    }
+   },
+   "poll_details": {
+    "field_start": "2026-10-03",
+    "field_end": "2026-10-05",
+    "n": 900,
+    "moe": "+/- 3.3 percent (credibility interval)",
+    "population": "New York (statewide) likely voters"
+   }
+  },
+  {
+   "check_id": "emerson-20261008-8",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Support": "33.4",
+    "Oppose": "49.6",
+    "Unsure": "17.0"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 76 ('Do you support or oppose the U.S. military action against Ir'); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {
+     "Oppose": "50%",
+     "Support": "33%",
+     "Unsure": "17%"
+    }
+   }
+  },
+  {
+   "check_id": "emerson-20261008-7",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Healthcare": "8.1",
+    "Education": "3.0",
+    "Economy (jobs, inflation, taxes)": "33.7",
+    "Crime": "11.7",
+    "Immigration": "10.1",
+    "Housing affordability": "17.1",
+    "Abortion access": "1.5",
+    "Threats to democracy": "12.8",
+    "Foreign policy": "0.4",
+    "Something else (please specify)": "1.7"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 62 ('What do you think is the most important issue facing New Yor'); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {
+     "Economy": "34%",
+     "Housing affordability": "17%",
+     "Threats to democracy": "13%",
+     "Crime": "12%",
+     "Immigration": "10%"
+    }
+   }
+  },
+  {
+   "check_id": "emerson-20261008-6",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Very excited": "58.5",
+    "Somewhat excited": "26.7",
+    "Not too excited": "10.7",
+    "Not at all excited": "4.0"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 54 ('How excited are you to vote in the November 2026 Midterm Ele'); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {
+     "Very excited": "59%",
+     "Somewhat excited": "27%",
+     "Not too excited": "11%",
+     "Not at all excited": "4%"
+    }
+   }
+  },
+  {
+   "check_id": "emerson-20261008-5",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Democrat Kathy Hochul": "52.4",
+    "Republican Bruce Blakeman": "39.7",
+    "Undecided": "7.8"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 47 ('If the 2026 election for Governor were held today, who would'); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {
+     "Democrat Kathy Hochul": "52%",
+     "Republican Bruce Blakeman": "40%",
+     "Undecided": "8%"
+    }
+   }
+  },
+  {
+   "check_id": "emerson-20261008-4",
+   "status": "read",
+   "note": "Statewide sample of NY likely voters (n=900); the question block in the topline sheet is all respondents.",
+   "figures": {
+    "Approve": "46.8",
+    "Disapprove": "40.6",
+    "Neutral or no opinion": "12.5"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 29 ('Do you approve or disapprove of the job Zohran Mamdani is do'); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {
+     "Approve": "47%",
+     "Disapprove": "41%",
+     "Neutral or no opinion": "13%"
+    }
+   }
+  },
+  {
+   "check_id": "emerson-20261008-3",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Approve": "33.1",
+    "Disapprove": "37.7",
+    "Neutral or no opinion": "29.2"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 22 ('Do you approve or disapprove of the job Kirsten Gillibrand i'); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {
+     "Approve": "33%",
+     "Disapprove": "38%"
+    }
+   }
+  },
+  {
+   "check_id": "emerson-20261008-2",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Approve": "30.1",
+    "Disapprove": "50.2",
+    "Neutral or no opinion": "19.8"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 15 ('Do you approve or disapprove of the job Chuck Schumer is doi'); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {
+     "Approve": "30%",
+     "Disapprove": "50%"
+    }
+   }
+  },
+  {
+   "check_id": "emerson-20261008-10",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Cost of everyday goods": "28.4",
+    "Cost of healthcare": "8.3",
+    "Cost of housing": "11.8",
+    "Price gasoline": "6.9",
+    "Price of electricity": "6.7",
+    "Stock market": "1.4",
+    "Jobs": "5.5",
+    "Taxes": "11.9",
+    "Interest rates": "1.9",
+    "Retirement/social security": "8.7",
+    "National debt": "6.4",
+    "Something else (specify)": "2.1"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 92 ('What would you say your biggest economic concern is?'); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {
+     "Cost of everyday goods": "28%",
+     "Cost of housing": "12%",
+     "Taxes": "12%",
+     "Retirement/social security": "9%",
+     "Cost of healthcare": "8%",
+     "Price gasoline": "7%",
+     "Price of electricity": "7%"
+    }
+   }
+  },
+  {
+   "check_id": "emerson-20261008-1",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Approve": "39.8",
+    "Disapprove": "45.6",
+    "Neutral or no opinion": "14.6"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 8 ('Do you approve or disapprove of the job Kathy Hochul is doin'); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {
+     "Approve": "40%",
+     "Disapprove": "46%",
+     "Neutral or no opinion": "15%"
+    }
+   }
+  },
+  {
+   "check_id": "emerson-20261008-0",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Approve": "35.3",
+    "Disapprove": "57.3",
+    "Neutral or no opinion": "7.3"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 1 ('Do you approve or disapprove of the job Donald Trump is doin'); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {
+     "Approve": "35%",
+     "Disapprove": "57%",
+     "Neutral or no opinion": "7%"
+    }
+   }
+  },
+  {
+   "check_id": "suffolk-20260908-9",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Highly successful": "11.00",
+    "Somewhat successful": "45.80",
+    "Somewhat unsuccessful": "14.40",
+    "Highly unsuccessful": "11.80",
+    "Undecided": "16.60",
+    "Refused": "0.40"
+   },
+   "where": "Suffolk marginals PDF (9_8_2026_new_york_city_marginals.pdf), page 4, Q17, % column (N=500)",
+   "other_figures": {
+    "release_text": {}
+   },
+   "poll_details": {
+    "field_start": "2026-09-01",
+    "field_end": "2026-09-03",
+    "n": 500,
+    "moe": "+/- 4.4 percentage points",
+    "population": "New York City registered voters (live telephone)"
+   }
+  },
+  {
+   "check_id": "suffolk-20260908-8",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Strongly approve": "22.60",
+    "Somewhat approve": "25.20",
+    "Somewhat disapprove": "10.80",
+    "Strongly disapprove": "22.20",
+    "Undecided": "18.20",
+    "Refused": "1.00"
+   },
+   "where": "Suffolk marginals PDF (9_8_2026_new_york_city_marginals.pdf), page 4, Q16, % column (N=500)",
+   "other_figures": {
+    "release_text": {}
+   }
+  },
+  {
+   "check_id": "suffolk-20260908-7",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "It shows pragmatic leadership. The mayor is balancing his reform agenda with established, data-driven policing.": "56.20",
+    "It is a contradiction. Keeping an old-guard commissioner undermines the progressive reforms the mayor promised.": "20.80",
+    "Undecided": "21.60",
+    "Refused": "1.40"
+   },
+   "where": "Suffolk marginals PDF (9_8_2026_new_york_city_marginals.pdf), page 4, Q15, % column (N=500)",
+   "other_figures": {
+    "release_text": {
+     "It shows pragmatic leadership...": "56%"
+    }
+   }
+  },
+  {
+   "check_id": "suffolk-20260908-6",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Very affordable": "7.20",
+    "Somewhat affordable": "42.00",
+    "Somewhat unaffordable": "29.00",
+    "Very unaffordable": "21.20",
+    "Undecided": "0.60",
+    "Refused": "0.00"
+   },
+   "where": "Suffolk marginals PDF (9_8_2026_new_york_city_marginals.pdf), page 3, Q14, % column (N=500)",
+   "other_figures": {
+    "release_text": {}
+   }
+  },
+  {
+   "check_id": "suffolk-20260908-5",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Crime": "10.80",
+    "Economy/jobs": "12.60",
+    "Housing": "11.80",
+    "Police reform": "2.00",
+    "Racism/justice/equality": "3.20",
+    "Schools/education": "4.20",
+    "Climate change/environment": "2.60",
+    "Transportation": "4.20",
+    "Immigration": "4.60",
+    "Local response to Trump initiatives": "4.80",
+    "Affordability": "34.60",
+    "Other": "2.00",
+    "Undecided": "2.40",
+    "Refused": "0.20"
+   },
+   "where": "Suffolk marginals PDF (9_8_2026_new_york_city_marginals.pdf), page 3, Q13, % column (N=500)",
+   "other_figures": {
+    "release_text": {
+     "Affordability": "More than a third",
+     "Economy/jobs": "13%",
+     "Housing": "12%",
+     "Crime": "11%"
+    }
+   }
+  },
+  {
+   "check_id": "suffolk-20260908-4",
+   "status": "read",
+   "note": "Marginals label wraps: 'Platform is too out of step with average New Yorkers'.",
+   "figures": {
+    "Represents core values of average New Yorkers": "60.20",
+    "Platform is too out of step with average New Yorkers": "28.00",
+    "Undecided": "11.20",
+    "Refused": "0.60"
+   },
+   "where": "Suffolk marginals PDF (9_8_2026_new_york_city_marginals.pdf), page 3, Q12, % column (N=500)",
+   "other_figures": {
+    "release_text": {
+     "Represents core values of average New Yorkers": "More than 60%",
+     "Platform is too out of step with average New Yorkers": "28%"
+    }
+   }
+  },
+  {
+   "check_id": "suffolk-20260908-3",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Better than expected": "61.40",
+    "Worse than expected": "19.00",
+    "As expected": "3.60",
+    "Undecided": "14.80",
+    "Refused": "1.20"
+   },
+   "where": "Suffolk marginals PDF (9_8_2026_new_york_city_marginals.pdf), page 3, Q11, % column (N=500)",
+   "other_figures": {
+    "release_text": {
+     "Better than expected": "61%",
+     "Worse than expected": "19%"
+    }
+   }
+  },
+  {
+   "check_id": "suffolk-20260908-2",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "New York City": "39.60",
+    "Nationally": "20.60",
+    "Both": "9.40",
+    "Undecided": "25.20",
+    "Refused": "5.20"
+   },
+   "where": "Suffolk marginals PDF (9_8_2026_new_york_city_marginals.pdf), page 2, Q10, % column (N=500)",
+   "other_figures": {
+    "release_text": {}
+   }
+  },
+  {
+   "check_id": "suffolk-20260908-17",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "City is more safe": "45.80",
+    "City is less safe": "28.40",
+    "About the same": "18.40",
+    "Undecided": "7.00",
+    "Refused": "0.40"
+   },
+   "where": "Suffolk marginals PDF (9_8_2026_new_york_city_marginals.pdf), page 6, Q28, % column (N=500)",
+   "other_figures": {
+    "release_text": {}
+   }
+  },
+  {
+   "check_id": "suffolk-20260908-16",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Tradition should continue, keep it focused on the victims and survivors": "73.60",
+    "Elected officials should be allowed to speak": "20.00",
+    "Undecided": "5.60",
+    "Refused": "0.80"
+   },
+   "where": "Suffolk marginals PDF (9_8_2026_new_york_city_marginals.pdf), page 6, Q27, % column (N=500)",
+   "other_figures": {
+    "release_text": {}
+   }
+  },
+  {
+   "check_id": "suffolk-20260908-15",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Yes, he should attend as the official representative of the city": "73.80",
+    "No, the wishes of the grieving families should come first": "20.00",
+    "Undecided": "5.00",
+    "Refused": "1.20"
+   },
+   "where": "Suffolk marginals PDF (9_8_2026_new_york_city_marginals.pdf), page 6, Q26, % column (N=500)",
+   "other_figures": {
+    "release_text": {
+     "Yes, he should attend...": "74%"
+    }
+   }
+  },
+  {
+   "check_id": "suffolk-20260908-14",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Yes": "49.60",
+    "No": "42.40",
+    "Undecided": "7.40",
+    "Refused": "0.60"
+   },
+   "where": "Suffolk marginals PDF (9_8_2026_new_york_city_marginals.pdf), page 6, Q25, % column (N=500)",
+   "other_figures": {
+    "release_text": {
+     "Yes": "Half (\"Half of respondents said they feel the city is likely to experience another major attack in the future\")"
+    }
+   }
+  },
+  {
+   "check_id": "suffolk-20260908-13",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Improved": "46.80",
+    "Worsened": "19.40",
+    "Stayed about the same": "21.80",
+    "Undecided": "11.00",
+    "Refused": "1.00"
+   },
+   "where": "Suffolk marginals PDF (9_8_2026_new_york_city_marginals.pdf), page 5, Q21, % column (N=500)",
+   "other_figures": {
+    "release_text": {}
+   }
+  },
+  {
+   "check_id": "suffolk-20260908-12",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Increasing police presence on subways": "22.40",
+    "Expanding mental health and outreach services": "42.60",
+    "Addressing neighborhood property crime and theft": "10.00",
+    "Combating hate crimes and targeted harassment": "11.80",
+    "Deploying more cameras and technology to assist police": "8.20",
+    "Undecided": "4.40",
+    "Refused": "0.60"
+   },
+   "where": "Suffolk marginals PDF (9_8_2026_new_york_city_marginals.pdf), page 5, Q20, % column (N=500)",
+   "other_figures": {
+    "release_text": {}
+   }
+  },
+  {
+   "check_id": "suffolk-20260908-11",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Increased": "30.60",
+    "Decreased": "34.80",
+    "Stayed about the same": "28.80",
+    "Undecided": "5.00",
+    "Refused": "0.80"
+   },
+   "where": "Suffolk marginals PDF (9_8_2026_new_york_city_marginals.pdf), page 4, Q19, % column (N=500)",
+   "other_figures": {
+    "release_text": {}
+   }
+  },
+  {
+   "check_id": "suffolk-20260908-10",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "The NYPD generally do a good job and treat people of different races fairly, even if there are a few bad apples on the force.": "63.80",
+    "The NYPD are racist in the way they treat people, even if some of them try to do a good job.": "28.00",
+    "Undecided": "7.00",
+    "Refused": "1.20"
+   },
+   "where": "Suffolk marginals PDF (9_8_2026_new_york_city_marginals.pdf), page 4, Q18, % column (N=500)",
+   "other_figures": {
+    "release_text": {
+     "The NYPD generally do a good job...": "64%"
+    }
+   }
+  },
+  {
+   "check_id": "suffolk-20260908-1",
+   "status": "read",
+   "note": "Release's 57% good/excellent = 28.60+28.00 = 56.6; 34% fair/poor = 17.00+17.20 = 34.2.",
+   "figures": {
+    "Excellent": "28.60",
+    "Good": "28.00",
+    "Fair": "17.00",
+    "Poor": "17.20",
+    "Undecided": "8.40",
+    "Refused": "0.80"
+   },
+   "where": "Suffolk marginals PDF (9_8_2026_new_york_city_marginals.pdf), page 2, Q9, % column (N=500)",
+   "other_figures": {
+    "release_text": {
+     "Good or excellent (combined)": "57%",
+     "Fair or poor (combined)": "34%"
+    }
+   }
+  },
+  {
+   "check_id": "suffolk-20260908-0",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Excellent": "20.20",
+    "Good": "36.60",
+    "Fair": "27.00",
+    "Poor": "15.20",
+    "Undecided": "0.80",
+    "Refused": "0.20"
+   },
+   "where": "Suffolk marginals PDF (9_8_2026_new_york_city_marginals.pdf), page 2, Q8, % column (N=500)",
+   "other_figures": {
+    "release_text": {}
+   }
+  },
+  {
+   "check_id": "honan-20260701-5",
+   "status": "read",
+   "note": "Figures are data labels on bar-chart images (rendered and read visually); no tables/toplines published. Total sample (all 614) figures are not given. Jewish columns sum to 100 (61+25+14+0); non-Jewish to 100 (36+33+26+5).",
+   "figures": {
+    "Too Far To The Left": "36%",
+    "Heading In The Right Direction": "33%",
+    "Not Far Enough To The Left": "26%",
+    "Don't Know/Not Sure": "5%"
+   },
+   "where": "Honan memo PDF page 2, bar chart labels, series Religion: Non- Jewish (red bars); key-findings text on page 2",
+   "other_figures": {
+    "release_text": {
+     "Too Far To The Left": "36%",
+     "Not Far Enough To The Left": "26%"
+    }
+   },
+   "poll_details": {
+    "field_start": "2026-06-12",
+    "field_end": "2026-06-17",
+    "n": 614,
+    "moe": "±3.96% (overall; higher among subgroups)",
+    "population": "Likely New York City general election voters (text-to-web); 515 not Jewish, 99 Jewish"
+   }
+  },
+  {
+   "check_id": "honan-20260701-4",
+   "status": "read",
+   "note": "Figures are data labels on bar-chart images (rendered and read visually); no tables/toplines published. Total sample (all 614) figures are not given. Jewish columns sum to 100 (61+25+14+0); non-Jewish to 100 (36+33+26+5).",
+   "figures": {
+    "Too Far To The Left": "61%",
+    "Heading In The Right Direction": "25%",
+    "Not Far Enough To The Left": "14%",
+    "Don't Know/Not Sure": "0%"
+   },
+   "where": "Honan memo PDF page 2, bar chart labels, series Religion: Jewish (dark blue bars); key-findings text on page 2",
+   "other_figures": {
+    "release_text": {
+     "Too Far To The Left": "61%",
+     "Not Far Enough To The Left": "14%"
+    }
+   }
+  },
+  {
+   "check_id": "honan-20260701-3",
+   "status": "read",
+   "note": "Figures are data labels on bar-chart images (rendered and read visually); no tables/toplines published. Total sample (all 614) figures are not given.",
+   "figures": {
+    "Mainstream": "38%",
+    "Outside Mainstream": "52%",
+    "Don't Know": "10%"
+   },
+   "where": "Honan memo PDF page 2, bar chart labels, series Religion: Non- Jewish (red bars); key-findings text on page 2",
+   "other_figures": {
+    "release_text": {
+     "Outside Mainstream": "52%"
+    }
+   }
+  },
+  {
+   "check_id": "honan-20260701-2",
+   "status": "read",
+   "note": "Figures are data labels on bar-chart images (rendered and read visually); no tables/toplines published. Total sample (all 614) figures are not given.",
+   "figures": {
+    "Mainstream": "13%",
+    "Outside Mainstream": "74%",
+    "Don't Know": "13%"
+   },
+   "where": "Honan memo PDF page 2, bar chart labels, series Religion: Jewish (dark blue bars); key-findings text on page 2",
+   "other_figures": {
+    "release_text": {
+     "Outside Mainstream": "74%"
+    }
+   }
+  },
+  {
+   "check_id": "honan-20260701-1",
+   "status": "read",
+   "note": "Figures are data labels on bar-chart images (rendered and read visually); no tables/toplines published. Total sample (all 614) figures are not given. Non-Jewish sums to 101 (67+28+6), rounding.",
+   "figures": {
+    "Total Approve": "67%",
+    "Total Disapprove": "28%",
+    "Don't Know": "6%"
+   },
+   "where": "Honan memo PDF page 2, bar chart labels, series Religion: Non- Jewish (red bars); key-findings text on page 1",
+   "other_figures": {
+    "release_text": {
+     "Total Approve": "67%",
+     "Total Disapprove": "28%"
+    }
+   }
+  },
+  {
+   "check_id": "honan-20260701-0",
+   "status": "read",
+   "note": "Figures are data labels on bar-chart images (rendered and read visually); no tables/toplines published. Total sample (all 614) figures are not given.",
+   "figures": {
+    "Total Approve": "28%",
+    "Total Disapprove": "72%",
+    "Don't Know": "0%"
+   },
+   "where": "Honan memo PDF page 2, bar chart labels, series Religion: Jewish (dark blue bars); key-findings text on page 1",
+   "other_figures": {
+    "release_text": {
+     "Total Disapprove": "72%",
+     "Total Approve": "28%"
+    }
+   }
+  },
+  {
+   "check_id": "emerson-20260409-9",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "5% property tax increase": "4.3",
+    "NYC better managing its spending": "41.2",
+    "NY State raising taxes on the wealthy": "54.6"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 72 ('Which of the following do you think New York City should do'); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {
+     "NY State raising taxes on the wealthy": "55%",
+     "NYC better managing its spending": "41%",
+     "5% property tax increase": "4%"
+    }
+   },
+   "poll_details": {
+    "field_start": "2026-04-05",
+    "field_end": "2026-04-06",
+    "n": 850,
+    "moe": "+/- 3.4 percent (credibility interval)",
+    "population": "New York City registered voters"
+   }
+  },
+  {
+   "check_id": "emerson-20260409-8",
+   "status": "read",
+   "note": "Release says 40% poor; spreadsheet 39.5 (raw 39.524, consistent with 40). Release omits Don't know (3.4).",
+   "figures": {
+    "Excellent": "2.7",
+    "Good": "16.2",
+    "Fair": "38.2",
+    "Poor": "39.5",
+    "Don't know/no opinion": "3.4"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 63 ('How would you rate the condition of the New York City econom'); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {
+     "Poor": "40%",
+     "Fair": "38%",
+     "Good": "16%",
+     "Excellent": "3%"
+    }
+   }
+  },
+  {
+   "check_id": "emerson-20260409-7",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "New York has made a mistake; I wish we hadn't elected him": "22.9",
+    "It's too early to tell; the jury is still out on the Mamdani administration": "31.7",
+    "So far I like what I see and I am confident Mamdani will move the city in the right direction": "37.3",
+    "Don't know/no opinion": "8.1"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 55 ('Although Zohran Mamdani has only been in office for a short'); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {}
+   }
+  },
+  {
+   "check_id": "emerson-20260409-6",
+   "status": "read",
+   "note": "Release text says 40% approve of budget handling; spreadsheet Approve = 39.5 (raw 39.483), which rounds to 39, not 40. Disapprove 37% matches 36.7. Battery item; spreadsheet heading for first item reads 'First: Housing affordability', later items carry only the item name.",
+   "figures": {
+    "Approve": "39.5",
+    "Disapprove": "36.7",
+    "Neutral / no opinion": "23.8"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 48 ('The City Budget'); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {
+     "Approve": "40%",
+     "Disapprove": "37%"
+    }
+   }
+  },
+  {
+   "check_id": "emerson-20260409-5",
+   "status": "read",
+   "note": "Spreadsheet sub-item label is spelled 'Public saftey/policing' (sic). Battery item; spreadsheet heading for first item reads 'First: Housing affordability', later items carry only the item name.",
+   "figures": {
+    "Approve": "45.0",
+    "Disapprove": "31.8",
+    "Neutral / no opinion": "23.2"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 41 ('Public saftey/policing'); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {
+     "Approve": "45%",
+     "Disapprove": "32%"
+    }
+   }
+  },
+  {
+   "check_id": "emerson-20260409-4",
+   "status": "read",
+   "note": "Battery item; spreadsheet heading for first item reads 'First: Housing affordability', later items carry only the item name.",
+   "figures": {
+    "Approve": "53.9",
+    "Disapprove": "21.3",
+    "Neutral / no opinion": "24.8"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 34 ('Childcare'); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {
+     "Approve": "54%",
+     "Disapprove": "21%"
+    }
+   }
+  },
+  {
+   "check_id": "emerson-20260409-3",
+   "status": "read",
+   "note": "Battery item; spreadsheet heading for first item reads 'First: Housing affordability', later items carry only the item name.",
+   "figures": {
+    "Approve": "48.6",
+    "Disapprove": "24.5",
+    "Neutral / no opinion": "26.8"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 27 ('Do you approve or disapprove of the way Zohran Mamdani is ad'); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {
+     "Approve": "49%",
+     "Disapprove": "25%"
+    }
+   }
+  },
+  {
+   "check_id": "emerson-20260409-2",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Yes": "59.5",
+    "No": "40.5"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 21 ('Would you say that Zohran Mamdani has been focusing on issue'); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {
+     "Yes": "59%",
+     "No": "41%"
+    }
+   }
+  },
+  {
+   "check_id": "emerson-20260409-12",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "A": "29.3",
+    "B": "33.0",
+    "C": "18.0",
+    "D": "8.8",
+    "F": "11.0"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 93 (\"What grade would you give Mayor Mamdani on this season's win\"); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {
+     "A": "29%",
+     "B": "33%",
+     "C": "18%",
+     "D": "9%",
+     "F": "11%"
+    }
+   }
+  },
+  {
+   "check_id": "emerson-20260409-11",
+   "status": "read",
+   "note": "Release text says 44% 'No'; spreadsheet No = 43.5 (raw 43.484), which rounds to 43, not 44. Release Yes 30% / Not sure 27% match spreadsheet 29.7 / 26.9.",
+   "figures": {
+    "Yes": "29.7",
+    "No": "43.5",
+    "Not sure": "26.9"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 86 ('Do you think a corporate tax increase of 1-2 percent would c'); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {
+     "No": "44%",
+     "Yes": "30%",
+     "Not sure": "27%"
+    }
+   }
+  },
+  {
+   "check_id": "emerson-20260409-10",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Support": "65.1",
+    "Oppose": "20.4",
+    "Not sure": "14.5"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 79 (\"Do you support or oppose a millionaire's tax or a 2 percent\"); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {
+     "Support": "65%",
+     "Oppose": "20%",
+     "Not sure": "15%"
+    }
+   }
+  },
+  {
+   "check_id": "emerson-20260409-1",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Approve": "42.9",
+    "Disapprove": "27.4",
+    "Neutral or no opinion": "29.7"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 7 ('Do you approve or disapprove of the job Zohran Mamdani is do'); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {
+     "Approve": "43%",
+     "Disapprove": "27%",
+     "Neutral or no opinion": "30%"
+    }
+   }
+  },
+  {
+   "check_id": "emerson-20260409-0",
+   "status": "read",
+   "note": "",
+   "figures": {
+    "Right direction": "41.3",
+    "Wrong track": "58.7"
+   },
+   "where": "Emerson spreadsheet (Google Sheets export, tab 'Topline Results'), 'Valid Percent' column, question block starting row 1 ('Would you say things in New York City today are generally he'); cells formatted ###0.0",
+   "other_figures": {
+    "release_text": {
+     "Right direction": "41%",
+     "Wrong track": "59%"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,956 @@
+{
+ "checker": "supplement",
+ "results": [
+  {
+   "check_id": "marist-20261007-6c",
+   "figures": {
+    "Approve": "25%",
+    "Disapprove": "74%",
+    "Vol: Unsure": "2%"
+   },
+   "where": "Marist Oct 2026 NYS tables PDF p.4, TRUDP105BR (short version), Region: New York City row",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-10-01",
+    "field_end": "2026-10-04",
+    "n": 1361,
+    "moe": "3.6",
+    "population": "New York registered voters"
+   }
+  },
+  {
+   "check_id": "marist-20261007-6",
+   "figures": {
+    "Approve": "38%",
+    "Disapprove": "60%",
+    "Vol: Unsure": "1%"
+   },
+   "where": "Marist Oct 2026 NYS tables PDF p.4, TRUDP105BR, Registered Voters row",
+   "status": "read",
+   "note": "Detailed version TRUDP105B p.3: 26/13/7/53/1 (strongly/just approve/just/strongly disapprove/unsure).",
+   "poll_details": {
+    "field_start": "2026-10-01",
+    "field_end": "2026-10-04",
+    "n": 1361,
+    "moe": "3.6",
+    "population": "New York registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260923-7c",
+   "figures": {
+    "Approve": "25%",
+    "Disapprove": "71%",
+    "Don't know/Refused": "3%"
+   },
+   "where": "Siena Sept 2026 crosstabs p.2, Q8 Trump, NYC column (under Region)",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": "3.9",
+    "population": "Likely New York voters"
+   }
+  },
+  {
+   "check_id": "siena-20260923-7",
+   "figures": {
+    "Approve": "35%",
+    "Disapprove": "62%",
+    "Don't know/Refused": "2%"
+   },
+   "where": "Siena Sept 2026 crosstabs p.2, Q8 Trump, Total column",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": "3.9",
+    "population": "Likely New York voters"
+   }
+  },
+  {
+   "check_id": "siena-20260923-6c",
+   "figures": {
+    "Approve": "58%",
+    "Disapprove": "34%",
+    "Don't know/Refused": "8%"
+   },
+   "where": "Siena Sept 2026 crosstabs p.2, Q7 Hochul, NYC column (under Region)",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": "3.9",
+    "population": "Likely New York voters"
+   }
+  },
+  {
+   "check_id": "siena-20260923-6",
+   "figures": {
+    "Approve": "48%",
+    "Disapprove": "47%",
+    "Don't know/Refused": "4%"
+   },
+   "where": "Siena Sept 2026 crosstabs p.2, Q7 Hochul, Total column",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-09-11",
+    "field_end": "2026-09-17",
+    "n": 1144,
+    "moe": "3.9",
+    "population": "Likely New York voters"
+   }
+  },
+  {
+   "check_id": "siena-20260812-7c",
+   "figures": {
+    "Approve": "18%",
+    "Disapprove": "76%",
+    "Don't know/Refused": "6%"
+   },
+   "where": "Siena Aug 2026 corrected crosstabs p.2, Q8 Trump, NYC column (under Region)",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": "4.2",
+    "population": "New York likely voters"
+   }
+  },
+  {
+   "check_id": "siena-20260812-7",
+   "figures": {
+    "Approve": "37%",
+    "Disapprove": "60%",
+    "Don't know/Refused": "3%"
+   },
+   "where": "Siena Aug 2026 corrected crosstabs p.2, Q8 Trump, Total column",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": "4.2",
+    "population": "New York likely voters"
+   }
+  },
+  {
+   "check_id": "siena-20260812-6c",
+   "figures": {
+    "Approve": "63%",
+    "Disapprove": "29%",
+    "Don't know/Refused": "8%"
+   },
+   "where": "Siena Aug 2026 corrected crosstabs p.2, Q7 Hochul, NYC column (under Region)",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": "4.2",
+    "population": "New York likely voters"
+   }
+  },
+  {
+   "check_id": "siena-20260812-6",
+   "figures": {
+    "Approve": "48%",
+    "Disapprove": "49%",
+    "Don't know/Refused": "4%"
+   },
+   "where": "Siena Aug 2026 corrected crosstabs p.2, Q7 Hochul, Total column",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-08-03",
+    "field_end": "2026-08-06",
+    "n": 811,
+    "moe": "4.2",
+    "population": "New York likely voters"
+   }
+  },
+  {
+   "check_id": "siena-20260625-21c",
+   "figures": {
+    "Approve": "30%",
+    "Disapprove": "69%",
+    "Don't know/Refused": "2%"
+   },
+   "where": "Siena June 2026 crosstabs, p.5 Q21 Trump, NYC column (under Region)",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": "3.6",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260625-21",
+   "figures": {
+    "Approve": "34%",
+    "Disapprove": "65%",
+    "Don't know/Refused": "1%"
+   },
+   "where": "Siena June 2026 crosstabs, p.5 Q21 Trump, Total column",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": "3.6",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260625-10c",
+   "figures": {
+    "Approve": "63%",
+    "Disapprove": "31%",
+    "Don't know/Refused": "6%"
+   },
+   "where": "Siena June 2026 crosstabs, p.2 Q11 Hochul, NYC column (under Region)",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": "3.6",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260625-10",
+   "figures": {
+    "Approve": "53%",
+    "Disapprove": "42%",
+    "Don't know/Refused": "6%"
+   },
+   "where": "Siena June 2026 crosstabs, p.2 Q11 Hochul, Total column",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-06-17",
+    "field_end": "2026-06-23",
+    "n": 1120,
+    "moe": "3.6",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260505-26c",
+   "figures": {
+    "Approve": "27%",
+    "Disapprove": "71%",
+    "Don't know/Refused": "2%"
+   },
+   "where": "Siena April/May 2026 crosstabs, p.5 Q28 Trump, NYC column (under Region)",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-04-27",
+    "field_end": "2026-04-30",
+    "n": 806,
+    "moe": "4.2",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260505-26",
+   "figures": {
+    "Approve": "34%",
+    "Disapprove": "64%",
+    "Don't know/Refused": "2%"
+   },
+   "where": "Siena April/May 2026 crosstabs, p.5 Q28 Trump, Total column",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-04-27",
+    "field_end": "2026-04-30",
+    "n": 806,
+    "moe": "4.2",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260505-14c",
+   "figures": {
+    "Approve": "56%",
+    "Disapprove": "33%",
+    "Don't know/Refused": "11%"
+   },
+   "where": "Siena April/May 2026 crosstabs, p.3 Q16 Hochul, NYC column (under Region)",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-04-27",
+    "field_end": "2026-04-30",
+    "n": 806,
+    "moe": "4.2",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260505-14",
+   "figures": {
+    "Approve": "48%",
+    "Disapprove": "44%",
+    "Don't know/Refused": "9%"
+   },
+   "where": "Siena April/May 2026 crosstabs, p.3 Q16 Hochul, Total column",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-04-27",
+    "field_end": "2026-04-30",
+    "n": 806,
+    "moe": "4.2",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260331-21c",
+   "figures": {
+    "Approve": "32%",
+    "Disapprove": "65%",
+    "Don't know/Refused": "2%"
+   },
+   "where": "Siena March 2026 crosstabs, p.4 Q22 Trump, NYC column (under Region)",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-03-23",
+    "field_end": "2026-03-26",
+    "n": 804,
+    "moe": "4.2",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260331-21",
+   "figures": {
+    "Approve": "37%",
+    "Disapprove": "61%",
+    "Don't know/Refused": "2%"
+   },
+   "where": "Siena March 2026 crosstabs, p.4 Q22 Trump, Total column",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-03-23",
+    "field_end": "2026-03-26",
+    "n": 804,
+    "moe": "4.2",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260331-12c",
+   "figures": {
+    "Approve": "61%",
+    "Disapprove": "28%",
+    "Don't know/Refused": "12%"
+   },
+   "where": "Siena March 2026 crosstabs, p.3 Q13 Hochul, NYC column (under Region)",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-03-23",
+    "field_end": "2026-03-26",
+    "n": 804,
+    "moe": "4.2",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260331-12",
+   "figures": {
+    "Approve": "52%",
+    "Disapprove": "40%",
+    "Don't know/Refused": "8%"
+   },
+   "where": "Siena March 2026 crosstabs, p.3 Q13 Hochul, Total column",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-03-23",
+    "field_end": "2026-03-26",
+    "n": 804,
+    "moe": "4.2",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260304-26c",
+   "figures": {
+    "Approve": "28%",
+    "Disapprove": "67%",
+    "Don't know/Refused": "5%"
+   },
+   "where": "Siena Feb 2026 crosstabs, p.6 Q27 Trump, NYC column (under Region)",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-02-23",
+    "field_end": "2026-02-26",
+    "n": 805,
+    "moe": "4.5",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260304-26",
+   "figures": {
+    "Approve": "36%",
+    "Disapprove": "61%",
+    "Don't know/Refused": "3%"
+   },
+   "where": "Siena Feb 2026 crosstabs, p.6 Q27 Trump, Total column",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-02-23",
+    "field_end": "2026-02-26",
+    "n": 805,
+    "moe": "4.5",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260304-14c",
+   "figures": {
+    "Approve": "66%",
+    "Disapprove": "26%",
+    "Don't know/Refused": "9%"
+   },
+   "where": "Siena Feb 2026 crosstabs, p.3 Q15 Hochul, NYC column (under Region)",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-02-23",
+    "field_end": "2026-02-26",
+    "n": 805,
+    "moe": "4.5",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260304-14",
+   "figures": {
+    "Approve": "53%",
+    "Disapprove": "41%",
+    "Don't know/Refused": "7%"
+   },
+   "where": "Siena Feb 2026 crosstabs, p.3 Q15 Hochul, Total column",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-02-23",
+    "field_end": "2026-02-26",
+    "n": 805,
+    "moe": "4.5",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260203-33c",
+   "figures": {
+    "Approve": "25%",
+    "Disapprove": "73%",
+    "Don't know/Refused": "2%"
+   },
+   "where": "Siena Jan 2026 crosstabs, p.8 Q34 Trump, NYC column (under Region)",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-01-26",
+    "field_end": "2026-01-28",
+    "n": 802,
+    "moe": "4.3",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260203-33",
+   "figures": {
+    "Approve": "34%",
+    "Disapprove": "63%",
+    "Don't know/Refused": "3%"
+   },
+   "where": "Siena Jan 2026 crosstabs, p.8 Q34 Trump, Total column",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-01-26",
+    "field_end": "2026-01-28",
+    "n": 802,
+    "moe": "4.3",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260203-20c",
+   "figures": {
+    "Approve": "63%",
+    "Disapprove": "32%",
+    "Don't know/Refused": "4%"
+   },
+   "where": "Siena Jan 2026 crosstabs, p.5 Q21 Hochul, NYC column (under Region)",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-01-26",
+    "field_end": "2026-01-28",
+    "n": 802,
+    "moe": "4.3",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260203-20",
+   "figures": {
+    "Approve": "54%",
+    "Disapprove": "41%",
+    "Don't know/Refused": "5%"
+   },
+   "where": "Siena Jan 2026 crosstabs, p.5 Q21 Hochul, Total column",
+   "status": "read",
+   "note": "Table prints \"Total Approve\"/\"Total Disapprove\" combined rows (plus strongly/somewhat); Approve/Disapprove recorded from those rows.",
+   "poll_details": {
+    "field_start": "2026-01-26",
+    "field_end": "2026-01-28",
+    "n": 802,
+    "moe": "4.3",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260722-0c",
+   "figures": {
+    "Agree": "42%",
+    "Disagree": "42%",
+    "Don't know/Refused": "16%"
+   },
+   "where": "Siena ICS Q2 2026 sports betting crosstabs p.2, Q7, NYC column",
+   "status": "read",
+   "note": "Table prints Strongly/Somewhat agree, \"Total Agree\", Somewhat/Strongly disagree, \"Total Disagree\"; Agree/Disagree recorded from Total rows. Detail NYC: 22/20/25/17.",
+   "poll_details": {
+    "field_start": "2026-07-01",
+    "field_end": "2026-07-08",
+    "n": 814,
+    "moe": "3.7",
+    "population": "New York State residents"
+   }
+  },
+  {
+   "check_id": "siena-20260722-0",
+   "figures": {
+    "Agree": "43%",
+    "Disagree": "44%",
+    "Don't know/Refused": "14%"
+   },
+   "where": "Siena ICS Q2 2026 sports betting crosstabs p.2, Q7, Total column",
+   "status": "read",
+   "note": "Table prints Strongly/Somewhat agree, \"Total Agree\", Somewhat/Strongly disagree, \"Total Disagree\"; Agree/Disagree recorded from Total rows. Detail Total: 23/20/26/18.",
+   "poll_details": {
+    "field_start": "2026-07-01",
+    "field_end": "2026-07-08",
+    "n": 814,
+    "moe": "3.7",
+    "population": "New York State residents"
+   }
+  },
+  {
+   "check_id": "siena-20260505-1c",
+   "figures": {
+    "Excellent": "4%",
+    "Good": "22%",
+    "Positive": "26%",
+    "Fair": "32%",
+    "Poor": "35%",
+    "Negative": "67%",
+    "Don't know/No opinion": "7%"
+   },
+   "where": "Siena April 2026 crosstabs p.1, Q2, NYC column",
+   "status": "read",
+   "note": "Positive/Negative recorded from printed \"Total Positive\"/\"Total Negative\" rows.",
+   "poll_details": {
+    "field_start": "2026-04-27",
+    "field_end": "2026-04-30",
+    "n": 806,
+    "moe": "4.2",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260505-1",
+   "figures": {
+    "Excellent": "2%",
+    "Good": "22%",
+    "Positive": "24%",
+    "Fair": "34%",
+    "Poor": "38%",
+    "Negative": "72%",
+    "Don't know/No opinion": "5%"
+   },
+   "where": "Siena April 2026 crosstabs p.1, Q2, Total column",
+   "status": "read",
+   "note": "Positive/Negative recorded from printed \"Total Positive\"/\"Total Negative\" rows.",
+   "poll_details": {
+    "field_start": "2026-04-27",
+    "field_end": "2026-04-30",
+    "n": 806,
+    "moe": "4.2",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260203-1c",
+   "figures": {
+    "Excellent": "7%",
+    "Good": "25%",
+    "Positive": "32%",
+    "Fair": "36%",
+    "Poor": "25%",
+    "Negative": "61%",
+    "Don't know/No opinion": "7%"
+   },
+   "where": "Siena Jan 2026 crosstabs p.1, Q2, NYC column",
+   "status": "read",
+   "note": "Positive/Negative recorded from printed \"Total Positive\"/\"Total Negative\" rows.",
+   "poll_details": {
+    "field_start": "2026-01-26",
+    "field_end": "2026-01-28",
+    "n": 802,
+    "moe": "4.3",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260203-1",
+   "figures": {
+    "Excellent": "5%",
+    "Good": "22%",
+    "Positive": "27%",
+    "Fair": "36%",
+    "Poor": "30%",
+    "Negative": "66%",
+    "Don't know/No opinion": "7%"
+   },
+   "where": "Siena Jan 2026 crosstabs p.1, Q2, Total column",
+   "status": "read",
+   "note": "Positive/Negative recorded from printed \"Total Positive\"/\"Total Negative\" rows.",
+   "poll_details": {
+    "field_start": "2026-01-26",
+    "field_end": "2026-01-28",
+    "n": 802,
+    "moe": "4.3",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260217-6c",
+   "figures": {
+    "Excellent": "7%",
+    "Good": "36%",
+    "Positive": "43%",
+    "Only fair": "34%",
+    "Poor": "20%",
+    "Negative": "54%",
+    "Don't know/Refused": "3%"
+   },
+   "where": "Siena NYCJI Jan 2026 crosstabs p.2, Q9, NYC column",
+   "status": "read",
+   "note": "Positive/Negative recorded from printed \"Total Positive\"/\"Total Negative\" rows.",
+   "poll_details": {
+    "field_start": "2026-01-20",
+    "field_end": "2026-01-25",
+    "n": 801,
+    "moe": "4.4",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "siena-20260217-6",
+   "figures": {
+    "Excellent": "6%",
+    "Good": "31%",
+    "Positive": "37%",
+    "Only fair": "34%",
+    "Poor": "27%",
+    "Negative": "61%",
+    "Don't know/Refused": "2%"
+   },
+   "where": "Siena NYCJI Jan 2026 crosstabs p.2, Q9, Total column",
+   "status": "read",
+   "note": "Positive/Negative recorded from printed \"Total Positive\"/\"Total Negative\" rows.",
+   "poll_details": {
+    "field_start": "2026-01-20",
+    "field_end": "2026-01-25",
+    "n": 801,
+    "moe": "4.4",
+    "population": "NYS registered voters"
+   }
+  },
+  {
+   "check_id": "honan-20260701-1",
+   "figures": {
+    "Approve": "67%",
+    "Disapprove": "28%",
+    "Don't Know": "6%"
+   },
+   "where": "Honan memo PDF p.2 first chart, Religion: Non-Jewish (red) bars",
+   "status": "read",
+   "note": "Read from bar-chart data labels, memo p.2 (chart labels \"Total Approve\", \"Total Disapprove\", \"Don't Know\").",
+   "other_figures": {
+    "release_text": {
+     "Approve": "67%",
+     "Disapprove": "28%"
+    }
+   },
+   "poll_details": {
+    "field_start": "2026-06-12",
+    "field_end": "2026-06-17",
+    "n": 614,
+    "moe": "3.96",
+    "population": "Likely NYC general election voters (515 non-Jewish, 99 Jewish)"
+   }
+  },
+  {
+   "check_id": "honan-20260701-0",
+   "figures": {
+    "Approve": "28%",
+    "Disapprove": "72%",
+    "Don't Know": "0%"
+   },
+   "where": "Honan memo PDF p.2 first chart, Religion: Jewish (navy) bars",
+   "status": "read",
+   "note": "Read from bar-chart data labels, memo p.2 (chart labels \"Total Approve\", \"Total Disapprove\", \"Don't Know\").",
+   "other_figures": {
+    "release_text": {
+     "Approve": "28%",
+     "Disapprove": "72%"
+    }
+   },
+   "poll_details": {
+    "field_start": "2026-06-12",
+    "field_end": "2026-06-17",
+    "n": 614,
+    "moe": "3.96",
+    "population": "Likely NYC general election voters (515 non-Jewish, 99 Jewish)"
+   }
+  },
+  {
+   "check_id": "marist-20260408-6",
+   "figures": {
+    "A great deal/A good amount": "58%",
+    "Not very much/Not at all": "41%",
+    "Vol: Unsure": "1%"
+   },
+   "where": "Marist NYC Apr 2026 tables PDF p.14, ZMTRDNYC1R (short version), NYC Adults row",
+   "status": "read",
+   "note": "Recorded NYC Adults row (top row, all respondents). NYC Registered Voters row printed below it; see other_figures.",
+   "other_figures": {
+    "nyc_registered_voters_row": {
+     "A great deal/A good amount": "58%",
+     "Not very much/Not at all": "42%",
+     "Vol: Unsure": "1%"
+    }
+   },
+   "poll_details": {
+    "field_start": "2026-03-26",
+    "field_end": "2026-03-31",
+    "n": 1454,
+    "population": "New York City adults"
+   }
+  },
+  {
+   "check_id": "marist-20260408-5",
+   "figures": {
+    "Doing more to unite New York City": "61%",
+    "Doing more to divide New York City": "36%",
+    "Vol: Unsure": "2%"
+   },
+   "where": "Marist NYC Apr 2026 tables PDF p.13, MAMZUDC1, NYC Adults row",
+   "status": "read",
+   "note": "Recorded NYC Adults row (top row, all respondents). NYC Registered Voters row printed below it; see other_figures.",
+   "other_figures": {
+    "nyc_registered_voters_row": {
+     "Doing more to unite New York City": "61%",
+     "Doing more to divide New York City": "37%",
+     "Vol: Unsure": "2%"
+    }
+   },
+   "poll_details": {
+    "field_start": "2026-03-26",
+    "field_end": "2026-03-31",
+    "n": 1454,
+    "population": "New York City adults"
+   }
+  },
+  {
+   "check_id": "marist-20260408-2",
+   "figures": {
+    "Very favorable/Somewhat favorable": "55%",
+    "Somewhat unfavorable/Very unfavorable": "33%",
+    "Unsure/Never Heard": "12%"
+   },
+   "where": "Marist NYC Apr 2026 tables PDF p.7, MAMZ0204RC (short version), NYC Adults row",
+   "status": "read",
+   "note": "Recorded NYC Adults row (top row, all respondents). NYC Registered Voters row printed below it; see other_figures. Trend table p.8 labeled \"Marist Poll NYC Registered Voters\" shows April 2026 55/35/10.",
+   "other_figures": {
+    "nyc_registered_voters_row": {
+     "Very favorable/Somewhat favorable": "55%",
+     "Somewhat unfavorable/Very unfavorable": "35%",
+     "Unsure/Never Heard": "10%"
+    }
+   },
+   "poll_details": {
+    "field_start": "2026-03-26",
+    "field_end": "2026-03-31",
+    "n": 1454,
+    "population": "New York City adults"
+   }
+  },
+  {
+   "check_id": "marist-20260226-18c",
+   "figures": {
+    "Plan to stay": "67%",
+    "Plan to move": "31%",
+    "Vol: Unsure": "1%"
+   },
+   "where": "Marist NYS Feb 2026 tables PDF p.37, Region: New York City row",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-02-16",
+    "field_end": "2026-02-19",
+    "n": 1552,
+    "population": "New York State adults"
+   }
+  },
+  {
+   "check_id": "marist-20260226-18",
+   "figures": {
+    "Plan to stay": "66%",
+    "Plan to move": "33%",
+    "Vol: Unsure": "1%"
+   },
+   "where": "Marist NYS Feb 2026 tables PDF p.37, NYS Adults row",
+   "status": "read",
+   "note": "Total = NYS Adults row; NYS Registered Voters row also printed (see other_figures).",
+   "other_figures": {
+    "nys_registered_voters_row": {
+     "Plan to stay": "66%",
+     "Plan to move": "33%",
+     "Vol: Unsure": "1%"
+    }
+   },
+   "poll_details": {
+    "field_start": "2026-02-16",
+    "field_end": "2026-02-19",
+    "n": 1552,
+    "population": "New York State adults"
+   }
+  },
+  {
+   "check_id": "marist-20260226-16c",
+   "figures": {
+    "Very affordable/Affordable": "14%",
+    "Not very affordable/Not affordable at all": "86%"
+   },
+   "where": "Marist NYS Feb 2026 tables PDF p.33 (short combined version), Region: New York City row",
+   "status": "read",
+   "note": "Detailed version p.35 NYC: 2/11/54/32.",
+   "poll_details": {
+    "field_start": "2026-02-16",
+    "field_end": "2026-02-19",
+    "n": 1552,
+    "population": "New York State adults"
+   }
+  },
+  {
+   "check_id": "marist-20260226-16",
+   "figures": {
+    "Very affordable/Affordable": "14%",
+    "Not very affordable/Not affordable at all": "86%"
+   },
+   "where": "Marist NYS Feb 2026 tables PDF p.33 (short combined version), NYS Adults row",
+   "status": "read",
+   "note": "Total = NYS Adults row; NYS Registered Voters row also printed (see other_figures). Detailed p.35 Adults: 2/12/57/30.",
+   "other_figures": {
+    "nys_registered_voters_row": {
+     "Very affordable/Affordable": "13%",
+     "Not very affordable/Not affordable at all": "87%"
+    }
+   },
+   "poll_details": {
+    "field_start": "2026-02-16",
+    "field_end": "2026-02-19",
+    "n": 1552,
+    "population": "New York State adults"
+   }
+  },
+  {
+   "check_id": "marist-20260226-12c",
+   "figures": {
+    "Gotten better": "18%",
+    "Gotten worse": "48%",
+    "Or, remained about the same": "33%",
+    "Vol: Unsure": "1%"
+   },
+   "where": "Marist NYS Feb 2026 tables PDF p.25, NYS5000, Region: New York City row",
+   "status": "read",
+   "note": "",
+   "poll_details": {
+    "field_start": "2026-02-16",
+    "field_end": "2026-02-19",
+    "n": 1552,
+    "population": "New York State adults"
+   }
+  },
+  {
+   "check_id": "marist-20260226-12",
+   "figures": {
+    "Gotten better": "13%",
+    "Gotten worse": "51%",
+    "Or, remained about the same": "35%",
+    "Vol: Unsure": "<1%"
+   },
+   "where": "Marist NYS Feb 2026 tables PDF p.25, NYS5000, NYS Adults row",
+   "status": "read",
+   "note": "Total = NYS Adults row; NYS Registered Voters row also printed (see other_figures).",
+   "other_figures": {
+    "nys_registered_voters_row": {
+     "Gotten better": "12%",
+     "Gotten worse": "51%",
+     "Or, remained about the same": "36%",
+     "Vol: Unsure": "0%"
+    }
+   },
+   "poll_details": {
+    "field_start": "2026-02-16",
+    "field_end": "2026-02-19",
+    "n": 1552,
+    "population": "New York State adults"
+   }
+  }
+ ]
+}

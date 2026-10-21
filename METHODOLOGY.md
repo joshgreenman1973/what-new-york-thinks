@@ -66,6 +66,9 @@ Checks run before publishing:
 - **Lines in the charts** join readings of the same question, asked of the same group in the same place. Answers are matched across polls by label; candidates are matched by last name, because pollsters label them differently ("Democrat Kathy Hochul," "Kathy Hochul").
 - **"Latest reading of each question only"** keeps, for each question, place and group, the reading with the latest last field date.
 - **The buttons** under "Pick a person or an issue" gather rows by subject. A person's button collects every question about that person. An issue's button collects questions by topic and subject words (for example, "Taxes on the rich" collects questions whose subject mentions a millionaire tax, income tax, corporate tax or the pied-a-terre tax). The markets under a panel are those whose question names the person, or names New York and the issue.
+- **Crime and health care buttons** cover New York only. They leave out immigration questions that merely mention crime or hospitals, and Marist's general question on whether gun control or gun rights should be the higher priority, which says nothing about New York.
+- **Automatic buttons.** Any other subject that three or more independent polls have asked about gets its own button, so issues that keep coming up appear as polls are added.
+- **"Where it ranks."** For crime, health care, the cost of living, housing, immigration, taxes and schools, the panel lists each question that asked people to pick the most important issue, with the share choosing that issue and its place among the answers. The place counts how many answers drew a larger share, leaving out "other," "don't know" and refusals; equal shares are called a tie. This ranking is the one calculation the page makes from published figures.
 - **The opening sentence** names the latest statewide poll of the Hochul-Blakeman race asked of all respondents.
 
 ## Prediction markets
