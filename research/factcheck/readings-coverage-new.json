@@ -1,0 +1,538 @@
+{
+ "checker": "coverage-new",
+ "results": [
+  {
+   "check_id": "tunnl-20260429-8",
+   "figures": {
+    "Strongly support": "37%",
+    "Somewhat support": "37%",
+    "Unsure": "10%",
+    "Somewhat oppose": "9%",
+    "Strongly oppose": "6%"
+   },
+   "where": "Tunnl/Business Council deck '(2)Voter Survey on Energy.pdf' (bcnys.org, downloaded directly), PDF page 22 (slide 27), stacked bar for this item; confirmed by rendering the slide",
+   "status": "read",
+   "note": "Poll details from the release page, read via Wayback Machine snapshot 20260505042721 (live bcnys.org page returns 403). The PDF deck (pages 6-28 of a larger deck) has no methodology slide. Figures are chart data labels confirmed visually.",
+   "poll_details": {
+    "field_start": "March 11 (year not stated in release; 2026 implied, release dated Apr 29 2026)",
+    "field_end": "March 15 (\"conducted March 11–15th\")",
+    "n": 2058,
+    "moe": "±2.2 percentage points",
+    "population": "registered New York voters; conducted online by Tunnl; weighted to statewide demographics"
+   }
+  },
+  {
+   "check_id": "tunnl-20260429-7",
+   "figures": {
+    "Strongly support": "40%",
+    "Somewhat support": "38%",
+    "Unsure": "12%",
+    "Somewhat oppose": "8%",
+    "Strongly oppose": "2%"
+   },
+   "where": "Tunnl/Business Council deck '(2)Voter Survey on Energy.pdf' (bcnys.org, downloaded directly), PDF page 22 (slide 27), stacked bar for this item; confirmed by rendering the slide",
+   "status": "read",
+   "note": "Figures are chart data labels; topline bar chart read from text layer and confirmed visually where noted."
+  },
+  {
+   "check_id": "tunnl-20260429-6",
+   "figures": {
+    "Strongly support": "41%",
+    "Somewhat support": "37%",
+    "Unsure": "11%",
+    "Somewhat oppose": "7%",
+    "Strongly oppose": "3%"
+   },
+   "where": "Tunnl/Business Council deck '(2)Voter Survey on Energy.pdf' (bcnys.org, downloaded directly), PDF page 22 (slide 27), stacked bar for this item; confirmed by rendering the slide",
+   "status": "read",
+   "note": "Figures are chart data labels; topline bar chart read from text layer and confirmed visually where noted."
+  },
+  {
+   "check_id": "tunnl-20260429-5",
+   "figures": {
+    "Strongly support": "56%",
+    "Somewhat support": "28%",
+    "Unsure": "7%",
+    "Somewhat oppose": "6%",
+    "Strongly oppose": "3%"
+   },
+   "where": "Tunnl/Business Council deck '(2)Voter Survey on Energy.pdf' (bcnys.org, downloaded directly), PDF page 22 (slide 27), stacked bar for this item; confirmed by rendering the slide",
+   "status": "read",
+   "note": "Figures are chart data labels; topline bar chart read from text layer and confirmed visually where noted."
+  },
+  {
+   "check_id": "tunnl-20260429-4",
+   "figures": {
+    "Very good": "53%",
+    "Somewhat good": "35%",
+    "Somewhat bad": "3%",
+    "Very bad": "1%",
+    "Neither/Unsure": "8%"
+   },
+   "where": "Tunnl/Business Council deck '(2)Voter Survey on Energy.pdf' (bcnys.org, downloaded directly), PDF page 21 (slide 26), topline bar chart",
+   "status": "read",
+   "note": "Figures are chart data labels; topline bar chart read from text layer and confirmed visually where noted.",
+   "other_figures": {
+    "release_text": {
+     "near-universal support (itemizing)": "88%"
+    }
+   }
+  },
+  {
+   "check_id": "tunnl-20260429-3",
+   "figures": {
+    "Very reasonable": "13%",
+    "Somewhat reasonable": "31%",
+    "Somewhat unreasonable": "29%",
+    "Very unreasonable": "23%",
+    "Neither/Don't know": "4%"
+   },
+   "where": "Tunnl/Business Council deck '(2)Voter Survey on Energy.pdf' (bcnys.org, downloaded directly), PDF page 5 (slide 10), topline bar chart",
+   "status": "read",
+   "note": "Slide headline also says 52% unreasonable. Figures are chart data labels.",
+   "other_figures": {
+    "release_text": {
+     "unreasonable (combined)": "52%"
+    }
+   }
+  },
+  {
+   "check_id": "tunnl-20260429-2",
+   "figures": {
+    "Very concerned": "39%",
+    "Somewhat concerned": "41%",
+    "Unsure": "3%",
+    "Not very concerned": "14%",
+    "Not concerned at all": "4%"
+   },
+   "where": "Tunnl/Business Council deck '(2)Voter Survey on Energy.pdf' (bcnys.org, downloaded directly), PDF page 10 (slide 15), topline bar chart",
+   "status": "read",
+   "note": "Figures are chart data labels; topline bar chart read from text layer and confirmed visually where noted.",
+   "other_figures": {
+    "release_text": {
+     "worried bills could become unaffordable (combined)": "80%"
+    }
+   }
+  },
+  {
+   "check_id": "tunnl-20260429-1",
+   "figures": {
+    "Keep the goals and timelines as written": "14%",
+    "Keep the goals, but adjust some timelines or requirements if needed": "45%",
+    "Repeal the goals entirely": "20%",
+    "Unsure": "21%"
+   },
+   "where": "Tunnl/Business Council deck '(2)Voter Survey on Energy.pdf' (bcnys.org, downloaded directly), PDF page 13 (slide 18), topline bar chart; confirmed visually",
+   "status": "read",
+   "note": "Slide headline: 59% favor keeping goals (14+45), 45% support amending timelines."
+  },
+  {
+   "check_id": "tunnl-20260429-0",
+   "figures": {
+    "Strongly support": "32%",
+    "Somewhat support": "37%",
+    "Unsure": "17%",
+    "Somewhat oppose": "8%",
+    "Strongly oppose": "5%"
+   },
+   "where": "Tunnl/Business Council deck '(2)Voter Survey on Energy.pdf' (bcnys.org, downloaded directly), PDF page 12 (slide 17), topline bar chart",
+   "status": "read",
+   "note": "Slide headline: 'Nearly 7 in 10 support re-examining'. Figures are chart data labels."
+  },
+  {
+   "check_id": "dataforprogress-20260330-9",
+   "figures": {
+    "Inflation and the cost of living": "22",
+    "Programs like Social Security and Medicare": "13",
+    "Jobs and the economy": "11",
+    "Threats to democracy": "11",
+    "Health care": "8",
+    "Immigration": "8",
+    "Taxes and government spending": "7",
+    "National security and foreign policy": "7",
+    "Crime and public safety": "4",
+    "Education": "2",
+    "Abortion": "2",
+    "Race relations and racism": "1",
+    "Climate change and the environment": "1",
+    "Gun policy": "1",
+    "LGBTQ+ issues": "1",
+    "None of these": "2"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [2], page 4",
+   "status": "read",
+   "note": "Poll details stated identically in the PDF header and on the release page.",
+   "poll_details": {
+    "field_start": "March 5, 2026",
+    "field_end": "March 13, 2026",
+    "n": 648,
+    "moe": "±4 percentage points",
+    "population": "likely voters in New York (web panel respondents)"
+   }
+  },
+  {
+   "check_id": "dataforprogress-20260330-8",
+   "figures": {
+    "Very favorable": "22",
+    "Somewhat favorable": "38",
+    "Somewhat unfavorable": "15",
+    "Very unfavorable": "9",
+    "Haven't heard enough to say": "15",
+    "FAVORABLE (TOTAL)": "60",
+    "UNFAVORABLE (TOTAL)": "24"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [1b], page 1",
+   "status": "read",
+   "note": ""
+  },
+  {
+   "check_id": "dataforprogress-20260330-7",
+   "figures": {
+    "Very favorable": "24",
+    "Somewhat favorable": "40",
+    "Somewhat unfavorable": "12",
+    "Very unfavorable": "9",
+    "Haven't heard enough to say": "14",
+    "FAVORABLE (TOTAL)": "64",
+    "UNFAVORABLE (TOTAL)": "21"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [1a], page 1",
+   "status": "read",
+   "note": ""
+  },
+  {
+   "check_id": "dataforprogress-20260330-6",
+   "figures": {
+    "Very favorable": "8",
+    "Somewhat favorable": "28",
+    "Somewhat unfavorable": "36",
+    "Very unfavorable": "21",
+    "Haven't heard enough to say": "7",
+    "FAVORABLE (TOTAL)": "36",
+    "UNFAVORABLE (TOTAL)": "57"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [1f], page 3",
+   "status": "read",
+   "note": ""
+  },
+  {
+   "check_id": "dataforprogress-20260330-5",
+   "figures": {
+    "Very favorable": "8",
+    "Somewhat favorable": "25",
+    "Somewhat unfavorable": "30",
+    "Very unfavorable": "27",
+    "Haven't heard enough to say": "10",
+    "FAVORABLE (TOTAL)": "33",
+    "UNFAVORABLE (TOTAL)": "57"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [1h], page 3",
+   "status": "read",
+   "note": ""
+  },
+  {
+   "check_id": "dataforprogress-20260330-4",
+   "figures": {
+    "Very favorable": "7",
+    "Somewhat favorable": "24",
+    "Somewhat unfavorable": "36",
+    "Very unfavorable": "25",
+    "Haven't heard enough to say": "8",
+    "FAVORABLE (TOTAL)": "31",
+    "UNFAVORABLE (TOTAL)": "61"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [1i], page 4",
+   "status": "read",
+   "note": ""
+  },
+  {
+   "check_id": "dataforprogress-20260330-3",
+   "figures": {
+    "Very favorable": "11",
+    "Somewhat favorable": "36",
+    "Somewhat unfavorable": "25",
+    "Very unfavorable": "17",
+    "Haven't heard enough to say": "12",
+    "FAVORABLE (TOTAL)": "47",
+    "UNFAVORABLE (TOTAL)": "42"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [1d], page 2",
+   "status": "read",
+   "note": ""
+  },
+  {
+   "check_id": "dataforprogress-20260330-23",
+   "figures": {
+    "Reimbursing people whose insurance costs rose as a result of extreme weather disasters made worse by climate change.": "38",
+    "Strengthening New York's insurer of last resort, which provides insurance coverage to homeowners who can't secure coverage from private insurers.": "21",
+    "Investing in programs to help homeowners make their homes better able to withstand extreme weather events.": "30",
+    "Don't know": "11"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [22], page 10",
+   "status": "read",
+   "note": ""
+  },
+  {
+   "check_id": "dataforprogress-20260330-22",
+   "figures": {
+    "Strongly support": "25",
+    "Somewhat support": "33",
+    "Somewhat oppose": "17",
+    "Strongly oppose": "14",
+    "Don't know": "10",
+    "SUPPORT (TOTAL)": "58",
+    "OPPOSE (TOTAL)": "31"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [21], page 10",
+   "status": "read",
+   "note": "",
+   "other_figures": {
+    "release_text": {
+     "SUPPORT (TOTAL)": "58%"
+    }
+   }
+  },
+  {
+   "check_id": "dataforprogress-20260330-21",
+   "figures": {
+    "Strongly support": "38",
+    "Somewhat support": "33",
+    "Somewhat oppose": "9",
+    "Strongly oppose": "12",
+    "Don't know": "8",
+    "SUPPORT (TOTAL)": "71",
+    "OPPOSE (TOTAL)": "21"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [20], page 9",
+   "status": "read",
+   "note": "",
+   "other_figures": {
+    "release_text": {
+     "SUPPORT (TOTAL)": "71%",
+     "net": "+50"
+    }
+   }
+  },
+  {
+   "check_id": "dataforprogress-20260330-20",
+   "figures": {
+    "Strongly support": "37",
+    "Somewhat support": "31",
+    "Somewhat oppose": "13",
+    "Strongly oppose": "13",
+    "Don't know": "7",
+    "SUPPORT (TOTAL)": "68",
+    "OPPOSE (TOTAL)": "26"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [19], page 9",
+   "status": "read",
+   "note": ""
+  },
+  {
+   "check_id": "dataforprogress-20260330-2",
+   "figures": {
+    "Very favorable": "25",
+    "Somewhat favorable": "14",
+    "Somewhat unfavorable": "10",
+    "Very unfavorable": "51",
+    "Haven't heard enough to say": "1",
+    "FAVORABLE (TOTAL)": "39",
+    "UNFAVORABLE (TOTAL)": "61"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [1g], page 3",
+   "status": "read",
+   "note": ""
+  },
+  {
+   "check_id": "dataforprogress-20260330-19",
+   "figures": {
+    "Strongly support": "32",
+    "Somewhat support": "35",
+    "Somewhat oppose": "11",
+    "Strongly oppose": "13",
+    "Don't know": "8",
+    "SUPPORT (TOTAL)": "67",
+    "OPPOSE (TOTAL)": "24"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [18], page 9",
+   "status": "read",
+   "note": "",
+   "other_figures": {
+    "release_text": {
+     "SUPPORT (TOTAL)": "67%",
+     "OPPOSE (TOTAL)": "24%",
+     "net": "+43"
+    }
+   }
+  },
+  {
+   "check_id": "dataforprogress-20260330-18",
+   "figures": {
+    "The oil and gas industry has a strong impact on rising home insurance costs because their products contribute to climate change and extreme weather.": "30",
+    "The oil and gas industry has contributed to climate change and extreme weather, but other factors have a greater impact on rising home insurance costs.": "39",
+    "The oil and gas industry has had no impact on rising home insurance costs.": "20",
+    "Don't know": "11"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [17], page 8",
+   "status": "read",
+   "note": ""
+  },
+  {
+   "check_id": "dataforprogress-20260330-17",
+   "figures": {
+    "Corporate greed": "30",
+    "General inflation facing the entire economy": "30",
+    "An increase in extreme weather events": "13",
+    "People filing frivolous lawsuits against insurance companies": "10",
+    "Higher construction costs": "8",
+    "Something else": "2",
+    "Don't know": "5"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [16], page 8",
+   "status": "read",
+   "note": ""
+  },
+  {
+   "check_id": "dataforprogress-20260330-16",
+   "figures": {
+    "Very responsible": "25",
+    "Somewhat responsible": "44",
+    "Not very responsible": "20",
+    "Not responsible at all": "11"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [15], page 8",
+   "status": "read",
+   "note": "Release's 69% is very+somewhat (25+44); no combined row printed in tables.",
+   "other_figures": {
+    "release_text": {
+     "very or somewhat responsible": "69%"
+    }
+   }
+  },
+  {
+   "check_id": "dataforprogress-20260330-15",
+   "figures": {
+    "Very concerned": "29",
+    "Somewhat concerned": "44",
+    "Not that concerned": "21",
+    "Not concerned at all": "5"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [14], page 7",
+   "status": "read",
+   "note": ""
+  },
+  {
+   "check_id": "dataforprogress-20260330-14",
+   "figures": {
+    "The number of extreme weather events has increased": "64",
+    "The number of extreme weather events has stayed the same": "27",
+    "The number of extreme weather events has decreased": "4",
+    "Don't know": "5"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [13], page 7",
+   "status": "read",
+   "note": "",
+   "other_figures": {
+    "release_text": {
+     "increased": "64%"
+    }
+   }
+  },
+  {
+   "check_id": "dataforprogress-20260330-13",
+   "figures": {
+    "New York should focus more on ensuring homeowner's insurance is affordable": "56",
+    "New York should continue its current approach to ensuring homeowner's insurance is affordable": "28",
+    "New York should focus less on ensuring homeowner's insurance is affordable": "4",
+    "Don't know": "12"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [12], page 7",
+   "status": "read",
+   "note": "",
+   "other_figures": {
+    "release_text": {
+     "focus more": "56%",
+     "continue": "28%",
+     "focus less": "4%"
+    }
+   }
+  },
+  {
+   "check_id": "dataforprogress-20260330-12",
+   "figures": {
+    "Yes, this cost has risen": "41",
+    "No, this cost has not risen": "27",
+    "Does not apply to me/Don't know": "32"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [7], page 5",
+   "status": "read",
+   "note": "",
+   "other_figures": {
+    "release_text": {
+     "Yes, this cost has risen": "41%"
+    }
+   }
+  },
+  {
+   "check_id": "dataforprogress-20260330-11",
+   "figures": {
+    "Yes, this cost has risen": "54",
+    "No, this cost has not risen": "23",
+    "Does not apply to me/Don't know": "23"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [8], page 6",
+   "status": "read",
+   "note": "",
+   "other_figures": {
+    "release_text": {
+     "Yes, this cost has risen": "54%"
+    }
+   }
+  },
+  {
+   "check_id": "dataforprogress-20260330-10",
+   "figures": {
+    "Very favorable": "14",
+    "Somewhat favorable": "33",
+    "Somewhat unfavorable": "9",
+    "Very unfavorable": "2",
+    "Haven't heard enough to say": "42",
+    "FAVORABLE (TOTAL)": "47",
+    "UNFAVORABLE (TOTAL)": "11"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [4], page 5",
+   "status": "read",
+   "note": ""
+  },
+  {
+   "check_id": "dataforprogress-20260330-1",
+   "figures": {
+    "Very favorable": "18",
+    "Somewhat favorable": "30",
+    "Somewhat unfavorable": "16",
+    "Very unfavorable": "28",
+    "Haven't heard enough to say": "8",
+    "FAVORABLE (TOTAL)": "48",
+    "UNFAVORABLE (TOTAL)": "44"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [1e], page 2",
+   "status": "read",
+   "note": ""
+  },
+  {
+   "check_id": "dataforprogress-20260330-0",
+   "figures": {
+    "Very favorable": "21",
+    "Somewhat favorable": "22",
+    "Somewhat unfavorable": "11",
+    "Very unfavorable": "27",
+    "Haven't heard enough to say": "19",
+    "FAVORABLE (TOTAL)": "43",
+    "UNFAVORABLE (TOTAL)": "38"
+   },
+   "where": "Data for Progress toplines/crosstabs PDF dfp_cci_ny_state_insurance.pdf, Topline column, question [1c], page 2",
+   "status": "read",
+   "note": ""
+  }
+ ]
+}

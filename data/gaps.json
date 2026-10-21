@@ -1,5 +1,71 @@
 [
  {
+  "what": "Lake Research Partners statewide poll released by NYSUT (teachers union), June 10-21, 2026, 800 registered likely 2026 voters: 57% oppose Gov. Hochul opting New York into the federal private-school voucher (tax credit scholarship) program, 34% support; 61% say tax money better spent on public schools vs. 8% vouchers; 46% think opting in will raise property taxes.",
+  "where_seen": "https://www.nysut.org/news/2026/july/release-on-polling",
+  "why_excluded": "Sponsor release only; paraphrased question summaries, no wording, toplines, mode or MOE published; no pollster memo found. Could be added as advocacy if the caller accepts sponsor-release-only numbers.",
+  "file": "coverage.json"
+ },
+ {
+  "what": "Global Strategy Group poll for Open New York (housing advocacy), Aug 31-Sep 6, 2026, 600 likely New York voters (MOE +/-4) with 200-person outer-borough oversample: 84% statewide say finding affordable housing is challenging; outer-borough 89%; 81% support multifamily housing near rail stations; 75% back commercial-to-housing conversions without rezoning.",
+  "where_seen": "https://www.amny.com/news/poll-outerborough-voters-nyc-housing-reforms/",
+  "why_excluded": "Numbers only in news coverage (amNY, Oct 16, 2026); Open New York news page and GSG site have no memo; amNY link to the survey points to a Gmail URL. Unclear whether the 600 is statewide or citywide (article compares to statewide figures).",
+  "file": "coverage.json"
+ },
+ {
+  "what": "Mercury Public Affairs statewide poll for Independent Power Producers of New York (IPPNY), Feb 23-26, 2026, 801 likely 2026 general election voters, MOE +/-3.5: 71% say utility bills rose; 68% say costs out of control; 57% name affordability top energy priority; 65% support competitive electricity markets; net utility favorability ConEd -7 to RG&E -32.",
+  "where_seen": "https://www.ippny.org/page/press-releases-64/news/new-statewide-poll-new-yorkers-overwhelmingly-say-electricity-costs-are-out-of-control-reject-utility-monopolies-and-strongly-support-competitive-energy-markets-1156.html",
+  "why_excluded": "Industry-sponsor release only; paraphrased results, no question wording or toplines linked.",
+  "file": "coverage.json"
+ },
+ {
+  "what": "Business Council of New York State cost-of-living poll released Feb 24, 2026 (just over 1,100 voters; 91% say the state should prioritize living costs over fighting climate change; 47% blame regulators/elected officials for energy costs).",
+  "where_seen": "https://www.bcnys.org/node/7932 (search snippet); https://www.romesentinel.com/news/business/survey-finds-support-for-prioritizing-cost-of-living-crisis/article_e007f2b9-384f-4975-a9ed-4a551c1c65e1.html",
+  "why_excluded": "bcnys.org returned 403 to WebFetch and curl; Rome Sentinel returned 429; Wayback lookup rate-limited. Search snippet describes the sample as voters in Albany, Long Island and New York City, so it may be a multi-region rather than statewide sample. Not verified; field dates unknown.",
+  "file": "coverage.json"
+ },
+ {
+  "what": "Public Policy Polling for Environmental Defense Fund, April 6-7, 2026, 1,766 registered voters in five Assembly districts (eastern Long Island, Buffalo, Queens, Hudson Valley) on the climate law and cap-and-invest.",
+  "where_seen": "https://www.edf.org/media/poll-new-york-voters-support-state-leaders-who-stand-firm-state-climate-laws",
+  "why_excluded": "Not statewide or citywide (five Assembly districts).",
+  "file": "coverage.json"
+ },
+ {
+  "what": "Newsday/Siena Long Island figures, June 2026 (Hochul 44%, Blakeman 42% on Long Island; Nassau Blakeman 44-39; Suffolk Hochul 49-40).",
+  "where_seen": "https://gondola.cc/posts/67171201-newsday-youtube.md (repost of a Newsday video caption)",
+  "why_excluded": "Long Island only; seen only in a social-media caption. May be the Long Island region of the June 17-23 SNY statewide poll rather than a separate Newsday/Siena survey; not verified.",
+  "file": "coverage.json"
+ },
+ {
+  "what": "Community Service Society Annual Survey of Housing and Economic Security (4,000 NYS adults; 88% of those with an opinion support the End Loan Sharking Act), memo published January 2026.",
+  "where_seen": "https://smhttp-ssl-58547.nexcesscdn.net/nycss/images/uploads/pubs/012126_Annual_Survey_ELSA_Support_Memo_V2.pdf",
+  "why_excluded": "Fielded September 9-October 2, 2025, before the window (per the memo methodology).",
+  "file": "coverage.json"
+ },
+ {
+  "what": "Morning Consult for the Partnership for New York City, NYC registered voters, Oct 16-18, 2025 (page metadata shows Oct 16, 2026).",
+  "where_seen": "https://pfnyc.org/news/new-poll-finds-transit-safety-affordability-are-top-nyc-voter-issues-in-general-election",
+  "why_excluded": "Fielded October 2025; the 2026 metadata date is a page artifact.",
+  "file": "coverage.json"
+ },
+ {
+  "what": "Aggregator row: \"Siena College, Jun 23-26, 800 RV, Hochul 44 Blakeman 19\" dated 26 Jun 2026.",
+  "where_seen": "https://uspollingdata.com/races/governor/new-york/",
+  "why_excluded": "Source link has a 2025 URL path; this is the July 1, 2025 Siena poll mis-dated by the aggregator, not a 2026 poll.",
+  "file": "coverage.json"
+ },
+ {
+  "what": "District and sub-city polls seen during the sweep: GSG NY-17 Democratic primary memo for VoteVets (May 2026), J.L. Partners NY-21 (Aug 15-17, 2026), Tavern Research NY-12 (May 2026), Times Union/WPTZ/WAMC/Siena NY-21 (Oct 2026), AARP New York/Siena NY-12 (May 27-Jun 1, 2026), PPP NY-12 (Feb 26-27, 2026).",
+  "where_seen": "https://votevets.org/wp-content/uploads/2026/05/NY-17-Interested-Parties-Memo-F05.26.26.pdf; https://jlpartners.com/new-york-21st-district-likely-voter-polling; https://www.270towin.com/2026-house-polls/new-york/district-12; https://sri.siena.edu/2026/06/11/special-aarp-new-york-siena-ny-12-poll/",
+  "why_excluded": "Single congressional districts.",
+  "file": "coverage.json"
+ },
+ {
+  "what": "MTA Customers Count spring 2026 rider survey (April 13-May 2, 2026, ~94,000 riders) and NYC Universal Child Care parent survey (launched March 2026).",
+  "where_seen": "https://www.mta.info/press-release/photos-and-video-mta-launches-spring-2026-customers-count-survey; https://www.nyc.gov/mayors-office/news/2026/03/mayor-mamdani-launches-universal-child-care-parent-survey",
+  "why_excluded": "Customer/parent feedback surveys, not samples of all NYC or NYS adults or voters.",
+  "file": "coverage.json"
+ },
+ {
   "what": "Emerson College Polling NYC congressional primary polls (NY-07, NY-10, NY-12), fielded May 16-17, 2026, released May 21, 2026",
   "where_seen": "https://emersoncollegepolling.com/new-york-city-2026-congressional-polling-ny-07-ny-10-ny-12/",
   "why_excluded": "Single congressional districts (out of scope per task).",
@@ -232,6 +298,12 @@
   "where_seen": "web search 'Siena poll New York City voters Mamdani 2026'",
   "why_excluded": "None found in the June-October 2026 archive; Siena's NYC data here come only from the NYC column of statewide crosstabs.",
   "file": "siena-b.json"
+ },
+ {
+  "what": "Cornell University ILR School Center for Applied Research on Work (Empire State Poll; data collected by SSRS), fielded 2026-06-24 to 2026-07-08",
+  "where_seen": "https://www.ilr.cornell.edu/carow/cornells-empire-state-poll-finds-new-yorkers-concerned-about-cost-living-and-new-york-state-economy/i",
+  "why_excluded": "Only a news release has been published: no question wording, no toplines and no margin of error, and the most-important-issue list gives only the top four answers. Add it if Cornell publishes full results.",
+  "file": "coverage.json"
  },
  {
   "what": "Pollfinity Research, fielded 2026-06-11 to 2026-06-14",

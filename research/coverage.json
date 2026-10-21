@@ -1,0 +1,1970 @@
+{
+ "agent": "coverage",
+ "compiled": "2026-10-21",
+ "polls": [
+  {
+   "poll_id": "cornell-20260911",
+   "pollster": "Cornell University ILR School Center for Applied Research on Work (Empire State Poll; data collected by SSRS)",
+   "sponsor": null,
+   "sponsor_type": "independent",
+   "geography": "New York State",
+   "population": "adults",
+   "n": 2629,
+   "moe": null,
+   "field_start": "2026-06-24",
+   "field_end": "2026-07-08",
+   "release_date": "2026-09-11",
+   "mode": "online (SSRS probability-based Opinion Panel n=1,005 blended with Dynata opt-in panel n=1,624), English and Spanish",
+   "url": "https://www.ilr.cornell.edu/carow/cornells-empire-state-poll-finds-new-yorkers-concerned-about-cost-living-and-new-york-state-economy/i",
+   "tables_url": null,
+   "confidence": "HIGH",
+   "notes": "Annual Cornell Empire State Poll, 2026 edition. Only this one news release has been published so far; no 2026 report, toplines or question wording found (CAROW Empire State Poll page lists 2024 and 2025 reports only). Margin of error not reported; blended probability/nonprobability sample. Release reports only the top four answers on the most-important-issue item, so that result list is partial. Figures are published to one decimal place. Release also gives 2024 comparisons (not recorded). The 40.3% \"got worse and will keep getting worse\" figure is a combination published by Cornell.",
+   "questions": [
+    {
+     "subject": "Most important issue facing New York State",
+     "subject_type": "issue",
+     "measure": "issue priority",
+     "category": "Economy and cost of living",
+     "wording": null,
+     "results": [
+      {
+       "label": "Cost of living",
+       "pct": 42.9
+      },
+      {
+       "label": "Taxes",
+       "pct": 8.6
+      },
+      {
+       "label": "Economic inequality",
+       "pct": 7.3
+      },
+      {
+       "label": "Housing",
+       "pct": 6.6
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Partial list: release reports only the top four issues",
+     "quote": "42.9% of respondents consider cost of living to be the most important issue facing New York State as a whole. ... The other top issues in 2026 are also related to cost of living, including taxes (8.6%), economic inequality (7.3%), and housing (6.6%).",
+     "source_kind": "release"
+    },
+    {
+     "subject": "New York State economy over the past year",
+     "subject_type": "direction",
+     "measure": "direction",
+     "category": "Economy and cost of living",
+     "wording": null,
+     "results": [
+      {
+       "label": "Gotten worse",
+       "pct": 66.2
+      },
+      {
+       "label": "Stayed about the same",
+       "pct": 27.7
+      },
+      {
+       "label": "Gotten better",
+       "pct": 6.1
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Two-thirds (66.2%) of respondents say that the New York State economy has gotten worse, while 27.7% say it’s stayed about the same, and only 6.1% say it has gotten better.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "New York State economy over the next year",
+     "subject_type": "direction",
+     "measure": "direction",
+     "category": "Economy and cost of living",
+     "wording": null,
+     "results": [
+      {
+       "label": "Get worse",
+       "pct": 46.3
+      },
+      {
+       "label": "Stay the same",
+       "pct": 36.8
+      },
+      {
+       "label": "Get better",
+       "pct": 16.9
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "46.3% of respondents saying that they think that the state economy will get worse over the next year, while 36.8% think it will stay the same and 16.9% think it will get better.",
+     "source_kind": "release"
+    }
+   ],
+   "exclude": "Only a news release has been published: no question wording, no toplines and no margin of error, and the most-important-issue list gives only the top four answers. Add it if Cornell publishes full results."
+  },
+  {
+   "poll_id": "dataforprogress-20260330",
+   "pollster": "Data for Progress",
+   "sponsor": "Center for Climate Integrity",
+   "sponsor_type": "advocacy",
+   "geography": "New York State",
+   "population": "LV",
+   "n": 648,
+   "moe": 4,
+   "field_start": "2026-03-05",
+   "field_end": "2026-03-13",
+   "release_date": "2026-03-30",
+   "mode": "web panel",
+   "url": "https://www.dataforprogress.org/blog/2026/3/30/new-york-voters-want-big-oil-to-pay-for-the-home-insurance-crisis",
+   "tables_url": "http://www.filesforprogress.org/datasets/2026/3/dfp_cci_ny_state_insurance.pdf",
+   "confidence": "HIGH",
+   "notes": "Joint DFP/Center for Climate Integrity survey on home insurance and climate liability. Crosstab quotes are whitespace-normalized PyMuPDF extracts: each row label followed by its Topline value; subgroup columns (party, gender, age, education, race, tenure) omitted. Published NET rows dropped; TOTAL rows kept as published. No NYC column in the crosstabs, so nyc_results is null. Personal-experience items Q3, Q5, Q6, Q9, Q10, Q11 (insurance holdings and ability to pay) were not recorded as questions. Q2 'Gun policy' and 'LGBTQ+ issues' each 1. Release date is the blog post date.",
+   "questions": [
+    {
+     "subject": "Zohran Mamdani",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Mayor",
+     "wording": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Zohran Mamdani",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 21
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 22
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 11
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 27
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 19
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 43
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 38
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "[1c] topline column (row label followed by Topline value; subgroup columns omitted): Very favorable 21 | Somewhat favorable 22 | Somewhat unfavorable 11 | Very unfavorable 27 | Haven't heard enough to say 19 | FAVORABLE (TOTAL) 43 | UNFAVORABLE (TOTAL) 38",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Kathy Hochul",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Governor",
+     "wording": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Kathy Hochul",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 18
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 30
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 16
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 28
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 8
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 48
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 44
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "[1e] topline column (row label followed by Topline value; subgroup columns omitted): Very favorable 18 | Somewhat favorable 30 | Somewhat unfavorable 16 | Very unfavorable 28 | Haven't heard enough to say 8 | FAVORABLE (TOTAL) 48 | UNFAVORABLE (TOTAL) 44",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Donald Trump",
+     "subject_type": "person",
+     "measure": "favorability",
+     "category": "Trump and Washington",
+     "wording": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Donald Trump",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 25
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 14
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 10
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 51
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 1
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 39
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 61
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "[1g] topline column (row label followed by Topline value; subgroup columns omitted): Very favorable 25 | Somewhat favorable 14 | Somewhat unfavorable 10 | Very unfavorable 51 | Haven't heard enough to say 1 | FAVORABLE (TOTAL) 39 | UNFAVORABLE (TOTAL) 61",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "New York State Legislature",
+     "subject_type": "institution",
+     "measure": "favorability",
+     "category": "Other officials",
+     "wording": "Do you have a favorable or unfavorable opinion of the following people or institutions? — New York State Legislature",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 11
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 36
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 25
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 17
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 12
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 47
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 42
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "[1d] topline column (row label followed by Topline value; subgroup columns omitted): Very favorable 11 | Somewhat favorable 36 | Somewhat unfavorable 25 | Very unfavorable 17 | Haven't heard enough to say 12 | FAVORABLE (TOTAL) 47 | UNFAVORABLE (TOTAL) 42",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "U.S. Congress",
+     "subject_type": "institution",
+     "measure": "favorability",
+     "category": "Trump and Washington",
+     "wording": "Do you have a favorable or unfavorable opinion of the following people or institutions? — U.S. Congress",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 7
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 24
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 36
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 25
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 8
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 31
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 61
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "[1i] topline column (row label followed by Topline value; subgroup columns omitted): Very favorable 7 | Somewhat favorable 24 | Somewhat unfavorable 36 | Very unfavorable 25 | Haven't heard enough to say 8 | FAVORABLE (TOTAL) 31 | UNFAVORABLE (TOTAL) 61",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Large oil and gas companies",
+     "subject_type": "institution",
+     "measure": "favorability",
+     "category": "Other issues",
+     "wording": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Large oil and gas companies",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 8
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 25
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 30
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 27
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 10
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 33
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 57
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "[1h] topline column (row label followed by Topline value; subgroup columns omitted): Very favorable 8 | Somewhat favorable 25 | Somewhat unfavorable 30 | Very unfavorable 27 | Haven't heard enough to say 10 | FAVORABLE (TOTAL) 33 | UNFAVORABLE (TOTAL) 57",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Insurance companies",
+     "subject_type": "institution",
+     "measure": "favorability",
+     "category": "Other issues",
+     "wording": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Insurance companies",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 8
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 28
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 36
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 21
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 7
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 36
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 57
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "[1f] topline column (row label followed by Topline value; subgroup columns omitted): Very favorable 8 | Somewhat favorable 28 | Somewhat unfavorable 36 | Very unfavorable 21 | Haven't heard enough to say 7 | FAVORABLE (TOTAL) 36 | UNFAVORABLE (TOTAL) 57",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Clean energy industry",
+     "subject_type": "institution",
+     "measure": "favorability",
+     "category": "Other issues",
+     "wording": "Do you have a favorable or unfavorable opinion of the following people or institutions? — The clean energy industry",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 24
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 40
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 12
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 9
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 14
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 64
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 21
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "[1a] topline column (row label followed by Topline value; subgroup columns omitted): Very favorable 24 | Somewhat favorable 40 | Somewhat unfavorable 12 | Very unfavorable 9 | Haven't heard enough to say 14 | FAVORABLE (TOTAL) 64 | UNFAVORABLE (TOTAL) 21",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Environmental advocates",
+     "subject_type": "institution",
+     "measure": "favorability",
+     "category": "Other issues",
+     "wording": "Do you have a favorable or unfavorable opinion of the following people or institutions? — Environmental advocates",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 22
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 38
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 15
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 9
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 15
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 60
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 24
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "[1b] topline column (row label followed by Topline value; subgroup columns omitted): Very favorable 22 | Somewhat favorable 38 | Somewhat unfavorable 15 | Very unfavorable 9 | Haven't heard enough to say 15 | FAVORABLE (TOTAL) 60 | UNFAVORABLE (TOTAL) 24",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Most important issue in deciding vote",
+     "subject_type": "issue",
+     "measure": "issue priority",
+     "category": "Other issues",
+     "wording": "In the voting booth, which of the following issues do you consider most when deciding which candidate to vote for?",
+     "results": [
+      {
+       "label": "Inflation and the cost of living",
+       "pct": 22
+      },
+      {
+       "label": "Programs like Social Security and Medicare",
+       "pct": 13
+      },
+      {
+       "label": "Jobs and the economy",
+       "pct": 11
+      },
+      {
+       "label": "Threats to democracy",
+       "pct": 11
+      },
+      {
+       "label": "Health care",
+       "pct": 8
+      },
+      {
+       "label": "Immigration",
+       "pct": 8
+      },
+      {
+       "label": "Taxes and government spending",
+       "pct": 7
+      },
+      {
+       "label": "National security and foreign policy",
+       "pct": 7
+      },
+      {
+       "label": "Crime and public safety",
+       "pct": 4
+      },
+      {
+       "label": "Education",
+       "pct": 2
+      },
+      {
+       "label": "Abortion",
+       "pct": 2
+      },
+      {
+       "label": "Race relations and racism",
+       "pct": 1
+      },
+      {
+       "label": "Climate change and the environment",
+       "pct": 1
+      },
+      {
+       "label": "Gun policy",
+       "pct": 1
+      },
+      {
+       "label": "LGBTQ+ issues",
+       "pct": 1
+      },
+      {
+       "label": "None of these",
+       "pct": 2
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "[2] topline column (row label followed by Topline value; subgroup columns omitted): Inflation and the cost of living 22 | Programs like Social Security and Medicare 13 | Jobs and the economy 11 | Threats to democracy 11 | Health care 8 | Immigration 8 | Taxes and government spending 7 | National security and foreign policy 7 | Crime and public safety 4 | Education 2 | Abortion 2 | Race relations and racism 1 | Climate change and the environment 1 | Gun policy 1 | LGBTQ+ issues 1 | None of these 2",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "New York Property Insurance Underwriting Association",
+     "subject_type": "institution",
+     "measure": "favorability",
+     "category": "Other issues",
+     "wording": "The New York Property Insurance Underwriting Association is an insurer of last resort, meaning that it provides access to insurance policies for New York residents and businesses who have been dropped by their insurance company and cannot secure coverage through a different company. Do you have a favorable or unfavorable view of the New York Property Insurance Underwriting Association?",
+     "results": [
+      {
+       "label": "Very favorable",
+       "pct": 14
+      },
+      {
+       "label": "Somewhat favorable",
+       "pct": 33
+      },
+      {
+       "label": "Somewhat unfavorable",
+       "pct": 9
+      },
+      {
+       "label": "Very unfavorable",
+       "pct": 2
+      },
+      {
+       "label": "Haven't heard enough to say",
+       "pct": 42
+      },
+      {
+       "label": "FAVORABLE (TOTAL)",
+       "pct": 47
+      },
+      {
+       "label": "UNFAVORABLE (TOTAL)",
+       "pct": 11
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Asked after a description of the association as an insurer of last resort",
+     "quote": "[4] topline column (row label followed by Topline value; subgroup columns omitted): Very favorable 14 | Somewhat favorable 33 | Somewhat unfavorable 9 | Very unfavorable 2 | Haven't heard enough to say 42 | FAVORABLE (TOTAL) 47 | UNFAVORABLE (TOTAL) 11",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Home or renters insurance bill rising",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Economy and cost of living",
+     "wording": "Have you experienced any of the following costs rising over the past year? — Your home or renters insurance bill",
+     "results": [
+      {
+       "label": "Yes, this cost has risen",
+       "pct": 54
+      },
+      {
+       "label": "No, this cost has not risen",
+       "pct": 23
+      },
+      {
+       "label": "Does not apply to me/Don't know",
+       "pct": 23
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "[8] topline column (row label followed by Topline value; subgroup columns omitted): Yes, this cost has risen 54 | No, this cost has not risen 23 | Does not apply to me/Don't know 23",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Mortgage or rent payment rising",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Economy and cost of living",
+     "wording": "Have you experienced any of the following costs rising over the past year? — Your mortgage or rent payment",
+     "results": [
+      {
+       "label": "Yes, this cost has risen",
+       "pct": 41
+      },
+      {
+       "label": "No, this cost has not risen",
+       "pct": 27
+      },
+      {
+       "label": "Does not apply to me/Don't know",
+       "pct": 32
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "[7] topline column (row label followed by Topline value; subgroup columns omitted): Yes, this cost has risen 41 | No, this cost has not risen 27 | Does not apply to me/Don't know 32",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "State handling of homeowners insurance costs",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Economy and cost of living",
+     "wording": "Which of these comes closest to your view about how the State of New York is handling the issue of homeowner's insurance costs?",
+     "results": [
+      {
+       "label": "New York should focus more on ensuring homeowner's insurance is affordable",
+       "pct": 56
+      },
+      {
+       "label": "New York should continue its current approach to ensuring homeowner's insurance is affordable",
+       "pct": 28
+      },
+      {
+       "label": "New York should focus less on ensuring homeowner's insurance is affordable",
+       "pct": 4
+      },
+      {
+       "label": "Don't know",
+       "pct": 12
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "A majority of New York voters (56%) also say state lawmakers should focus more on ensuring homeowner's insurance is affordable, compared with just 28% who say the state should continue its current approach and 4% who say it should focus less.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Extreme weather events increasing",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Other issues",
+     "wording": "Would you say the number of extreme weather events, like flash floods, hurricanes, heat waves, or droughts, has increased, decreased, or stayed the same over the past five years?",
+     "results": [
+      {
+       "label": "The number of extreme weather events has increased",
+       "pct": 64
+      },
+      {
+       "label": "The number of extreme weather events has stayed the same",
+       "pct": 27
+      },
+      {
+       "label": "The number of extreme weather events has decreased",
+       "pct": 4
+      },
+      {
+       "label": "Don't know",
+       "pct": 5
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Nearly two-thirds of New York voters (64%) say the number of extreme weather events — like flash floods, hurricanes, heat waves, and droughts — has increased over the past five years.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Concern about extreme weather",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Other issues",
+     "wording": "How concerned or not concerned are you about the increasing frequency and intensity of extreme weather events?",
+     "results": [
+      {
+       "label": "Very concerned",
+       "pct": 29
+      },
+      {
+       "label": "Somewhat concerned",
+       "pct": 44
+      },
+      {
+       "label": "Not that concerned",
+       "pct": 21
+      },
+      {
+       "label": "Not concerned at all",
+       "pct": 5
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "[14] topline column (row label followed by Topline value; subgroup columns omitted): Very concerned 29 | Somewhat concerned 44 | Not that concerned 21 | Not concerned at all 5",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Fossil fuel industry responsibility for climate change",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Other issues",
+     "wording": "How responsible, if at all, do you think the fossil fuel industry, including large oil and gas companies, are for climate change and worsening extreme weather disasters?",
+     "results": [
+      {
+       "label": "Very responsible",
+       "pct": 25
+      },
+      {
+       "label": "Somewhat responsible",
+       "pct": 44
+      },
+      {
+       "label": "Not very responsible",
+       "pct": 20
+      },
+      {
+       "label": "Not responsible at all",
+       "pct": 11
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Nearly 7 in 10 New York voters (69%) say large oil and gas companies are very or somewhat responsible for climate change and worsening extreme weather disasters.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Cause of home insurance rate spikes",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Economy and cost of living",
+     "wording": "Which of the following do you think is most responsible for recent spikes in home insurance rates?",
+     "results": [
+      {
+       "label": "Corporate greed",
+       "pct": 30
+      },
+      {
+       "label": "General inflation facing the entire economy",
+       "pct": 30
+      },
+      {
+       "label": "An increase in extreme weather events",
+       "pct": 13
+      },
+      {
+       "label": "People filing frivolous lawsuits against insurance companies",
+       "pct": 10
+      },
+      {
+       "label": "Higher construction costs",
+       "pct": 8
+      },
+      {
+       "label": "Something else",
+       "pct": 2
+      },
+      {
+       "label": "Don't know",
+       "pct": 5
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "[16] topline column (row label followed by Topline value; subgroup columns omitted): Corporate greed 30 | General inflation facing the entire economy 30 | An increase in extreme weather events 13 | People filing frivolous lawsuits against insurance companies 10 | Higher construction costs 8 | Something else 2 | Don't know 5",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Oil and gas industry and home insurance costs",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Other issues",
+     "wording": "Which of these comes closest to your view about the relationship between rising home insurance costs and the oil and gas industry, even if none is exactly right?",
+     "results": [
+      {
+       "label": "The oil and gas industry has a strong impact on rising home insurance costs because their products contribute to climate change and extreme weather.",
+       "pct": 30
+      },
+      {
+       "label": "The oil and gas industry has contributed to climate change and extreme weather, but other factors have a greater impact on rising home insurance costs.",
+       "pct": 39
+      },
+      {
+       "label": "The oil and gas industry has had no impact on rising home insurance costs.",
+       "pct": 20
+      },
+      {
+       "label": "Don't know",
+       "pct": 11
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "[17] topline column (row label followed by Topline value; subgroup columns omitted): The oil and gas industry has a strong impact on rising home insurance costs because their products contribute to climate change and extreme weather. 30 | The oil and gas industry has contributed to climate change and extreme weather, but other factors have a greater impact on rising home insurance costs. 39 | The oil and gas industry has had no impact on rising home insurance costs. 20 | Don't know 11",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Letting the attorney general sue oil and gas companies to recover home insurance costs",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Other issues",
+     "wording": "Home insurance rates are increasing, in part due to increasing extreme weather events. To address these rate increases, New York lawmakers are considering a bill that would allow the state Attorney General to sue the oil and gas industry to recover those costs, instead of insurers passing those costs onto New Yorkers. Do you support or oppose this proposal becoming law in your state?",
+     "results": [
+      {
+       "label": "Strongly support",
+       "pct": 32
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 35
+      },
+      {
+       "label": "Somewhat oppose",
+       "pct": 11
+      },
+      {
+       "label": "Strongly oppose",
+       "pct": 13
+      },
+      {
+       "label": "Don't know",
+       "pct": 8
+      },
+      {
+       "label": "SUPPORT (TOTAL)",
+       "pct": 67
+      },
+      {
+       "label": "OPPOSE (TOTAL)",
+       "pct": 24
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "two-thirds of New York voters (67%) support legislation that would allow the state attorney general to sue the oil and gas industry to recover home insurance cost increases — rather than letting insurers pass those costs onto New Yorkers. Just 24% oppose the proposal",
+     "source_kind": "release",
+     "item": "First asked"
+    },
+    {
+     "subject": "State suing oil and gas companies for extreme weather damages",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Other issues",
+     "wording": "Studies by academics and reporting from media outlets have proven that large oil and gas companies knew as far back as the 1970s that their products would make extreme weather disasters worse. Instead of changing course, they spent decades lying to the public about fossil fuels' contribution to the problem. Knowing this, would you support or oppose your state suing oil and gas companies to hold them accountable for damages stemming from extreme weather disasters?",
+     "results": [
+      {
+       "label": "Strongly support",
+       "pct": 37
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 31
+      },
+      {
+       "label": "Somewhat oppose",
+       "pct": 13
+      },
+      {
+       "label": "Strongly oppose",
+       "pct": 13
+      },
+      {
+       "label": "Don't know",
+       "pct": 7
+      },
+      {
+       "label": "SUPPORT (TOTAL)",
+       "pct": 68
+      },
+      {
+       "label": "OPPOSE (TOTAL)",
+       "pct": 26
+      }
+     ],
+     "nyc_results": null,
+     "population_note": "Asked after a statement that oil and gas companies knew of and misled the public about climate harms",
+     "quote": "[19] topline column (row label followed by Topline value; subgroup columns omitted): Strongly support 37 | Somewhat support 31 | Somewhat oppose 13 | Strongly oppose 13 | Don't know 7 | SUPPORT (TOTAL) 68 | OPPOSE (TOTAL) 26",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Letting the attorney general sue oil and gas companies to recover home insurance costs",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Other issues",
+     "wording": "Home insurance rates are increasing, in part due to increasing extreme weather events. To address these rate increases, New York lawmakers are considering a bill that would allow the state Attorney General to sue the oil and gas industry to recover those costs, instead of insurers passing those costs onto New Yorkers. Supporters of the bill say there is evidence that large oil and gas companies have known for decades that their products contribute to extreme weather events and climate change and that they misled the public about it. They argue that, for this reason, those companies should pay for rate increases. Having read more, do you support or oppose this proposal becoming law in your state?",
+     "results": [
+      {
+       "label": "Strongly support",
+       "pct": 38
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 33
+      },
+      {
+       "label": "Somewhat oppose",
+       "pct": 9
+      },
+      {
+       "label": "Strongly oppose",
+       "pct": 12
+      },
+      {
+       "label": "Don't know",
+       "pct": 8
+      },
+      {
+       "label": "SUPPORT (TOTAL)",
+       "pct": 71
+      },
+      {
+       "label": "OPPOSE (TOTAL)",
+       "pct": 21
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "When respondents first are presented with an argument in favor — that oil and gas companies have known for decades their products worsen extreme weather, and misled the public about it — support rises to 71% (+50-point net margin).",
+     "source_kind": "release",
+     "item": "After reading supporters' argument"
+    },
+    {
+     "subject": "Letting the attorney general sue oil and gas companies to recover home insurance costs",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Other issues",
+     "wording": "Home insurance rates are increasing, in part due to increasing extreme weather events. To address these rate increases, New York lawmakers are considering a bill that would allow the state Attorney General to sue the oil and gas industry to recover those costs, instead of insurers passing those costs onto New Yorkers. Opponents of the bill say that oil and gas companies would simply pass any costs onto consumers through higher energy prices. They also say that climate change is a global problem, and it's unfair to single out only energy companies for weather events that everyone contributes to. They argue that, for this reason, those companies should not be made to pay for rate increases. Having read more, do you support or oppose this proposal becoming law in your state?",
+     "results": [
+      {
+       "label": "Strongly support",
+       "pct": 25
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 33
+      },
+      {
+       "label": "Somewhat oppose",
+       "pct": 17
+      },
+      {
+       "label": "Strongly oppose",
+       "pct": 14
+      },
+      {
+       "label": "Don't know",
+       "pct": 10
+      },
+      {
+       "label": "SUPPORT (TOTAL)",
+       "pct": 58
+      },
+      {
+       "label": "OPPOSE (TOTAL)",
+       "pct": 31
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "When respondents are then presented with an argument in opposition — that companies will simply pass costs through to consumers via higher energy prices — a majority of voters (58%) still support the bill.",
+     "source_kind": "release",
+     "item": "After reading opponents' argument"
+    },
+    {
+     "subject": "Use of revenue recovered from oil and gas lawsuits",
+     "subject_type": "issue",
+     "measure": "issue priority",
+     "category": "Other issues",
+     "wording": "Now, you'll read some potential ways that revenue recovered from successful legal action against large oil and gas companies could be used. Which of these potential uses of the revenue would you most prefer?",
+     "results": [
+      {
+       "label": "Reimbursing people whose insurance costs rose as a result of extreme weather disasters made worse by climate change.",
+       "pct": 38
+      },
+      {
+       "label": "Strengthening New York's insurer of last resort, which provides insurance coverage to homeowners who can't secure coverage from private insurers.",
+       "pct": 21
+      },
+      {
+       "label": "Investing in programs to help homeowners make their homes better able to withstand extreme weather events.",
+       "pct": 30
+      },
+      {
+       "label": "Don't know",
+       "pct": 11
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "[22] topline column (row label followed by Topline value; subgroup columns omitted): Reimbursing people whose insurance costs rose as a result of extreme weather disasters made worse by climate change. 38 | Strengthening New York's insurer of last resort, which provides insurance coverage to homeowners who can't secure coverage from private insurers. 21 | Investing in programs to help homeowners make their homes better able to withstand extreme weather events. 30 | Don't know 11",
+     "source_kind": "crosstab"
+    }
+   ]
+  },
+  {
+   "poll_id": "tunnl-20260429",
+   "pollster": "Tunnl",
+   "sponsor": "The Business Council of New York State",
+   "sponsor_type": "advocacy",
+   "geography": "New York State",
+   "population": "RV",
+   "n": 2058,
+   "moe": 2.2,
+   "field_start": "2026-03-11",
+   "field_end": "2026-03-15",
+   "release_date": "2026-04-29",
+   "mode": "online",
+   "url": "https://www.bcnys.org/news/poll-new-yorkers-demand-bill-transparency-and-relief-energy-costs-steadily-skyrocket",
+   "tables_url": "https://www.bcnys.org/sites/default/files/2026-04/%282%29Voter%20Survey%20on%20Energy.pdf",
+   "confidence": "HIGH",
+   "notes": "Business Council 'affordability campaign' survey on energy bills. bcnys.org blocks automated fetches (403 via WebFetch and curl); the release text (field dates, n, MOE, mode, Tunnl as pollster) was read from the Wayback Machine copy (web.archive.org/web/2026/https://www.bcnys.org/news/poll-new-yorkers-demand-bill-transparency-and-relief-energy-costs-steadily-skyrocket). The chart deck PDF downloaded directly from bcnys.org; it starts at slide 6, so its methodology slides are not in the file. Results read from chart labels on rendered slides (deck slides 10, 15, 17, 18, 26, 27); quotes are the slide headline/question text plus the chart values as labeled. Deck breaks results by Urban/Suburban/Rural, not NYC, so nyc_results is null. Bill-literacy items (familiarity with charges, who approves rates, transparency) not recorded. The release's '53% understood rising costs are largely driven by factors outside a utility's control' refers to slide 21 after an informational prompt; not recorded. On slide 27 two small segment labels overlap ('6%3%', '8%2%'); values were read as 6/3 and 8/2 (those rows sum to 100; the public-cost-estimate row sums to 99 as published).",
+   "questions": [
+    {
+     "subject": "Reexamining the CLCPA climate law goals and timelines",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Other issues",
+     "wording": "Do you support or oppose New York re-examining the CLCPA's goals and timelines to determine whether any timelines or requirements should be adjusted?",
+     "results": [
+      {
+       "label": "Strongly support",
+       "pct": 32
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 37
+      },
+      {
+       "label": "Unsure",
+       "pct": 17
+      },
+      {
+       "label": "Somewhat oppose",
+       "pct": 8
+      },
+      {
+       "label": "Strongly oppose",
+       "pct": 5
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Slide 17: 'Nearly 7 in 10 support re-examining the CLCPA’s timelines' — chart: Strongly support 32%, Somewhat support 37%, Unsure 17%, Somewhat oppose 8%, Strongly oppose 5%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Preferred approach to the CLCPA climate law",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Other issues",
+     "wording": "If New York re-examines the CLCPA, which approach would you prefer?",
+     "results": [
+      {
+       "label": "Keep the goals and timelines as written",
+       "pct": 14
+      },
+      {
+       "label": "Keep the goals, but adjust some timelines or requirements if needed",
+       "pct": 45
+      },
+      {
+       "label": "Repeal the goals entirely",
+       "pct": 20
+      },
+      {
+       "label": "Unsure",
+       "pct": 21
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Slide 18: 'While most (59%) favor keeping the CLCPA’s goals intact, 45% of voters support amending the timelines' — chart: Keep the goals and timelines as written 14%, Keep the goals, but adjust some timelines or requirements if needed 45%, Repeal the goals entirely 20%, Unsure 21%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Concern about energy bills becoming unaffordable",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Economy and cost of living",
+     "wording": "How concerned are you about the possibility of your energy bills becoming unaffordable in the next 12 months?",
+     "results": [
+      {
+       "label": "Very concerned",
+       "pct": 39
+      },
+      {
+       "label": "Somewhat concerned",
+       "pct": 41
+      },
+      {
+       "label": "Unsure",
+       "pct": 3
+      },
+      {
+       "label": "Not very concerned",
+       "pct": 14
+      },
+      {
+       "label": "Not concerned at all",
+       "pct": 4
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "80% of respondents said they are worried their utility bills could become unaffordable within the next year.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Electricity bills reasonable or unreasonable",
+     "subject_type": "issue",
+     "measure": "other",
+     "category": "Economy and cost of living",
+     "wording": "Generally speaking, do you think your electricity bills are reasonable or unreasonable?",
+     "results": [
+      {
+       "label": "Very reasonable",
+       "pct": 13
+      },
+      {
+       "label": "Somewhat reasonable",
+       "pct": 31
+      },
+      {
+       "label": "Somewhat unreasonable",
+       "pct": 29
+      },
+      {
+       "label": "Very unreasonable",
+       "pct": 23
+      },
+      {
+       "label": "Neither/Don't know",
+       "pct": 4
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "More than half (52%) feel their electricity bills are unreasonable",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Itemizing utility bills",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Economy and cost of living",
+     "wording": "In some states energy bills are broken out and itemized to show the cost of supply (the cost of electricity/gas itself), delivery (the cost to bring it to your home), as well as the fees and taxes imposed by government. Do you think providing this information on your bill is a good idea or bad idea?",
+     "results": [
+      {
+       "label": "Very good",
+       "pct": 53
+      },
+      {
+       "label": "Somewhat good",
+       "pct": 35
+      },
+      {
+       "label": "Somewhat bad",
+       "pct": 3
+      },
+      {
+       "label": "Very bad",
+       "pct": 1
+      },
+      {
+       "label": "Neither/Unsure",
+       "pct": 8
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "The poll shows near‑universal support (88%) for itemizing utility bills to clearly separate supply costs, delivery costs, and government taxes and fees.",
+     "source_kind": "release"
+    },
+    {
+     "subject": "Returning unspent state energy program money to ratepayers",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Economy and cost of living",
+     "wording": "The following policy measures relate to charges included on utility bills. Do you support or oppose each of the policy measures listed below in New York? — Returning unspent money collected from ratepayers for state energy programs back to ratepayers as a bill credit or rebate.",
+     "results": [
+      {
+       "label": "Strongly support",
+       "pct": 56
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 28
+      },
+      {
+       "label": "Unsure",
+       "pct": 7
+      },
+      {
+       "label": "Somewhat oppose",
+       "pct": 6
+      },
+      {
+       "label": "Strongly oppose",
+       "pct": 3
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Slide 27: Returning unspent money collected from ratepayers for state energy programs back to ratepayers as a bill credit or rebate. — 56% / 28% / 7% / 6% / 3% (Strongly support / Somewhat support / Unsure / Somewhat oppose / Strongly oppose)",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Public cost estimates before new state-mandated utility charges",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Economy and cost of living",
+     "wording": "The following policy measures relate to charges included on utility bills. Do you support or oppose each of the policy measures listed below in New York? — Requiring public estimates of the typical monthly household cost before adding new state-mandated charges to utility bills.",
+     "results": [
+      {
+       "label": "Strongly support",
+       "pct": 41
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 37
+      },
+      {
+       "label": "Unsure",
+       "pct": 11
+      },
+      {
+       "label": "Somewhat oppose",
+       "pct": 7
+      },
+      {
+       "label": "Strongly oppose",
+       "pct": 3
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Slide 27: Requiring public estimates of the typical monthly household cost before adding new state-mandated charges to utility bills. — 41% / 37% / 11% / 7% / 3%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Reducing taxes and fees on utility bills",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Taxes and budget",
+     "wording": "The following policy measures relate to charges included on utility bills. Do you support or oppose each of the policy measures listed below in New York? — Reducing the share of utility bills that goes to state or local taxes and fees.",
+     "results": [
+      {
+       "label": "Strongly support",
+       "pct": 40
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 38
+      },
+      {
+       "label": "Unsure",
+       "pct": 12
+      },
+      {
+       "label": "Somewhat oppose",
+       "pct": 8
+      },
+      {
+       "label": "Strongly oppose",
+       "pct": 2
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Slide 27: Reducing the share of utility bills that goes to state or local taxes and fees. — 40% / 38% / 12% / 8% / 2%",
+     "source_kind": "crosstab"
+    },
+    {
+     "subject": "Funding public programs through the state budget instead of utility bills",
+     "subject_type": "issue",
+     "measure": "issue support",
+     "category": "Taxes and budget",
+     "wording": "The following policy measures relate to charges included on utility bills. Do you support or oppose each of the policy measures listed below in New York? — Paying for certain public programs through the state budget or general taxes instead of adding them to utility bills.",
+     "results": [
+      {
+       "label": "Strongly support",
+       "pct": 37
+      },
+      {
+       "label": "Somewhat support",
+       "pct": 37
+      },
+      {
+       "label": "Unsure",
+       "pct": 10
+      },
+      {
+       "label": "Somewhat oppose",
+       "pct": 9
+      },
+      {
+       "label": "Strongly oppose",
+       "pct": 6
+      }
+     ],
+     "nyc_results": null,
+     "population_note": null,
+     "quote": "Slide 27: Paying for certain public programs through the state budget or general taxes instead of adding them to utility bills. — 37% / 37% / 10% / 9% / 6%",
+     "source_kind": "crosstab"
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  {
+   "what": "Lake Research Partners statewide poll released by NYSUT (teachers union), June 10-21, 2026, 800 registered likely 2026 voters: 57% oppose Gov. Hochul opting New York into the federal private-school voucher (tax credit scholarship) program, 34% support; 61% say tax money better spent on public schools vs. 8% vouchers; 46% think opting in will raise property taxes.",
+   "where_seen": "https://www.nysut.org/news/2026/july/release-on-polling",
+   "why_excluded": "Sponsor release only; paraphrased question summaries, no wording, toplines, mode or MOE published; no pollster memo found. Could be added as advocacy if the caller accepts sponsor-release-only numbers."
+  },
+  {
+   "what": "Global Strategy Group poll for Open New York (housing advocacy), Aug 31-Sep 6, 2026, 600 likely New York voters (MOE +/-4) with 200-person outer-borough oversample: 84% statewide say finding affordable housing is challenging; outer-borough 89%; 81% support multifamily housing near rail stations; 75% back commercial-to-housing conversions without rezoning.",
+   "where_seen": "https://www.amny.com/news/poll-outerborough-voters-nyc-housing-reforms/",
+   "why_excluded": "Numbers only in news coverage (amNY, Oct 16, 2026); Open New York news page and GSG site have no memo; amNY link to the survey points to a Gmail URL. Unclear whether the 600 is statewide or citywide (article compares to statewide figures)."
+  },
+  {
+   "what": "Mercury Public Affairs statewide poll for Independent Power Producers of New York (IPPNY), Feb 23-26, 2026, 801 likely 2026 general election voters, MOE +/-3.5: 71% say utility bills rose; 68% say costs out of control; 57% name affordability top energy priority; 65% support competitive electricity markets; net utility favorability ConEd -7 to RG&E -32.",
+   "where_seen": "https://www.ippny.org/page/press-releases-64/news/new-statewide-poll-new-yorkers-overwhelmingly-say-electricity-costs-are-out-of-control-reject-utility-monopolies-and-strongly-support-competitive-energy-markets-1156.html",
+   "why_excluded": "Industry-sponsor release only; paraphrased results, no question wording or toplines linked."
+  },
+  {
+   "what": "Business Council of New York State cost-of-living poll released Feb 24, 2026 (just over 1,100 voters; 91% say the state should prioritize living costs over fighting climate change; 47% blame regulators/elected officials for energy costs).",
+   "where_seen": "https://www.bcnys.org/node/7932 (search snippet); https://www.romesentinel.com/news/business/survey-finds-support-for-prioritizing-cost-of-living-crisis/article_e007f2b9-384f-4975-a9ed-4a551c1c65e1.html",
+   "why_excluded": "bcnys.org returned 403 to WebFetch and curl; Rome Sentinel returned 429; Wayback lookup rate-limited. Search snippet describes the sample as voters in Albany, Long Island and New York City, so it may be a multi-region rather than statewide sample. Not verified; field dates unknown."
+  },
+  {
+   "what": "Public Policy Polling for Environmental Defense Fund, April 6-7, 2026, 1,766 registered voters in five Assembly districts (eastern Long Island, Buffalo, Queens, Hudson Valley) on the climate law and cap-and-invest.",
+   "where_seen": "https://www.edf.org/media/poll-new-york-voters-support-state-leaders-who-stand-firm-state-climate-laws",
+   "why_excluded": "Not statewide or citywide (five Assembly districts)."
+  },
+  {
+   "what": "Newsday/Siena Long Island figures, June 2026 (Hochul 44%, Blakeman 42% on Long Island; Nassau Blakeman 44-39; Suffolk Hochul 49-40).",
+   "where_seen": "https://gondola.cc/posts/67171201-newsday-youtube.md (repost of a Newsday video caption)",
+   "why_excluded": "Long Island only; seen only in a social-media caption. May be the Long Island region of the June 17-23 SNY statewide poll rather than a separate Newsday/Siena survey; not verified."
+  },
+  {
+   "what": "Community Service Society Annual Survey of Housing and Economic Security (4,000 NYS adults; 88% of those with an opinion support the End Loan Sharking Act), memo published January 2026.",
+   "where_seen": "https://smhttp-ssl-58547.nexcesscdn.net/nycss/images/uploads/pubs/012126_Annual_Survey_ELSA_Support_Memo_V2.pdf",
+   "why_excluded": "Fielded September 9-October 2, 2025, before the window (per the memo methodology)."
+  },
+  {
+   "what": "Morning Consult for the Partnership for New York City, NYC registered voters, Oct 16-18, 2025 (page metadata shows Oct 16, 2026).",
+   "where_seen": "https://pfnyc.org/news/new-poll-finds-transit-safety-affordability-are-top-nyc-voter-issues-in-general-election",
+   "why_excluded": "Fielded October 2025; the 2026 metadata date is a page artifact."
+  },
+  {
+   "what": "Aggregator row: \"Siena College, Jun 23-26, 800 RV, Hochul 44 Blakeman 19\" dated 26 Jun 2026.",
+   "where_seen": "https://uspollingdata.com/races/governor/new-york/",
+   "why_excluded": "Source link has a 2025 URL path; this is the July 1, 2025 Siena poll mis-dated by the aggregator, not a 2026 poll."
+  },
+  {
+   "what": "District and sub-city polls seen during the sweep: GSG NY-17 Democratic primary memo for VoteVets (May 2026), J.L. Partners NY-21 (Aug 15-17, 2026), Tavern Research NY-12 (May 2026), Times Union/WPTZ/WAMC/Siena NY-21 (Oct 2026), AARP New York/Siena NY-12 (May 27-Jun 1, 2026), PPP NY-12 (Feb 26-27, 2026).",
+   "where_seen": "https://votevets.org/wp-content/uploads/2026/05/NY-17-Interested-Parties-Memo-F05.26.26.pdf; https://jlpartners.com/new-york-21st-district-likely-voter-polling; https://www.270towin.com/2026-house-polls/new-york/district-12; https://sri.siena.edu/2026/06/11/special-aarp-new-york-siena-ny-12-poll/",
+   "why_excluded": "Single congressional districts."
+  },
+  {
+   "what": "MTA Customers Count spring 2026 rider survey (April 13-May 2, 2026, ~94,000 riders) and NYC Universal Child Care parent survey (launched March 2026).",
+   "where_seen": "https://www.mta.info/press-release/photos-and-video-mta-launches-spring-2026-customers-count-survey; https://www.nyc.gov/mayors-office/news/2026/03/mayor-mamdani-launches-universal-child-care-parent-survey",
+   "why_excluded": "Customer/parent feedback surveys, not samples of all NYC or NYS adults or voters."
+  }
+ ],
+ "searches": [
+  "2026 ESP release page",
+  "270towin.com/2026-governor-polls/new-york",
+  "Wayback copy of energy poll release",
+  "amny.com/news/poll-outerborough-voters-nyc-housing-reforms/",
+  "bcnys.org (403)",
+  "bcnys.org energy survey PDF",
+  "brooklyn.org/report",
+  "changeresearch.com/research",
+  "covered by siena-a and siena-b agents (sri.siena.edu monthly archives)",
+  "cssny.org publication + memo PDF",
+  "dataforprogress.org/blog/2026/3/30/new-york-voters-want-big-oil-to-pay-for-the-home-insurance-crisis",
+  "dataforprogress.org/blog?month=MM-2026 for Jan-Oct 2026 (slug scan)",
+  "edf.org release",
+  "emersoncollegepolling.com/new-york-city-2026-poll/",
+  "empirecenter.org opinion poll energy",
+  "en.wikipedia.org 2026 NY gubernatorial, AG, comptroller, Mayoralty of Zohran Mamdani (raw wikitext)",
+  "foxnews.com 2026 New York poll stories",
+  "gothampolling.com",
+  "ilr.cornell.edu Empire State Poll release",
+  "ilr.cornell.edu/carow/empire-state-poll",
+  "ippny.org press release",
+  "maristpoll.marist.edu/polls/",
+  "ny1.com coverage of 2026 Siena/Marist polls",
+  "nyc.gov child care parent survey release",
+  "nysut.org/news/2026/july/release-on-polling",
+  "opennewyork.org/news",
+  "pfnyc.org/news",
+  "pfnyc.org/research",
+  "publicpolicypolling.com/polls/",
+  "realclearpolling.com (403)",
+  "same Emerson searches",
+  "search: \"New York\" poll 2026 Monmouth OR SurveyUSA OR Morning Consult Hochul",
+  "search: AARP New York poll 2026 statewide voters 50+",
+  "search: Business Council poll cost of living February 2026",
+  "search: CBC 2025 resident survey",
+  "search: CNN SSRS OR CBS News YouGov ... (no NBC News NY poll surfaced)",
+  "search: CNN SSRS OR CBS News YouGov poll New York governor 2026",
+  "search: Change Research New York poll 2026",
+  "search: Citizens Budget Commission survey New Yorkers 2026 poll",
+  "search: City & State poll 2026 New York voters commissioned",
+  "search: Crain's New York Business poll 2026 survey New Yorkers",
+  "search: Daily News OR The City OR Politico commissioned poll New Yorkers 2026",
+  "search: Echelon Insights New York poll 2026",
+  "search: Fox News poll New York voters 2026 Hochul Blakeman",
+  "search: Global Strategy Group poll New York 2026 statewide voters",
+  "search: Gotham Polling Analytics 2026 New York poll",
+  "search: Gothamist WNYC poll New Yorkers 2026",
+  "search: Hart Research OR Mason-Dixon OR Monmouth New York poll 2026",
+  "search: Honan Strategy Group 2026 poll New York statewide OR citywide release",
+  "search: Ipsos poll New York City OR New York State 2026 residents survey",
+  "search: Lake Research Partners poll New York voters 2026",
+  "search: Mamdani poll released September 2026",
+  "search: Manhattan Institute poll New York City voters 2026",
+  "search: Marist poll New York City 2026 Mamdani September OR October OR June",
+  "search: Morning Consult governor approval Hochul 2026 New York",
+  "search: NBC New York Telemundo 47 Marist poll 2026",
+  "search: NBC New York Telemundo 47 Marist poll 2026 (WAMC tag page)",
+  "search: NYC Comptroller survey New Yorkers 2026 results poll residents",
+  "search: New York Post commissioned poll New York City 2026 Mamdani survey",
+  "search: New York Times Siena poll New York City voters 2026 Mamdani",
+  "search: Newsday Siena Long Island poll June 2026",
+  "search: Newsday Siena poll 2026",
+  "search: Newsday poll Long Island 2026",
+  "search: Open New York Global Strategy Group poll housing 2026",
+  "search: Partnership for New York City Morning Consult poll 2026",
+  "search: Partnership for New York City poll 2026",
+  "search: People's Pulse 2026",
+  "search: Pew Research Center New York survey 2026",
+  "search: Pew Research Center New York survey 2026 OR AP-NORC New York City residents 2026",
+  "search: Public Policy Polling New York statewide 2026 survey",
+  "search: Quinnipiac poll New York City voters 2026 Mamdani approval",
+  "search: Slingshot Strategies 2026 survey New York City voters Mamdani",
+  "search: Slingshot Strategies poll New York 2026",
+  "search: Spectrum News NY1 poll 2026 New York City voters",
+  "search: SurveyUSA New York poll 2026",
+  "search: Times Union Siena poll 2026 statewide",
+  "search: Tulchin Research New York City poll 2026",
+  "search: Unheard Third 2026",
+  "search: YouGov New York poll 2026 statewide OR New York City",
+  "search: site:emersoncollegepolling.com New York 2026",
+  "search: site:suffolk.edu New York 2026 poll",
+  "search: the wall street journal nbc 4 new york marist poll (WAMC tag page)",
+  "sri.siena.edu archives (per siena-a/siena-b agents)",
+  "uspollingdata.com/races/governor/new-york/",
+  "uspollingdata.com; Wikipedia",
+  "votes.decisiondeskhq.com Mamdani favorability (429)",
+  "yalepolling.substack.com/p/new-yoll-city"
+ ],
+ "coverage": [
+  {
+   "firm": "The New York Times/Siena",
+   "checked": [
+    "sri.siena.edu archives (per siena-a/siena-b agents)",
+    "search: New York Times Siena poll New York City voters 2026 Mamdani"
+   ],
+   "found_2026_ny_polls": "none"
+  },
+  {
+   "firm": "Spectrum News NY1 (Siena, Marist, Ipsos)",
+   "checked": [
+    "search: Spectrum News NY1 poll 2026 New York City voters",
+    "ny1.com coverage of 2026 Siena/Marist polls"
+   ],
+   "found_2026_ny_polls": "none"
+  },
+  {
+   "firm": "Newsday (Siena or others)",
+   "checked": [
+    "search: Newsday Siena poll 2026",
+    "search: Newsday poll Long Island 2026",
+    "search: Newsday Siena Long Island poll June 2026"
+   ],
+   "found_2026_ny_polls": "not qualifying: only Long Island figures (June 2026) seen in a social-media caption; possibly the LI region of the June SNY poll; logged in gaps"
+  },
+  {
+   "firm": "Times Union/Hearst (Siena)",
+   "checked": [
+    "search: Times Union Siena poll 2026 statewide"
+   ],
+   "found_2026_ny_polls": "not qualifying: Times Union/WPTZ/WAMC/Siena NY-21 district poll (Oct 2026) only"
+  },
+  {
+   "firm": "NBC 4 New York/Telemundo 47/Marist; WNBC",
+   "checked": [
+    "search: NBC New York Telemundo 47 Marist poll 2026",
+    "maristpoll.marist.edu/polls/"
+   ],
+   "found_2026_ny_polls": "already in list (Marist NYS Feb, NYC Mar-Apr, NYS Oct; no NBC 4 co-branding found in 2026)"
+  },
+  {
+   "firm": "PIX11/Emerson",
+   "checked": [
+    "search: site:emersoncollegepolling.com New York 2026",
+    "emersoncollegepolling.com/new-york-city-2026-poll/"
+   ],
+   "found_2026_ny_polls": "already in list (NYC Apr 5-6, NYS Oct 3-5); Emerson/PIX11 NY-7, NY-10, NY-12, NY-17 are single-district"
+  },
+  {
+   "firm": "The Hill/Emerson/Nexstar",
+   "checked": [
+    "same Emerson searches"
+   ],
+   "found_2026_ny_polls": "already in list (same Emerson/PIX11 polls; Nexstar stations co-publish)"
+  },
+  {
+   "firm": "WAMC/Marist",
+   "checked": [
+    "search: NBC New York Telemundo 47 Marist poll 2026 (WAMC tag page)"
+   ],
+   "found_2026_ny_polls": "none (WAMC co-sponsored only the NY-21 Siena district poll)"
+  },
+  {
+   "firm": "NPR/PBS News/Marist",
+   "checked": [
+    "maristpoll.marist.edu/polls/"
+   ],
+   "found_2026_ny_polls": "none: national only"
+  },
+  {
+   "firm": "CBS News/YouGov",
+   "checked": [
+    "search: CNN SSRS OR CBS News YouGov poll New York governor 2026"
+   ],
+   "found_2026_ny_polls": "none"
+  },
+  {
+   "firm": "ABC News/Washington Post/Ipsos",
+   "checked": [
+    "search: Ipsos poll New York City OR New York State 2026 residents survey"
+   ],
+   "found_2026_ny_polls": "none (Washington Post covered Suffolk NYC poll; Reuters/Ipsos national only)"
+  },
+  {
+   "firm": "CNN/SSRS",
+   "checked": [
+    "search: CNN SSRS OR CBS News YouGov poll New York governor 2026"
+   ],
+   "found_2026_ny_polls": "none (SSRS did field the Cornell Empire State Poll; see cornell-20260911)"
+  },
+  {
+   "firm": "Fox News (Beacon Research & Shaw & Co.)",
+   "checked": [
+    "search: Fox News poll New York voters 2026 Hochul Blakeman",
+    "foxnews.com 2026 New York poll stories"
+   ],
+   "found_2026_ny_polls": "none in 2026: last Fox NYC poll fielded Sep 18-22, 2025. Beacon Research (D) Oct 1-6, 2026 statewide poll is separate and already rejected (source blocked)"
+  },
+  {
+   "firm": "NBC News",
+   "checked": [
+    "search: CNN SSRS OR CBS News YouGov ... (no NBC News NY poll surfaced)"
+   ],
+   "found_2026_ny_polls": "none"
+  },
+  {
+   "firm": "AP-NORC",
+   "checked": [
+    "search: Pew Research Center New York survey 2026 OR AP-NORC New York City residents 2026"
+   ],
+   "found_2026_ny_polls": "none"
+  },
+  {
+   "firm": "USA Today/Suffolk; Suffolk University",
+   "checked": [
+    "search: site:suffolk.edu New York 2026 poll",
+    "search: Mamdani poll released September 2026"
+   ],
+   "found_2026_ny_polls": "already in list (Suffolk CityView NYC Sep 1-3; no USA Today co-sponsor)"
+  },
+  {
+   "firm": "Wall Street Journal",
+   "checked": [
+    "search: the wall street journal nbc 4 new york marist poll (WAMC tag page)"
+   ],
+   "found_2026_ny_polls": "none"
+  },
+  {
+   "firm": "Politico",
+   "checked": [
+    "search: Daily News OR The City OR Politico commissioned poll New Yorkers 2026"
+   ],
+   "found_2026_ny_polls": "none (Politico hosts/reports others' polls; Beacon PDF on Politico already rejected)"
+  },
+  {
+   "firm": "City & State",
+   "checked": [
+    "search: City & State poll 2026 New York voters commissioned"
+   ],
+   "found_2026_ny_polls": "none commissioned (reports Honan, Siena)"
+  },
+  {
+   "firm": "Crain's New York Business",
+   "checked": [
+    "search: Crain's New York Business poll 2026 survey New Yorkers"
+   ],
+   "found_2026_ny_polls": "none"
+  },
+  {
+   "firm": "New York Post",
+   "checked": [
+    "search: New York Post commissioned poll New York City 2026 Mamdani survey"
+   ],
+   "found_2026_ny_polls": "none commissioned; reports Honan, co/efficient, OnMessage, McLaughlin (already gapped/rejected)"
+  },
+  {
+   "firm": "Daily News",
+   "checked": [
+    "search: Daily News OR The City OR Politico commissioned poll New Yorkers 2026"
+   ],
+   "found_2026_ny_polls": "none"
+  },
+  {
+   "firm": "Gothamist/WNYC",
+   "checked": [
+    "search: Gothamist WNYC poll New Yorkers 2026"
+   ],
+   "found_2026_ny_polls": "none"
+  },
+  {
+   "firm": "The City",
+   "checked": [
+    "search: Daily News OR The City OR Politico commissioned poll New Yorkers 2026"
+   ],
+   "found_2026_ny_polls": "none"
+  },
+  {
+   "firm": "Siena Research Institute",
+   "checked": [
+    "covered by siena-a and siena-b agents (sri.siena.edu monthly archives)"
+   ],
+   "found_2026_ny_polls": "already in list"
+  },
+  {
+   "firm": "Marist",
+   "checked": [
+    "maristpoll.marist.edu/polls/",
+    "search: Marist poll New York City 2026 Mamdani September OR October OR June"
+   ],
+   "found_2026_ny_polls": "already in list (NYC baseball May 2026 not policy)"
+  },
+  {
+   "firm": "Quinnipiac",
+   "checked": [
+    "search: Quinnipiac poll New York City voters 2026 Mamdani approval"
+   ],
+   "found_2026_ny_polls": "already in list (NYS Sep 17-20, Oct 15-19; no NYC-only poll in 2026)"
+  },
+  {
+   "firm": "Emerson",
+   "checked": [
+    "search: site:emersoncollegepolling.com New York 2026"
+   ],
+   "found_2026_ny_polls": "already in list"
+  },
+  {
+   "firm": "Suffolk",
+   "checked": [
+    "search: site:suffolk.edu New York 2026 poll"
+   ],
+   "found_2026_ny_polls": "already in list"
+  },
+  {
+   "firm": "Monmouth",
+   "checked": [
+    "search: Hart Research OR Mason-Dixon OR Monmouth New York poll 2026",
+    "search: \"New York\" poll 2026 Monmouth OR SurveyUSA OR Morning Consult Hochul"
+   ],
+   "found_2026_ny_polls": "none (New Jersey only)"
+  },
+  {
+   "firm": "SurveyUSA",
+   "checked": [
+    "search: SurveyUSA New York poll 2026"
+   ],
+   "found_2026_ny_polls": "none (last NY poll 2022 for WNYT)"
+  },
+  {
+   "firm": "YouGov",
+   "checked": [
+    "search: YouGov New York poll 2026 statewide OR New York City",
+    "yalepolling.substack.com/p/new-yoll-city"
+   ],
+   "found_2026_ny_polls": "none in 2026 (Yale/YouGov NYC poll was June 2025; YouGov 2026 NY-politician items are national samples)"
+  },
+  {
+   "firm": "Ipsos",
+   "checked": [
+    "search: Ipsos poll New York City OR New York State 2026 residents survey"
+   ],
+   "found_2026_ny_polls": "none"
+  },
+  {
+   "firm": "SSRS",
+   "checked": [
+    "ilr.cornell.edu Empire State Poll release"
+   ],
+   "found_2026_ny_polls": "added: cornell-20260911 (SSRS collected data for Cornell)"
+  },
+  {
+   "firm": "Morning Consult",
+   "checked": [
+    "search: Morning Consult governor approval Hochul 2026 New York",
+    "search: Partnership for New York City Morning Consult poll 2026"
+   ],
+   "found_2026_ny_polls": "none found in 2026 (quarterly governor tracker not surfaced for 2026; PfNYC/Morning Consult NYC poll was Oct 2025)"
+  },
+  {
+   "firm": "Echelon Insights",
+   "checked": [
+    "search: Echelon Insights New York poll 2026",
+    "uspollingdata.com/races/governor/new-york/"
+   ],
+   "found_2026_ny_polls": "already in list (Tusk Mar 24-26)"
+  },
+  {
+   "firm": "Data for Progress",
+   "checked": [
+    "dataforprogress.org/blog?month=MM-2026 for Jan-Oct 2026 (slug scan)",
+    "dataforprogress.org/blog/2026/3/30/new-york-voters-want-big-oil-to-pay-for-the-home-insurance-crisis"
+   ],
+   "found_2026_ny_polls": "added: dataforprogress-20260330 (with Center for Climate Integrity); IMEU May 20-26 already in list"
+  },
+  {
+   "firm": "Change Research",
+   "checked": [
+    "search: Change Research New York poll 2026",
+    "changeresearch.com/research"
+   ],
+   "found_2026_ny_polls": "none"
+  },
+  {
+   "firm": "Slingshot Strategies",
+   "checked": [
+    "search: Slingshot Strategies poll New York 2026",
+    "search: Slingshot Strategies 2026 survey New York City voters Mamdani"
+   ],
+   "found_2026_ny_polls": "none in 2026 (NYC poll Jul 2025; People's Pulse fieldwork Jan 2025)"
+  },
+  {
+   "firm": "Gotham Polling & Analytics",
+   "checked": [
+    "gothampolling.com",
+    "search: Gotham Polling Analytics 2026 New York poll"
+   ],
+   "found_2026_ny_polls": "none (last: AARP/Gotham NYC Oct 2025)"
+  },
+  {
+   "firm": "Honan Strategy Group",
+   "checked": [
+    "search: Honan Strategy Group 2026 poll New York statewide OR citywide release"
+   ],
+   "found_2026_ny_polls": "already in list (Jun 12-17); Oct 2-7 Barometer already logged as news-only gap; NY-12 district"
+  },
+  {
+   "firm": "Manhattan Institute",
+   "checked": [
+    "search: Manhattan Institute poll New York City voters 2026"
+   ],
+   "found_2026_ny_polls": "none (2026 MI poll is national Democrats/Harris voters)"
+  },
+  {
+   "firm": "Public Policy Polling",
+   "checked": [
+    "publicpolicypolling.com/polls/",
+    "search: Public Policy Polling New York statewide 2026 survey",
+    "edf.org release"
+   ],
+   "found_2026_ny_polls": "not qualifying: NY-12 (Feb 2026) and five Assembly districts for EDF (Apr 6-7, 2026)"
+  },
+  {
+   "firm": "Cygnal",
+   "checked": [
+    "empirecenter.org opinion poll energy"
+   ],
+   "found_2026_ny_polls": "already rejected (Empire Center, Jul 6-8)"
+  },
+  {
+   "firm": "co/efficient",
+   "checked": [
+    "uspollingdata.com; Wikipedia"
+   ],
+   "found_2026_ny_polls": "already rejected"
+  },
+  {
+   "firm": "Mason-Dixon",
+   "checked": [
+    "search: Hart Research OR Mason-Dixon OR Monmouth New York poll 2026"
+   ],
+   "found_2026_ny_polls": "none"
+  },
+  {
+   "firm": "Global Strategy Group",
+   "checked": [
+    "search: Global Strategy Group poll New York 2026 statewide voters",
+    "search: Open New York Global Strategy Group poll housing 2026",
+    "opennewyork.org/news",
+    "amny.com/news/poll-outerborough-voters-nyc-housing-reforms/"
+   ],
+   "found_2026_ny_polls": "not qualifying: Open New York housing poll (Aug 31-Sep 6, 2026) news-only, logged in gaps; NY-17 primary memo is single-district"
+  },
+  {
+   "firm": "Tulchin Research",
+   "checked": [
+    "search: Tulchin Research New York City poll 2026"
+   ],
+   "found_2026_ny_polls": "none (2026 releases are California)"
+  },
+  {
+   "firm": "Hart Research",
+   "checked": [
+    "search: Hart Research OR Mason-Dixon OR Monmouth New York poll 2026"
+   ],
+   "found_2026_ny_polls": "none"
+  },
+  {
+   "firm": "Lake Research Partners",
+   "checked": [
+    "search: Lake Research Partners poll New York voters 2026",
+    "nysut.org/news/2026/july/release-on-polling"
+   ],
+   "found_2026_ny_polls": "not qualifying: NYSUT voucher poll (Jun 10-21, 2026) sponsor-release only, logged in gaps"
+  },
+  {
+   "firm": "AARP-sponsored state polls",
+   "checked": [
+    "search: AARP New York poll 2026 statewide voters 50+"
+   ],
+   "found_2026_ny_polls": "not qualifying: AARP New York/Siena NY-12 only"
+  },
+  {
+   "firm": "Pew Research Center (NY-specific)",
+   "checked": [
+    "search: Pew Research Center New York survey 2026"
+   ],
+   "found_2026_ny_polls": "none"
+  },
+  {
+   "firm": "Citizens Budget Commission",
+   "checked": [
+    "search: Citizens Budget Commission survey New Yorkers 2026 poll",
+    "search: CBC 2025 resident survey"
+   ],
+   "found_2026_ny_polls": "none in 2026 (Straight from New Yorkers 2025 fielded Mar-Apr 2025)"
+  },
+  {
+   "firm": "Partnership for New York City",
+   "checked": [
+    "pfnyc.org/news",
+    "pfnyc.org/research",
+    "search: Partnership for New York City poll 2026"
+   ],
+   "found_2026_ny_polls": "none in 2026 (Morning Consult NYC poll fielded Oct 16-18, 2025)"
+  },
+  {
+   "firm": "NYC Comptroller / Mayor's office resident surveys",
+   "checked": [
+    "search: NYC Comptroller survey New Yorkers 2026 results poll residents",
+    "nyc.gov child care parent survey release"
+   ],
+   "found_2026_ny_polls": "none (child care parent survey and MTA rider survey are not resident/voter samples)"
+  },
+  {
+   "firm": "Community Service Society (Unheard Third / Annual Survey)",
+   "checked": [
+    "search: Unheard Third 2026",
+    "cssny.org publication + memo PDF"
+   ],
+   "found_2026_ny_polls": "not qualifying: survey memo published Jan 2026 but fielded Sep 9-Oct 2, 2025"
+  },
+  {
+   "firm": "Cornell ILR Empire State Poll (found during sweep)",
+   "checked": [
+    "ilr.cornell.edu/carow/empire-state-poll",
+    "2026 ESP release page"
+   ],
+   "found_2026_ny_polls": "added: cornell-20260911"
+  },
+  {
+   "firm": "Business Council of New York State (found during sweep)",
+   "checked": [
+    "bcnys.org (403)",
+    "Wayback copy of energy poll release",
+    "bcnys.org energy survey PDF",
+    "search: Business Council poll cost of living February 2026"
+   ],
+   "found_2026_ny_polls": "added: tunnl-20260429 (energy poll); Feb 2026 cost-of-living poll unverified, logged in gaps"
+  },
+  {
+   "firm": "IPPNY/Mercury Public Affairs (found during sweep)",
+   "checked": [
+    "ippny.org press release"
+   ],
+   "found_2026_ny_polls": "not qualifying: sponsor release only, logged in gaps"
+  },
+  {
+   "firm": "5BORO Institute People's Pulse (found during sweep)",
+   "checked": [
+    "brooklyn.org/report",
+    "search: People's Pulse 2026"
+   ],
+   "found_2026_ny_polls": "none in 2026 (Jan 2025 only)"
+  },
+  {
+   "firm": "Aggregators (leads only)",
+   "checked": [
+    "en.wikipedia.org 2026 NY gubernatorial, AG, comptroller, Mayoralty of Zohran Mamdani (raw wikitext)",
+    "270towin.com/2026-governor-polls/new-york",
+    "uspollingdata.com/races/governor/new-york/",
+    "realclearpolling.com (403)",
+    "votes.decisiondeskhq.com Mamdani favorability (429)"
+   ],
+   "found_2026_ny_polls": "all listed 2026 citywide/statewide polls are already in the list or already rejected"
+  }
+ ]
+}
