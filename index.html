@@ -638,12 +638,14 @@ async function loadMarkets(){
   MARKETS=d.markets.filter(m=>m.yes_price!=null).map(m=>Object.assign({},m,{_t:norm(m.question+' '+m.category+' '+(m.topic_label||'')+' '+(m.matched_keywords||[]).join(' ')+' '+m.source)}));
   const cc={};for(const m of MARKETS)cc[m.category]=(cc[m.category]||0)+1;
   fillSelect($('#mCat'),'All market topics',Object.keys(cc).sort((a,b)=>cc[b]-cc[a]).map(c=>[c,c+' ('+cc[c]+')']),mstate.cat);
-  const lede=$('#mkCountLede');if(lede)lede.innerHTML='<a href="#mkH"><b>'+MARKETS.length.toLocaleString()+'</b> prediction markets</a> on New York, as of '+esc(fdateTime(d.updated_at));
+  const lede=$('#mkCountLede');if(lede)lede.innerHTML='<a href="#mkH"><b>'+nMarkets(MARKETS).toLocaleString()+'</b> prediction markets</a> on New York, as of '+esc(fdateTime(d.updated_at));
   renderProfile();
   if(!live)$('#mkLede').insertAdjacentHTML('beforeend',' The live prices could not be reached, so this list shows a saved copy.');
   renderMarkets();
 }
-function fdateTime(iso){const d=new Date(iso);return d.toLocaleString('en-US',{timeZone:'America/New_York',month:'long',day:'numeric',hour:'numeric',minute:'2-digit'}).replace(' at ',', ')+' Eastern time'}
+// A multi-outcome market (each marathon runner, each vote-share range) arrives as one row per outcome, all sharing the market's url
+function nMarkets(list){return new Set(list.map(m=>m.url)).size}
+function fdateTime(iso){const d=new Date(iso);return d.toLocaleString('en-US',{timeZone:'America/New_York',month:'long',day:'numeric',hour:'numeric',minute:'2-digit'}).replace(' at ',', ').replace(/\s?AM$/,' a.m.').replace(/\s?PM$/,' p.m.')+' Eastern time'}
 function renderMarkets(){
   if(!MARKETS.length)return;
   const t=terms();
@@ -657,7 +659,8 @@ function renderMarkets(){
   const v=m=>m.source==='manifold'?(m.volume_usd||0)/100:(m.volume_usd||0);
   const S={vol:(a,b)=>v(b)-v(a),vol24:(a,b)=>(b.volume_24h_usd||0)-(a.volume_24h_usd||0),move:(a,b)=>Math.abs(b.price_change_24h||0)-Math.abs(a.price_change_24h||0),hi:(a,b)=>b.yes_price-a.yes_price,close:(a,b)=>(a.close_date||'9')<(b.close_date||'9')?-1:1};
   list.sort(S[mstate.sort]);
-  $('#mCount').innerHTML=list.length?'<b>'+list.length.toLocaleString()+'</b> markets'+(t.length?' match the search above':'')+'. Prices as of '+esc(fdateTime(MK_UPDATED))+'.':'No markets match'+(t.length?' the search above':'')+'.';
+  const nm=nMarkets(list);
+  $('#mCount').innerHTML=list.length?'<b>'+list.length.toLocaleString()+'</b> '+(list.length===1?'price':'prices')+' from <b>'+nm.toLocaleString()+'</b> '+(nm===1?'market':'markets')+(t.length?' match the search above':'')+', as of '+esc(fdateTime(MK_UPDATED))+'.':'No markets match'+(t.length?' the search above':'')+'.';
   $('#mRows').innerHTML=list.slice(0,mstate.shown).map(marketRow).join('');
   $('#mMoreWrap').hidden=list.length<=mstate.shown;
 }
