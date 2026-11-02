@@ -1,7 +1,7 @@
 {
- "polls": 17,
- "questions": 370,
- "city_columns": 302,
+ "polls": 19,
+ "questions": 408,
+ "city_columns": 340,
  "pollsters": [
   "Emerson",
   "Honan",
@@ -13,5 +13,5 @@
  "advocacy_polls": 6,
  "advocacy_questions": 116,
  "first_field": "2026-01-26",
- "last_field": "2026-10-19"
+ "last_field": "2026-10-25"
 }

@@ -300,6 +300,42 @@
   "file": "siena-b.json"
  },
  {
+  "what": "Research Co. (Vancouver) six-state online poll, Oct. 30-Nov. 1, 2026, 450 likely voters in New York, MOE +/-4.6, weighted by age and gender: governor Hochul 52%, Blakeman 43%, Undecided 5% (all 450); among 426 decided voters Hochul 55%, Blakeman 45%. The only New York question.",
+  "where_seen": "https://researchco.ca/2026/11/01/midterms-2026-one/ ; tables https://researchco.ca/wp-content/uploads/2026/11/Tables_MidTerms_USA_01Nov2026.pdf ; release https://researchco.ca/wp-content/uploads/2026/11/Release_MidTerms_USA_01Nov2026.pdf",
+  "why_excluded": "Held for Josh's call rather than added: an online-panel poll run across six states with no New York release, weighted only by age and gender (no party, education or region), from a firm that does not otherwise poll New York. It publishes its wording and tables, so it meets the letter of the methodology; adding it would also make it the newest poll on the page.",
+  "file": "weekly-2026-11-02.json"
+ },
+ {
+  "what": "ActiVote New York governor poll, fielded Oct. 1-23, 2026 (median Oct. 12), 400 likely voters: Hochul 59.0%, Blakeman 41.0%; also attorney general James 56.5% and comptroller DiNapoli 58.5%.",
+  "where_seen": "https://activote.net/polls/2026/ny-governor (via Wikipedia's polling table)",
+  "why_excluded": "Continuous opt-in poll of the app's own users (ActiVote's methodology page: it takes users' most recent recorded preferences over several weeks until it reaches 400); no question wording published and no undecided share reported.",
+  "file": "weekly-2026-11-02.json"
+ },
+ {
+  "what": "Honan Strategy Group 5 Borough Barometer, Oct. 2-7, 2026, text-to-web, 967 likely NYC Democratic primary voters (269 Jewish, MOE +/-6): Mamdani job approval 73% overall; 2029 Democratic primary Mamdani 54% Tisch 17%; head-to-head Mamdani 54 Tisch 25, Mamdani 56 Menin 19; among Jewish voters Tisch 44 Mamdani 42 head-to-head, approval 45-51, 41% favor a second term vs. 44% time for someone new.",
+  "where_seen": "https://honanstrategy.com/blog/the-forward-jewish-voters-split-on-giving-mamdani-a-second-term-and-see-jessica-tisch-as-his-strongest-rival-new-poll-shows/ (Oct. 29 repost of The Forward); https://honanstrategy.com/blog/silive-com-poll-reveals-who-poses-greatest-threat-to-nyc-mayor-mamdani-reelection-bid/ (Oct. 20)",
+  "why_excluded": "Numbers available only in news coverage reposted on Honan's site; no memo, toplines or question wording published. The sample is also likely Democratic primary voters, not all NYC voters.",
+  "file": "weekly-2026-11-02.json"
+ },
+ {
+  "what": "Cornell ILR Empire State Poll 2026 (fielded June 24-July 8, 2026)",
+  "where_seen": "https://www.ilr.cornell.edu/carow/empire-state-poll",
+  "why_excluded": "Still no 2026 report, toplines or questionnaire as of Nov. 2, 2026; the Empire State Poll page lists only the Sept. 11 news story for 2026 and the 2025 and 2024 reports. Remains left out.",
+  "file": "weekly-2026-11-02.json"
+ },
+ {
+  "what": "Siena releases Oct. 12-Nov. 1 other than the Oct. 28 New York poll: NYTimes/Siena national (Oct. 21), Pennsylvania congressional districts (Oct. 25), Florida/Minnesota/South Carolina (Oct. 28), Nebraska (Oct. 31), seven-state likely voters and ReconMR Texas (Nov. 1); Marist's Oct. 14-27 releases cover Texas, Iowa, Ohio, Michigan, Maine and a national sample.",
+  "where_seen": "https://sri.siena.edu/2026/10/ ; https://sri.siena.edu/2026/11/ ; https://maristpoll.marist.edu/polls/",
+  "why_excluded": "Not New York polls.",
+  "file": "weekly-2026-11-02.json"
+ },
+ {
+  "what": "Quinnipiac, Emerson/PIX11, Suffolk CityView and Honan: no new New York City or New York State poll with full results released Oct. 12-Nov. 2, 2026 (Quinnipiac's latest New York release is Oct. 21, already recorded; Emerson's latest is Oct. 8; Suffolk's latest NYC CityView is Sept. 8).",
+  "where_seen": "https://poll.qu.edu/ ; https://emersoncollegepolling.com/ ; https://www.suffolk.edu/academics/research-at-suffolk/political-research-center/polls/cityview-polls ; https://honanstrategy.com/",
+  "why_excluded": "Nothing new to add.",
+  "file": "weekly-2026-11-02.json"
+ },
+ {
   "what": "Cornell University ILR School Center for Applied Research on Work (Empire State Poll; data collected by SSRS), fielded 2026-06-24 to 2026-07-08",
   "where_seen": "https://www.ilr.cornell.edu/carow/cornells-empire-state-poll-finds-new-yorkers-concerned-about-cost-living-and-new-york-state-economy/i",
   "why_excluded": "Only a news release has been published: no question wording, no toplines and no margin of error, and the most-important-issue list gives only the top four answers. Add it if Cornell publishes full results.",
