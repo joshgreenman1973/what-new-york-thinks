@@ -2,13 +2,13 @@
 
 Live page: https://joshgreenman1973.github.io/what-new-york-thinks/
 
-This file explains where every number on the page comes from, what is included and left out, and the little the page calculates. Nothing is averaged, estimated or modeled.
+This file explains where every number on the page comes from and what is included and left out. It also covers the little the page calculates. Nothing is averaged, estimated or modeled.
 
 ## The caveats (the asterisk in the title)
 
 **Polls are less reliable than they used to be.** Most people no longer answer calls from numbers they don't recognize, so pollsters reach far fewer of the people they try. They make up for it with text messages, online panels and statistical weighting so that the people they do reach resemble the electorate. That works when the people who answer are like the people who don't, and it can fail when they differ in ways the weighting misses. Every poll has a margin of error, and the New York City columns of statewide polls rest on smaller samples whose size is usually not published.
 
-**Nobody really knows how predictive prediction markets are.** A price is what traders will pay, not what the public thinks. Many New York markets trade little money, so one trader can move a price. Manifold uses play money. There is no long record showing how well markets on state and city questions forecast outcomes.
+**Nobody knows how predictive prediction markets are.** A price is what traders will pay, not what the public thinks. Many New York markets trade little money, so one trader can move a price. Manifold uses play money. There is no long record showing how well markets on state and city questions forecast outcomes.
 
 ## What the page holds
 

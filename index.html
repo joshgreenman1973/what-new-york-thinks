@@ -170,7 +170,7 @@ h1 .ast:hover{color:var(--fg)}
   <h1>What New York Thinks<a class="ast" href="#ast" aria-label="Read the caveats">*</a></h1>
   <p class="finding" id="finding">Loading the polls&hellip;</p>
   <p class="lede" id="lede"></p>
-  <p class="caution" id="caution"><b>*</b> Polls have become harder to trust as fewer people answer calls from numbers they don't know, and nobody really knows how well prediction markets predict. <a href="#ast">More on both</a>.</p>
+  <p class="caution" id="caution"><b>*</b> Polls have become harder to trust as fewer people answer calls from numbers they don't know, and nobody knows how well prediction markets predict. <a href="#ast">More on both</a>.</p>
 </header>
 
 <section class="sec picks" aria-labelledby="picksH">
@@ -225,7 +225,7 @@ h1 .ast:hover{color:var(--fg)}
 <section class="mk sec" style="padding:0" aria-labelledby="mkH">
   <div class="sec" style="padding-bottom:4px">
     <h2 id="mkH">What the betting markets say</h2>
-    <p class="aside" id="mkLede">These are prices, not polls: the share of money riding on yes in markets about New York politics and policy, from the <a href="https://joshgreenman1973.github.io/experiments/nyc-prediction-markets/">New York prediction markets tracker</a>. A price of 70 cents on the dollar is often read as a 70 percent chance, but how well these prices predict is not settled. The search box above filters this list too.</p>
+    <p class="aside" id="mkLede">These are prices: the share of money riding on yes in markets about New York politics and policy, from the <a href="https://joshgreenman1973.github.io/experiments/nyc-prediction-markets/">New York prediction markets tracker</a>. A price of 70 cents on the dollar is often read as a 70 percent chance, but how well these prices predict is not settled. The search box above filters this list too.</p>
   </div>
   <div class="controls">
     <select id="mCat" aria-label="Market topic"></select>
@@ -251,7 +251,7 @@ h1 .ast:hover{color:var(--fg)}
 
 <section class="sec method" id="ast" aria-labelledby="astH">
   <h2 id="astH">* The caveats</h2>
-  <p class="star"><span class="s">*</span> Polls are less reliable than they used to be, and nobody really knows how predictive prediction markets are.</p>
+  <p class="star"><span class="s">*</span> Polls are less reliable than they used to be, and nobody knows how predictive prediction markets are.</p>
   <p><b>Polls.</b> Most people no longer answer calls from numbers they don't recognize, so pollsters now reach far fewer of the people they try, and they lean on text messages, online panels and statistical weighting to make the people they do reach look like the electorate. That works when the people who answer resemble the people who don't, and it can fail when they differ in ways the weighting misses. Every poll here also has a margin of error, and the New York City columns of statewide polls rest on smaller samples whose size the pollsters usually don't publish. Read one poll as one estimate, and read a gap of a few points as noise.</p>
   <p><b>Prediction markets.</b> A market price says what traders are willing to pay, not what the public thinks. Many New York markets trade little money, so a single trader can move the price. Manifold uses play money. There's no long record showing how well markets on state and city questions forecast outcomes, so treat a price as one more read, not a probability anyone has verified.</p>
 </section>
@@ -261,7 +261,7 @@ h1 .ast:hover{color:var(--fg)}
   <div id="methodBody"></div>
   <h3>What's in and what's out</h3>
   <p>Included: polls of all New York City or all New York State adults or voters, fielded in 2026, by pollsters that publish field dates, sample size and their questions. Every figure was read from the pollster's own release, toplines or crosstabs, and each row links to that document along with a passage copied from it.</p>
-  <p>Left out: polls of a single congressional or legislative district, campaign polls released without full questions and results, and any poll whose numbers could be found only in news coverage. Each one is listed with the reason in the <a href="data/gaps.json">list of polls left out</a>, and the <a href="https://github.com/joshgreenman1973/what-new-york-thinks/blob/main/METHODOLOGY.md">methodology</a> explains the rules.</p>
+  <p>Left out: polls of a single congressional or legislative district; campaign polls released without full questions and results; any poll whose numbers could be found only in news coverage. Each one is listed with the reason in the <a href="data/gaps.json">list of polls left out</a>, and the <a href="https://github.com/joshgreenman1973/what-new-york-thinks/blob/main/METHODOLOGY.md">methodology</a> explains the rules.</p>
   <h3>Reading the rows</h3>
   <ul>
     <li><b>New York City columns of statewide polls.</b> Siena and others publish results for New York City respondents inside their statewide polls. These rows are marked "city column." The city sample is smaller than the statewide one and its size is usually not published, so the uncertainty is larger and unknown.</li>
