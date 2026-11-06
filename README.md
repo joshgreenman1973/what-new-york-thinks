@@ -1,6 +1,6 @@
 # What New York Thinks
 
-Every question in independent polls of New York City and New York State in 2026, searchable and sortable, with live prediction-market prices on New York politics.
+Every question in independent polls of New York City and New York State in 2026, searchable and sortable, with prediction-market prices on New York politics, updated every six hours.
 
 Live: https://joshgreenman1973.github.io/what-new-york-thinks/
 

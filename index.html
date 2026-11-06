@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>What New York Thinks</title>
-<meta name="description" content="Every question in independent polls of New York City and New York State in 2026, searchable and sortable, with live prediction-market prices on New York politics.">
+<meta name="description" content="Every question in independent polls of New York City and New York State in 2026, searchable and sortable, with prediction-market prices on New York politics, updated every six hours.">
 <meta property="og:title" content="What New York Thinks">
-<meta property="og:description" content="Every question in independent polls of New York City and New York State in 2026, searchable and sortable, with live prediction-market prices.">
+<meta property="og:description" content="Every question in independent polls of New York City and New York State in 2026, searchable and sortable, with prediction-market prices on New York politics.">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -65,6 +65,7 @@ h1 .ast:hover{color:var(--fg)}
 .mult svg{display:block;width:100%;height:auto;overflow:visible}
 .mult svg text{font-family:var(--sans);font-size:11px;fill:var(--fg2)}
 .mkey{display:flex;gap:4px 12px;flex-wrap:wrap;font-size:var(--t-micro);color:var(--fg2)}
+.mkey svg.shp{display:inline-block;width:10px;height:10px;max-width:none;vertical-align:-1px;margin-right:4px;overflow:visible}
 .mkey i{display:inline-block;width:9px;height:9px;margin-right:5px;vertical-align:-1px}
 
 /* finder */
@@ -170,7 +171,7 @@ h1 .ast:hover{color:var(--fg)}
   <h1>What New York Thinks<a class="ast" href="#ast" aria-label="Read the caveats">*</a></h1>
   <p class="finding" id="finding">Loading the polls&hellip;</p>
   <p class="lede" id="lede"></p>
-  <p class="caution" id="caution"><b>*</b> Polls have become harder to trust as fewer people answer calls from numbers they don't know, and nobody knows how well prediction markets predict. <a href="#ast">More on both</a>.</p>
+  <p class="caution" id="caution"><b>*</b> Low participation makes representative polling harder, and this page does not test how well these prediction markets have forecast outcomes. <a href="#ast">More on both</a>.</p>
 </header>
 
 <section class="sec picks" aria-labelledby="picksH">
@@ -225,7 +226,7 @@ h1 .ast:hover{color:var(--fg)}
 <section class="mk sec" style="padding:0" aria-labelledby="mkH">
   <div class="sec" style="padding-bottom:4px">
     <h2 id="mkH">What the betting markets say</h2>
-    <p class="aside" id="mkLede">These are prices: the share of money riding on yes in markets about New York politics and policy, from the <a href="https://joshgreenman1973.github.io/experiments/nyc-prediction-markets/">New York prediction markets tracker</a>. A price of 70 cents on the dollar is often read as a 70 percent chance, but how well these prices predict is not settled. The search box above filters this list too.</p>
+    <p class="aside" id="mkLede">These are prices for outcome contracts in markets about New York politics and policy, from the <a href="https://joshgreenman1973.github.io/experiments/nyc-prediction-markets/">New York prediction markets tracker</a>. A Yes price of 70 cents on a contract that pays $1 if the event happens is often read as a 70% market-implied chance. It is not the share of money bet on Yes, and thin trading, gaps between buy and sell offers and each market’s rules affect what it tells you. Manifold is a play-money market; no real money is at stake there. The search box above filters this list too.</p>
   </div>
   <div class="controls">
     <select id="mCat" aria-label="Market topic"></select>
@@ -251,9 +252,9 @@ h1 .ast:hover{color:var(--fg)}
 
 <section class="sec method" id="ast" aria-labelledby="astH">
   <h2 id="astH">* The caveats</h2>
-  <p class="star"><span class="s">*</span> Polls are less reliable than they used to be, and nobody knows how predictive prediction markets are.</p>
-  <p><b>Polls.</b> Most people no longer answer calls from numbers they don't recognize, so pollsters now reach far fewer of the people they try, and they lean on text messages, online panels and statistical weighting to make the people they do reach look like the electorate. That works when the people who answer resemble the people who don't, and it can fail when they differ in ways the weighting misses. Every poll here also has a margin of error, and the New York City columns of statewide polls rest on smaller samples whose size the pollsters usually don't publish. Read one poll as one estimate, and read a gap of a few points as noise.</p>
-  <p><b>Prediction markets.</b> A market price says what traders are willing to pay, not what the public thinks. Many New York markets trade little money, so a single trader can move the price. Manifold uses play money. There's no long record showing how well markets on state and city questions forecast outcomes, so treat a price as one more read, not a probability anyone has verified.</p>
+  <p class="star"><span class="s">*</span> Low participation makes representative polling harder, and this page does not test how well these markets forecast.</p>
+  <p><b>Polls.</b> Most people no longer answer calls from numbers they don't recognize, so pollsters now reach far fewer of the people they try, and they lean on text messages, online panels and statistical weighting to make the people they do reach look like the electorate. That works when the people who answer resemble the people who don’t, and it can fail when they differ in ways the weighting misses. Sampling error, nonresponse, weighting and likely-voter assumptions all matter, and performance varies across surveys and elections. The New York City columns of statewide polls rest on smaller samples whose size the pollsters usually don’t publish. Read one poll as one estimate. Small gaps may be within survey uncertainty; check the relevant comparison and margin of error.</p>
+  <p><b>Prediction markets.</b> A price is what traders will pay for a contract that pays $1 if the event happens. It is not what the public thinks, and it is not the share of money bet on one side. Many New York markets trade little money, so a single trader can move the price. Manifold is a play-money market. This page does not check how well these particular markets have forecast outcomes, so treat a price as one more read, not a verified probability.</p>
 </section>
 
 <section class="sec method" id="method" aria-labelledby="mH">
@@ -265,7 +266,7 @@ h1 .ast:hover{color:var(--fg)}
   <h3>Reading the rows</h3>
   <ul>
     <li><b>New York City columns of statewide polls.</b> Siena and others publish results for New York City respondents inside their statewide polls. These rows are marked "city column." The city sample is smaller than the statewide one and its size is usually not published, so the uncertainty is larger and unknown.</li>
-    <li><b>Who was asked.</b> All adults, registered voters or likely voters, as the pollster describes the sample. Some questions were put to only part of the sample, such as Democrats in a primary question; the row says so.</li>
+    <li><b>Who was asked.</b> All adults, registered voters or likely voters, as the pollster describes the sample. Some questions were put to only part of the sample, such as Democrats in a primary question; the row says so. In the charts, each group has its own marker, and a line never joins readings from two different groups.</li>
     <li><b>Kinds of question.</b> Job approval, favorability and an excellent-to-poor grade are different questions and are never combined. A favorable opinion of a person is not approval of the job they're doing.</li>
     <li><b>Figures</b> are shown exactly as the pollster published them. The page calculates nothing except where dots sit on the charts and, in the "where it ranks" lists, an issue's place among the answers to a most-important-issue question (how many answers drew a larger share, leaving out "other" and "don't know"). Results may not add to 100 because of rounding or answers the pollster didn't report.</li>
   </ul>
@@ -322,7 +323,7 @@ document.addEventListener('mouseover',e=>{const t=e.target.closest('[data-tip]')
 document.addEventListener('mousemove',e=>{if(tip.style.display==='block'){if(e.target.closest('[data-tip]'))moveTip(e);else hideTip()}});
 document.addEventListener('scroll',hideTip,{passive:true});
 
-let DATA=null,ALL=[],ROWS=[],MARKETS=[],MK_UPDATED=null;
+let DATA=null,ALL=[],ROWS=[],MARKETS=[],MK_UPDATED=null,MK_LIVE=true,MK_LEDE='prices from New York prediction markets';
 const state={pick:'',filterPick:'',adv:false,q:'',cat:'',subj:'',measure:'',pollster:'',geo:'',pop:'',from:'',to:'',latest:false,sort:'date',dir:-1,shown:60,open:null};
 
 function who(r){
@@ -334,7 +335,17 @@ function topResult(r){return r.results.length?Math.max(...r.results.map(x=>x.pct
 // Same subject and kind can still be different questions (right track vs. satisfied), so the key
 // also carries the root of the first answer, except in races where candidate labels vary by pollster.
 function answerRoot(r){if(isRace(r))return'';const x=r.results.find(y=>!NEUT.test(y.label));return x?norm(x.label).replace(/^(total|very|strongly|somewhat|just|mostly)\s+/,'').split(/[\s\/,(]/)[0]:''}
-const keyOf=r=>r._k||(r._k=[r.subject,r.item||'',r.measure,r.geography,r.city_column?1:0,r.asked_of||'',answerRoot(r)].join('|'));
+const qKey=r=>[r.subject,r.item||'',r.measure,r.geography,r.city_column?1:0,r.asked_of||'',answerRoot(r)].join('|');
+// Strict key: the same question asked of the same group (all adults, registered voters, likely voters).
+// It drives the latest-only filter, the chart in an opened row and every line drawn in a chart.
+// The data carry no separate question-version field; measure, item, asked-of text and answer root stand in for it.
+const keyOf=r=>r._k||(r._k=qKey(r)+'|'+(r.population||''));
+// Overview key: the same question across groups. Charts built on it draw each group as its own series.
+const looseKeyOf=r=>r._lk||(r._lk=qKey(r));
+// Election Day, Nov. 3, 2026. From that date the race polls are labeled as pre-election polls.
+const ELECTION='2026-11-03';
+const postElection=()=>new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'})>=ELECTION;
+const isElectionRace=r=>r.category==='2026 governor race'||r.category==='Other 2026 races';
 
 // ---------- bars ----------
 function barHTML(r){
@@ -427,6 +438,9 @@ function sameQuestion(r){return ROWS.filter(x=>keyOf(x)===keyOf(r)).sort((a,b)=>
 
 function detailHTML(r){
   const others=sameQuestion(r);
+  const elsewhere=ROWS.filter(x=>looseKeyOf(x)===looseKeyOf(r)&&keyOf(x)!==keyOf(r));
+  const ep=listJoin([...new Set(elsewhere.map(x=>popName(x.population)))],'or');
+  const elseTxt=!elsewhere.length?'':'<p>'+(elsewhere.length===1?'One more reading of this question, asked of '+esc(ep)+', is':elsewhere.length+' more readings of this question, asked of '+esc(ep)+', are')+' not charted here, because the group asked is different.</p>';
   const res='<div class="rlist">'+(r.breakdown||r.results).map(x=>'<span>'+esc(x.label)+'</span><span>'+esc(sh(x))+'%</span>').join('')+'</div>';
   const facts=[];
   facts.push('Fielded '+esc(frange(r.field_start,r.field_end))+(r.release_date?', released '+esc(fdate(r.release_date)):''));
@@ -445,7 +459,7 @@ function detailHTML(r){
     '<h5>From the '+(r.source_kind==='crosstab'?'tables':'release')+'</h5><p><q>'+esc(r.quote)+'</q></p>'+(r.quote_tables?'<h5>From the tables</h5><p>'+esc(r.quote_tables)+'</p>':'')+links+
     '</div><div>'+
     '<h5>'+(others.length>1?'Every reading of this question ('+others.length+')':'This question has been asked once in 2026')+'</h5>'+
-    (others.length>1?lineChart(others,{w:520,h:190,mark:r.id}):'<p>Only one poll in 2026 has asked it this way of this group.</p>')+
+    (others.length>1?lineChart(others,{w:520,h:190,mark:r.id}):'<p>Only one poll in 2026 has asked it this way of this group.</p>')+elseTxt+
     '</div></div></td></tr>';
 }
 
@@ -467,6 +481,19 @@ function findPct(r,label){
   if(!x){const ws=L.replace(/\(.*?\)/g,'').trim().split(/\s+/);const last=ws[ws.length-1];if(last&&last.length>2)x=r.results.find(y=>norm(y.label).replace(/\(.*?\)/g,'').split(/\s+/).includes(last))}
   return x?x.pct:null;
 }
+const SHAPE={'likely voters':'circle','registered voters':'square','adults':'diamond'};
+const shapeOf=pop=>SHAPE[pop]||'triangle';
+function marker(shape,cx,cy,r,attrs){
+  const f=v=>v.toFixed(1);
+  if(shape==='square'){const a=r*.88;return '<rect x="'+f(cx-a)+'" y="'+f(cy-a)+'" width="'+f(2*a)+'" height="'+f(2*a)+'" '+attrs+'/>'}
+  if(shape==='diamond'){const a=r*1.25;return '<path d="M'+f(cx)+' '+f(cy-a)+'L'+f(cx+a)+' '+f(cy)+'L'+f(cx)+' '+f(cy+a)+'L'+f(cx-a)+' '+f(cy)+'Z" '+attrs+'/>'}
+  if(shape==='triangle'){const a=r*1.2;return '<path d="M'+f(cx)+' '+f(cy-a)+'L'+f(cx+a)+' '+f(cy+a*.8)+'L'+f(cx-a)+' '+f(cy+a*.8)+'Z" '+attrs+'/>'}
+  return '<circle cx="'+f(cx)+'" cy="'+f(cy)+'" r="'+f(r)+'" '+attrs+'/>';
+}
+const popName=p=>POP_SHORT[p]||p||'sample not stated';
+// "a, b and c" (no serial comma)
+const listJoin=(a,w)=>a.length<2?a.join(''):a.slice(0,-1).join(', ')+' '+w+' '+a[a.length-1];
+function shapeKey(pops){return pops.map(p=>'<span><svg class="shp" viewBox="0 0 10 10" aria-hidden="true">'+marker(shapeOf(p),5,5,3.6,'fill="currentColor"')+'</svg>'+esc(popName(p))+'</span>').join('')}
 function lineChart(rows,o){
   const W=o.w,H=o.h,ml=30,mr=8,mt=8,mb=22;
   const T1=Math.max(Date.now(),tday(rows[rows.length-1].field_end));
@@ -475,26 +502,32 @@ function lineChart(rows,o){
   let s='<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+esc(rows[0].subject+', '+rows[0].measure+', '+rows.length+' readings')+'">';
   for(const v of [0,25,50,75,100]){s+='<line x1="'+ml+'" x2="'+(W-mr)+'" y1="'+Y(v)+'" y2="'+Y(v)+'" stroke="'+(v===0?css('fg2'):css('line2'))+'" stroke-width="1"/><text x="'+(ml-6)+'" y="'+(Y(v)+4)+'" text-anchor="end">'+v+(v===100?'%':'')+'</text>'}
   for(const m of [0,3,6,9]){const t=Date.UTC(2026,m,1);if(t<T1)s+='<text x="'+X(t)+'" y="'+(H-6)+'" text-anchor="'+(m?'middle':'start')+'">'+['Jan.','April','July','Oct.'][m/3]+'</text>'}
+  // A line joins only readings of the same group; each group also gets its own marker shape.
+  const pops=[...new Set(rows.map(r=>r.population||''))];
   labels.forEach((lab,i)=>{
     const col=colourFor(lab,i,race);
     const pts=rows.map(r=>({r,v:findPct(r,lab)})).filter(p=>p.v!=null);
-    if(pts.length>1)s+='<polyline fill="none" stroke="'+col+'" stroke-opacity=".55" stroke-width="1.5" points="'+pts.map(p=>X(tday(p.r.field_end)).toFixed(1)+','+Y(p.v).toFixed(1)).join(' ')+'"/>';
+    for(const pop of pops){
+      const pp=pts.filter(p=>(p.r.population||'')===pop);
+      if(pp.length>1)s+='<polyline data-pop="'+esc(pop)+'" fill="none" stroke="'+col+'" stroke-opacity=".55" stroke-width="1.5" points="'+pp.map(p=>X(tday(p.r.field_end)).toFixed(1)+','+Y(p.v).toFixed(1)).join(' ')+'"/>';
+    }
     for(const p of pts){
       const t='<b>'+esc(lab)+': '+fmtPct(p.v)+'</b><br>'+esc(pollLabel(p.r))+', '+esc(shortRange(p.r.field_start,p.r.field_end))+'<br>'+esc(who(p.r))+(p.r.city_column?' (city column of a statewide poll)':'')+'<br>'+esc(p.r.results.map(x=>x.label+' '+sh(x)).join(', '));
       const big=o.mark===p.r.id;
-      s+='<circle cx="'+X(tday(p.r.field_end)).toFixed(1)+'" cy="'+Y(p.v).toFixed(1)+'" r="'+(big?6:4.2)+'" fill="'+col+'" stroke="'+(big?css('fg'):css('bg'))+'" stroke-width="'+(big?2:1)+'" data-tip="'+esc(t)+'" style="cursor:default"/>';
+      s+=marker(pops.length>1?shapeOf(p.r.population):'circle',X(tday(p.r.field_end)),Y(p.v),big?6:4.2,'data-pop="'+esc(p.r.population||'')+'" fill="'+col+'" stroke="'+(big?css('fg'):css('bg'))+'" stroke-width="'+(big?2:1)+'" data-tip="'+esc(t)+'" style="cursor:default"');
     }
   });
-  s+='</svg><div class="mkey">'+labels.map((l,i)=>'<span><i style="background:'+colourFor(l,i,race)+'"></i>'+esc(l)+'</span>').join('')+'</div>';
+  s+='</svg><div class="mkey">'+labels.map((l,i)=>'<span><i style="background:'+colourFor(l,i,race)+'"></i>'+esc(l)+'</span>').join('')+(pops.length>1?shapeKey(pops)+'<span>Lines join only polls of the same group</span>':'')+'</div>';
   return s;
 }
 
+const latestWord=r=>isElectionRace(r)&&postElection()?'Last pre-election poll':'Latest';
 function renderMults(){
   const groups={};
-  for(const r of ROWS){if(r.city_column)continue;const k=keyOf(r);(groups[k]=groups[k]||[]).push(r)}
+  for(const r of ROWS){if(r.city_column)continue;const k=looseKeyOf(r);(groups[k]=groups[k]||[]).push(r)}
   let keys=Object.keys(groups).filter(k=>groups[k].length>=3);
   keys.sort((a,b)=>groups[b].length-groups[a].length||(groups[b][0].field_end>groups[a][0].field_end?1:-1));
-  // one panel per subject+measure: if a question was asked of RV and LV, keep the one asked more
+  // one panel per subject+measure+place; readings from different groups share a panel but never a line
   const seen=new Set(),pick=[];
   for(const k of keys){const r=groups[k][0];const s=r.subject+'|'+r.measure+'|'+r.geography;if(seen.has(s))continue;seen.add(s);pick.push(k);if(pick.length>=9)break}
   if(!pick.length){$('#mults').innerHTML='<p class="aside">Not enough repeated questions yet to chart.</p>';return}
@@ -503,8 +536,8 @@ function renderMults(){
     const last=rows[rows.length-1];
     const top=last.results.filter(x=>!NEUT.test(x.label)).sort((a,b)=>isRace(last)?b.pct-a.pct:0).slice(0,2);
     const pops=[...new Set(rows.map(r=>r.population))];
-    const whoTxt=(last.geography)+', '+(pops.length>1?pops.map(p=>POP_SHORT[p]||p).join(' or '):(POP_SHORT[last.population]||last.population));
-    const lastTxt='Latest: '+top.map(x=>'<a href="'+esc(last.tables_url||last.url)+'" target="_blank" rel="noopener"><b>'+esc(sh(x))+'%</b> '+esc(x.label)+'</a>').join(', ')+' in <a href="'+esc(last.url)+'" target="_blank" rel="noopener">'+esc(last.pollster)+', '+esc(shortRange(last.field_start,last.field_end))+'</a>';
+    const whoTxt=(last.geography)+', '+(pops.length>1?listJoin(pops.map(popName),'and')+', drawn separately':popName(last.population));
+    const lastTxt=latestWord(last)+': '+top.map(x=>'<a href="'+esc(last.tables_url||last.url)+'" target="_blank" rel="noopener"><b>'+esc(sh(x))+'%</b> '+esc(x.label)+'</a>').join(', ')+' in <a href="'+esc(last.url)+'" target="_blank" rel="noopener">'+esc(last.pollster)+', '+esc(shortRange(last.field_start,last.field_end))+(pops.length>1?', '+esc(popName(last.population)):'')+'</a>';
     return '<div class="mult"><h4><button type="button" data-subj="'+esc(last.subject)+'" data-measure="'+esc(last.measure)+'" data-geo="'+esc(last.geography)+'" data-item="'+esc(last.item||'')+'">'+esc(last.subject)+(last.item?': '+esc(last.item.toLowerCase()):'')+(/direction|horse race|primary/.test(last.measure)?'':', '+esc(last.measure))+'</button></h4>'+
       '<div class="last">'+esc(whoTxt)+'. '+rows.length+' polls. '+lastTxt+'</div>'+lineChart(rows,{w:340,h:150})+'</div>';
   }).join('');
@@ -576,7 +609,7 @@ function renderProfile(){
   const rows=pickRows({type,name:state.pick});
   if(!rows.length){el.hidden=true;return}
   const groups={};
-  for(const r of rows){const k=keyOf(r);(groups[k]=groups[k]||[]).push(r)}
+  for(const r of rows){const k=looseKeyOf(r);(groups[k]=groups[k]||[]).push(r)}
   const multi=[],single=[];
   for(const k in groups){const g=groups[k].sort((a,b)=>a.field_end<b.field_end?-1:1);(g.length>1?multi:single).push(g)}
   const rank=g=>(g[0].city_column?1:0)*1000-g.length*10+(/approval|favorab/.test(g[0].measure)?-500:0)+(g[0].item?300:0);
@@ -585,9 +618,10 @@ function renderProfile(){
   const polls=new Set(rows.map(r=>r.poll_id)).size, pollsters=[...new Set(rows.map(r=>r.pollster))];
   const first=rows.reduce((m,r)=>r.field_start<m?r.field_start:m,'9'), last=rows.reduce((m,r)=>r.field_end>m?r.field_end:m,'');
   const title=g=>{const r=g[g.length-1];return (type!=='person'?esc(r.subject)+(r.item?': '+esc(r.item.toLowerCase()):''):(r.item?esc(r.item):esc(r.measure[0].toUpperCase()+r.measure.slice(1))))+(type!=='person'&&!/direction|horse race|primary|other/.test(r.measure)?', '+esc(r.measure):'')+'<span class="place">, '+(r.geography==='New York State'?'statewide':(r.city_column?'New York City (city column)':'New York City'))+'</span>'};
-  const whoG=g=>{const r=g[g.length-1];const pops=[...new Set(g.map(x=>x.population))];return (r.city_column?'New York City (inside statewide polls)':r.geography)+', '+pops.map(p=>POP_SHORT[p]||p).join(' or ')+(r.asked_of?' ('+r.asked_of+')':'')};
-  const lastTxt=g=>{const r=g[g.length-1];const top=r.results.filter(x=>!NEUT.test(x.label)).sort((a,b)=>isRace(r)?b.pct-a.pct:0).slice(0,2);return 'Latest: '+top.map(x=>'<a href="'+esc(r.tables_url||r.url)+'" target="_blank" rel="noopener"><b>'+esc(sh(x))+'%</b> '+esc(x.label)+'</a>').join(', ')+' in <a href="'+esc(r.url)+'" target="_blank" rel="noopener">'+esc(r.pollster)+', '+esc(shortRange(r.field_start,r.field_end))+'</a>. Pollsters: '+esc([...new Set(g.map(x=>x.pollster))].join(', '))+'.'};
+  const whoG=g=>{const r=g[g.length-1];const pops=[...new Set(g.map(x=>x.population))];return (r.city_column?'New York City (inside statewide polls)':r.geography)+', '+(pops.length>1?listJoin(pops.map(popName),'and')+', drawn separately':popName(r.population))+(r.asked_of?' ('+r.asked_of+')':'')};
+  const lastTxt=g=>{const r=g[g.length-1];const mixed=new Set(g.map(x=>x.population)).size>1;const top=r.results.filter(x=>!NEUT.test(x.label)).sort((a,b)=>isRace(r)?b.pct-a.pct:0).slice(0,2);return latestWord(r)+': '+top.map(x=>'<a href="'+esc(r.tables_url||r.url)+'" target="_blank" rel="noopener"><b>'+esc(sh(x))+'%</b> '+esc(x.label)+'</a>').join(', ')+' in <a href="'+esc(r.url)+'" target="_blank" rel="noopener">'+esc(r.pollster)+', '+esc(shortRange(r.field_start,r.field_end))+(mixed?', '+esc(popName(r.population)):'')+'</a>. Pollsters: '+esc([...new Set(g.map(x=>x.pollster))].join(', '))+'.'};
   let html='<h3>'+esc(state.pick)+'</h3><p class="pl"><b>'+rows.filter(r=>!r.city_column).length+'</b> results from <b>'+polls+'</b> polls by '+esc(pollsters.join(', '))+', fielded from '+esc(fdate(first))+' to '+esc(fdate(last))+'. Hover over any dot for the poll and the full answers.</p>';
+  if(type==='issue'&&/race/i.test(state.pick)&&postElection())html+='<p class="pl">These are pre-election polls. Election Day was Nov. 3, 2026; this page does not show results.</p>';
   if(multi.length)html+='<div class="pgrid">'+multi.slice(0,12).map(g=>'<div><h4>'+title(g)+'</h4><div class="last">'+esc(whoG(g))+'. '+g.length+' polls. '+lastTxt(g)+'</div>'+lineChart(g,{w:340,h:150})+'</div>').join('')+'</div>';
   const singles=single.filter(g=>!g[0].city_column);
   if(singles.length)html+='<div class="once"><h4>Asked by only one poll in 2026, in this place and this form</h4>'+singles.slice(0,24).map(g=>{const r=g[0];return '<div class="onerow"><div class="w">'+title(g)+'<small>'+esc(pollLabel(r))+', '+esc(shortRange(r.field_start,r.field_end))+', '+esc(who(r))+(r.asked_of?' ('+esc(r.asked_of)+')':'')+'. <a href="'+esc(r.url)+'" target="_blank" rel="noopener">Source</a></small></div><div>'+barHTML(r)+'</div></div>'}).join('')+(singles.length>24?'<p class="aside" style="margin-top:10px">And '+(singles.length-24)+' more in the table.</p>':'')+'</div>';
@@ -613,17 +647,19 @@ function opening(){
   let f='';
   if(race){
     const c=race.results.filter(x=>!NEUT.test(x.label)).sort((a,b)=>b.pct-a.pct);
-    if(c.length>=2)f='In the latest poll of the race for governor, <a href="'+esc(race.url)+'" target="_blank" rel="noopener">'+esc(race.pollster)+'\'s poll of '+esc(frange(race.field_start,race.field_end))+'</a>, <a href="'+esc(race.tables_url||race.url)+'" target="_blank" rel="noopener">'+esc(c[0].label)+' had '+c[0].pct+'%</a> of '+esc(race.population)+' and <a href="'+esc(race.tables_url||race.url)+'" target="_blank" rel="noopener">'+esc(c[1].label)+' had '+c[1].pct+'%</a>.';
+    const cand=l=>l.replace(/,\s*the (Democrat|Republican)$/i,'').replace(/^(Democrat|Republican)\s+/i,'');
+    const post=postElection();
+    if(c.length>=2)f=(post?'In the final pre-election poll of the race for governor included here, ':'In the latest poll of the race for governor, ')+'<a href="'+esc(race.url)+'" target="_blank" rel="noopener">'+esc(race.pollster)+'’s poll of '+esc(frange(race.field_start,race.field_end))+'</a>, <a href="'+esc(race.tables_url||race.url)+'" target="_blank" rel="noopener">'+esc(cand(c[0].label))+' had '+c[0].pct+'%</a> of '+esc(race.population)+' and <a href="'+esc(race.tables_url||race.url)+'" target="_blank" rel="noopener">'+esc(cand(c[1].label))+' had '+c[1].pct+'%</a>.'+(post?' Election Day was Nov. 3, 2026; these are poll figures, not results.':'');
   }
   if(!f){const r=ROWS.find(x=>!x.city_column);if(r)f='The latest poll here is '+esc(pollLabel(r))+', fielded '+esc(frange(r.field_start,r.field_end))+'.'}
   $('#finding').innerHTML=f;
   const np=M.pollsters.length;
-  $('#lede').innerHTML='The page holds <a href="#finderH"><b>'+M.questions.toLocaleString()+'</b> poll results</a> from <b>'+M.polls+'</b> surveys by <b>'+np+'</b> '+(np===1?'pollster':'pollsters')+', fielded from '+esc(fdate(M.first_field))+' to '+esc(fdate(M.last_field))+', each linked to the pollster\'s own release. Another <b>'+M.city_columns.toLocaleString()+'</b> are the New York City results inside statewide polls. Results from <b>'+M.advocacy_polls+'</b> polls paid for by advocacy groups are hidden unless you switch them on in the table\'s filters. Below the polls sit the latest prices in <span id="mkCountLede">New York prediction markets</span>.';
+  $('#lede').innerHTML='The page holds <a href="#finderH"><b>'+M.questions.toLocaleString()+'</b> poll results</a> from <b>'+M.polls+'</b> surveys by <b>'+np+'</b> '+(np===1?'pollster':'pollsters')+', fielded from '+esc(fdate(M.first_field))+' to '+esc(fdate(M.last_field))+', each linked to the pollster\'s own release. Another <b>'+M.city_columns.toLocaleString()+'</b> are the New York City results inside statewide polls. Results from <b>'+M.advocacy_polls+'</b> polls paid for by advocacy groups are hidden unless you switch them on in the table\'s filters. Below the polls sit <span id="mkCountLede">'+MK_LEDE+'</span>.';
   $('#stripDates').textContent='Polls fielded '+shortRange(M.first_field,M.last_field)+', 2026';
   $('#builtLine').textContent='Polls last compiled '+fdate(DATA.built)+'.';
   const pc={};for(const r of ROWS)if(!r.city_column)pc[r.pollster]=(pc[r.pollster]||0)+1;
-  $('#methodBody').innerHTML='<p>The pollsters, with the number of results from each: '+Object.keys(pc).sort((a,b)=>pc[b]-pc[a]).map(p=>esc(p)+' ('+pc[p]+')').join(', ')+'.</p><p>The polls are rechecked and new ones added by hand from each pollster\'s site. Market prices load live from the prediction-markets tracker, which refreshes them every six hours.</p>';
-  const mk=$('#multsKey');mk.innerHTML='<span><i style="background:'+css('mint')+'"></i>Approve, favorable, support</span><span><i style="background:'+css('vermilion')+'"></i>Disapprove, unfavorable, oppose</span><span><i style="background:'+css('cobalt')+'"></i><i style="background:'+css('rose')+'"></i>Candidates</span>';
+  $('#methodBody').innerHTML='<p>The pollsters, with the number of results from each: '+Object.keys(pc).sort((a,b)=>pc[b]-pc[a]).map(p=>esc(p)+' ('+pc[p]+')').join(', ')+'.</p><p>The polls are rechecked and new ones added by hand from each pollster\'s site. Market prices load from the prediction-markets tracker, which refreshes them every six hours. If its file can’t be reached, the page shows a saved copy, says so and gives that copy’s date.</p>';
+  const mk=$('#multsKey');mk.innerHTML='<span><i style="background:'+css('mint')+'"></i>Approve, favorable, support</span><span><i style="background:'+css('vermilion')+'"></i>Disapprove, unfavorable, oppose</span><span><i style="background:'+css('cobalt')+'"></i><i style="background:'+css('rose')+'"></i>Candidates</span>'+shapeKey(['likely voters','registered voters','adults'])+'<span>Marker shapes show who was asked when a chart mixes groups; lines join only polls of the same group</span>';
 }
 
 // ---------- markets ----------
@@ -634,18 +670,21 @@ async function loadMarkets(){
   try{const r=await fetch(MARKETS_LIVE+'?cb='+Date.now());if(!r.ok)throw 0;d=await r.json()}
   catch(e){live=false;try{d=await (await fetch('data/markets-snapshot.json')).json()}catch(e2){}}
   if(!d||!d.markets){$('#mCount').textContent='Market prices could not be loaded right now.';return}
-  MK_UPDATED=d.updated_at;
+  MK_UPDATED=d.updated_at;MK_LIVE=live;
   MARKETS=d.markets.filter(m=>m.yes_price!=null).map(m=>Object.assign({},m,{_t:norm(m.question+' '+m.category+' '+(m.topic_label||'')+' '+(m.matched_keywords||[]).join(' ')+' '+m.source)}));
   const cc={};for(const m of MARKETS)cc[m.category]=(cc[m.category]||0)+1;
   fillSelect($('#mCat'),'All market topics',Object.keys(cc).sort((a,b)=>cc[b]-cc[a]).map(c=>[c,c+' ('+cc[c]+')']),mstate.cat);
-  const lede=$('#mkCountLede');if(lede)lede.innerHTML='<a href="#mkH"><b>'+nMarkets(MARKETS).toLocaleString()+'</b> prediction markets</a> on New York, as of '+esc(fdateTime(d.updated_at));
+  const nm='<a href="#mkH"><b>'+nMarkets(MARKETS).toLocaleString()+'</b> prediction markets</a> on New York';
+  MK_LEDE=live?'the latest prices in '+nm+', as of '+esc(fdateTime(d.updated_at)):'prices in '+nm+' from a saved copy of prices as of '+esc(fdateTime(d.updated_at))+', not current prices';
+  const lede=$('#mkCountLede');if(lede)lede.innerHTML=MK_LEDE;
   renderProfile();
-  if(!live)$('#mkLede').insertAdjacentHTML('beforeend',' The live prices could not be reached, so this list shows a saved copy.');
+  if(!live)$('#mkLede').insertAdjacentHTML('beforeend',' <b>The tracker’s current file could not be reached, so this list shows a saved copy of prices as of '+esc(fdateTime(d.updated_at))+'. These are not current prices.</b>');
+  else if(Date.now()-Date.parse(d.updated_at)>24*3600*1000)$('#mkLede').insertAdjacentHTML('beforeend',' <b>The tracker last updated these prices '+esc(fdateTime(d.updated_at))+', more than a day ago.</b>');
   renderMarkets();
 }
 // A multi-outcome market (each marathon runner, each vote-share range) arrives as one row per outcome, all sharing the market's url
 function nMarkets(list){return new Set(list.map(m=>m.url)).size}
-function fdateTime(iso){const d=new Date(iso);return d.toLocaleString('en-US',{timeZone:'America/New_York',month:'long',day:'numeric',hour:'numeric',minute:'2-digit'}).replace(' at ',', ').replace(/\s?AM$/,' a.m.').replace(/\s?PM$/,' p.m.')+' Eastern time'}
+function fdateTime(iso){const d=new Date(iso);if(!iso||isNaN(d))return 'an unknown date';return d.toLocaleString('en-US',{timeZone:'America/New_York',month:'long',day:'numeric',hour:'numeric',minute:'2-digit'}).replace(' at ',', ').replace(/\s?AM$/,' a.m.').replace(/\s?PM$/,' p.m.')+' Eastern time'}
 function renderMarkets(){
   if(!MARKETS.length)return;
   const t=terms();
@@ -660,7 +699,7 @@ function renderMarkets(){
   const S={vol:(a,b)=>v(b)-v(a),vol24:(a,b)=>(b.volume_24h_usd||0)-(a.volume_24h_usd||0),move:(a,b)=>Math.abs(b.price_change_24h||0)-Math.abs(a.price_change_24h||0),hi:(a,b)=>b.yes_price-a.yes_price,close:(a,b)=>(a.close_date||'9')<(b.close_date||'9')?-1:1};
   list.sort(S[mstate.sort]);
   const nm=nMarkets(list);
-  $('#mCount').innerHTML=list.length?'<b>'+list.length.toLocaleString()+'</b> '+(list.length===1?'price':'prices')+' from <b>'+nm.toLocaleString()+'</b> '+(nm===1?'market':'markets')+(t.length?' match the search above':'')+', as of '+esc(fdateTime(MK_UPDATED))+'.':'No markets match'+(t.length?' the search above':'')+'.';
+  $('#mCount').innerHTML=list.length?'<b>'+list.length.toLocaleString()+'</b> '+(list.length===1?'price':'prices')+' from <b>'+nm.toLocaleString()+'</b> '+(nm===1?'market':'markets')+(t.length?' match the search above':'')+(MK_LIVE?', as of ':', from a saved copy of prices as of ')+esc(fdateTime(MK_UPDATED))+'.':'No markets match'+(t.length?' the search above':'')+'.';
   $('#mRows').innerHTML=list.slice(0,mstate.shown).map(marketRow).join('');
   $('#mMoreWrap').hidden=list.length<=mstate.shown;
 }

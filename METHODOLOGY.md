@@ -6,9 +6,9 @@ This file explains where every number on the page comes from and what is include
 
 ## The caveats (the asterisk in the title)
 
-**Polls are less reliable than they used to be.** Most people no longer answer calls from numbers they don't recognize, so pollsters reach far fewer of the people they try. They make up for it with text messages, online panels and statistical weighting so that the people they do reach resemble the electorate. That works when the people who answer are like the people who don't, and it can fail when they differ in ways the weighting misses. Every poll has a margin of error, and the New York City columns of statewide polls rest on smaller samples whose size is usually not published.
+**Low participation makes representative polling harder.** Many people no longer answer calls from numbers they don't recognize, so pollsters reach far fewer of the people they try. They make up for it with text messages, online panels and statistical weighting so that the people they do reach resemble the electorate. That works when the people who answer are like the people who don't, and it can fail when they differ in ways the weighting misses. Sampling error, nonresponse, weighting and likely-voter assumptions all matter, and performance varies across surveys and elections. Every poll has a margin of error, and the New York City columns of statewide polls rest on smaller samples whose size is usually not published. Small gaps may be within survey uncertainty; check the relevant comparison and margin of error.
 
-**Nobody knows how predictive prediction markets are.** A price is what traders will pay, not what the public thinks. Many New York markets trade little money, so one trader can move a price. Manifold uses play money. There is no long record showing how well markets on state and city questions forecast outcomes.
+**This page does not test how well these markets forecast.** A price is what traders will pay for a contract that pays $1 if the event happens. It is not what the public thinks, and it is not the share of money bet on one side. Many New York markets trade little money, so one trader can move a price. Manifold is a play-money market. The page does not check the calibration of these particular markets.
 
 ## What the page holds
 
@@ -60,7 +60,7 @@ Checks run before publishing:
 
 ## Reading the figures
 
-- **Who was asked.** All adults, registered voters or likely voters, as the pollster describes the sample. Siena switched from registered to likely voters in August 2026; the charts say "registered voters or likely voters" when a line mixes both.
+- **Who was asked.** All adults, registered voters or likely voters, as the pollster describes the sample. Siena switched from registered to likely voters in August 2026. A line never joins readings from two different groups; see "Lines in the charts" below.
 - **Asked of part of the sample.** Some questions went to only part of the sample, such as registered Democrats in a primary question. The row says so, and those rows are kept apart from questions put to everyone.
 - **Kinds of question** are never combined: job approval, favorability, an excellent-to-poor grade, a matchup, support for a policy, and right track or wrong direction are different questions. Two pollsters asking about the state's direction in different ways (Siena's "right track" and Quinnipiac's "satisfied") are charted separately.
 - **Totals and breakdowns.** Where a pollster printed "total approve" beside "strongly approve" and "somewhat approve," the bar shows the totals and the opened row shows the full breakdown.
@@ -70,17 +70,26 @@ Checks run before publishing:
 ## What the page calculates
 
 - **Dot positions.** Each dot sits at the poll's last field date.
-- **Lines in the charts** join readings of the same question, asked of the same group in the same place. Answers are matched across polls by label; candidates are matched by last name, because pollsters label them differently ("Democrat Kathy Hochul," "Kathy Hochul").
-- **"Latest reading of each question only"** keeps, for each question, place and group, the reading with the latest last field date.
+- **Lines in the charts** join readings of the same question, asked of the same group (all adults, registered voters or likely voters) in the same place. Answers are matched across polls by label; candidates are matched by last name, because pollsters label them differently ("Democrat Kathy Hochul," "Kathy Hochul"). The chart in an opened table row shows only readings from the row's own group and says how many readings of other groups it leaves out. The overview charts (the most-asked questions and the panels under "Pick a person or an issue") can hold readings from more than one group; there each group gets its own marker shape and its own line, and the caption names the groups. A change between two groups' readings can reflect a different survey population or pollster rather than a change in opinion. The data carry no separate field for question version; the kind of question, the item, the part of the sample asked and the first answer's wording keep different versions apart.
+- **"Latest reading of each question only"** keeps, for each question, place and group, the reading with the latest last field date. A question asked of registered voters and of likely voters keeps one reading for each.
 - **The buttons** under "Pick a person or an issue" gather rows by subject. A person's button collects every question about that person. An issue's button collects questions by topic and subject words (for example, "Taxes on the rich" collects questions whose subject mentions a millionaire tax, income tax, corporate tax or the pied-a-terre tax). The markets under a panel are those whose question names the person, or names New York and the issue.
 - **Crime and health care buttons** cover New York only. They leave out immigration questions that merely mention crime or hospitals, and Marist's general question on whether gun control or gun rights should be the higher priority, which says nothing about New York.
 - **Automatic buttons.** Any other subject that three or more independent polls have asked about gets its own button, so issues that keep coming up appear as polls are added.
 - **"Where it ranks."** For crime, health care, the cost of living, housing, immigration, taxes and schools, the panel lists each question that asked people to pick the most important issue, with the share choosing that issue and its place among the answers. The place counts how many answers drew a larger share, leaving out "other," "don't know" and refusals; equal shares are called a tie. This ranking is the one calculation the page makes from published figures.
-- **The opening sentence** names the latest statewide poll of the Hochul-Blakeman race asked of all respondents.
+- **The opening sentence** names the latest statewide poll of the Hochul-Blakeman race asked of all respondents. From Election Day, Nov. 3, 2026, it calls that poll the final pre-election poll included here and says the figures are poll figures, not results; race charts say "last pre-election poll." The page does not show election results.
 
 ## Prediction markets
 
-The market list loads live from the New York prediction markets tracker (https://joshgreenman1973.github.io/experiments/nyc-prediction-markets/), which reads the public data of Kalshi, Polymarket and Manifold every six hours; its own methodology explains which markets count as New York markets. If the live file can't be reached, the page falls back to `data/markets-snapshot.json`, saved when the page was last built. Prices are shown in cents on the dollar for yes. Nothing about the markets is recalculated here.
+The market list loads from the New York prediction markets tracker (https://joshgreenman1973.github.io/experiments/nyc-prediction-markets/), which reads the public data of Kalshi, Polymarket and Manifold every six hours; its own methodology explains which markets count as New York markets. Every count and price line gives the time of the file it comes from. If the tracker's file can't be reached, the page falls back to `data/markets-snapshot.json`, saved when the page was last built, and says that it is showing a saved copy, with that copy's own date; it does not call those prices current. If the tracker's file is more than a day old, the page says so.
+
+These are prices for outcome contracts. A Yes price of 70 cents on a contract that pays $1 if the event happens is often read as a 70% market-implied probability. It is not the share of money bet on Yes, and thin trading, the gap between buy and sell offers and each market's rules affect what it tells you. Prices are shown in cents on the dollar for Yes. What each venue's price is:
+
+- **Kalshi:** the last traded Yes price (`last_price_dollars` in Kalshi's public events data). If that field is missing, the tracker uses the best Yes bid, then the best Yes ask. Kalshi contracts trade between 1 and 99 cents, so a Kalshi price of 0 here means no trade has been recorded, not a zero chance.
+- **Polymarket:** the Yes figure in the `outcomePrices` field of Polymarket's public market listing (its Gamma data). Polymarket says the price on its site is the midpoint between the best bid and ask, or the last trade when that gap is wider than 10 cents; its listing does not say whether `outcomePrices` follows the same rule, and this page has not checked.
+- **Manifold:** the market's current probability as Manifold reports it (`probability`), which Manifold's automated market maker sets as people trade. Manifold is a play-money market: no real money is at stake, and its volume is in mana, its site currency.
+- **Change in a day** is the difference from the tracker's file of about 24 hours earlier.
+
+Nothing about the markets is recalculated here.
 
 ## Updating
 
